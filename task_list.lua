@@ -1,17 +1,16 @@
-
 ---------------------------------------------------------------
 --  created:   2009.8.24
 --  author:    cy
---  å†…å®¹ï¼šä»»åŠ¡è„šæœ¬æ–‡ä»¶ã€‚
+--  ÄÚÈİ£ºÈÎÎñ½Å±¾ÎÄ¼ş¡£
 
 
---  ä¿®æ”¹ï¼šQF
---  å†…å®¹ï¼šæ–°å¢æ¸¸æˆå†…ç”¨è„šæœ¬ä»»åŠ¡
+--  ĞŞ¸Ä£ºQF
+--  ÄÚÈİ£ºĞÂÔöÓÎÏ·ÄÚÓÃ½Å±¾ÈÎÎñ
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
---cyæµ‹è¯•è„šæœ¬ä»»åŠ¡ï¼Œä»»åŠ¡è„šæœ¬å’Œä»»åŠ¡ç¼–è¾‘å™¨å’Œè¯·å‹¿æ”¹åŠ¨
+--cy²âÊÔ½Å±¾ÈÎÎñ£¬ÈÎÎñ½Å±¾ºÍÈÎÎñ±à¼­Æ÷ºÍÇëÎğ¸Ä¶¯
 TaskList[6835] =
 {
   	Property =
@@ -22,86 +21,86 @@ TaskList[6835] =
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			return 100--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 100--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
-		-- éç»‘å®šé’±
+		-- ·Ç°ó¶¨Ç®
 		Gold = function(TASKINTERFACE_POINTER)
-			return 200--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 200--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 		BindMoney = function(TASKINTERFACE_POINTER)
-			return 300--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 300--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
 		-- SP
 		SP = function(TASKINTERFACE_POINTER)
-			return 400--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 400--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
-		-- å£°æœ›
+		-- ÉùÍû
 		Reputation = function(TASKINTERFACE_POINTER)
-			return 500--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 500--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
 			items = {
-						Item1 = {ID = 7075, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = 7075, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 
 						Item2 = {ID = 7076, NUM = 2},
 					}
 			return items
 		end
 		,
-		-- å‰¯èŒä¸šç»éªŒ
+		-- ¸±Ö°Òµ¾­Ñé
 		SideOccupExp = function(TASKINTERFACE_POINTER)
 			local soe = {}
 			soe = {
-						SOE1 = {ID = 1, EXP = 10},--idä¸ºå‰¯èŒä¸šidï¼Œexpä¸ºæ•°å€¼ï¼Œexpä¸º0æ˜¾ç¤ºï¼Ÿï¼Ÿï¼Ÿ
+						SOE1 = {ID = 1, EXP = 10},--idÎª¸±Ö°Òµid£¬expÎªÊıÖµ£¬expÎª0ÏÔÊ¾£¿£¿£¿
 						SOE2 = {ID = 2, EXP = 20},
 				  }
 			return soe
 		end
 		,
 
-		-- åŒºåŸŸå£°æœ›
+		-- ÇøÓòÉùÍû
 		FriendShips = function(TASKINTERFACE_POINTER)
 			local friendships = {}
 			friendships = {
-								FS1 = {ID = 1, VAL = 10},--idä¸ºå£°æœ›idï¼Œvalä¸ºæ•°å€¼ï¼›val=0 ï¼Œï¼Ÿï¼Ÿï¼Ÿï¼ˆid=-1ï¼‰ å£°æœ› ï¼Ÿï¼Ÿï¼Ÿï¼ˆval=0ï¼‰
+								FS1 = {ID = 1, VAL = 10},--idÎªÉùÍûid£¬valÎªÊıÖµ£»val=0 £¬£¿£¿£¿£¨id=-1£© ÉùÍû £¿£¿£¿£¨val=0£©
 								FS2 = {ID = 2, VAL = 20},
 						  }
 			return friendships
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local factionaward = {}
-			factionaward.contribution = 1 --å…¬ä¼šè´¡çŒ®åº¦
-			factionaward.money = 2   --å…¬ä¼šèµ„é‡‘
-			factionaward.melee = 3   --å…¬ä¼šæ­¦è£…
-			factionaward.magic = 4   --å…¬ä¼šé­”æ³•
-			factionaward.economy = 5 -- å…¬ä¼šç»æµ
-			factionaward.culture = 6 --å…¬ä¼šæ–‡æ˜
-			factionaward.belief = 7  --å…¬ä¼šä¿¡ä»°
-			factionaward.credit = 8  --å…¬ä¼šåŠŸå‹‹
-			factionaward.vitality = 9 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.contribution = 1 --¹«»á¹±Ï×¶È
+			factionaward.money = 2   --¹«»á×Ê½ğ
+			factionaward.melee = 3   --¹«»áÎä×°
+			factionaward.magic = 4   --¹«»áÄ§·¨
+			factionaward.economy = 5 -- ¹«»á¾­¼Ã
+			factionaward.culture = 6 --¹«»áÎÄÃ÷
+			factionaward.belief = 7  --¹«»áĞÅÑö
+			factionaward.credit = 8  --¹«»á¹¦Ñ«
+			factionaward.vitality = 9 --¹«»á»îÔ¾¶È
 			return factionaward
 		end
 		,
@@ -115,14 +114,14 @@ TaskList[6835] =
    	,
 
    	OnDeliver = function(TASKINTERFACE_POINTER, iParam)
-   		local iRatio = 1   --å¥–åŠ±å€æ•°
+   		local iRatio = 1   --½±Àø±¶Êı
    		if iParam == 1 then
 			iRatio = 1
 		elseif iParam == 2 then
 			iRatio = 3
 		end
 
-		TaskCApi.DeliverGold(TASKINTERFACE_POINTER, 1000*iRatio)       --å‘é‡‘
+		TaskCApi.DeliverGold(TASKINTERFACE_POINTER, 1000*iRatio)       --·¢½ğ
 		return 0
 	end
 	,
@@ -158,7 +157,7 @@ TaskList[6835] =
    	,
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess, iParam)
-   	   	local iRatio = 1   --å¥–åŠ±å€æ•°
+   	   	local iRatio = 1   --½±Àø±¶Êı
    		if iParam == 1 then
 			iRatio = 1
 		elseif iParam == 2 then
@@ -166,7 +165,7 @@ TaskList[6835] =
 		end
 
    		if bSuccess then
-   		   TaskCApi.DeliverGold(TASKINTERFACE_POINTER, 1000*iRatio)       --å‘é‡‘
+   		   TaskCApi.DeliverGold(TASKINTERFACE_POINTER, 1000*iRatio)       --·¢½ğ
    		else
    		   TaskCApi.DeliverGold(TASKINTERFACE_POINTER, 100*iRatio)
    		end
@@ -178,18 +177,18 @@ TaskList[6835] =
 
 TaskList[6023] =
 {
-  	--ç©å®¶ä¸Šçº¿æ—¶è°ƒç”¨
+  	--Íæ¼ÒÉÏÏßÊ±µ÷ÓÃ
 
 
    	Property = {}
-  		--è®¾ç½®å¯å˜å±æ€§
+  		--ÉèÖÃ¿É±äÊôĞÔ
 
    	,
 
-	--TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, iItemID, bCommon) --è·å–ç©å®¶åŒ…è£¹é‡ŒæŒ‡å®šç‰©å“ä¸ªæ•°ï¼ŒiItemIDä¸ºç‰©å“IDï¼ŒbCommonå€¼ä¸ºtrueè¡¨ç¤ºæ™®é€šç‰©å“ã€falseè¡¨ç¤ºä»»åŠ¡ç‰©å“ã€‚
+	--TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, iItemID, bCommon) --»ñÈ¡Íæ¼Ò°ü¹üÀïÖ¸¶¨ÎïÆ·¸öÊı£¬iItemIDÎªÎïÆ·ID£¬bCommonÖµÎªtrue±íÊ¾ÆÕÍ¨ÎïÆ·¡¢false±íÊ¾ÈÎÎñÎïÆ·¡£
 
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 		local iItemID = 7114
@@ -197,12 +196,12 @@ TaskList[6023] =
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
-		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, iItemID, true) < 3 then	--æŸæ™®é€šç‰©å“ä¸ªæ•°å¤§äº3
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, iItemID, true) < 3 then	--Ä³ÆÕÍ¨ÎïÆ·¸öÊı´óÓÚ3
 			return TASK_PREREQU_FAIL_NO_ITEM
 		end
 
@@ -210,17 +209,17 @@ TaskList[6023] =
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-   		--å‘é“å…·æˆ–å¥–åŠ±
-		TaskCApi.DeliverGold(TASKINTERFACE_POINTER,1000)         	    --å‘é‡‘
-		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,5757, 1)       --å‘5757æ™®é€šç‰©å“1ä¸ª
-		--TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,7114, 1)	--æ”¶å–7114æ™®é€šç‰©å“1ä¸ª
+   		--·¢µÀ¾ß»ò½±Àø
+		TaskCApi.DeliverGold(TASKINTERFACE_POINTER,1000)         	    --·¢½ğ
+		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,5757, 1)       --·¢5757ÆÕÍ¨ÎïÆ·1¸ö
+		--TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,7114, 1)	--ÊÕÈ¡7114ÆÕÍ¨ÎïÆ·1¸ö
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
    		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
@@ -229,14 +228,14 @@ TaskList[6023] =
    		else
    		    Method.KillMonster = { Mons1={ID=21, Num=3}, Mons2={ID=22, Num=5}, Mons3={ID=23, Num=7},}
    		    Method.CollectItem = { Item1={ID=9049, Num=10, Common=true},}
-   		    Method.iTimeLimit = 120 --2åˆ†é’Ÿæ²¡å®Œæˆåˆ™ä»»åŠ¡å¤±è´¥
+   		    Method.iTimeLimit = 120 --2·ÖÖÓÃ»Íê³ÉÔòÈÎÎñÊ§°Ü
    		end
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -268,14 +267,14 @@ TaskList[6023] =
 
    	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
    		if bSuccess then
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 2 then --æ™®é€šåŒ…è£¹æ éœ€è¦2æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 2 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª2¸ñ
    			   return TASK_PREREQU_FAIL_GIVEN_ITEM
    	    	end
 
-   	   		if TaskCApi.GetShowTaskRemainCount(TASKINTERFACE_POINTER) < 1  and  --å‘1ä¸ªå¯è§ä»»åŠ¡
-   		   	   TaskCApi.GetActiveTaskListRemainSpace(TASKINTERFACE_POINTER) < 5 then  --å‘æ”¾çš„ä»»åŠ¡æœ‰4ä¸ªå­ä»»åŠ¡
-			   --ã€ç–‘ä¼¼bugã€‘--å¦‚æœå‘æ”¾çš„ä»»åŠ¡æœ‰å‰æï¼Œä½†ä¸æ»¡è¶³ï¼Œè¿™æ—¶å¼¹å‡ºæç¤ºæ¡†ï¼Œä½†ä»»åŠ¡èƒ½ç…§å¸¸å®Œæˆã€‚--åº”è¯¥ä¸å…è®¸å®Œæˆã€‚
-			   --éœ€è¦åŠ ä¸€ä¸ªæ¥å£ï¼Œåˆ¤æ–­å‘æ”¾ä»»åŠ¡çš„æ¥å—æ¡ä»¶æ˜¯å¦æ»¡è¶³
+   	   		if TaskCApi.GetShowTaskRemainCount(TASKINTERFACE_POINTER) < 1  and  --·¢1¸ö¿É¼ûÈÎÎñ
+   		   	   TaskCApi.GetActiveTaskListRemainSpace(TASKINTERFACE_POINTER) < 5 then  --·¢·ÅµÄÈÎÎñÓĞ4¸ö×ÓÈÎÎñ
+			   --¡¾ÒÉËÆbug¡¿--Èç¹û·¢·ÅµÄÈÎÎñÓĞÇ°Ìá£¬µ«²»Âú×ã£¬ÕâÊ±µ¯³öÌáÊ¾¿ò£¬µ«ÈÎÎñÄÜÕÕ³£Íê³É¡£--Ó¦¸Ã²»ÔÊĞíÍê³É¡£
+			   --ĞèÒª¼ÓÒ»¸ö½Ó¿Ú£¬ÅĞ¶Ï·¢·ÅÈÎÎñµÄ½ÓÊÜÌõ¼şÊÇ·ñÂú×ã
    		   	   return TASK_PREREQU_FAIL_FULL
    	   		end
    		end
@@ -284,24 +283,24 @@ TaskList[6023] =
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
    		if bSuccess then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 5757, 1)    --æ”¶å–5757æ™®é€šç‰©å“1ä¸ª
-			TaskCApi.DeliverTaskItem(TASKINTERFACE_POINTER, 760, 3)      	--å‘760ä»»åŠ¡ç‰©å“3ä¸ª
-			TaskCApi.DeliverNewTaskxxxx(TASKINTERFACE_POINTER, 3757)           --å¼€å¯æ–°ä»»åŠ¡3757
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 5757, 1)    --ÊÕÈ¡5757ÆÕÍ¨ÎïÆ·1¸ö
+			TaskCApi.DeliverTaskItem(TASKINTERFACE_POINTER, 760, 3)      	--·¢760ÈÎÎñÎïÆ·3¸ö
+			TaskCApi.DeliverNewTaskxxxx(TASKINTERFACE_POINTER, 3757)           --¿ªÆôĞÂÈÎÎñ3757
    		else
-   		   TaskCApi.TakeAwayGold(TASKINTERFACE_POINTER, 1000)         	     --æ”¶å–é‡‘
-		   TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 7114, 1)      --æ”¶å–5757æ™®é€šç‰©å“1ä¸ª
-		   TaskCApi.DeliverTaskItem(TASKINTERFACE_POINTER, 760, 3)      	 --å‘760ä»»åŠ¡ç‰©å“3ä¸ª
+   		   TaskCApi.TakeAwayGold(TASKINTERFACE_POINTER, 1000)         	     --ÊÕÈ¡½ğ
+		   TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 7114, 1)      --ÊÕÈ¡5757ÆÕÍ¨ÎïÆ·1¸ö
+		   TaskCApi.DeliverTaskItem(TASKINTERFACE_POINTER, 760, 3)      	 --·¢760ÈÎÎñÎïÆ·3¸ö
    		end
 
    		return 0
    	end
 }
 
-TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
+TaskList[6717] = --Éç½»¼Ò½»ÉæÈÎÎñ:by xzy
 {
   	Property =
   	{
@@ -313,10 +312,10 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
 
   		bShowPrompt = false,
   		bCanSeekOut = false,
-  		bFinishWhenDelvier = true,	--æ¥å—å³å®Œæˆï¼
+  		bFinishWhenDelvier = true,	--½ÓÊÜ¼´Íê³É£¡
 
   		bRecordFinishCount = true,
-  		iMaxFinishCount = 1,		--æ¯å¤©æœ€å¤šå®Œæˆ1æ¬¡
+  		iMaxFinishCount = 1,		--Ã¿Ìì×î¶àÍê³É1´Î
 
   		iClearFinishCountType = TaskClearFinishCountType.Daily,
 
@@ -325,7 +324,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 	AwardPreview =
 	{
@@ -333,7 +332,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
@@ -341,7 +340,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id 7164-7214  6374-6424
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid 7164-7214  6374-6424
 		for i = 7164,7214 do
 			if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, i)  then
 			return TASK_PREREQU_FAIL_LUA_TASK
@@ -354,7 +353,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
 			end
 		end
 
-		--éœ€è¦ç¤¾äº¤å®¶ç­‰çº§è‡³å°‘ä¸º3çº§
+		--ĞèÒªÉç½»¼ÒµÈ¼¶ÖÁÉÙÎª3¼¶
 
 		if not TaskCApi.HasSideOccup(TASKINTERFACE_POINTER, 32) then
 			return TASK_PREREQU_FAIL_LUA_TASK
@@ -366,14 +365,14 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
    		Method.iWaitTime = 0
@@ -382,7 +381,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -403,7 +402,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
 
@@ -414,7 +413,7 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
 			local iTask1 = math.random(7164,7214)
 			local iTask2 = math.random(6374,6424)
 
-			if iTask1 == 7168 or iTask1 == 7202 then	--å»æ‰ ç¾Šæ¯› å’Œ å‘ç‹‚
+			if iTask1 == 7168 or iTask1 == 7202 then	--È¥µô ÑòÃ« ºÍ ·¢¿ñ
 				iTask1 = 7164
 			end
 
@@ -431,68 +430,68 @@ TaskList[6717] = --ç¤¾äº¤å®¶äº¤æ¶‰ä»»åŠ¡:by xzy
    	end
 }
 
-TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
+TaskList[7680] = --ÎªÈÎÎñID7680:Ê¯¹¤Ãµ¹å001ÊÕ²úÆ·
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
-		bUIButtonTask = true, --ç•Œé¢ä»»åŠ¡
+		bUIButtonTask = true, --½çÃæÈÎÎñ
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
-  		bCanSeekOut = true,--å…è®¸è¢«æŸ¥æ‰¾
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
+  		bCanSeekOut = true,--ÔÊĞí±»²éÕÒ
 
-  		bRecordFinishCount = true,--è®°å½•å®Œæˆæ¬¡æ•°
-  		iMaxFinishCount = 1,--æœ€å¤§å®Œæˆæ¬¡æ•°ä¸º1
-  		iClearFinishCountType = TaskClearFinishCountType.Daily,--æ¯å¤©æ¸…ç©º
+  		bRecordFinishCount = true,--¼ÇÂ¼Íê³É´ÎÊı
+  		iMaxFinishCount = 1,--×î´óÍê³É´ÎÊıÎª1
+  		iClearFinishCountType = TaskClearFinishCountType.Daily,--Ã¿ÌìÇå¿Õ
 
-  		iType  = TaskType.HuoDong,--ä»»åŠ¡ç±»å‹ï¼šæ´»åŠ¨
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iType  = TaskType.HuoDong,--ÈÎÎñÀàĞÍ£º»î¶¯
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 	AwardPreview =
 	{
 
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
 
-			local AwardMulti = 60										--ç»éªŒå¥–åŠ±ç³»æ•°
-			local AwardMultiply = {1,1.2,1.4,1.6,1.8,2,2.1,2.2,2.3,2.4}			--å¥–åŠ±å€ç‡ä¿®æ­£è¡¨ï¼Œç´¢å¼•
+			local AwardMulti = 60										--¾­Ñé½±ÀøÏµÊı
+			local AwardMultiply = {1,1.2,1.4,1.6,1.8,2,2.1,2.2,2.3,2.4}			--½±Àø±¶ÂÊĞŞÕı±í£¬Ë÷Òı
 
-			local ChargeVacationId = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 1) --æ‰€æ”¶å–çš„ç‰©å“äº§è‡ªçš„å‰¯èŒä¸šid
-			local ChargeVacationLevel =TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 2) --æ‰€æ”¶å–çš„ç‰©å“äº§è‡ªçš„å‰¯èŒä¸šç­‰çº§
+			local ChargeVacationId = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 1) --ËùÊÕÈ¡µÄÎïÆ·²ú×ÔµÄ¸±Ö°Òµid
+			local ChargeVacationLevel =TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 2) --ËùÊÕÈ¡µÄÎïÆ·²ú×ÔµÄ¸±Ö°ÒµµÈ¼¶
 
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMultiply[ChargeVacationLevel] * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
 
-		-- ç‰©å“ï¼Œæœ‰æ¦‚ç‡å‘æ”¾æµ®äº‘å¥–åŠ±ã€‚
+		-- ÎïÆ·£¬ÓĞ¸ÅÂÊ·¢·Å¸¡ÔÆ½±Àø¡£
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
 			items = {
-						Item1 = {ID = 0, NUM = 0},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = 0, NUM = 0},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 			}
 			return items
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local factionaward = {}
-			factionaward.contribution = 1 --å…¬ä¼šè´¡çŒ®åº¦
-			factionaward.credit = 1  --å…¬ä¼šåŠŸå‹‹
+			factionaward.contribution = 1 --¹«»á¹±Ï×¶È
+			factionaward.credit = 1  --¹«»á¹¦Ñ«
 			return factionaward
 		end
 		,
@@ -500,36 +499,36 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --ç©å®¶ç­‰çº§
-		--æ£€æŸ¥ç©å®¶ç­‰çº§æ˜¯å¦>=25
+	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --Íæ¼ÒµÈ¼¶
+		--¼ì²éÍæ¼ÒµÈ¼¶ÊÇ·ñ>=25
 		if iPlayerLev < 25 then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
 
 
-		--å¿…é¡»åœ¨ä¸€ä¸ªå…¬ä¼šé‡Œ
+		--±ØĞëÔÚÒ»¸ö¹«»áÀï
 		local iGuild = TaskCApi.GetFactionLev(TASKINTERFACE_POINTER)
 		if iGuild < 0 then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
 
-		local OpenVacationId = { 0,1,5,6,}--å½“å‰å¼€æ”¾çš„å¯æ”¶å–ç‰©å“çš„å‰¯èŒä¸šidï¼Œå¯æ‰©å±•
+		local OpenVacationId = { 0,1,5,6,}--µ±Ç°¿ª·ÅµÄ¿ÉÊÕÈ¡ÎïÆ·µÄ¸±Ö°Òµid£¬¿ÉÀ©Õ¹
 
 
-		--å¦‚æœæ²¡æœ‰å­¦ä¼šç”Ÿäº§ç±»å‰¯èŒä¸šï¼Œåˆ™æ— æ³•å‘æ”¾
+		--Èç¹ûÃ»ÓĞÑ§»áÉú²úÀà¸±Ö°Òµ£¬ÔòÎŞ·¨·¢·Å
 		for i, v in pairs(OpenVacationId) do
 			if TaskCApi.HasSideOccup(TASKINTERFACE_POINTER, v) then
 				return 0
 			elseif i == #OpenVacationId then
-				return TASK_PREREQU_FAIL_BELOW_LEVEL
+				return 28
 			end
 		end
 
 		--[[
-		if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,9748) then--å¦‚æœèº«ä¸Šæœ‰ä»»åŠ¡9748ï¼Œåˆ™ä¸èƒ½å‘æ”¾ï¼Œé˜²æ­¢æ— é™åˆ¶éšæœº
+		if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,9748) then--Èç¹ûÉíÉÏÓĞÈÎÎñ9748£¬Ôò²»ÄÜ·¢·Å£¬·ÀÖ¹ÎŞÏŞÖÆËæ»ú
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
 		]]--
@@ -538,318 +537,318 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local OpenVacationId = { 0,1,5,6,}--å½“å‰å¼€æ”¾çš„å¯æ”¶å–ç‰©å“çš„å‰¯èŒä¸šidï¼Œå¯æ‰©å±•
+		local OpenVacationId = { 0,1,5,6,}--µ±Ç°¿ª·ÅµÄ¿ÉÊÕÈ¡ÎïÆ·µÄ¸±Ö°Òµid£¬¿ÉÀ©Õ¹
 
-		--è¦æ”¶å–çš„ç‰©å“è¡¨æ ¼ï¼Œå‰¯èŒä¸šidä¸ºç´¢å¼•
+		--ÒªÊÕÈ¡µÄÎïÆ·±í¸ñ£¬¸±Ö°ÒµidÎªË÷Òı
 
 		local ChargeItems = {
-			--ç‚¼é‡‘001-080
+			--Á¶½ğ001-080
 			[0] = {
-				--ç‚¼é‡‘1é˜¶1-10
-				21102,   --ç«ç‘°æ²¹
-				21106,   --æ¸…é¦™å‰‚
-				9636,    --å‹‡çŒ›è¯å‰‚
-				9637,    --åšå›ºè¯å‰‚
-				9649,    --å¼±æ•ˆä½é¤è¯å‰‚
+				--Á¶½ğ1½×1-10
+				21102,   --Ãµ¹åÓÍ
+				21106,   --ÇåÏã¼Á
+				9636,    --ÓÂÃÍÒ©¼Á
+				9637,    --¼á¹ÌÒ©¼Á
+				9649,    --ÈõĞ§×ô²ÍÒ©¼Á
 
-				9650,    --å¼±æ•ˆåŠ©é…’è¯å‰‚
-				21102,   --ç«ç‘°æ²¹
-				21106,   --æ¸…é¦™å‰‚
-				9649,    --å¼±æ•ˆä½é¤è¯å‰‚
-				9650,    --å¼±æ•ˆåŠ©é…’è¯å‰‚
+				9650,    --ÈõĞ§Öú¾ÆÒ©¼Á
+				21102,   --Ãµ¹åÓÍ
+				21106,   --ÇåÏã¼Á
+				9649,    --ÈõĞ§×ô²ÍÒ©¼Á
+				9650,    --ÈõĞ§Öú¾ÆÒ©¼Á
 
-				--ç‚¼é‡‘2é˜¶11-20
-				9658,    --åˆçº§åŠ©é…’è¯å‰‚ åŸä¸º(ç´«é£é“ƒä¹‹å¿ƒ21103)
-				9657,    --åˆçº§ä½é¤è¯å‰‚ åŸä¸º(ç´«é£é“ƒä¹‹è¾‰21107)
-				9641,    --ç‰©ç†è¯å‰‚
-				9642,    --ç¥åœ£è¯å‰‚
-				9643,    --å†°éœœè¯å‰‚
+				--Á¶½ğ2½×11-20
+				9658,    --³õ¼¶Öú¾ÆÒ©¼Á Ô­Îª(×Ï·çÁåÖ®ĞÄ21103)
+				9657,    --³õ¼¶×ô²ÍÒ©¼Á Ô­Îª(×Ï·çÁåÖ®»Ô21107)
+				9641,    --ÎïÀíÒ©¼Á
+				9642,    --ÉñÊ¥Ò©¼Á
+				9643,    --±ùËªÒ©¼Á
 
-				9644,    --ç«ç„°è¯å‰‚
-				9645,    --é£æš´è¯å‰‚
-				21079,   --å¤§åœ°è¯å‰‚
-				21080,   --é»‘æš—è¯å‰‚
-				9657,    --åˆçº§ä½é¤è¯å‰‚
+				9644,    --»ğÑæÒ©¼Á
+				9645,    --·ç±©Ò©¼Á
+				21079,   --´óµØÒ©¼Á
+				21080,   --ºÚ°µÒ©¼Á
+				9657,    --³õ¼¶×ô²ÍÒ©¼Á
 
-				--ç‚¼é‡‘3é˜¶21-30
-				9422,    --å¼±æ•ˆç”Ÿå‘½ä¹‹æº åŸä¸º(é»„é‡‘ä¹‹å¿ƒ21104)
-				9423,    --å¼±æ•ˆé­”æ³•ä¹‹æ³‰ åŸä¸º(é»„é‡‘ä¹‹è¾‰21108)
-				9422,    --å¼±æ•ˆç”Ÿå‘½ä¹‹æº
-				9423,    --å¼±æ•ˆé­”æ³•ä¹‹æ³‰
-				9426,    --åˆçº§æˆ˜æ–—è¯å‰‚
+				--Á¶½ğ3½×21-30
+				9422,    --ÈõĞ§ÉúÃüÖ®Ô´ Ô­Îª(»Æ½ğÖ®ĞÄ21104)
+				9423,    --ÈõĞ§Ä§·¨Ö®Èª Ô­Îª(»Æ½ğÖ®»Ô21108)
+				9422,    --ÈõĞ§ÉúÃüÖ®Ô´
+				9423,    --ÈõĞ§Ä§·¨Ö®Èª
+				9426,    --³õ¼¶Õ½¶·Ò©¼Á
 
-				9422,    --å¼±æ•ˆç”Ÿå‘½ä¹‹æº
-				9423,    --å¼±æ•ˆé­”æ³•ä¹‹æ³‰
-				9663,    --ä½æ•ˆä½é¤è¯å‰‚
-				9664,    --ä½æ•ˆåŠ©é…’è¯å‰‚
-				9422,    --å¼±æ•ˆç”Ÿå‘½ä¹‹æº
+				9422,    --ÈõĞ§ÉúÃüÖ®Ô´
+				9423,    --ÈõĞ§Ä§·¨Ö®Èª
+				9663,    --µÍĞ§×ô²ÍÒ©¼Á
+				9664,    --µÍĞ§Öú¾ÆÒ©¼Á
+				9422,    --ÈõĞ§ÉúÃüÖ®Ô´
 
-				--ç‚¼é‡‘4é˜¶31-40ï¼ˆ40çº§å°é¡¶ï¼‰
-				9424,    --åˆçº§ç”Ÿå‘½ä¹‹æº
-				9425,    --åˆçº§é­”æ³•ä¹‹æ³‰
-				21105,   --å¤ªé˜³ä¹‹å¿ƒ
-				21109,   --å¤ªé˜³ä¹‹è¾‰
-				9654,    --ç‹‚é‡è¯æ°´
+				--Á¶½ğ4½×31-40£¨40¼¶·â¶¥£©
+				9424,    --³õ¼¶ÉúÃüÖ®Ô´
+				9425,    --³õ¼¶Ä§·¨Ö®Èª
+				21105,   --Ì«ÑôÖ®ĞÄ
+				21109,   --Ì«ÑôÖ®»Ô
+				9654,    --¿ñÒ°Ò©Ë®
 
-				9659,    --æ„¤æ€’è¯å‰‚
-				9660,    --çŸ³è‚¤è¯å‰‚
-				9662,    --ç‹‚æš´è¯å‰‚
-				9704,    --æ¬¡çº§ä½é¤è¯å‰‚
-				9705,    --æ¬¡çº§åŠ©é…’è¯å‰‚
+				9659,    --·ßÅ­Ò©¼Á
+				9660,    --Ê¯·ôÒ©¼Á
+				9662,    --¿ñ±©Ò©¼Á
+				9704,    --´Î¼¶×ô²ÍÒ©¼Á
+				9705,    --´Î¼¶Öú¾ÆÒ©¼Á
 
-				--ç‚¼é‡‘5é˜¶41-50ï¼ˆ5.18ç‰ˆæœ¬æ›´æ–°ï¼Œå¼€æ”¾5çº§ï¼‰
-				21638,--5çº§ç‚¼é‡‘ç¬å›ç”Ÿå‘½è¯æ°´
-				21642,--5çº§ç‚¼é‡‘ç¬å›é­”æ³•è¯æ°´
-				9719,--ä¸­æ•ˆä½é¤è¯å‰‚
-				9720,--ä¸­æ•ˆåŠ©é…’è¯å‰‚
-				9647,--ä½æ•ˆç”Ÿå‘½è¯å‰‚
+				--Á¶½ğ5½×41-50£¨5.18°æ±¾¸üĞÂ£¬¿ª·Å5¼¶£©
+				21638,--5¼¶Á¶½ğË²»ØÉúÃüÒ©Ë®
+				21642,--5¼¶Á¶½ğË²»ØÄ§·¨Ò©Ë®
+				9719,--ÖĞĞ§×ô²ÍÒ©¼Á
+				9720,--ÖĞĞ§Öú¾ÆÒ©¼Á
+				9647,--µÍĞ§ÉúÃüÒ©¼Á
 
-				9648,--ä½æ•ˆé­”åŠ›è¯å‰‚
-				9661,--æ— æ•Œè¯å‰‚
-				9719,--ä¸­æ•ˆä½é¤è¯å‰‚
-				9720,--ä¸­æ•ˆåŠ©é…’è¯å‰‚
-				9647,--ä½æ•ˆç”Ÿå‘½è¯å‰‚
+				9648,--µÍĞ§Ä§Á¦Ò©¼Á
+				9661,--ÎŞµĞÒ©¼Á
+				9719,--ÖĞĞ§×ô²ÍÒ©¼Á
+				9720,--ÖĞĞ§Öú¾ÆÒ©¼Á
+				9647,--µÍĞ§ÉúÃüÒ©¼Á
 
-				--ç‚¼é‡‘6é˜¶51-60
-				9652,--å¤ªé˜³ä¹‹å¿ƒ
-				9653,--å¤ªé˜³ä¹‹è¾‰
-				9654,--ç‹‚é‡è¯æ°´
-				9655,--æå‘½è¯æ°´
-				9660,--çŸ³è‚¤è¯å‰‚
+				--Á¶½ğ6½×51-60
+				9652,--Ì«ÑôÖ®ĞÄ
+				9653,--Ì«ÑôÖ®»Ô
+				9654,--¿ñÒ°Ò©Ë®
+				9655,--²«ÃüÒ©Ë®
+				9660,--Ê¯·ôÒ©¼Á
 
-				9662,--ç‹‚æš´è¯å‰‚
-				7143,--æ— åœŸä¹‹åœŸ
-				9654,--ç‹‚é‡è¯æ°´
-				9655,--æå‘½è¯æ°´
-				9660,--çŸ³è‚¤è¯å‰‚
+				9662,--¿ñ±©Ò©¼Á
+				7143,--ÎŞÍÁÖ®ÍÁ
+				9654,--¿ñÒ°Ò©Ë®
+				9655,--²«ÃüÒ©Ë®
+				9660,--Ê¯·ôÒ©¼Á
 
-				--ç‚¼é‡‘7é˜¶61-70 (2011.3.17ä¿®æ”¹)
-				9430,	--ä¸­æ•ˆç”Ÿå‘½è¯å‰‚
-				9431,	--ä¸­æ•ˆé­”åŠ›è¯å‰‚
-				30987,	--å¼ºæ•ˆä½é¤è¯å‰‚
-				30988,	--å¼ºæ•ˆåŠ©é…’è¯å‰‚
-				9430,	--ä¸­æ•ˆç”Ÿå‘½è¯å‰‚
+				--Á¶½ğ7½×61-70 (2011.3.17ĞŞ¸Ä)
+				9430,	--ÖĞĞ§ÉúÃüÒ©¼Á
+				9431,	--ÖĞĞ§Ä§Á¦Ò©¼Á
+				30987,	--Ç¿Ğ§×ô²ÍÒ©¼Á
+				30988,	--Ç¿Ğ§Öú¾ÆÒ©¼Á
+				9430,	--ÖĞĞ§ÉúÃüÒ©¼Á
 
-				9430,	--ä¸­æ•ˆç”Ÿå‘½è¯å‰‚
-				9431,	--ä¸­æ•ˆé­”åŠ›è¯å‰‚
-				30987,	--å¼ºæ•ˆä½é¤è¯å‰‚
-				30988,	--å¼ºæ•ˆåŠ©é…’è¯å‰‚
-				30988,	--å¼ºæ•ˆåŠ©é…’è¯å‰‚
+				9430,	--ÖĞĞ§ÉúÃüÒ©¼Á
+				9431,	--ÖĞĞ§Ä§Á¦Ò©¼Á
+				30987,	--Ç¿Ğ§×ô²ÍÒ©¼Á
+				30988,	--Ç¿Ğ§Öú¾ÆÒ©¼Á
+				30988,	--Ç¿Ğ§Öú¾ÆÒ©¼Á
 
 
-				--ç‚¼é‡‘8é˜¶71-80
-				9704,--æ¬¡çº§ä½é¤è¯å‰‚
-				9705,--æ¬¡çº§åŠ©é…’è¯å‰‚
-				9706,--æ¬¡çº§è¥å…»è¯å‰‚
-				9704,--æ¬¡çº§ä½é¤è¯å‰‚
-				9705,--æ¬¡çº§åŠ©é…’è¯å‰‚
+				--Á¶½ğ8½×71-80
+				9704,--´Î¼¶×ô²ÍÒ©¼Á
+				9705,--´Î¼¶Öú¾ÆÒ©¼Á
+				9706,--´Î¼¶ÓªÑøÒ©¼Á
+				9704,--´Î¼¶×ô²ÍÒ©¼Á
+				9705,--´Î¼¶Öú¾ÆÒ©¼Á
 
-				9706,--æ¬¡çº§è¥å…»è¯å‰‚
-				9704,--æ¬¡çº§ä½é¤è¯å‰‚
-				9705,--æ¬¡çº§åŠ©é…’è¯å‰‚
-				9706,--æ¬¡çº§è¥å…»è¯å‰‚
-				9704,--æ¬¡çº§ä½é¤è¯å‰‚
+				9706,--´Î¼¶ÓªÑøÒ©¼Á
+				9704,--´Î¼¶×ô²ÍÒ©¼Á
+				9705,--´Î¼¶Öú¾ÆÒ©¼Á
+				9706,--´Î¼¶ÓªÑøÒ©¼Á
+				9704,--´Î¼¶×ô²ÍÒ©¼Á
 			},
 
-			--çƒ¹é¥ª1001-1080
+			--Åëâ¿1001-1080
 			[1] = {
-				--çƒ¹é¥ª1é˜¶
+				--Åëâ¿1½×
 
-				19033, --ç”œå¥¶é…ª
-				19040, --ç”œç‰›å¥¶
-				19033, --ç”œå¥¶é…ª
-				19040, --ç”œç‰›å¥¶
-				19033, --ç”œå¥¶é…ª
+				19033, --ÌğÄÌÀÒ
+				19040, --ÌğÅ£ÄÌ
+				19033, --ÌğÄÌÀÒ
+				19040, --ÌğÅ£ÄÌ
+				19033, --ÌğÄÌÀÒ
 
-				19040, --ç”œç‰›å¥¶
-				19033, --ç”œå¥¶é…ª
-				19040, --ç”œç‰›å¥¶
-				19033, --ç”œå¥¶é…ª
-				19040, --ç”œç‰›å¥¶
+				19040, --ÌğÅ£ÄÌ
+				19033, --ÌğÄÌÀÒ
+				19040, --ÌğÅ£ÄÌ
+				19033, --ÌğÄÌÀÒ
+				19040, --ÌğÅ£ÄÌ
 
-				--çƒ¹é¥ª2é˜¶111-120
-				11690,    --çƒ­è¾£é±¼æ’
-				11691,    --æ¤°é¦™å°é¥¼
-				17190,    --ç±³é¦™èŸ¹æ–—
-				17080,    --æ¤°æ£æ±
-				17081,    --é³„é±¼æµ“æ±¤
+				--Åëâ¿2½×111-120
+				11690,    --ÈÈÀ±ÓãÅÅ
+				11691,    --Ò¬ÏãĞ¡±ı
+				17190,    --Ã×ÏãĞ·¶·
+				17080,    --Ò¬ÔæÖ­
+				17081,    --öùÓãÅ¨ÌÀ
 
-				17082,    --è‰¾è¥¿ç”œé…’é…¿
-				11690,    --çƒ­è¾£é±¼æ’
-				11691,    --æ¤°é¦™å°é¥¼
-				17190,    --ç±³é¦™èŸ¹æ–—
-				17080,    --æ¤°æ£æ±
+				17082,    --°¬Î÷Ìğ¾ÆÄğ
+				11690,    --ÈÈÀ±ÓãÅÅ
+				11691,    --Ò¬ÏãĞ¡±ı
+				17190,    --Ã×ÏãĞ·¶·
+				17080,    --Ò¬ÔæÖ­
 
-				--çƒ¹é¥ª3é˜¶
+				--Åëâ¿3½×
 
-				12238,    --åœ£ç”²è™«å¤§é¤
-				12239,    --é±¼é¦™é¢åŒ…
-				12246,    --å¤šå‘³æ‹Œé¢
-				17191,    --ç”œé¦™ç‡•éº¦ç²¥
-				12235,    --ç¡è²èŠ±é…’
+				12238,    --Ê¥¼×³æ´ó²Í
+				12239,    --ÓãÏãÃæ°ü
+				12246,    --¶àÎ¶°èÃæ
+				17191,    --ÌğÏãÑàÂóÖà
+				12235,    --Ë¯Á«»¨¾Æ
 
-				12236,    --ç²¾çµç¾é…’
-				17083,    --æµ…è‰²å¿§éƒ
-				17084,    --æ¸…æ–°æ¸©æ³‰æ°´
-				12238,    --åœ£ç”²è™«å¤§é¤
-				12239,    --å¥¶é…ªé¢åŒ…
+				12236,    --¾«ÁéÃÀ¾Æ
+				17083,    --Ç³É«ÓÇÓô
+				17084,    --ÇåĞÂÎÂÈªË®
+				12238,    --Ê¥¼×³æ´ó²Í
+				12239,    --ÄÌÀÒÃæ°ü
 
-				--çƒ¹é¥ª4é˜¶
+				--Åëâ¿4½×
 
-				12231,    --ç¾å‘³è›‹å·
-				12232,    --æµ“æ±¤é¦™è‰é¢
-				23288,    --çƒ¤æ——é±¼
-				17192,    --é”¡æœˆé±¼æ’
-				9760,     --èœ¥èœ´è¡€é…’
+				12231,    --ÃÀÎ¶µ°¾í
+				12232,    --Å¨ÌÀÏã²İÃæ
+				23288,    --¿¾ÆìÓã
+				17192,    --ÎıÔÂÓãÅÅ
+				9760,     --òáòæÑª¾Æ
 
-				12233,    --è›‹å¥¶é…’
-				12255,    --å¤œæ——é±¼æ±¤
-				12242,    --è‰è“é…’
-				12231,    --ç¾å‘³è›‹å·
-				12232,    --æµ“æ±¤é¦™è‰é¢
+				12233,    --µ°ÄÌ¾Æ
+				12255,    --Ò¹ÆìÓãÌÀ
+				12242,    --²İİ®¾Æ
+				12231,    --ÃÀÎ¶µ°¾í
+				12232,    --Å¨ÌÀÏã²İÃæ
 
-				--çƒ¹é¥ª5é˜¶(5.18æ›´æ–°ç‰ˆæœ¬ã€‚1206ä¿®æ”¹é»„æ²™è›‹ç³•æ”¹ä¸ºèœ˜è››è›‹å·13439ï¼Œ1208ç”±äºä¸æ›´å®¢æˆ·ç«¯ï¼Œæ”¹å›æ¥)
-				12241,--ç¾å‘³èŠ±é³é±¼
-				12244,--æµ·é²œç…è›‹å·
-				12250,--é»„æ²™è›‹ç³•
-				12259,--é¦™çƒ¤ç†Šè‚‹æ’
-				12247,--éº»è¾£é‡å‘³å¤§é¤
+				--Åëâ¿5½×(5.18¸üĞÂ°æ±¾¡£1206ĞŞ¸Ä»ÆÉ³µ°¸â¸ÄÎªÖ©Öëµ°¾í13439£¬1208ÓÉÓÚ²»¸ü¿Í»§¶Ë£¬¸Ä»ØÀ´)
+				12241,--ÃÀÎ¶»¨÷¢Óã
+				12244,--º£ÏÊ¼åµ°¾í
+				12250,--»ÆÉ³µ°¸â
+				12259,--Ïã¿¾ĞÜÀßÅÅ
+				12247,--ÂéÀ±Ò°Î¶´ó²Í
 
-				9758,--è¨ææ´›æ–¯è‘¡è„é…’
-				17085,--ç²‰çº¢è¯±æƒ‘
-				17086,--èŠèŠ±é…¿
-				17087,--é»‘æœˆç§˜é…¿
-				11688,--é“¶è²é…’
+				9758,--ÈøÌáÂåË¹ÆÏÌÑ¾Æ
+				17085,--·ÛºìÓÕ»ó
+				17086,--¾Õ»¨Äğ
+				17087,--ºÚÔÂÃØÄğ
+				11688,--ÒøÁ«¾Æ
 
-				--çƒ¹é¥ª6é˜¶ï¼ˆ1206ä¿®æ”¹é»„æ²™è›‹ç³•æ”¹ä¸ºèœ˜è››è›‹å·13439ï¼Œ1208ç”±äºä¸æ›´å®¢æˆ·ç«¯ï¼Œæ”¹å›æ¥)
+				--Åëâ¿6½×£¨1206ĞŞ¸Ä»ÆÉ³µ°¸â¸ÄÎªÖ©Öëµ°¾í13439£¬1208ÓÉÓÚ²»¸ü¿Í»§¶Ë£¬¸Ä»ØÀ´)
 
-				12244,--æµ·é²œç…è›‹å·
-				12250,--é»„æ²™è›‹ç³•
-				12259,--é¦™çƒ¤ç†Šè‚‹æ’
-				12247,--æ¸…ç‚’ç´«è‹œè“¿
-				9758, --å°¼ç´¢è‘¡è„é…’
+				12244,--º£ÏÊ¼åµ°¾í
+				12250,--»ÆÉ³µ°¸â
+				12259,--Ïã¿¾ĞÜÀßÅÅ
+				12247,--Çå³´×ÏÜÙŞ£
+				9758, --ÄáË÷ÆÏÌÑ¾Æ
 
-				17085,--ç²‰çº¢è¯±æƒ‘
-				17086,--èŠèŠ±é…¿
-				17087,--é»‘æœˆå¯†é…¿
-				17195,--æ£®æ—å¤§æ‚çƒ©
-				17086,--èŠèŠ±é…¿
+				17085,--·ÛºìÓÕ»ó
+				17086,--¾Õ»¨Äğ
+				17087,--ºÚÔÂÃÜÄğ
+				17195,--É­ÁÖ´óÔÓ»â
+				17086,--¾Õ»¨Äğ
 
-				--çƒ¹é¥ª7é˜¶(2011.3.17æ‰©å±•ï¼‰
+				--Åëâ¿7½×(2011.3.17À©Õ¹£©
 
-				34161,	--ç¾å‘³çœ é±¼éª¨
-				34162,	--è·é¦™é¢åŒ…
-				34164,	--æ™¶éª¨é±¼æ±¤
-				34165,	--æ™¨éœ²é…’
-				34166,	--ç¥ç¦æ¸…éœ²
+				34161,	--ÃÀÎ¶ÃßÓã¹Ç
+				34162,	--ºÉÏãÃæ°ü
+				34164,	--¾§¹ÇÓãÌÀ
+				34165,	--³¿Â¶¾Æ
+				34166,	--×£¸£ÇåÂ¶
 
-				34161,	--ç¾å‘³çœ é±¼éª¨
-				34162,	--è·é¦™é¢åŒ…
-				34164,	--æ™¶éª¨é±¼æ±¤
-				34165,	--æ™¨éœ²é…’
-				34166,	--ç¥ç¦æ¸…éœ²
+				34161,	--ÃÀÎ¶ÃßÓã¹Ç
+				34162,	--ºÉÏãÃæ°ü
+				34164,	--¾§¹ÇÓãÌÀ
+				34165,	--³¿Â¶¾Æ
+				34166,	--×£¸£ÇåÂ¶
 
-				--çƒ¹é¥ª8é˜¶
+				--Åëâ¿8½×
 
-				17194,--ç«ç‘°é±¼æŸ³
+				17194,--Ãµ¹åÓãÁø
 				17194,
 				17194,
 				17194,
 				17194,
 
-				17088,--ç“œçš®å‡‰é…’
+				17088,--¹ÏÆ¤Á¹¾Æ
 				17088,
 				17088,
 				17088,
 				17088,
 			},
-			--é‡‡çŸ¿5001-5010
+			--²É¿ó5001-5010
 			[5] = {
-				7056, --1é˜¶  é“œçŸ¿
-				7057, --2é˜¶  æ±çŸ¿çŸ³
-				11683,--3é˜¶  é”¡çŸ¿çŸ³
-				17455,--4é˜¶  é”ŒçŸ¿çŸ³
-				17456,--5é˜¶  é“…çŸ¿çŸ³
+				7056, --1½×  Í­¿ó
+				7057, --2½×  ¹¯¿óÊ¯
+				11683,--3½×  Îı¿óÊ¯
+				17455,--4½×  Ğ¿¿óÊ¯
+				17456,--5½×  Ç¦¿óÊ¯
 
-				7058, --6é˜¶  é“çŸ¿çŸ³
-				7058, --7é˜¶  é“çŸ¿çŸ³
-				7058, --8é˜¶  é“çŸ¿çŸ³
-				7058, --9é˜¶  é“çŸ¿çŸ³
-				7060, --10é˜¶ ç¡«ç£ºçŸ¿çŸ³
+				7058, --6½×  Ìú¿óÊ¯
+				7058, --7½×  Ìú¿óÊ¯
+				7058, --8½×  Ìú¿óÊ¯
+				7058, --9½×  Ìú¿óÊ¯
+				7060, --10½× Áò»Ç¿óÊ¯
 			},
-			--é‡‡æ‘˜6001-6020
+			--²ÉÕª6001-6020
 			[6] = {
-				7076,  --1é˜¶  é‡è”·è–‡
-				7075,  --1é˜¶  è–°è¡£è‰
+				7076,  --1½×  Ò°Ç¾Ş±
+				7075,  --1½×  Ş¹ÒÂ²İ
 
-				7081,  --2é˜¶  çº¸èè‰
-				9517,  --2é˜¶  æ¤°æ£
+				7081,  --2½×  Ö½É¯²İ
+				9517,  --2½×  Ò¬Ôæ
 
-				7084,  --3é˜¶  ç¡è²
-				7082,  --3é˜¶  é£ä¿¡å­
+				7084,  --3½×  Ë¯Á«
+				7082,  --3½×  ·çĞÅ×Ó
 
-				7080,  --4é˜¶  ç´«ç½—å…°
-				9514,  --4é˜¶  é¾™èŠ½è‰
+				7080,  --4½×  ×ÏÂŞÀ¼
+				9514,  --4½×  ÁúÑ¿²İ
 
-				9518,  --5é˜¶  ç´«è‹œè“¿
-				9501,  --5é˜¶  æ™šé¦™ç‰
+				9518,  --5½×  ×ÏÜÙŞ£
+				9501,  --5½×  ÍíÏãÓñ
 
-				17063, --6é˜¶  æ¢¦å¢ƒèŠ±
-				17065, --6é˜¶  éœœå¶è‰
+				17063, --6½×  ÃÎ¾³»¨
+				17065, --6½×  ËªÒ¶²İ
 
-				34111, --7é˜¶  æµå…‰è·
-				34107, --7é˜¶  æ™¨éœ²è‰
+				34111, --7½×  Á÷¹âºÉ
+				34107, --7½×  ³¿Â¶²İ
 
-				34111, --8é˜¶
-				34107, --8é˜¶
+				34111, --8½×
+				34107, --8½×
 
-				7079,  --9é˜¶
-				17063, --9é˜¶
+				7079,  --9½×
+				17063, --9½×
 
-				17065, --10é˜¶
-				17065, --10é˜¶
+				17065, --10½×
+				17065, --10½×
 
 			},
 		}
 
-		--åˆå§‹åŒ–å‰¯èŒä¸šè¡¨æ ¼ï¼Œå­˜å‚¨ç´¢å¼•æ‰€æŒ‡ç¤ºçš„å‰¯èŒä¸šidäº§å“åœ¨ChargeItems{}é‡Œç‰©å“id
-		--[å‰¯èŒä¸šid] = {æ”¶å–ç‰©å“è¡¨é‡Œèµ·å§‹idå¯¹åº”çš„åºå·ï¼Œæ¯çº§ç”Ÿäº§äº§å“æ•°}
+		--³õÊ¼»¯¸±Ö°Òµ±í¸ñ£¬´æ´¢Ë÷ÒıËùÖ¸Ê¾µÄ¸±Ö°Òµid²úÆ·ÔÚChargeItems{}ÀïÎïÆ·id
+		--[¸±Ö°Òµid] = {ÊÕÈ¡ÎïÆ·±íÀïÆğÊ¼id¶ÔÓ¦µÄĞòºÅ£¬Ã¿¼¶Éú²ú²úÆ·Êı}
 		local VacationItemsStart = {
-		[0] = 10,--ç‚¼é‡‘
-		[1] = 10,--çƒ¹é¥ª
-		[5] = 1, --é‡‡çŸ¿
-		[6] = 2, --é‡‡æ‘˜
+		[0] = 10,--Á¶½ğ
+		[1] = 10,--Åëâ¿
+		[5] = 1, --²É¿ó
+		[6] = 2, --²ÉÕª
 		}
 
 		local iPlayervacationid ={}
-		for i,v in ipairs(OpenVacationId) do	--å°†ç©å®¶å­¦ä¼šçš„å‰¯èŒä¸šå­˜å…¥è¡¨iPlayervacationid{}
+		for i,v in ipairs(OpenVacationId) do	--½«Íæ¼ÒÑ§»áµÄ¸±Ö°Òµ´æÈë±íiPlayervacationid{}
 			if TaskCApi.HasSideOccup(TASKINTERFACE_POINTER, v) then
 				iPlayervacationid[#iPlayervacationid+1] = v
 			end
 		end
 
-		--é€‰æ‹©ä¸€ä¸ªç”Ÿäº§ç±»å‰¯èŒä¸š
+		--Ñ¡ÔñÒ»¸öÉú²úÀà¸±Ö°Òµ
 
-		local VacationId = 0 --å‰¯èŒä¸šç§ç±»ï¼Œé»˜è®¤ä¸ºç‚¼é‡‘ï¼Œé˜²æ­¢å–ç©º
-		local VacationLevel= 1 --å‰¯èŒä¸šçº§åˆ«ï¼Œé»˜è®¤ä¸º1çº§ï¼Œé˜²æ­¢å–ç©º
+		local VacationId = 0 --¸±Ö°ÒµÖÖÀà£¬Ä¬ÈÏÎªÁ¶½ğ£¬·ÀÖ¹È¡¿Õ
+		local VacationLevel= 1 --¸±Ö°Òµ¼¶±ğ£¬Ä¬ÈÏÎª1¼¶£¬·ÀÖ¹È¡¿Õ
 
-		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --ç©å®¶ç­‰çº§
+		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --Íæ¼ÒµÈ¼¶
 
-		--å›ºå®šç©å®¶æ¯å¤©éšåˆ°çš„å†…å®¹ï¼Œå½“å¤©å¥‡å¶æ•°*ç©å®¶åˆ›å»ºè§’è‰²çš„æ—¶é—´ %#iPlayervacationid+1
-		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ä %#iPlayervacationid+1
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
 
-		VacationId = iPlayervacationid[ (timePackage.yday + RoleCreateTime ) % #iPlayervacationid + 1] --å†³å®šæ”¶å–ç‰©å“å±äºçš„å‰¯èŒä¸šç±»åˆ«
-		VacationLevel = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER, VacationId)		--å‡½æ•°è·å¾—å‰¯èŒä¸šçº§åˆ«
+		VacationId = iPlayervacationid[ (timePackage.yday + RoleCreateTime ) % #iPlayervacationid + 1] --¾ö¶¨ÊÕÈ¡ÎïÆ·ÊôÓÚµÄ¸±Ö°ÒµÀà±ğ
+		VacationLevel = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER, VacationId)		--º¯Êı»ñµÃ¸±Ö°Òµ¼¶±ğ
 
-		--é˜²æ­¢ç©å®¶éšæœºåˆ°ä¸å¯åˆ°è¾¾çš„åœ°å›¾çš„å†…å®¹ï¼Œåœ¨ç©å®¶ç­‰çº§å’Œå‰¯èŒä¸šç­‰çº§ä¸­å–æœ€å°å€¼
+		--·ÀÖ¹Íæ¼ÒËæ»úµ½²»¿Éµ½´ïµÄµØÍ¼µÄÄÚÈİ£¬ÔÚÍæ¼ÒµÈ¼¶ºÍ¸±Ö°ÒµµÈ¼¶ÖĞÈ¡×îĞ¡Öµ
 
-		if VacationId == 5 then --é‡‡çŸ¿æ˜¯30çº§æ‰å­¦ä¼šçš„ï¼Œæ‰€ä»¥è¦ç‰¹æ®Šå¤„ç†
+		if VacationId == 5 then --²É¿óÊÇ30¼¶²ÅÑ§»áµÄ£¬ËùÒÔÒªÌØÊâ´¦Àí
 			if VacationLevel > math.floor(iPlayerLevel/10)-2 then
 				VacationLevel = math.floor(iPlayerLevel/10)-2
 			end
@@ -859,19 +858,19 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
 			end
 		end
 
-		local iRandomR = VacationItemsStart[VacationId]		  		--éšæœºåŠå¾„
-		local NeedItemsStart = 1+(VacationLevel-1)*iRandomR   		--éœ€è¦éšæœºçš„ç‰©å“å¼€å§‹çš„ç´¢å¼•å·
+		local iRandomR = VacationItemsStart[VacationId]		  		--Ëæ»ú°ë¾¶
+		local NeedItemsStart = 1+(VacationLevel-1)*iRandomR   		--ĞèÒªËæ»úµÄÎïÆ·¿ªÊ¼µÄË÷ÒıºÅ
 
-		local NeedItemId 											--éœ€è¦çš„ç‰©å“id
+		local NeedItemId 											--ĞèÒªµÄÎïÆ·id
 
-		if VacationId == 5 then --é‡‡çŸ¿çš„è¯æ²¡æœ‰äº§ç‰©éšæœº
+		if VacationId == 5 then --²É¿óµÄ»°Ã»ÓĞ²úÎïËæ»ú
 			NeedItemId = ChargeItems[VacationId][NeedItemsStart]
 		else
 			NeedItemId = ChargeItems[VacationId][NeedItemsStart + timePackage.yday * RoleCreateTime % iRandomR]
 		end
 
 
-		--æœåŠ¡å™¨debugé—®é¢˜start
+		--·şÎñÆ÷debugÎÊÌâstart
 
 		local tabNeedItem = {9654, 9655, 9660, 9662, 9659, 9661, 7143, 9652, 9653}
 
@@ -881,27 +880,27 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
 			end
 		end
 
-		if NeedItemId == 12250 then --çƒ¹é¥ªçš„é»„æ²™è›‹ç³•æ”¹ä¸º èœ˜è››è›‹å·
+		if NeedItemId == 12250 then --Åëâ¿µÄ»ÆÉ³µ°¸â¸ÄÎª Ö©Öëµ°¾í
 			NeedItemId = 13439
 		end
 
-		if NeedItemId == 17195 then --çƒ¹é¥ªçš„ä¸›æ—å¤§æ‚çƒ©æ”¹ä¸º èœ˜è››è›‹å·
+		if NeedItemId == 17195 then --Åëâ¿µÄ´ÔÁÖ´óÔÓ»â¸ÄÎª Ö©Öëµ°¾í
 			NeedItemId = 13439
 		end
 
-		--æœåŠ¡å™¨debugé—®é¢˜end
+		--·şÎñÆ÷debugÎÊÌâend
 
-		local  key1,key2 --ç‰©å“idå­˜å‚¨æ–¹æ³• key1=id/200,key2=id%200,id=key1+key2
+		local  key1,key2 --ÎïÆ·id´æ´¢·½·¨ key1=id/200,key2=id%200,id=key1+key2
 		key1 = math.floor(NeedItemId / 200)
 		key2 = NeedItemId % 200
 
-		--è®¾ç½®éšæœºæ•°
+		--ÉèÖÃËæ»úÊı
 
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 1, VacationId)		--å­˜å‚¨å‰¯èŒä¸šç§ç±»
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 2, VacationLevel)	--å­˜å‚¨å‰¯èŒä¸šç­‰çº§
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 1, VacationId)		--´æ´¢¸±Ö°ÒµÖÖÀà
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 2, VacationLevel)	--´æ´¢¸±Ö°ÒµµÈ¼¶
 
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 3, key1)				--å­˜å‚¨ç‰©å“id/200
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 4, key2)				--å­˜å‚¨ç‰©å“id%200
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 3, key1)				--´æ´¢ÎïÆ·id/200
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,7680, 4, key2)				--´æ´¢ÎïÆ·id%200
 
 		return 0
 	end
@@ -914,7 +913,7 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
 		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 3)
 		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 4)
 
-		local NeedItemId = key1 * 200 + key2						--è§£æå‡ºæ”¶å–ç‰©å“id
+		local NeedItemId = key1 * 200 + key2						--½âÎö³öÊÕÈ¡ÎïÆ·id
 
 		Method.CollectItem = { Item1={ID=NeedItemId, Num=3, Common=true},}
 
@@ -922,12 +921,12 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 3)
 		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,7680, 4)
-		local ChargeItemId = key1 * 200 + key2						--è§£æå‡ºæ”¶å–ç‰©å“id
+		local ChargeItemId = key1 * 200 + key2						--½âÎö³öÊÕÈ¡ÎïÆ·id
 
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,ChargeItemId, true) >= 3 then
 			iRet = TASK_SUCC_FINISH
@@ -941,7 +940,7 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
 
    		if bSuccess then
 
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 
    			   return TASK_PREREQU_FAIL_GIVEN_ITEM
 			end
@@ -952,53 +951,55 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2,ucRandomNum3,ucRandomNum4)
-		--å˜é‡1å·å‰¯èŒä¸šç§ç±»ï¼Œ2å·å‰¯èŒä¸šç­‰çº§ï¼Œ3å·4å·ä¸ºç‰©å“idï¼ˆ3å·å˜é‡å€¼*200+4å·å˜é‡å€¼ï¼‰
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2,ucRandomNum3,ucRandomNum4)
+		--±äÁ¿1ºÅ¸±Ö°ÒµÖÖÀà£¬2ºÅ¸±Ö°ÒµµÈ¼¶£¬3ºÅ4ºÅÎªÎïÆ·id£¨3ºÅ±äÁ¿Öµ*200+4ºÅ±äÁ¿Öµ£©
 
-		local AwardMulti = 60--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local AwardMultiply = {1,1.2,1.4,1.6,1.8,2,2.1,2.2,2.3,2.4}			--å¥–åŠ±å€ç‡ä¿®æ­£è¡¨ï¼Œç´¢å¼•
+		local AwardMulti = 60--´æ·Å½±ÀøÏµÊı
+		local AwardMultiply = {1,1.2,1.4,1.6,1.8,2,2.1,2.2,2.3,2.4}			--½±Àø±¶ÂÊĞŞÕı±í£¬Ë÷Òı
 
-		local ChargeVacationId = ucRandomNum1 					--æ‰€æ”¶å–çš„ç‰©å“äº§è‡ªçš„å‰¯èŒä¸šid
-		local ChargeVacationLevel = ucRandomNum2 				--æ‰€æ”¶å–çš„ç‰©å“äº§è‡ªçš„å‰¯èŒä¸šç­‰çº§
+		local ChargeVacationId = ucRandomNum1 					--ËùÊÕÈ¡µÄÎïÆ·²ú×ÔµÄ¸±Ö°Òµid
+		local ChargeVacationLevel = ucRandomNum2 				--ËùÊÕÈ¡µÄÎïÆ·²ú×ÔµÄ¸±Ö°ÒµµÈ¼¶
 
-		local ChargeItemId = ucRandomNum3 * 200 + ucRandomNum4 --æ‰€æ”¶å–çš„ç‰©å“id
+		local ChargeItemId = ucRandomNum3 * 200 + ucRandomNum4 --ËùÊÕÈ¡µÄÎïÆ·id
 
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 		local AwardNum
 
 
 		if bSuccess then
-			--TaskCApi.DeliverSideOccupExp(TASKINTERFACE_POINTER,ucRandomNum1,10 * AwardMultiply[ChargeVacationLevel])--ç»™ç©å®¶å‘æ”¾å‰¯èŒä¸šç»éªŒ
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, ChargeItemId, 3)    	--æ”¶å–æ™®é€šç‰©å“3ä¸ª
+			--TaskCApi.DeliverSideOccupExp(TASKINTERFACE_POINTER,ucRandomNum1,10 * AwardMultiply[ChargeVacationLevel])--¸øÍæ¼Ò·¢·Å¸±Ö°Òµ¾­Ñé
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, ChargeItemId, 3)    	--ÊÕÈ¡ÆÕÍ¨ÎïÆ·3¸ö
 
-			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMultiply[ChargeVacationLevel] * AwardMulti)--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMultiply[ChargeVacationLevel] * AwardMulti)--¸øÍæ¼Ò·¢·Å¾­Ñé
 
-			--å‘æ”¾å·¥ä¼šè´¡çŒ®åº¦1ç‚¹
+			--·¢·Å¹¤»á¹±Ï×¶È1µã
 			TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, 1)
 
-			--å‘æ”¾åŠŸå‹‹1ç‚¹
+			--·¢·Å¹¦Ñ«1µã
 			TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, 1)
 
-			--å‘æ”¾æµ®äº‘å¥–åŠ±
+			--·¢·Å¸¡ÔÆ½±Àø
 			math.randomseed(os.time())
 			AwardNum = math.random(1,100)
 
-			--20%æ¦‚ç‡å‘1çº§å¤å¸
+			--20%¸ÅÂÊ·¢1¼¶¹Å±Ò
 			if AwardNum <= 20 then
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 9049, 1,false)
 			end
 
-			--1%æ¦‚ç‡å‘2çº§å¤å¸
+			--1%¸ÅÂÊ·¢2¼¶¹Å±Ò
 
 			if AwardNum == 21 then
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 9050, 1,false)
 			end
 
-		--else--å¤±è´¥å‘æ”¾ä¸€ä¸ªä»»åŠ¡9748
+
+
+		--else--Ê§°Ü·¢·ÅÒ»¸öÈÎÎñ9748
 			--TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,9748)
    		end
 
@@ -1006,49 +1007,49 @@ TaskList[7680] = --ä¸ºä»»åŠ¡ID7680:çŸ³å·¥ç«ç‘°001æ”¶äº§å“
    	end
 }
 
-TaskList[7700] = --ç¤¾äº¤å®¶éšæœºå‘æ”¾ä»»åŠ¡
+TaskList[7700] = --Éç½»¼ÒËæ»ú·¢·ÅÈÎÎñ
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
-  		bFinishWhenDelvier = true,--æ¥å—å³å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
+  		bFinishWhenDelvier = true,--½ÓÊÜ¼´Íê³É
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 1,		--æ¯å¤©æœ€å¤šå®Œæˆ1æ¬¡
+  		iMaxFinishCount = 1,		--Ã¿Ìì×î¶àÍê³É1´Î
 
   		iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.SheJiaoJia,--ä»»åŠ¡ç±»å‹ï¼šç¤¾äº¤å®¶
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iType  = TaskType.SheJiaoJia,--ÈÎÎñÀàĞÍ£ºÉç½»¼Ò
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
 
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--¼ì²éÍæ¼ÒµÈ¼¶>=20
 	   	if iPlayerLev < 20 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id 7012-7036
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid 7012-7036
 		for j = 7012,7036 do
 			if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 			end
 		end
 
-		--éœ€è¦ç¤¾äº¤å®¶ç­‰çº§è‡³å°‘ä¸º2çº§
+		--ĞèÒªÉç½»¼ÒµÈ¼¶ÖÁÉÙÎª2¼¶
 
 		if not TaskCApi.HasSideOccup(TASKINTERFACE_POINTER, 32) then
 			return TASK_PREREQU_FAIL_LUA_TASK
@@ -1060,7 +1061,7 @@ TaskList[7700] = --ç¤¾äº¤å®¶éšæœºå‘æ”¾ä»»åŠ¡
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 		return 0
 	end
@@ -1068,12 +1069,12 @@ TaskList[7700] = --ç¤¾äº¤å®¶éšæœºå‘æ”¾ä»»åŠ¡
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -1087,7 +1088,7 @@ TaskList[7700] = --ç¤¾äº¤å®¶éšæœºå‘æ”¾ä»»åŠ¡
 
    		if bSuccess then
 			local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 7012)
-   	   		if iRet ~=0  then --æ˜¯å¦å¯ä»¥å‘æ”¾æ–°ä»»åŠ¡
+   	   		if iRet ~=0  then --ÊÇ·ñ¿ÉÒÔ·¢·ÅĞÂÈÎÎñ
 
 
 
@@ -1103,23 +1104,13 @@ TaskList[7700] = --ç¤¾äº¤å®¶éšæœºå‘æ”¾ä»»åŠ¡
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-
-
-
-
-
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
    		if bSuccess then
 
 			math.randomseed(os.time())
-			--éšæœºä»»åŠ¡idæ®µ7012-7036
-			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, math.random(7012,7036))--ä»7012-7036ä¸­éšæœºä¸€ä¸ªæ–°ä»»åŠ¡å¹¶å¼€å¯
-
-
-
-
-
+			--Ëæ»úÈÎÎñid¶Î7012-7036
+			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, math.random(7012,7036))--´Ó7012-7036ÖĞËæ»úÒ»¸öĞÂÈÎÎñ²¢¿ªÆô
 
    		end
 
@@ -1127,7 +1118,7 @@ TaskList[7700] = --ç¤¾äº¤å®¶éšæœºå‘æ”¾ä»»åŠ¡
    	end
 }
 
-TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
+TaskList[7787] = --Éú²úÈÎÎñ»î¶¯³øÊ¦ÃÀÎ¶¼ÑëÈ
 {
   	Property =
   	{
@@ -1139,7 +1130,9 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, --æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+		iRetrieveIdx = 17,
 
   		bRecordFinishCount = true,
   		iMaxFinishCount = 1,
@@ -1153,63 +1146,63 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
 
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
 			local ItemId
 
 			if PlayerLevel < 30 then
 
-				if PlayerLevel<20 then		--ç©å®¶10-19ï¼Œå‘ç´«è‰é…’12343
+				if PlayerLevel<20 then		--Íæ¼Ò10-19£¬·¢×Ï²İ¾Æ12343
 					ItemId = 12343
-				else						--ç©å®¶20-29ï¼Œå‘é³„é±¼æµ“æ±¤17081
+				else						--Íæ¼Ò20-29£¬·¢öùÓãÅ¨ÌÀ17081
 					ItemId = 17081
 				end
 			else
-				if PlayerLevel < 40 then					--ç©å®¶30-39ï¼Œå‘ç¡è²èŠ±é…’12235
+				if PlayerLevel < 40 then					--Íæ¼Ò30-39£¬·¢Ë¯Á«»¨¾Æ12235
 					ItemId = 12235
-				elseif PlayerLevel <50 then	--ç©å®¶40+ï¼Œå‘è‰è“é…’12242
+				elseif PlayerLevel <50 then	--Íæ¼Ò40+£¬·¢²İİ®¾Æ12242
 					ItemId = 12242
-				elseif PlayerLevel < 60 then --ç©å®¶50-59ï¼Œå‘é»‘æœˆå¯†é…¿17087
+				elseif PlayerLevel < 60 then --Íæ¼Ò50-59£¬·¢ºÚÔÂÃÜÄğ17087
 					ItemId = 17087
-				elseif PlayerLevel < 70 then --ç©å®¶60-69ï¼Œå‘ä¸›æ—ç”œæœéœ²17088
+				elseif PlayerLevel < 70 then --Íæ¼Ò60-69£¬·¢´ÔÁÖÌğ¹ûÂ¶17088
 					ItemId = 17088
-				elseif PlayerLevel < 80 then --ç©å®¶70-79ï¼Œå‘ç”œæ¢¦é…’34163
+				elseif PlayerLevel < 80 then --Íæ¼Ò70-79£¬·¢ÌğÃÎ¾Æ34163
 					ItemId = 34163
-				else--ç©å®¶80+ï¼Œå‘ç”œæ¢¦é…’34163
+				else--Íæ¼Ò80+£¬·¢ÌğÃÎ¾Æ34163
 					ItemId = 34163
 				end
 			end
 
 
 			items = {
-						Item1 = {ID = ItemId, NUM = 4},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = ItemId, NUM = 4},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
 		,
-		-- å‰¯èŒä¸šç»éªŒ
+		-- ¸±Ö°Òµ¾­Ñé
 
 
 
@@ -1217,7 +1210,7 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
 		SideOccupExp = function(TASKINTERFACE_POINTER)
 			local soe = {}
 			soe = {
-						SOE1 = {ID = 1, EXP = 2},--idä¸ºå‰¯èŒä¸šidï¼Œexpä¸ºæ•°å€¼ï¼Œexpä¸º0æ˜¾ç¤ºï¼Ÿï¼Ÿï¼Ÿ
+						SOE1 = {ID = 1, EXP = 2},--idÎª¸±Ö°Òµid£¬expÎªÊıÖµ£¬expÎª0ÏÔÊ¾£¿£¿£¿
 				  }
 			return soe
 		end
@@ -1226,16 +1219,16 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-	   	if iPlayerLev < 15 then --ç­‰çº§éœ€è¦é«˜äº15çº§
+	   	if iPlayerLev < 15 then --µÈ¼¶ĞèÒª¸ßÓÚ15¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 2 then --æ™®é€šåŒ…è£¹æ éœ€è¦2æ ¼
+   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 2 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª2¸ñ
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
@@ -1243,39 +1236,39 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 		--[[
 		math.randomseed(os.time())
-		local iRandomMethod = math.random(1, 2) --ç©å®¶éšåˆ°çš„ä»»åŠ¡ç§ç±»
+		local iRandomMethod = math.random(1, 2) --Íæ¼ÒËæµ½µÄÈÎÎñÖÖÀà
 		]]--
 
-		--ä¿®æ”¹çš„éƒ¨åˆ†ï¼Œå›ºå®šç©å®¶æ¯å¤©éšåˆ°çš„å†…å®¹ï¼Œå½“å¤©å¥‡å¶æ•°*ç©å®¶åˆ›å»ºè§’è‰²çš„æ—¶é—´mod2
-		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--ĞŞ¸ÄµÄ²¿·Ö£¬¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ämod2
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
-		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% 2 + 1 --ç©å®¶å½“å¤©éšåˆ°çš„ä»»åŠ¡ç§ç±»
+		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% 2 + 1 --Íæ¼Òµ±ÌìËæµ½µÄÈÎÎñÖÖÀà
 
-   		--å‘é“å…·æˆ–å¥–åŠ±
-		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 20468, 1, true)     --å‘ ç¯ç«å‘ç”Ÿå™¨
+   		--·¢µÀ¾ß»ò½±Àø
+		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 20468, 1, true)     --·¢ óô»ğ·¢ÉúÆ÷
 
 		if iRandomMethod == 1 then
-			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 20469, 1, true) --å‘ çƒ¤è‚‰å‰
+			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 20469, 1, true) --·¢ ¿¾Èâ²æ
 
 		else
-			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 20470, 1, true) --å‘ èœé”…
+			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 20470, 1, true) --·¢ ²Ë¹ø
 		end
 
-		--è®¾ç½®éšæœºæ•°
+		--ÉèÖÃËæ»úÊı
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 7787, 1, iRandomMethod)
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
@@ -1286,21 +1279,21 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
    		    Method.CollectItem = { Item1 = {ID=20468, Num=1, Common=true},
 				Item2 = {ID=20469, Num=1, Common=true},
 				Item3 = {ID=20484, Num=2, Common=true},
-			} --ç¯ç«å‘ç”Ÿå™¨,çƒ¤è‚‰å‰,è€ƒç‹¼è‚‰
-			Method.iTimeLimit = 3600 --1å°æ—¶æ²¡å®Œæˆåˆ™ä»»åŠ¡å¤±è´¥
+			} --óô»ğ·¢ÉúÆ÷,¿¾Èâ²æ,¿¼ÀÇÈâ
+			Method.iTimeLimit = 3600 --1Ğ¡Ê±Ã»Íê³ÉÔòÈÎÎñÊ§°Ü
    		else
    		    Method.CollectItem = { Item1={ID=20468, Num=1, Common=true},
 				Item2 = {ID=20470, Num=1, Common=true},
 				Item3 = {ID=20487, Num=4, Common=true},
-				}  --ç¯ç«å‘ç”Ÿå™¨ï¼Œèœé”…ï¼Œç”œèœœæœéœ²
-			Method.iTimeLimit = 3600 --1å°æ—¶æ²¡å®Œæˆåˆ™ä»»åŠ¡å¤±è´¥
+				}  --óô»ğ·¢ÉúÆ÷£¬²Ë¹ø£¬ÌğÃÛ¹ûÂ¶
+			Method.iTimeLimit = 3600 --1Ğ¡Ê±Ã»Íê³ÉÔòÈÎÎñÊ§°Ü
 		end
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -1334,7 +1327,7 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
 
    		if bSuccess then
 
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 
 
 
@@ -1349,49 +1342,53 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iRetrieveIdx = 17
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 		local FuYunAward = {
-					{pro = 30 , id1 = 27124 , id2 = 27135,}, --2çº§æŒç»­é…æ–¹(10)1çº§å¨å¸ˆ
-					{pro = 25 , id1 = 27125 , id2 = 27136,}, --3çº§æŒç»­é…æ–¹(20)2çº§å¨å¸ˆ
-					{pro = 20 , id1 = 27126 , id2 = 27137,}, --4çº§æŒç»­é…æ–¹(30)3çº§å¨å¸ˆ
-					{pro = 15 , id1 = 27127 , id2 = 27138,}, --5çº§æŒç»­é…æ–¹(40)4çº§å¨å¸ˆ
-					{pro = 10 , id1 = 27128 , id2 = 27139,}, --6çº§æŒç»­é…æ–¹(50)5çº§å¨å¸ˆ
-					{pro = 8 ,  id1 = 27129 , id2 = 27140,}, --7çº§æŒç»­é…æ–¹(60)6çº§å¨å¸ˆ
-					{pro = 6 ,  id1 = 27130 , id2 = 27141,}, --8çº§æŒç»­é…æ–¹(65)7çº§å¨å¸ˆ
-					{pro = 5 ,  id1 = 27131 , id2 = 27142,}, --9çº§æŒç»­é…æ–¹(70)7çº§å¨å¸ˆ
-					{pro = 4 ,  id1 = 27132 , id2 = 27143,}, --10çº§æŒç»­é…æ–¹
-					{pro = 3 ,  id1 = 27133 , id2 = 27144,}, --11çº§æŒç»­é…æ–¹
+					{pro = 30 , id1 = 27124 , id2 = 27135,}, --2¼¶³ÖĞøÅä·½(10)1¼¶³øÊ¦
+					{pro = 25 , id1 = 27125 , id2 = 27136,}, --3¼¶³ÖĞøÅä·½(20)2¼¶³øÊ¦
+					{pro = 20 , id1 = 27126 , id2 = 27137,}, --4¼¶³ÖĞøÅä·½(30)3¼¶³øÊ¦
+					{pro = 15 , id1 = 27127 , id2 = 27138,}, --5¼¶³ÖĞøÅä·½(40)4¼¶³øÊ¦
+					{pro = 10 , id1 = 27128 , id2 = 27139,}, --6¼¶³ÖĞøÅä·½(50)5¼¶³øÊ¦
+					{pro = 8 ,  id1 = 27129 , id2 = 27140,}, --7¼¶³ÖĞøÅä·½(60)6¼¶³øÊ¦
+					{pro = 6 ,  id1 = 27130 , id2 = 27141,}, --8¼¶³ÖĞøÅä·½(65)7¼¶³øÊ¦
+					{pro = 5 ,  id1 = 27131 , id2 = 27142,}, --9¼¶³ÖĞøÅä·½(70)7¼¶³øÊ¦
+					{pro = 4 ,  id1 = 27132 , id2 = 27143,}, --10¼¶³ÖĞøÅä·½
+					{pro = 3 ,  id1 = 27133 , id2 = 27144,}, --11¼¶³ÖĞøÅä·½
 				}
 
    		if bSuccess then
 			if ucRandomNum1 == 1 then
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20468, 1)    --æ”¶å–ç¯ç«å‘ç”Ÿå™¨ 1ä¸ª
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20469, 1)    --æ”¶å–çƒ¤è‚‰å‰  1ä¸ª
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20484, 2)    --æ”¶å–çƒ¤ç†Šè‚‰  1ä¸ª
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20509, 1)	 --æ”¶å–çƒ¹é¥ªè¯´æ˜ 1ä¸ª
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20468, 1)    --ÊÕÈ¡óô»ğ·¢ÉúÆ÷ 1¸ö
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20469, 1)    --ÊÕÈ¡¿¾Èâ²æ  1¸ö
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20484, 2)    --ÊÕÈ¡¿¾ĞÜÈâ  1¸ö
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20509, 1)	 --ÊÕÈ¡Åëâ¿ËµÃ÷ 1¸ö
 
 			else
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20468, 1)    --æ”¶å–ç¯ç«å‘ç”Ÿå™¨ 1ä¸ª
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20470, 1)    --æ”¶å–èœé”…  1ä¸ª
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20487, 4)    --æ”¶å–æœéœ²  1ä¸ª
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20509, 1)	 --æ”¶å–çƒ¹é¥ªè¯´æ˜ 1ä¸ª
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20468, 1)    --ÊÕÈ¡óô»ğ·¢ÉúÆ÷ 1¸ö
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20470, 1)    --ÊÕÈ¡²Ë¹ø  1¸ö
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20487, 4)    --ÊÕÈ¡¹ûÂ¶  1¸ö
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20509, 1)	 --ÊÕÈ¡Åëâ¿ËµÃ÷ 1¸ö
 			end
 
 
-			--ç»™ç©å®¶å‘æ”¾å‰¯èŒä¸šç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¸±Ö°Òµ¾­Ñé
 			TaskCApi.DeliverSideOccupExp(TASKINTERFACE_POINTER, 1,2)
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
 
-			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
-			--ç»™ç©å®¶å‘æ”¾å¥–åŠ±
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
+			--TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
+			TaskCApi. DeliverRetrieveExp(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti,bRetrieve,iRetrieveIdx)
 
-			--å‘æ”¾ä¸­ç­‰&æµ®äº‘å¥–åŠ±
+			--¸øÍæ¼Ò·¢·Å½±Àø
+
+			--·¢·ÅÖĞµÈ&¸¡ÔÆ½±Àø
 			math.randomseed(os.time())
 			AwardNum = math.random(1,1000)
 			AwardNum2 = math.random(1,2)
@@ -1400,65 +1397,65 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
 
 			if PlayerLevel < 30 then
 
-				if PlayerLevel<20 then		--ç©å®¶10-19ï¼Œå‘ç´«è‰é…’12343
+				if PlayerLevel<20 then		--Íæ¼Ò10-19£¬·¢×Ï²İ¾Æ12343
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 12343, 4, false)
 					if AwardNum > 650 then
 						ItemId = 27088 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --10-19çš„æ—¶å€™å‘27088å’Œ 27100
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --10-19µÄÊ±ºò·¢27088ºÍ 27100
 					end
-				else						--ç©å®¶20-29ï¼Œå‘é³„é±¼æµ“æ±¤17081
+				else						--Íæ¼Ò20-29£¬·¢öùÓãÅ¨ÌÀ17081
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 17081, 4, false)
 					if AwardNum > 650  then
 						ItemId = 27089 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --20-29çš„æ—¶å€™å‘27089å’Œ 27101
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --20-29µÄÊ±ºò·¢27089ºÍ 27101
 					end
 				end
 			else
-				if PlayerLevel < 40 then					--ç©å®¶30-39ï¼Œå‘ç¡è²èŠ±é…’12235
+				if PlayerLevel < 40 then					--Íæ¼Ò30-39£¬·¢Ë¯Á«»¨¾Æ12235
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 12235, 4, false)
 					if AwardNum > 650  then
 						ItemId = 27090 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --30-39çš„æ—¶å€™å‘27090å’Œ 27102
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --30-39µÄÊ±ºò·¢27090ºÍ 27102
 					end
-				elseif PlayerLevel <50 then	--ç©å®¶40+ï¼Œå‘è‰è“é…’12242
+				elseif PlayerLevel <50 then	--Íæ¼Ò40+£¬·¢²İİ®¾Æ12242
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 12242, 4, false)
 					if AwardNum > 650  then
 						ItemId = 27091 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --40-49çš„æ—¶å€™å‘27091å’Œ 27103
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --40-49µÄÊ±ºò·¢27091ºÍ 27103
 					end
-				elseif PlayerLevel < 60 then --ç©å®¶50-59ï¼Œå‘é»‘æœˆå¯†é…¿17087
+				elseif PlayerLevel < 60 then --Íæ¼Ò50-59£¬·¢ºÚÔÂÃÜÄğ17087
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 17087, 4, false)
 					if AwardNum > 650  then
 						ItemId = 27092 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --50-59çš„æ—¶å€™å‘27092å’Œ 27104
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --50-59µÄÊ±ºò·¢27092ºÍ 27104
 					end
-				elseif PlayerLevel < 70 then --ç©å®¶60-69ï¼Œå‘ä¸›æ—ç”œæœéœ²17088
+				elseif PlayerLevel < 70 then --Íæ¼Ò60-69£¬·¢´ÔÁÖÌğ¹ûÂ¶17088
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 17088, 4, false)
 					if AwardNum > 650  then
 						ItemId = 27093 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --50-59çš„æ—¶å€™å‘27093å’Œ 27105
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --50-59µÄÊ±ºò·¢27093ºÍ 27105
 					end
-				elseif PlayerLevel < 80 then --ç©å®¶70-79ï¼Œå‘ç”œæ¢¦é…’34163
+				elseif PlayerLevel < 80 then --Íæ¼Ò70-79£¬·¢ÌğÃÎ¾Æ34163
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 34163, 4, false)
 					if AwardNum > 650  then
 						ItemId = 27094 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --50-59çš„æ—¶å€™å‘27094å’Œ 27106
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --50-59µÄÊ±ºò·¢27094ºÍ 27106
 					end
-				else--ç©å®¶80+ï¼Œå‘ç”œæ¢¦é…’34163
+				else--Íæ¼Ò80+£¬·¢ÌğÃÎ¾Æ34163
 					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 34163, 4, false)
 					if AwardNum> 650  then
 						ItemId = 27094 + (AwardNum2-1) * 12
-						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --80+çš„æ—¶å€™å‘27094å’Œ 27106
+						TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, ItemId, 6, false) --80+µÄÊ±ºò·¢27094ºÍ 27106
 					end
 				end
 			end
 
-			--æµ®äº‘å¥–åŠ±å‘ç‰¹æ®Šé…æ–¹
+			--¸¡ÔÆ½±Àø·¢ÌØÊâÅä·½
 
 			local AwardLevel
 
 			if AwardNum <= 30 then
-				--è®¡ç®—è¡¨ä¸­ç´¢å¼•å€¼
+				--¼ÆËã±íÖĞË÷ÒıÖµ
 
 				AwardLevel = math.floor( PlayerLevel / 10)
 				--[[
@@ -1492,14 +1489,17 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
 
 			end
 
-			--é˜¶æ®µæ€§å¥–åŠ±è®¡æ•°14016+1
+			--½×¶ÎĞÔ½±Àø¼ÆÊı14016+1
 			TaskCApi. ModifyTaskFinishCnt (TASKINTERFACE_POINTER, 14016, 1)
 
-		else--å¤±è´¥æ¸…ç©ºä»»åŠ¡
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20468, 1)    --æ”¶å–ç¯ç«å‘ç”Ÿå™¨ 1ä¸ª
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20469, 1)    --æ”¶å–çƒ¤è‚‰å‰  1ä¸ª
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20470, 1)    --æ”¶å–èœé”…  1ä¸ª
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20509, 1)	 --æ”¶å–çƒ¹é¥ªè¯´æ˜ 1ä¸ª
+			--Çå¿Õ²¹³¥Öµ
+			TaskCApi. ClearRetrieveVal(TASKINTERFACE_POINTER,7787, iRetrieveIdx)
+
+		else--Ê§°ÜÇå¿ÕÈÎÎñ
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20468, 1)    --ÊÕÈ¡óô»ğ·¢ÉúÆ÷ 1¸ö
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20469, 1)    --ÊÕÈ¡¿¾Èâ²æ  1¸ö
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20470, 1)    --ÊÕÈ¡²Ë¹ø  1¸ö
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 20509, 1)	 --ÊÕÈ¡Åëâ¿ËµÃ÷ 1¸ö
    		end
 
    		return 0
@@ -1508,7 +1508,7 @@ TaskList[7787] = --ç”Ÿäº§ä»»åŠ¡æ´»åŠ¨
 
 
 --[[
-TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
+TaskList[7892] = --ÊÕ²Ø×ÜÆğÈÎÎñ
 {
   	Property =
   	{
@@ -1534,39 +1534,39 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
 
-			return 100--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 100--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
 
 		end
 		,
-		-- éç»‘å®šé’±
+		-- ·Ç°ó¶¨Ç®
 		Gold = function(TASKINTERFACE_POINTER)
-			return 200--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 200--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
 
 		end
 		,
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
 
 		BindMoney = function(TASKINTERFACE_POINTER)
-			return 300--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 300--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -1575,16 +1575,16 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 		,
 		-- SP
 		SP = function(TASKINTERFACE_POINTER)
-			return 400--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 400--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
 
 		end
 		,
-		-- å£°æœ›
+		-- ÉùÍû
 		Reputation = function(TASKINTERFACE_POINTER)
-			return 500--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 500--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -1592,11 +1592,11 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
 			items = {
-						Item1 = {ID = 7075, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = 7075, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 
 
 
@@ -1606,7 +1606,7 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 			return items
 		end
 		,
-		-- å‰¯èŒä¸šç»éªŒ
+		-- ¸±Ö°Òµ¾­Ñé
 
 
 
@@ -1614,7 +1614,7 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 		SideOccupExp = function(TASKINTERFACE_POINTER)
 			local soe = {}
 			soe = {
-						SOE1 = {ID = 1, EXP = 10},--idä¸ºå‰¯èŒä¸šidï¼Œexpä¸ºæ•°å€¼ï¼Œexpä¸º0æ˜¾ç¤ºï¼Ÿï¼Ÿï¼Ÿ
+						SOE1 = {ID = 1, EXP = 10},--idÎª¸±Ö°Òµid£¬expÎªÊıÖµ£¬expÎª0ÏÔÊ¾£¿£¿£¿
 
 
 
@@ -1625,11 +1625,11 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 		end
 		,
 
-		-- åŒºåŸŸå£°æœ›
+		-- ÇøÓòÉùÍû
 		FriendShips = function(TASKINTERFACE_POINTER)
 			local friendships = {}
 			friendships = {
-								FS1 = {ID = 1, VAL = 10},--idä¸ºå£°æœ›idï¼Œvalä¸ºæ•°å€¼ï¼›val=0 ï¼Œï¼Ÿï¼Ÿï¼Ÿï¼ˆid=-1ï¼‰ å£°æœ› ï¼Ÿï¼Ÿï¼Ÿï¼ˆval=0ï¼‰
+								FS1 = {ID = 1, VAL = 10},--idÎªÉùÍûid£¬valÎªÊıÖµ£»val=0 £¬£¿£¿£¿£¨id=-1£© ÉùÍû £¿£¿£¿£¨val=0£©
 
 
 
@@ -1640,22 +1640,22 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local factionaward = {}
-			factionaward.contribution = 1 --å…¬ä¼šè´¡çŒ®åº¦
+			factionaward.contribution = 1 --¹«»á¹±Ï×¶È
 
 
 
 
-			factionaward.money = 2   --å…¬ä¼šèµ„é‡‘
-			factionaward.melee = 3   --å…¬ä¼šæ­¦è£…
-			factionaward.magic = 4   --å…¬ä¼šé­”æ³•
-			factionaward.economy = 5 -- å…¬ä¼šç»æµ
-			factionaward.culture = 6 --å…¬ä¼šæ–‡æ˜
-			factionaward.belief = 7  --å…¬ä¼šä¿¡ä»°
-			factionaward.credit = 8  --å…¬ä¼šåŠŸå‹‹
-			factionaward.vitality = 9 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.money = 2   --¹«»á×Ê½ğ
+			factionaward.melee = 3   --¹«»áÎä×°
+			factionaward.magic = 4   --¹«»áÄ§·¨
+			factionaward.economy = 5 -- ¹«»á¾­¼Ã
+			factionaward.culture = 6 --¹«»áÎÄÃ÷
+			factionaward.belief = 7  --¹«»áĞÅÑö
+			factionaward.credit = 8  --¹«»á¹¦Ñ«
+			factionaward.vitality = 9 --¹«»á»îÔ¾¶È
 
 
 
@@ -1667,9 +1667,9 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--é«˜äº10çº§
+	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--¸ßÓÚ10¼¶
 
 
 
@@ -1679,11 +1679,11 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		for i = 7893, 7896 do --æŸ¥çœ‹æ˜¯å¦å·²ç»å®Œæˆè¿‡7893-7896ä»»åŠ¡
+		for i = 7893, 7896 do --²é¿´ÊÇ·ñÒÑ¾­Íê³É¹ı7893-7896ÈÎÎñ
 			if not TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, i, true) then
 				break
 			elseif i ==7896 then
-				return TASK_PREREQU_FAIL_LUA_TASK	--å…¨éƒ¨å®Œæˆè¿‡äº†
+				return TASK_PREREQU_FAIL_LUA_TASK	--È«²¿Íê³É¹ıÁË
 			end
 		end
 
@@ -1691,13 +1691,13 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
    		local iRandomNum = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 7892, 1)
@@ -1706,7 +1706,7 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 		local iRandomNum = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 7892,1)
@@ -1724,7 +1724,7 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
@@ -1732,13 +1732,13 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 
 
    	OnAward = function(TASKINTERFACE_POINTER, Self, bSuccess)
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
 
 
 
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 
 
@@ -1746,7 +1746,7 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 
 
 		if bSuccess then
-			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER,AwardExpAdjust * AwardMultiply[ChargeVacationLevel] * AwardMulti)--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER,AwardExpAdjust * AwardMultiply[ChargeVacationLevel] * AwardMulti)--¸øÍæ¼Ò·¢·Å¾­Ñé
 
 
 
@@ -1759,14 +1759,14 @@ TaskList[7892] = --æ”¶è—æ€»èµ·ä»»åŠ¡
 }
 ]]--
 
-TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
+TaskList[8089] = --º£ÍşÒªÈû·¢½±ÈÎÎñ8089
 {
   	Property =
   	{
   		bCanRedo = true,
   		bCanRedoAfterFailure = true,
   		bCanGiveUp = true,
-		bHiddenTask = true, 		--éšè—ä»»åŠ¡
+		bHiddenTask = true, 		--Òş²ØÈÎÎñ
 
   		bAbsoluteTime = true,
   		bShowPrompt = true,
@@ -1781,32 +1781,32 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
 
-			return 0--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 0--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 		BindMoney = function(TASKINTERFACE_POINTER)
-			return 0--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return 0--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
 			items = {
-						Item1 = {ID = 0, NUM = 0},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = 0, NUM = 0},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
@@ -1815,9 +1815,9 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--é«˜äº20çº§
+	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--¸ßÓÚ20¼¶
 
 	   	if iPlayerLev < 20 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
@@ -1826,14 +1826,14 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
    		Method.iWaitTime = 0
@@ -1842,7 +1842,7 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -1862,20 +1862,20 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
 		local iIndex = 180013
 		local iValue = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, iIndex)
 
-		local ikey = math.floor(iValue/100) --180013å¯èƒ½åœ¨0å’Œ70-240ä¸­å–å€¼ï¼Œå•†å¯èƒ½ä¸º0ï¼Œ1ï¼Œ2
+		local ikey = math.floor(iValue/100) --180013¿ÉÄÜÔÚ0ºÍ70-240ÖĞÈ¡Öµ£¬ÉÌ¿ÉÄÜÎª0£¬1£¬2
 
 		if bSuccess then
 
-			if ikey == 0 then --ä¸éœ€è¦å‘æ”¾ç‰©å“ï¼Œä¸ç”¨åšæ£€æŸ¥
+			if ikey == 0 then --²»ĞèÒª·¢·ÅÎïÆ·£¬²»ÓÃ×ö¼ì²é
 				return 0
 
-			else --éœ€è¦å‘æ”¾ç‰©å“
+			else --ĞèÒª·¢·ÅÎïÆ·
 
 
 
 
 
-				if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then--æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+				if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then--ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 
 
 
@@ -1890,23 +1890,23 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
-		--éœ€æ±‚å¥–åŠ±1ï¼šç»™ç»éªŒï¼Œæ•°é‡ä¸ºåˆ†çº¿å˜é‡180013çš„æ•°å€¼ä¹˜ä»¥1.1ï¼Œä½œä¸ºç»éªŒå¥–åŠ±ï¼Œä¿®æ­£ç­‰çº§60ï¼Œéæ’å®šç­‰çº§
-		--éœ€æ±‚å¥–åŠ±2ï¼šç»™ä»»åŠ¡å‘é“å…·ï¼Œæ ¹æ®åˆ†çº¿å˜é‡180013çš„æ•°å€¼é™¤ä»¥100çš„å•†ï¼Œå¦‚æœä¸º0åˆ™ä¸å‘ä»»åŠ¡ï¼›
-		--å˜é‡ä¸º1åˆ™å‘ä»»åŠ¡8802,å˜é‡ä¸º2åˆ™å‘ä»»åŠ¡8803,å˜é‡ä¸º3åˆ™å‘ä»»åŠ¡8804,å˜é‡ä¸º4åˆ™å‘ä»»åŠ¡8805
-		--éœ€æ±‚å¥–åŠ±3ï¼šå¥–åŠ±ç³»æ•°ä¸º60,60çº§ä¿®æ­£ç­‰çº§ï¼Œç»‘å®šé’±
+		--ĞèÇó½±Àø1£º¸ø¾­Ñé£¬ÊıÁ¿Îª·ÖÏß±äÁ¿180013µÄÊıÖµ³ËÒÔ1.1£¬×÷Îª¾­Ñé½±Àø£¬ĞŞÕıµÈ¼¶90£¬·Çºã¶¨µÈ¼¶
+		--ĞèÇó½±Àø2£º¸øÈÎÎñ·¢µÀ¾ß£¬¸ù¾İ·ÖÏß±äÁ¿180013µÄÊıÖµ³ıÒÔ100µÄÉÌ£¬Èç¹ûÎª0Ôò²»·¢ÈÎÎñ£»
+		--±äÁ¿Îª1Ôò·¢ÈÎÎñ8802,±äÁ¿Îª2Ôò·¢ÈÎÎñ8803,±äÁ¿Îª3Ôò·¢ÈÎÎñ8804,±äÁ¿Îª4Ôò·¢ÈÎÎñ8805
+		--ĞèÇó½±Àø3£º½±ÀøÏµÊıÎª200,60¼¶ĞŞÕıµÈ¼¶£¬°ó¶¨Ç®
 
 
 
 
 
-		--180014ä¸º1æ—¶ï¼Œå‘æ”¾8620
+		--180014Îª1Ê±£¬·¢·Å8620
 
 		local iIndex = 180013
 		local iIndex2 = 180014
@@ -1917,16 +1917,16 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
 
 		local iExpAwardMutli = math.floor(iValue * 1.1)
 		local iItemMutli = math.floor(iValue/100)
-		local iMoneyMutli = 60
+		local iMoneyMutli = 200
 
    		if bSuccess then
 
-			if iPlayerLevel < 81 then
+			if iPlayerLevel < 91 then
 				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpAwardMutli * TaskExpAdjust[iPlayerLevel])
 				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMoneyMutli * TaskMoneyAdjust[iPlayerLevel])
 			else
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpAwardMutli * TaskExpAdjust[80])
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMoneyMutli * TaskMoneyAdjust[80])
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpAwardMutli * TaskExpAdjust[90])
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMoneyMutli * TaskMoneyAdjust[90])
 			end
 
 			if iItemMutli > 0 then
@@ -1935,9 +1935,9 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
 				end
 				local TaskID = 0
 				if iPlayerLevel < 45 then
-					TaskID = 12384 + iItemMutli					--å°äº45çº§å‘ç»‘å®šå·è½´ä»»åŠ¡
+					TaskID = 12384 + iItemMutli					--Ğ¡ÓÚ45¼¶·¢°ó¶¨¾íÖáÈÎÎñ
 				else
-					TaskID = 8801 + iItemMutli					--å¤§äº45çº§å‘ä¸ç»‘å®šå·è½´ä»»åŠ¡
+					TaskID = 8801 + iItemMutli					--´óÓÚ45¼¶·¢²»°ó¶¨¾íÖáÈÎÎñ
 				end
 				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, TaskID)
 			end
@@ -1952,7 +1952,7 @@ TaskList[8089] = --æµ·å¨è¦å¡å‘å¥–ä»»åŠ¡8089
    	end
 }
 
-TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
+TaskList[8162] = --ÉÙÊı¾÷»î¶¯¸¨Öú8162
 {
   	Property =
   	{
@@ -1972,7 +1972,7 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
@@ -1985,14 +1985,14 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
 
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-		--éœ€è¦å…³è”ä»»åŠ¡8161
+		--ĞèÒª¹ØÁªÈÎÎñ8161
 
    		if not TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, 8161) then
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id 8193.8194
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid 8193.8194
 		for j = 8193,8194 do
 			if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then
 			return TASK_PREREQU_FAIL_LUA_TASK
@@ -2004,7 +2004,7 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
    	,
 
    	OnDeliver = function(TASKINTERFACE_POINTER)
-   		--18å·å…¨å±€å˜é‡å†³å®šé¢˜ç›®å·
+   		--18ºÅÈ«¾Ö±äÁ¿¾ö¶¨ÌâÄ¿ºÅ
 
 
 
@@ -2027,7 +2027,7 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
-		local QuestionNum = 11 --å½“å‰é¢˜åº“å¯éšæœºé¢˜ç›®æ•°
+		local QuestionNum = 11 --µ±Ç°Ìâ¿â¿ÉËæ»úÌâÄ¿Êı
 		local GlobalData = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8162, 1)
 
 		if GlobalData then
@@ -2043,7 +2043,7 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
    	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
 		if bSuccess then
 			local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,8193)
-			if iRet ~=0  then --æ˜¯å¦å¯ä»¥å‘æ”¾æ–°ä»»åŠ¡
+			if iRet ~=0  then --ÊÇ·ñ¿ÉÒÔ·¢·ÅĞÂÈÎÎñ
 
 
 
@@ -2059,17 +2059,17 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess, iParam)
    		if bSuccess then
 			if iParam == 1 then
-				--é€‰æ‹©A,16+1
+				--Ñ¡ÔñA,16+1
 				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,8193)
 				TaskCApi.ModifyGlobalDataEx(TASKINTERFACE_POINTER,16, 1)
 			else
-				--é€‰æ‹©B,17+1
+				--Ñ¡ÔñB,17+1
 				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,8194)
 				TaskCApi.ModifyGlobalDataEx(TASKINTERFACE_POINTER,17, 1)
 			end
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) --å–å¾—ç©å®¶ç­‰çº§
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel]					--ç­‰çº§ç³»æ•°
-			local AwardExp = 45												--å¥–åŠ±ç³»æ•°
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) --È¡µÃÍæ¼ÒµÈ¼¶
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel]					--µÈ¼¶ÏµÊı
+			local AwardExp = 45												--½±ÀøÏµÊı
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExp * AwardExpAdjust)
 		end
 
@@ -2078,13 +2078,13 @@ TaskList[8162] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©8162
 }
 
 
-TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
+TaskList[8193] = --ÉÙÊı¾÷»î¶¯¸¨ÖúºóĞøA
 {
   	Property =
   	{
   		bCanRedo = true,
   		bCanRedoAfterFailure = true,
-  		bCanGiveUp = false,--ä¸å¯æ”¾å¼ƒ
+  		bCanGiveUp = false,--²»¿É·ÅÆú
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
@@ -2095,7 +2095,7 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
    	,
 
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 	AwardPreview =
 	{
@@ -2116,7 +2116,7 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
 		Method.iWaitTime = 0
-		Method.iTimeLimit = 180 --3åˆ†é’Ÿæ²¡å®Œæˆåˆ™ä»»åŠ¡å¤±è´¥
+		Method.iTimeLimit = 180 --3·ÖÖÓÃ»Íê³ÉÔòÈÎÎñÊ§°Ü
    		return Method
    	end
    	,
@@ -2141,11 +2141,7 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
 
 		if bSuccess then
 			local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 8163)
-   	   		if iRet ~=0  then --æ˜¯å¦å¯ä»¥å‘æ”¾æ–°ä»»åŠ¡
-
-
-
-
+   	   		if iRet ~=0  then --ÊÇ·ñ¿ÉÒÔ·¢·ÅĞÂÈÎÎñ
 
    		   	   return TASK_PREREQU_FAIL_FULL
    	   		end
@@ -2156,17 +2152,17 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
    	,
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
-		--å¦‚æœæ¥å—ä»»åŠ¡æ—¶é€‰çš„Aï¼Œé‚£ä¹ˆåˆ¤æ–­å…¨å±€å‡½æ•°16æ˜¯å¦å°äºå…¨å±€å‡½æ•°17ã€‚
-		--å°äºåˆ™å‘æ”¾ä»»åŠ¡â€œæŠ•ç¥¨æˆåŠŸID:8163â€å¹¶æ’­æ”¾æ„Ÿè°¢è¯â€œæ­å–œä½ ï¼Œä½ å±äºå°‘æ•°æ´¾ï¼Œé€‰Açš„äººæ•°æ¯”é€‰Bçš„äººæ•°å°‘ï¼ˆå…¨å±€å‡½æ•°17-16çš„å€¼ï¼‰â€ï¼Œ
-		--å¤§äºå‘æ”¾â€œä»»åŠ¡å¤±è´¥ID:8164â€å¹¶æ’­æ”¾æ„Ÿè°¢è¯â€œå¾ˆå¯æƒœï¼Œä½ å±äºå¤šæ•°æ´¾ï¼Œé€‰Açš„äººæ•°æ¯”é€‰Bçš„äººæ•°å¤šï¼ˆå…¨å±€å‡½æ•°16-17çš„å€¼ï¼‰â€ã€‚
-		--å¦‚æœå‚æ•°å¹¶ä¸å±äºä»¥ä¸Šä¸¤ä¸ªï¼Œåˆ™å‘æ”¾â€œä»»åŠ¡å¤±è´¥8164â€ï¼Œä¸å‘æ”¾æ„Ÿè°¢è¯ã€‚
+		--Èç¹û½ÓÊÜÈÎÎñÊ±Ñ¡µÄA£¬ÄÇÃ´ÅĞ¶ÏÈ«¾Öº¯Êı16ÊÇ·ñĞ¡ÓÚÈ«¾Öº¯Êı17¡£
+		--Ğ¡ÓÚÔò·¢·ÅÈÎÎñ¡°Í¶Æ±³É¹¦ID:8163¡±²¢²¥·Å¸ĞĞ»´Ê¡°¹§Ï²Äã£¬ÄãÊôÓÚÉÙÊıÅÉ£¬Ñ¡AµÄÈËÊı±ÈÑ¡BµÄÈËÊıÉÙ£¨È«¾Öº¯Êı17-16µÄÖµ£©¡±£¬
+		--´óÓÚ·¢·Å¡°ÈÎÎñÊ§°ÜID:8164¡±²¢²¥·Å¸ĞĞ»´Ê¡°ºÜ¿ÉÏ§£¬ÄãÊôÓÚ¶àÊıÅÉ£¬Ñ¡AµÄÈËÊı±ÈÑ¡BµÄÈËÊı¶à£¨È«¾Öº¯Êı16-17µÄÖµ£©¡±¡£
+		--Èç¹û²ÎÊı²¢²»ÊôÓÚÒÔÉÏÁ½¸ö£¬Ôò·¢·Å¡°ÈÎÎñÊ§°Ü8164¡±£¬²»·¢·Å¸ĞĞ»´Ê¡£
 		local value16 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 16)
 		local value17 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 17)
-		local value20 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 20)--20å·å˜é‡ä¸º1æ—¶ï¼Œå¤šæ•°æ´¾èƒœåˆ©
+		local value20 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 20)--20ºÅ±äÁ¿Îª1Ê±£¬¶àÊıÅÉÊ¤Àû
 
    		if bSuccess then
 
-			if value20 == 0 then --å°‘æ•°èƒœ
+			if value20 == 0 then --ÉÙÊıÊ¤
 				if value16 < value17 then
 					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 8163)
 
@@ -2177,7 +2173,7 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
 					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 8164)
 				end
 
-			else	--å¤šæ•°èƒœåˆ©
+			else	--¶àÊıÊ¤Àû
 				if value16 < value17 then
 					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 8163)
 
@@ -2190,12 +2186,12 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
 
 			end
 		else
-			--å¤±è´¥çš„æ”¶èµ°ä¸€ä¸ª
+			--Ê§°ÜµÄÊÕ×ßÒ»¸ö
 			local iItemsid = 21180
-			local iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,iItemsid, false) --ä»»åŠ¡ç‰©å“
+			local iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,iItemsid, false) --ÈÎÎñÎïÆ·
 
 			if iItemsnum > 0 then
-				--å¦‚æœå­˜åœ¨ï¼Œå°±æ”¶èµ°ä»»åŠ¡ç‰©å“
+				--Èç¹û´æÔÚ£¬¾ÍÊÕ×ßÈÎÎñÎïÆ·
 				TaskCApi.TakeAwayTaskItem(TASKINTERFACE_POINTER,iItemsid, 1)
 			end
 
@@ -2206,13 +2202,13 @@ TaskList[8193] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­A
 }
 
 
-TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
+TaskList[8194] = --ÉÙÊı¾÷»î¶¯¸¨ÖúºóĞøB
 {
   	Property =
   	{
   		bCanRedo = true,
   		bCanRedoAfterFailure = true,
-  		bCanGiveUp = false,--ä¸å¯æ”¾å¼ƒ
+  		bCanGiveUp = false,--²»¿É·ÅÆú
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
@@ -2222,7 +2218,7 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
@@ -2246,7 +2242,7 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
 		Method.iWaitTime = 0
-		Method.iTimeLimit = 180 --3åˆ†é’Ÿæ²¡å®Œæˆåˆ™ä»»åŠ¡å¤±è´¥
+		Method.iTimeLimit = 180 --3·ÖÖÓÃ»Íê³ÉÔòÈÎÎñÊ§°Ü
 
    		return Method
    	end
@@ -2272,7 +2268,7 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
 
 		if bSuccess then
 			local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,8163)
-   	   		if iRet ~=0  then --æ˜¯å¦å¯ä»¥å‘æ”¾æ–°ä»»åŠ¡
+   	   		if iRet ~=0  then --ÊÇ·ñ¿ÉÒÔ·¢·ÅĞÂÈÎÎñ
 
 
 
@@ -2287,21 +2283,21 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
    	,
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess, iParam)
-		--å¦‚æœæ¥å—ä»»åŠ¡æ—¶é€‰çš„Bï¼Œé‚£ä¹ˆåˆ¤æ–­å…¨å±€å‡½æ•°17æ˜¯å¦å°äºå…¨å±€å‡½æ•°16ã€‚
+		--Èç¹û½ÓÊÜÈÎÎñÊ±Ñ¡µÄB£¬ÄÇÃ´ÅĞ¶ÏÈ«¾Öº¯Êı17ÊÇ·ñĞ¡ÓÚÈ«¾Öº¯Êı16¡£
 
 
 
 
 
-		--å°äºäºå‘æ”¾ä»»åŠ¡â€œæŠ•ç¥¨æˆåŠŸâ€å¹¶æ’­æ”¾æ„Ÿè°¢è¯â€œæ­å–œä½ ï¼Œä½ å±äºå°‘æ•°æ´¾ï¼Œé€‰Bçš„äººæ•°æ¯”é€‰Açš„äººæ•°å°‘ï¼ˆå…¨å±€å‡½æ•°16-17çš„å€¼ï¼‰â€ï¼Œ
-		--å¤§äºå‘æ”¾â€œä»»åŠ¡å¤±è´¥â€å¹¶æ’­æ”¾æ„Ÿè°¢è¯â€œå¾ˆå¯æƒœï¼Œä½ å±äºå¤šæ•°æ´¾ï¼Œé€‰Bçš„äººæ•°æ¯”é€‰Açš„äººæ•°å¤šï¼ˆå…¨å±€å‡½æ•°17-16çš„å€¼ï¼‰â€ã€‚
+		--Ğ¡ÓÚÓÚ·¢·ÅÈÎÎñ¡°Í¶Æ±³É¹¦¡±²¢²¥·Å¸ĞĞ»´Ê¡°¹§Ï²Äã£¬ÄãÊôÓÚÉÙÊıÅÉ£¬Ñ¡BµÄÈËÊı±ÈÑ¡AµÄÈËÊıÉÙ£¨È«¾Öº¯Êı16-17µÄÖµ£©¡±£¬
+		--´óÓÚ·¢·Å¡°ÈÎÎñÊ§°Ü¡±²¢²¥·Å¸ĞĞ»´Ê¡°ºÜ¿ÉÏ§£¬ÄãÊôÓÚ¶àÊıÅÉ£¬Ñ¡BµÄÈËÊı±ÈÑ¡AµÄÈËÊı¶à£¨È«¾Öº¯Êı17-16µÄÖµ£©¡±¡£
 
 
 
 
 
 
-		--å¦‚æœå‚æ•°å¹¶ä¸å±äºä»¥ä¸Šä¸¤ä¸ªï¼Œåˆ™å‘æ”¾â€œä»»åŠ¡å¤±è´¥8164â€ï¼Œä¸å‘æ”¾æ„Ÿè°¢è¯ã€‚
+		--Èç¹û²ÎÊı²¢²»ÊôÓÚÒÔÉÏÁ½¸ö£¬Ôò·¢·Å¡°ÈÎÎñÊ§°Ü8164¡±£¬²»·¢·Å¸ĞĞ»´Ê¡£
 
 
 
@@ -2309,7 +2305,7 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
 
 		local value16 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 16)
 		local value17 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 17)
-		local value20 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 20)--20å·å˜é‡ä¸º1æ—¶ï¼Œå¤šæ•°æ´¾èƒœåˆ©
+		local value20 = TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER, 20)--20ºÅ±äÁ¿Îª1Ê±£¬¶àÊıÅÉÊ¤Àû
 
 
 
@@ -2318,7 +2314,7 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
 
    		if bSuccess then
 
-			if value20 == 0 then --å°‘æ•°èƒœ
+			if value20 == 0 then --ÉÙÊıÊ¤
 
 
 
@@ -2334,7 +2330,7 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
 					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 8164)
 				end
 
-			else	--å¤šæ•°èƒœåˆ©
+			else	--¶àÊıÊ¤Àû
 				if value16 < value17 then
 					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 8163)
 
@@ -2348,12 +2344,12 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
 			end
 
 		else
-			--å¤±è´¥çš„æ”¶èµ°ä¸€ä¸ª21180
+			--Ê§°ÜµÄÊÕ×ßÒ»¸ö21180
 			local iItemsid = 21180
-			local iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,iItemsid, false) --ä»»åŠ¡ç‰©å“
+			local iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,iItemsid, false) --ÈÎÎñÎïÆ·
 
 			if iItemsnum > 0 then
-				--å¦‚æœå­˜åœ¨ï¼Œå°±æ”¶èµ°ä»»åŠ¡ç‰©å“
+				--Èç¹û´æÔÚ£¬¾ÍÊÕ×ßÈÎÎñÎïÆ·
 				TaskCApi.TakeAwayTaskItem(TASKINTERFACE_POINTER,iItemsid, 1)
 			end
    		end
@@ -2362,44 +2358,46 @@ TaskList[8194] = --å°‘æ•°è¯€æ´»åŠ¨è¾…åŠ©åç»­B
    	end
 }
 
-TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
+TaskList[8204] = --ÎªÈÎÎñID8204:Ê¯¹¤Ãµ¹å002ÎïÆ·»»¾­Ñé
 
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
-  		bCanSeekOut = true,--å…è®¸è¢«æŸ¥æ‰¾
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
+  		bCanSeekOut = true,--ÔÊĞí±»²éÕÒ
 
-  		bRecordFinishCount = true,--è®°å½•å®Œæˆæ¬¡æ•°
-  		iMaxFinishCount = 3,--æœ€å¤§å®Œæˆæ¬¡æ•°ä¸º3
-  		iClearFinishCountType = TaskClearFinishCountType.Daily,--æ¯å¤©æ¸…ç©º
+		iRetrieveIdx = 24,--»î¶¯ÀÛ¼Æ½±Àø²¹³¥ÏµÊı
 
-  		iType  = TaskType.HuoDong,--ä»»åŠ¡ç±»å‹ï¼šçŸ³å·¥ç«ç‘°
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		bRecordFinishCount = true,--¼ÇÂ¼Íê³É´ÎÊı
+  		iMaxFinishCount = 3,--×î´óÍê³É´ÎÊıÎª3
+  		iClearFinishCountType = TaskClearFinishCountType.Daily,--Ã¿ÌìÇå¿Õ
+
+  		iType  = TaskType.HuoDong,--ÈÎÎñÀàĞÍ£ºÊ¯¹¤Ãµ¹å
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 75										--å¥–åŠ±ç³»æ•°
-			local AwardMultiTab ={0.6 , 1 , 1.4 ,0,0,0,0,0}				--æ¯å¤©3æ¬¡
+			local AwardMulti = 75										--½±ÀøÏµÊı
+			local AwardMultiTab ={0.6 , 1 , 1.4 ,0,0,0,0,0}				--Ã¿Ìì3´Î
 
-			local CompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8204) --å½“æ—¥å·²ç»å®Œæˆæ¬¡æ•°
+			local CompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8204) --µ±ÈÕÒÑ¾­Íê³É´ÎÊı
 			local AwardTimes = CompleteTimes + 1
 
-			local PlayerLevel = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8204, 1) 							--æ¥å—ä»»åŠ¡æ—¶ç©å®¶çš„ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local PlayerLevel = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8204, 1) 							--½ÓÊÜÈÎÎñÊ±Íæ¼ÒµÄµÈ¼¶£¬·¢½±ÀøÓÃ
 
 			local AwardExpAdjust = TaskExpAdjust[PlayerLevel]
 
-			local AwardExp = AwardExpAdjust * AwardMulti * AwardMultiTab[AwardTimes]	--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			local AwardExp = AwardExpAdjust * AwardMulti * AwardMultiTab[AwardTimes]	--¸øÍæ¼Ò·¢·Å¾­Ñé
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
@@ -2407,11 +2405,11 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --ç©å®¶ç­‰çº§
-		--æ£€æŸ¥ç©å®¶ç­‰çº§æ˜¯å¦>=35
+	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --Íæ¼ÒµÈ¼¶
+		--¼ì²éÍæ¼ÒµÈ¼¶ÊÇ·ñ>=35
 		if iPlayerLev < 35 then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
@@ -2421,140 +2419,140 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local OpenVacationNum = 3 --å½“å‰å¼€æ”¾çš„å¯æ”¶å–ç‰©å“çš„å‰¯èŒä¸šä¸ªæ•°ï¼Œå¯æ‰©å±•
+		local OpenVacationNum = 3 --µ±Ç°¿ª·ÅµÄ¿ÉÊÕÈ¡ÎïÆ·µÄ¸±Ö°Òµ¸öÊı£¬¿ÉÀ©Õ¹
 
-		--è¦æ”¶å–çš„ç‰©å“è¡¨æ ¼ï¼Œå‰¯èŒä¸šç­‰çº§ä¸ºç´¢å¼•
+		--ÒªÊÕÈ¡µÄÎïÆ·±í¸ñ£¬¸±Ö°ÒµµÈ¼¶ÎªË÷Òı
 
-		--äº§ç‰©æ’åˆ—é¡ºåºä¸º ç‚¼é‡‘ï¼Œçƒ¹é¥ªï¼Œå·¥è‰ºï¼Œç¬¦æ–‡ï¼Œ
+		--²úÎïÅÅÁĞË³ĞòÎª Á¶½ğ£¬Åëâ¿£¬¹¤ÒÕ£¬·ûÎÄ£¬
 		local ChargeItems = {
-			--1é˜¶äº§å“ï¼Œåªæœ‰ç‚¼é‡‘ã€çƒ¹é¥ª
+			--1½×²úÆ·£¬Ö»ÓĞÁ¶½ğ¡¢Åëâ¿
 
 			[1] = {
 				--1-10
-				21432, --1çº§ç‚¼é‡‘
-				21419, --1çº§çƒ¹é¥ª
-				21432, --1çº§ç‚¼é‡‘
-				21419, --1çº§çƒ¹é¥ª
-				21432, --1çº§ç‚¼é‡‘
-				21419, --1çº§çƒ¹é¥ª
-				21432, --1çº§ç‚¼é‡‘
-				21419, --1çº§çƒ¹é¥ª
-				21432, --1çº§ç‚¼é‡‘
-				21419, --1çº§çƒ¹é¥ª
+				21432, --1¼¶Á¶½ğ
+				21419, --1¼¶Åëâ¿
+				21432, --1¼¶Á¶½ğ
+				21419, --1¼¶Åëâ¿
+				21432, --1¼¶Á¶½ğ
+				21419, --1¼¶Åëâ¿
+				21432, --1¼¶Á¶½ğ
+				21419, --1¼¶Åëâ¿
+				21432, --1¼¶Á¶½ğ
+				21419, --1¼¶Åëâ¿
 			},
 
-			--2é˜¶äº§å“ï¼Œåªæœ‰ç‚¼é‡‘ã€çƒ¹é¥ª
+			--2½×²úÆ·£¬Ö»ÓĞÁ¶½ğ¡¢Åëâ¿
 
 			[2] = {
 				--1~5
-				21433, --2çº§ç‚¼é‡‘
-				21420, --2çº§çƒ¹é¥ª
-				21433, --2çº§ç‚¼é‡‘
-				21420, --2çº§çƒ¹é¥ª
-				21433, --2çº§ç‚¼é‡‘
+				21433, --2¼¶Á¶½ğ
+				21420, --2¼¶Åëâ¿
+				21433, --2¼¶Á¶½ğ
+				21420, --2¼¶Åëâ¿
+				21433, --2¼¶Á¶½ğ
 
 				--6~10
-				21420, --2çº§çƒ¹é¥ª
-				21433, --2çº§ç‚¼é‡‘
-				21420, --2çº§çƒ¹é¥ª
-				21433, --2çº§ç‚¼é‡‘
-				21420, --2çº§çƒ¹é¥ª
+				21420, --2¼¶Åëâ¿
+				21433, --2¼¶Á¶½ğ
+				21420, --2¼¶Åëâ¿
+				21433, --2¼¶Á¶½ğ
+				21420, --2¼¶Åëâ¿
 			},
 
-			--3é˜¶äº§å“ï¼Œåªæœ‰ç‚¼é‡‘ã€çƒ¹é¥ªã€å·¥è‰ºã€ç¬¦æ–‡
+			--3½×²úÆ·£¬Ö»ÓĞÁ¶½ğ¡¢Åëâ¿¡¢¹¤ÒÕ¡¢·ûÎÄ
 
 			[3] = {
-				21434, --3çº§ç‚¼é‡‘
-				21421, --3çº§çƒ¹é¥ª
-				11672, --1çº§å·¥è‰º
-				21452, --1çº§ç¬¦æ–‡
-				21434, --3çº§ç‚¼é‡‘
+				21434, --3¼¶Á¶½ğ
+				21421, --3¼¶Åëâ¿
+				11672, --1¼¶¹¤ÒÕ
+				21452, --1¼¶·ûÎÄ
+				21434, --3¼¶Á¶½ğ
 
-				21421, --3çº§çƒ¹é¥ª
-				11672, --1çº§å·¥è‰º
-				21452, --1çº§ç¬¦æ–‡
+				21421, --3¼¶Åëâ¿
+				11672, --1¼¶¹¤ÒÕ
+				21452, --1¼¶·ûÎÄ
 			},
 
-			--4é˜¶äº§å“ï¼Œåªæœ‰ç‚¼é‡‘ã€çƒ¹é¥ªã€å·¥è‰ºã€ç¬¦æ–‡
+			--4½×²úÆ·£¬Ö»ÓĞÁ¶½ğ¡¢Åëâ¿¡¢¹¤ÒÕ¡¢·ûÎÄ
 
 
 			[4] = {
 				--1~5
-				21435, --4çº§ç‚¼é‡‘
-				21422, --4çº§çƒ¹é¥ª
-				11673, --2çº§å·¥è‰º
-				21453, --2çº§ç¬¦æ–‡
-				21435, --4çº§ç‚¼é‡‘
+				21435, --4¼¶Á¶½ğ
+				21422, --4¼¶Åëâ¿
+				11673, --2¼¶¹¤ÒÕ
+				21453, --2¼¶·ûÎÄ
+				21435, --4¼¶Á¶½ğ
 				--6~10
-				21422, --4çº§çƒ¹é¥ª
-				11673, --2çº§å·¥è‰º
-				21453, --2çº§ç¬¦æ–‡
+				21422, --4¼¶Åëâ¿
+				11673, --2¼¶¹¤ÒÕ
+				21453, --2¼¶·ûÎÄ
 			},
 
-			--5é˜¶äº§å“ï¼Œåªæœ‰ç‚¼é‡‘ã€çƒ¹é¥ªã€å·¥è‰ºã€ç¬¦æ–‡
+			--5½×²úÆ·£¬Ö»ÓĞÁ¶½ğ¡¢Åëâ¿¡¢¹¤ÒÕ¡¢·ûÎÄ
 
 			[5] = {
 				--1~5
-				21436, --5çº§ç‚¼é‡‘
-				21423, --5çº§çƒ¹é¥ª
-				11674, --3çº§å·¥è‰º
-				21454, --3çº§ç¬¦æ–‡
-				21436, --5çº§ç‚¼é‡‘
+				21436, --5¼¶Á¶½ğ
+				21423, --5¼¶Åëâ¿
+				11674, --3¼¶¹¤ÒÕ
+				21454, --3¼¶·ûÎÄ
+				21436, --5¼¶Á¶½ğ
 				--6~10
-				21423, --5çº§çƒ¹é¥ª
-				11674, --3çº§å·¥è‰º
-				21454, --3çº§ç¬¦æ–‡
+				21423, --5¼¶Åëâ¿
+				11674, --3¼¶¹¤ÒÕ
+				21454, --3¼¶·ûÎÄ
 			},
 
-			--6é˜¶äº§å“ï¼Œåªæœ‰ç‚¼é‡‘ã€çƒ¹é¥ªã€å·¥è‰ºã€ç¬¦æ–‡
+			--6½×²úÆ·£¬Ö»ÓĞÁ¶½ğ¡¢Åëâ¿¡¢¹¤ÒÕ¡¢·ûÎÄ
 			[6] = {
 				--1~5
-				21437, --6çº§ç‚¼é‡‘
-				21424, --6çº§çƒ¹é¥ª
-				11675, --4çº§å·¥è‰º
-				21455, --4çº§ç¬¦æ–‡
-				21437, --6çº§ç‚¼é‡‘
+				21437, --6¼¶Á¶½ğ
+				21424, --6¼¶Åëâ¿
+				11675, --4¼¶¹¤ÒÕ
+				21455, --4¼¶·ûÎÄ
+				21437, --6¼¶Á¶½ğ
 				--6~10
-				21424, --6çº§çƒ¹é¥ª
-				11675, --4çº§å·¥è‰º
-				21455, --4çº§ç¬¦æ–‡
+				21424, --6¼¶Åëâ¿
+				11675, --4¼¶¹¤ÒÕ
+				21455, --4¼¶·ûÎÄ
 			},
 
 			[7] = {
 				--1~5
-				28009, --7çº§ç‚¼é‡‘
-				28013, --7çº§çƒ¹é¥ª
-				11676, --5çº§å·¥è‰º
-				21455, --5çº§ç¬¦æ–‡
-				28009, --7çº§ç‚¼é‡‘
+				28009, --7¼¶Á¶½ğ
+				28013, --7¼¶Åëâ¿
+				11676, --5¼¶¹¤ÒÕ
+				21455, --5¼¶·ûÎÄ
+				28009, --7¼¶Á¶½ğ
 				--6~10
-				28013, --7çº§çƒ¹é¥ª
-				11676, --5çº§å·¥è‰º
-				21455, --5çº§ç¬¦æ–‡
+				28013, --7¼¶Åëâ¿
+				11676, --5¼¶¹¤ÒÕ
+				21455, --5¼¶·ûÎÄ
 			},
 
 			[8] = {
 				--1~5
-				28009, --7çº§ç‚¼é‡‘
-				28013, --7çº§çƒ¹é¥ª
-				11676, --5çº§å·¥è‰º
-				21455, --5çº§ç¬¦æ–‡
-				28009, --7çº§ç‚¼é‡‘
+				28009, --7¼¶Á¶½ğ
+				28013, --7¼¶Åëâ¿
+				11676, --5¼¶¹¤ÒÕ
+				21455, --5¼¶·ûÎÄ
+				28009, --7¼¶Á¶½ğ
 				--6~10
-				28013, --7çº§çƒ¹é¥ª
-				11676, --5çº§å·¥è‰º
-				21455, --5çº§ç¬¦æ–‡
+				28013, --7¼¶Åëâ¿
+				11676, --5¼¶¹¤ÒÕ
+				21455, --5¼¶·ûÎÄ
 			},
 		}
 
 
-		local iRandomTotalType = 40 --ç³»ç»Ÿé¢„è®¾çš„éšæœºåºåˆ—å¯èƒ½æ€§æ€»æ•°ï¼Œæ€»æ˜¯ç­‰äºè¡¨TabRandomOrderçš„é¡¹æ•°
+		local iRandomTotalType = 40 --ÏµÍ³Ô¤ÉèµÄËæ»úĞòÁĞ¿ÉÄÜĞÔ×ÜÊı£¬×ÜÊÇµÈÓÚ±íTabRandomOrderµÄÏîÊı
 
-		--ç³»ç»Ÿé¢„è®¾çš„éšæœºåºåˆ—ä¸­å…ƒç´ n ï¼Œn/10 å–æ•´ä¸ºéšæœºåŠå¾„ï¼ˆä¸å¤§äº3ï¼‰ï¼Œn%OpenVacationNumä¸ºéšæœºåˆ°çš„å†…å®¹
+		--ÏµÍ³Ô¤ÉèµÄËæ»úĞòÁĞÖĞÔªËØn £¬n/10 È¡ÕûÎªËæ»ú°ë¾¶£¨²»´óÓÚ3£©£¬n%OpenVacationNumÎªËæ»úµ½µÄÄÚÈİ
 		local TabRandomOrder = {
-			[1]  = {11,21,31,},--è¡¨é•¿åº¦ä¸ºæ¯å¤©å¯å®Œæˆæ¬¡æ•°
+			[1]  = {11,21,31,},--±í³¤¶ÈÎªÃ¿Ìì¿ÉÍê³É´ÎÊı
 			[2]  = {25,38,19,},
 			[3]  = {34,29,12,},
 			[4]  = {24,15,19,},
@@ -2597,40 +2595,40 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
 
 			}
 
-		--å›ºå®šç©å®¶æ¯å¤©éšåˆ°çš„å†…å®¹
-		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
 
-		local iRandomType = ( timePackage.yday + RoleCreateTime ) % iRandomTotalType + 1 --ç©å®¶å½“å¤©éšåˆ°çš„ä»»åŠ¡ç§ç±»,å³TabRandomOrder{}çš„ç´¢å¼•
-		local iCompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8204) --8204ä»»åŠ¡å½“æ—¥å·²ç»å®Œæˆæ¬¡æ•°
+		local iRandomType = ( timePackage.yday + RoleCreateTime ) % iRandomTotalType + 1 --Íæ¼Òµ±ÌìËæµ½µÄÈÎÎñÖÖÀà,¼´TabRandomOrder{}µÄË÷Òı
+		local iCompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8204) --8204ÈÎÎñµ±ÈÕÒÑ¾­Íê³É´ÎÊı
 
-		local iItemOrder = TabRandomOrder[iRandomType][ iCompleteTimes+1 ] --æ‰€éœ€ç‰©å“çš„åŸå§‹åºåˆ—ï¼Œç”¨æ¥ç¡®å®šæ‰€éœ€è¦æ”¶å–çš„ç‰©å“å…·ä½“æ˜¯å“ªä¸ªä¸ª
+		local iItemOrder = TabRandomOrder[iRandomType][ iCompleteTimes+1 ] --ËùĞèÎïÆ·µÄÔ­Ê¼ĞòÁĞ£¬ÓÃÀ´È·¶¨ËùĞèÒªÊÕÈ¡µÄÎïÆ·¾ßÌåÊÇÄÄ¸ö¸ö
 
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --ç©å®¶ç­‰çº§
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)   --Íæ¼ÒµÈ¼¶
 		local VacationHighLevel = math.floor(PlayerLevel / 10)
 
-		local VacationLevel --æ”¶å–çš„äº§å“ç­‰çº§
+		local VacationLevel --ÊÕÈ¡µÄ²úÆ·µÈ¼¶
 
 		if VacationHighLevel > 2 then
 			VacationLevel = VacationHighLevel - 3 + math.floor(iItemOrder/10)
 		else
-			VacationLevel = math.floor(iItemOrder/10) %	VacationHighLevel + 1 --å¦‚æœç©å®¶ä¸º10+ï¼Œåˆ™æ”¶å–1çº§ç‰©å“ï¼›ä¸º20+ï¼Œåˆ™æ”¶å–å¯èƒ½ä¸º1çº§æˆ–è€…2çº§
+			VacationLevel = math.floor(iItemOrder/10) %	VacationHighLevel + 1 --Èç¹ûÍæ¼ÒÎª10+£¬ÔòÊÕÈ¡1¼¶ÎïÆ·£»Îª20+£¬ÔòÊÕÈ¡¿ÉÄÜÎª1¼¶»òÕß2¼¶
 		end
 
-		local NeedItemId = 33 --ä¸ºNeedItemIdåˆå§‹åŒ–ä¸€ä¸ªå€¼ï¼Œé˜²æ­¢å–ç©º
+		local NeedItemId = 33 --ÎªNeedItemId³õÊ¼»¯Ò»¸öÖµ£¬·ÀÖ¹È¡¿Õ
 		NeedItemId = ChargeItems[VacationLevel][iItemOrder % OpenVacationNum+1]
 
-		local  key1,key2 --ç‰©å“idå­˜å‚¨æ–¹æ³• key1=id/200,key2=id%200,id=key1+key2
+		local  key1,key2 --ÎïÆ·id´æ´¢·½·¨ key1=id/200,key2=id%200,id=key1+key2
 		key1 = math.floor(NeedItemId / 200)
 		key2 = NeedItemId % 200
 
-		--è®¾ç½®éšæœºæ•°
+		--ÉèÖÃËæ»úÊı
 
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8204, 1, PlayerLevel)		--å­˜å‚¨ç©å®¶ç­‰çº§
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8204, 2, key1)				--å­˜å‚¨ç‰©å“id/200
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8204, 3, key2)				--å­˜å‚¨ç‰©å“id%200
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8204, 1, PlayerLevel)		--´æ´¢Íæ¼ÒµÈ¼¶
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8204, 2, key1)				--´æ´¢ÎïÆ·id/200
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8204, 3, key2)				--´æ´¢ÎïÆ·id%200
 
 		return 0
 	end
@@ -2643,7 +2641,7 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
 		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8204, 2)
 		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8204, 3)
 
-		local NeedItemId = key1 * 200 + key2						--è§£æå‡ºæ”¶å–ç‰©å“id
+		local NeedItemId = key1 * 200 + key2						--½âÎö³öÊÕÈ¡ÎïÆ·id
 
 		Method.CollectItem = { Item1={ID=NeedItemId, Num=1, Common=true},}
 
@@ -2651,12 +2649,12 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8204, 2)
 		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8204, 3)
-		local ChargeItemId = key1 * 200 + key2						--è§£æå‡ºæ”¶å–ç‰©å“id
+		local ChargeItemId = key1 * 200 + key2						--½âÎö³öÊÕÈ¡ÎïÆ·id
 
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, ChargeItemId, true) >= 1 then
 			iRet = TASK_SUCC_FINISH
@@ -2671,25 +2669,32 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2,ucRandomNum3)
-		--å˜é‡1å·æ¥å—ä»»åŠ¡æ—¶ç©å®¶ç­‰çº§ï¼Œ2å·3å·ä¸ºç‰©å“idï¼ˆ2å·å˜é‡å€¼*200+3å·å˜é‡å€¼ï¼‰
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2,ucRandomNum3)
+		--±äÁ¿1ºÅ½ÓÊÜÈÎÎñÊ±Íæ¼ÒµÈ¼¶£¬2ºÅ3ºÅÎªÎïÆ·id£¨2ºÅ±äÁ¿Öµ*200+3ºÅ±äÁ¿Öµ£©
 
-		local AwardMulti = 75										--å¥–åŠ±ç³»æ•°
-		local AwardMultiTab ={0.6 , 1 , 1.4 ,0,0,0,0,0}				--æ¯å¤©3æ¬¡
+		local AwardMulti = 75										--½±ÀøÏµÊı
+		local AwardMultiTab ={0.6 , 1 , 1.4 ,0,0,0,0,0}				--Ã¿Ìì3´Î
+		local iRetrieveIdx =24
 
-		local CompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8204) --å½“æ—¥å·²ç»å®Œæˆæ¬¡æ•°
+		local CompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8204) --µ±ÈÕÒÑ¾­Íê³É´ÎÊı
 		local AwardTimes = CompleteTimes
 
-		local PlayerLevel = ucRandomNum1 							--æ¥å—ä»»åŠ¡æ—¶ç©å®¶çš„ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+		local PlayerLevel = ucRandomNum1 							--½ÓÊÜÈÎÎñÊ±Íæ¼ÒµÄµÈ¼¶£¬·¢½±ÀøÓÃ
 
-		local ChargeItemId = ucRandomNum2 * 200 + ucRandomNum3  	--æ‰€æ”¶å–çš„ç‰©å“id
+		local ChargeItemId = ucRandomNum2 * 200 + ucRandomNum3  	--ËùÊÕÈ¡µÄÎïÆ·id
 
 		local AwardExpAdjust = TaskExpAdjust[PlayerLevel]
 
 		if bSuccess then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, ChargeItemId, 1)    		--æ”¶å–æ™®é€šç‰©å“1ä¸ª
-			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti * AwardMultiTab[AwardTimes])	--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, ChargeItemId, 1)    		--ÊÕÈ¡ÆÕÍ¨ÎïÆ·1¸ö
+
+			--TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti * AwardMultiTab[AwardTimes])	--¸øÍæ¼Ò·¢·Å¾­Ñé
+			TaskCApi. DeliverRetrieveExp(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti * AwardMultiTab[AwardTimes],bRetrieve,iRetrieveIdx)
+
+			--Çå¿Õ²¹³¥Öµ
+			TaskCApi. ClearRetrieveVal(TASKINTERFACE_POINTER,8204, iRetrieveIdx)
+
 
    		end
 
@@ -2698,37 +2703,37 @@ TaskList[8204] = --ä¸ºä»»åŠ¡ID8204:çŸ³å·¥ç«ç‘°002ç‰©å“æ¢ç»éªŒ
 }
 
 
-TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
+TaskList[8547] = --1¼¶_¹«»áÈÎÎñ»ù´¡¿âËæ»ú
 
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒæ¸…ç©ºä»»åŠ¡
+		bClearAsGiveup = true, --·ÅÆúÇå¿ÕÈÎÎñ
 
-		bBuildTask = true, --å…¬ä¼šå»ºè®¾ä»»åŠ¡
+		bBuildTask = true, --¹«»á½¨ÉèÈÎÎñ
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯è½®æœ€å¤šå®Œæˆ4æ¬¡
+  		iMaxFinishCount = 4,		--Ã¿ÂÖ×î¶àÍê³É4´Î
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
 			local ExpTable = {
 				[1]=20,
@@ -2736,43 +2741,43 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 				[3]=50,
 				[4]=75,
 				}
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
-			return iExpAward --è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward --·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 		BindMoney = function(TASKINTERFACE_POINTER)
 			local MonTable = {
-			--ç»‘å®šé‡‘
+			--°ó¶¨½ğ
 				[1]=7,
 				[2]=12,
 				[3]=17,
 				[4]=25,
 			}
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local factionaward = {}
-			factionaward.contribution = 1 --å…¬ä¼šè´¡çŒ®åº¦
-			factionaward.money = 0   --å…¬ä¼šèµ„é‡‘
-			factionaward.credit = 1  --å…¬ä¼šåŠŸå‹‹
+			factionaward.contribution = 1 --¹«»á¹±Ï×¶È
+			factionaward.money = 0   --¹«»á×Ê½ğ
+			factionaward.credit = 1  --¹«»á¹¦Ñ«
 			return factionaward
 		end
 		,
@@ -2780,21 +2785,21 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200,ÈÎÎñ¹Ø±Õ
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -2807,15 +2812,15 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
 
 
-		local MainTaskTable = {8548, 8549, 8550, 8551}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨
+		local MainTaskTable = {8548, 8549, 8550, 8551}		--¹«»áÖ÷ÈÎÎñÁĞ±í
 
 
 
@@ -2825,19 +2830,19 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 		local AssistTaskTable40 = {}
 		local AssistTaskTable60 = {}
 
-		local HelpTaskTable60 = {}								--å»ºç«‹ä¸€ä¸ªå¯¹æ¯”å‚è€ƒåº“
+		local HelpTaskTable60 = {}								--½¨Á¢Ò»¸ö¶Ô±È²Î¿¼¿â
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«
-
-
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
+
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
-		--60ä»¥ä¸‹ä»»åŠ¡ä¸ºè¿å·ä»»åŠ¡
+		--60ÒÔÏÂÈÎÎñÎªÁ¬ºÅÈÎÎñ
 
 
 
@@ -2847,13 +2852,13 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 				AssistTaskTable40[i] = i + 8566
 			end
 		else
-		--60+ç›´æ¥å»ºç«‹è¡¨æ ¼
-			--å…ˆå…¼å®¹20-59çš„åŸºç¡€ä»»åŠ¡
+		--60+Ö±½Ó½¨Á¢±í¸ñ
+			--ÏÈ¼æÈİ20-59µÄ»ù´¡ÈÎÎñ
 			for i = 1,20 do
 				AssistTaskTable60[i] = i + 8556
 				HelpTaskTable60[i] = i + 8556
  			end
-			--æ–°å¢åº“ä»»åŠ¡
+			--ĞÂÔö¿âÈÎÎñ
 
 
 
@@ -2865,13 +2870,13 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 			table.insert(HelpTaskTable60,9623)
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡å’Œé«˜çº§ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñºÍ¸ß¼¶ÈÎÎñ
 
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -2880,7 +2885,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 				if iPlayerLev < 40 then
 
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -2896,7 +2901,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -2927,25 +2932,25 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}					--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}					--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -2961,7 +2966,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -2978,18 +2983,18 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 			end
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 60 then
-			local LowLevelBaseTable = {8567,8568,8570,8571}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576}	--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576}	--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -3018,7 +3023,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -3045,27 +3050,27 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <=80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8547, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 8547, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -3073,17 +3078,17 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -3091,12 +3096,12 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 8547, 1)
@@ -3108,7 +3113,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -3122,15 +3127,15 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -3138,7 +3143,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -3150,7 +3155,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 			}
 
 		local ContributionTable = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -3162,7 +3167,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 			}
 
 		local ExploitTable = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=1,
 				[2]=1,
 				[3]=1,
@@ -3170,7 +3175,7 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 			}
 
 		local GuildMonTable = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=0,
 				[2]=0,
 				[3]=0,
@@ -3181,64 +3186,64 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
-		local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
-		local iZiYuanMutli1 = 1   --åŸºç¡€1å·èµ„æºå¥–åŠ±ç³»æ•°
+		local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
+		local iZiYuanMutli1 = 1   --»ù´¡1ºÅ×ÊÔ´½±ÀøÏµÊı
 
 
 
 
 
-		local iPersonalActive = 2		--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
+		local iPersonalActive = 2		--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8547)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable[FinishTime]) 					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable[FinishTime]) 					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
-				TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
-				--TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable[FinishTime]*iGuildMoneyMuti)		--å‘æ”¾å·¥ä¼šèµ„é‡‘
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable[FinishTime]) 		--·¢·Å¹±Ï×¶È
+				--TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable[FinishTime]*iGuildMoneyMuti)		--·¢·Å¹¤»á×Ê½ğ
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 8547)
 
-					--é¢‘é“å¹¿æ’­
+					--ÆµµÀ¹ã²¥
 					TaskCApi.Broadcast(TASKINTERFACE_POINTER, 8547, TaskBroadcastChannel.Kingdom)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 					local FirstTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 9286)
 					if FirstTime == 0 then
 						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 9286)
@@ -3250,14 +3255,14 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 8547)
    		end
 
 		--TaskCApi.Broadcast(TASKINTERFACE_POINTER, 8547, TaskBroadcastChannel.Local)
 		--TaskCApi.Broadcast(TASKINTERFACE_POINTER, 8547, TaskBroadcastChannel.Kingdom)
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
@@ -3265,35 +3270,35 @@ TaskList[8547] = --1çº§_å…¬ä¼šä»»åŠ¡åŸºç¡€åº“éšæœº
 }
 
 
-TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
+TaskList[8548] = --1¼¶_¹«»áÈÎÎñ_¹«»á³Ç±¤Ëæ»ú
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒæ¸…ç©ºä»»åŠ¡
+		bClearAsGiveup = true, --·ÅÆúÇå¿ÕÈÎÎñ
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--4ä»¥åŠä»¥ä¸‹çº§åˆ«
+			--4ÒÔ¼°ÒÔÏÂ¼¶±ğ
 			local ExpTable = {
 				[1]=20,
 				[2]=35,
@@ -3301,20 +3306,20 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8548) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8548) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -3327,23 +3332,23 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8548) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8548) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 				[1]=0,
 				[2]=1,
@@ -3351,7 +3356,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 					[1]=1,
 					[2]=2,
@@ -3359,7 +3364,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					[4]=3,
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -3367,21 +3372,21 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -3389,28 +3394,28 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
 					[4]=6000,
 				}
 
-			--3å·èµ„æº,4çº§ä»¥åŠä»¥ä¸‹ç­‰çº§åŸºåœ°
+			--3ºÅ×ÊÔ´,4¼¶ÒÔ¼°ÒÔÏÂµÈ¼¶»ùµØ
 
 			local GuildZiYuan320Lel4 ={
 
@@ -3431,7 +3436,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					[3]=15,
 					[4]=20,
 				}
-			--4å·èµ„æº,4çº§ä»¥åŠä»¥ä¸‹ç­‰çº§åŸºåœ°
+			--4ºÅ×ÊÔ´,4¼¶ÒÔ¼°ÒÔÏÂµÈ¼¶»ùµØ
 
 
 
@@ -3455,7 +3460,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					[4]=20,
 				}
 
-			--1234å·èµ„æº,5çº§å…¬ä¼šçš„åŸºåœ°
+			--1234ºÅ×ÊÔ´,5¼¶¹«»áµÄ»ùµØ
 			local GuildZiYuan20Lel5 ={
 
 					[1]=1,
@@ -3476,7 +3481,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					[4]=9,
 				}
 
-			--12345å·èµ„æº,6çº§å…¬ä¼šçš„åŸºåœ°
+			--12345ºÅ×ÊÔ´,6¼¶¹«»áµÄ»ùµØ
 			local GuildZiYuan20Lel6 ={
 
 					[1]=1,
@@ -3498,95 +3503,95 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				}
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8548) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8548) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
-			local iGuildlevel = TaskCApi.GetFactionLev(TASKINTERFACE_POINTER)	--ç©å®¶æ‰€åœ¨å…¬ä¼šç­‰çº§ï¼ˆåŸºåœ°ç­‰çº§+3ï¼‰
+			local iGuildlevel = TaskCApi.GetFactionLev(TASKINTERFACE_POINTER)	--Íæ¼ÒËùÔÚ¹«»áµÈ¼¶£¨»ùµØµÈ¼¶+3£©
 
 			local iGuildMoneyMuti = 1
 			local factionaward = {}
 
 			--[[
-			10.12.6ä¿®æ­£bug
-			5çº§å…¬ä¼šåŸå ¡ä»»åŠ¡åº”å‘æ”¾beliefå€¼ï¼Œè€Œä¸æ˜¯æ­¦è£…å€¼ã€‚
+			10.12.6ĞŞÕıbug
+			5¼¶¹«»á³Ç±¤ÈÎÎñÓ¦·¢·ÅbeliefÖµ£¬¶ø²»ÊÇÎä×°Öµ¡£
 
 			--]]
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				if iGuildlevel <=4 then --4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+				if iGuildlevel <=4 then --4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
-					factionaward.economy = GuildZiYuan320Lel4[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan420Lel4[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				elseif iGuildlevel == 5 or iGuildlevel == 6 then--5/6çº§å·¥ä¼šçš„åŸºåœ°
-					factionaward.belief = GuildZiYuan20Lel5[FinishTime] 		--å‘æ”¾5#å·¥ä¼šèµ„æº
-					factionaward.magic = GuildZiYuan20Lel5[FinishTime]			--å‘æ”¾2#å·¥ä¼šèµ„æº
-					factionaward.economy = GuildZiYuan20Lel5[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan20Lel5[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				elseif iGuildlevel == 7 then--7çº§å·¥ä¼šçš„åŸºåœ°
-					--factionaward.melee 	 = GuildZiYuan20Lel6[FinishTime] 		--å‘æ”¾1#å·¥ä¼šèµ„æº
-					factionaward.magic	 = GuildZiYuan20Lel6[FinishTime]		--å‘æ”¾2#å·¥ä¼šèµ„æº
-					factionaward.economy = GuildZiYuan20Lel6[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan20Lel6[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-					factionaward.belief  = GuildZiYuan20Lel6[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+					factionaward.economy = GuildZiYuan320Lel4[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan420Lel4[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+				elseif iGuildlevel == 5 or iGuildlevel == 6 then--5/6¼¶¹¤»áµÄ»ùµØ
+					factionaward.belief = GuildZiYuan20Lel5[FinishTime] 		--·¢·Å5#¹¤»á×ÊÔ´
+					factionaward.magic = GuildZiYuan20Lel5[FinishTime]			--·¢·Å2#¹¤»á×ÊÔ´
+					factionaward.economy = GuildZiYuan20Lel5[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan20Lel5[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+				elseif iGuildlevel == 7 then--7¼¶¹¤»áµÄ»ùµØ
+					--factionaward.melee 	 = GuildZiYuan20Lel6[FinishTime] 		--·¢·Å1#¹¤»á×ÊÔ´
+					factionaward.magic	 = GuildZiYuan20Lel6[FinishTime]		--·¢·Å2#¹¤»á×ÊÔ´
+					factionaward.economy = GuildZiYuan20Lel6[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan20Lel6[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+					factionaward.belief  = GuildZiYuan20Lel6[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 				end
 
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				if iGuildlevel <= 4 then --4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+				if iGuildlevel <= 4 then --4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
-					factionaward.economy = GuildZiYuan340Lel4[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan440Lel4[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				elseif iGuildlevel == 5 or iGuildlevel == 6 then--5.6çº§å·¥ä¼šçš„åŸºåœ°
-					factionaward.magic = GuildZiYuan40Lel5[FinishTime]			--å‘æ”¾2#å·¥ä¼šèµ„æº
-					factionaward.economy = GuildZiYuan40Lel5[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan40Lel5[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-					factionaward.belief = GuildZiYuan40Lel5[FinishTime] 		--å‘æ”¾5#å·¥ä¼šèµ„æº
-				elseif iGuildlevel == 7 then--7çº§å·¥ä¼šçš„åŸºåœ°
-					--factionaward.melee 	 = GuildZiYuan40Lel6[FinishTime] 		--å‘æ”¾1#å·¥ä¼šèµ„æº
-					factionaward.magic	 = GuildZiYuan40Lel6[FinishTime]		--å‘æ”¾2#å·¥ä¼šèµ„æº
-					factionaward.economy = GuildZiYuan40Lel6[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan40Lel6[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-					factionaward.belief  = GuildZiYuan40Lel6[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+					factionaward.economy = GuildZiYuan340Lel4[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan440Lel4[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+				elseif iGuildlevel == 5 or iGuildlevel == 6 then--5.6¼¶¹¤»áµÄ»ùµØ
+					factionaward.magic = GuildZiYuan40Lel5[FinishTime]			--·¢·Å2#¹¤»á×ÊÔ´
+					factionaward.economy = GuildZiYuan40Lel5[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan40Lel5[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+					factionaward.belief = GuildZiYuan40Lel5[FinishTime] 		--·¢·Å5#¹¤»á×ÊÔ´
+				elseif iGuildlevel == 7 then--7¼¶¹¤»áµÄ»ùµØ
+					--factionaward.melee 	 = GuildZiYuan40Lel6[FinishTime] 		--·¢·Å1#¹¤»á×ÊÔ´
+					factionaward.magic	 = GuildZiYuan40Lel6[FinishTime]		--·¢·Å2#¹¤»á×ÊÔ´
+					factionaward.economy = GuildZiYuan40Lel6[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan40Lel6[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+					factionaward.belief  = GuildZiYuan40Lel6[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 				end
 
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				if iGuildlevel <= 4 then--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+				if iGuildlevel <= 4 then--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
 
-					factionaward.economy = GuildZiYuan360Lel4[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan460Lel4[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				elseif iGuildlevel == 5 or iGuildlevel == 6 then--56çº§å·¥ä¼šçš„åŸºåœ°
-					factionaward.belief = GuildZiYuan60Lel5[FinishTime] 		--å‘æ”¾5#å·¥ä¼šèµ„æº
-					factionaward.magic = GuildZiYuan60Lel5[FinishTime]			--å‘æ”¾2#å·¥ä¼šèµ„æº
-					factionaward.economy = GuildZiYuan60Lel5[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan60Lel5[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				elseif iGuildlevel == 7 then--7çº§å·¥ä¼šçš„åŸºåœ°
-					--factionaward.melee 	 = GuildZiYuan60Lel6[FinishTime] 		--å‘æ”¾1#å·¥ä¼šèµ„æº
-					factionaward.magic	 = GuildZiYuan60Lel6[FinishTime]		--å‘æ”¾2#å·¥ä¼šèµ„æº
-					factionaward.economy = GuildZiYuan60Lel6[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-					factionaward.culture = GuildZiYuan60Lel6[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
-					factionaward.belief  = GuildZiYuan60Lel6[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+					factionaward.economy = GuildZiYuan360Lel4[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan460Lel4[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+				elseif iGuildlevel == 5 or iGuildlevel == 6 then--56¼¶¹¤»áµÄ»ùµØ
+					factionaward.belief = GuildZiYuan60Lel5[FinishTime] 		--·¢·Å5#¹¤»á×ÊÔ´
+					factionaward.magic = GuildZiYuan60Lel5[FinishTime]			--·¢·Å2#¹¤»á×ÊÔ´
+					factionaward.economy = GuildZiYuan60Lel5[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan60Lel5[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+				elseif iGuildlevel == 7 then--7¼¶¹¤»áµÄ»ùµØ
+					--factionaward.melee 	 = GuildZiYuan60Lel6[FinishTime] 		--·¢·Å1#¹¤»á×ÊÔ´
+					factionaward.magic	 = GuildZiYuan60Lel6[FinishTime]		--·¢·Å2#¹¤»á×ÊÔ´
+					factionaward.economy = GuildZiYuan60Lel6[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+					factionaward.culture = GuildZiYuan60Lel6[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+					factionaward.belief  = GuildZiYuan60Lel6[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 				end
 
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 			return factionaward
 		end
@@ -3595,23 +3600,23 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8548 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8548 --Ê¡ÊÂÓÃµÄ¡£¡£
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -3624,24 +3629,24 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8548 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8548 --Ê¡ÊÂÓÃµÄ¡£¡£
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
-		local MainTaskTable = {8547, 8549, 8550, 8551}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨
+		local MainTaskTable = {8547, 8549, 8550, 8551}		--¹«»áÖ÷ÈÎÎñÁĞ±í
 		local AssistTaskTable20 = {}
 		local AssistTaskTable40 = {}
 		local AssistTaskTable60 = {}
 
 		local HelpTaskTable60 ={}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -3660,7 +3665,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -3669,8 +3674,8 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -3678,7 +3683,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -3693,7 +3698,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -3708,7 +3713,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -3725,7 +3730,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 			end
 		end
 
-		--è¿½åŠ åŸå ¡ä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼Ó³Ç±¤×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev <60 then
 			table.insert(AssistTaskTable20, 8577)
 			table.insert(AssistTaskTable20, 8578)
@@ -3743,26 +3748,26 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}					--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}					--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			--åŸå ¡ä»»åŠ¡ç‰¹è‰²åº“8577å’Œ8578éƒ½æ˜¯ä½çº§ä»»åŠ¡ï¼Œæ‰€ä»¥ä¸å±è”½
+			--³Ç±¤ÈÎÎñÌØÉ«¿â8577ºÍ8578¶¼ÊÇµÍ¼¶ÈÎÎñ£¬ËùÒÔ²»ÆÁ±Î
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -3778,7 +3783,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -3799,18 +3804,18 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 60 then
-			local LowLevelBaseTable = {8567,8568,8570,8571, 8585}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571, 8585}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576, 8586}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576, 8586}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -3842,7 +3847,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -3869,26 +3874,26 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -3896,17 +3901,17 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -3914,14 +3919,14 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8548 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8548 --Ê¡ÊÂÓÃµÄ¡£¡£
 
    		local iRet = TASK_NO_FINISH
 		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1)
@@ -3933,7 +3938,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -3947,14 +3952,14 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 8548 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 8548 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
-		--4ä»¥åŠä»¥ä¸‹çº§åˆ«
+		--4ÒÔ¼°ÒÔÏÂ¼¶±ğ
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -3962,7 +3967,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 				[1]=7,
 				[2]=12,
 				[3]=17,
@@ -3970,21 +3975,21 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 				[1]=0,
 				[2]=1,
 				[3]=1,
 				[4]=2,
 			}
 		local ContributionTable40 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 				[1]=1,
 				[2]=2,
 				[3]=2,
 				[4]=3,
 			}
 		local ContributionTable60 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 				[1]=2,
 				[2]=3,
 				[3]=4,
@@ -3992,21 +3997,21 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 			}
 
 		local ExploitTable20 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=0,
 				[2]=1,
 				[3]=1,
 				[4]=2,
 			}
 		local ExploitTable40 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=1,
 				[2]=2,
 				[3]=2,
 				[4]=3,
 			}
 		local ExploitTable60 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=2,
 				[2]=3,
 				[3]=4,
@@ -4015,28 +4020,28 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 
 
 		local GuildMonTable20 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=500,
 				[2]=1000,
 				[3]=1500,
 				[4]=2000,
 			}
 		local GuildMonTable40 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=1000,
 				[2]=2000,
 				[3]=3000,
 				[4]=4000,
 			}
 		local GuildMonTable60 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=2000,
 				[2]=3000,
 				[3]=5000,
 				[4]=6000,
 			}
 
-		--3å·èµ„æº,4çº§ä»¥åŠä»¥ä¸‹ç­‰çº§åŸºåœ°
+		--3ºÅ×ÊÔ´,4¼¶ÒÔ¼°ÒÔÏÂµÈ¼¶»ùµØ
 
 		local GuildZiYuan320Lel4 ={
 
@@ -4058,7 +4063,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=20,
 			}
 
-		--4å·èµ„æº,4çº§ä»¥åŠä»¥ä¸‹ç­‰çº§åŸºåœ°
+		--4ºÅ×ÊÔ´,4¼¶ÒÔ¼°ÒÔÏÂµÈ¼¶»ùµØ
 
 		local GuildZiYuan420Lel4 ={
 				[1]=2,
@@ -4079,7 +4084,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=20,
 			}
 
-		--2345å·èµ„æº,5çº§å…¬ä¼šçš„åŸºåœ°
+		--2345ºÅ×ÊÔ´,5¼¶¹«»áµÄ»ùµØ
 		local GuildZiYuan20Lel5 ={
 
 				[1]=1,
@@ -4100,7 +4105,7 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=9,
 			}
 
-		--12345å·èµ„æº,5çº§å…¬ä¼šçš„åŸºåœ°
+		--12345ºÅ×ÊÔ´,5¼¶¹«»áµÄ»ùµØ
 		local GuildZiYuan20Lel6 ={
 
 				[1]=1,
@@ -4121,118 +4126,118 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 				[4]=7,
 			}
 
-		local iGuildlevel = TaskCApi.GetFactionLev(TASKINTERFACE_POINTER)	--ç©å®¶æ‰€åœ¨å…¬ä¼šç­‰çº§
+		local iGuildlevel = TaskCApi.GetFactionLev(TASKINTERFACE_POINTER)	--Íæ¼ÒËùÔÚ¹«»áµÈ¼¶
 
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
-
-
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
-
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
+
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 		--[[
-			10.12.6ä¿®æ­£bug
-			5çº§å…¬ä¼šåŸå ¡ä»»åŠ¡åº”å‘æ”¾beliefå€¼ï¼Œè€Œä¸æ˜¯æ­¦è£…å€¼ã€‚
+			10.12.6ĞŞÕıbug
+			5¼¶¹«»á³Ç±¤ÈÎÎñÓ¦·¢·ÅbeliefÖµ£¬¶ø²»ÊÇÎä×°Öµ¡£
 		--]]
 
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 					--·¢·Å¹¤»á¹¦Ñ«¶È
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
 
-					if iGuildlevel <= 4 then--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+					if iGuildlevel <= 4 then--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320Lel4[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420Lel4[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320Lel4[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420Lel4[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
 
 					elseif iGuildlevel == 5 or iGuildlevel == 6  then
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan20Lel5[FinishTime]) 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan20Lel5[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan20Lel5[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan20Lel5[FinishTime]) 		--å‘æ”¾5#å·¥ä¼šèµ„æº
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan20Lel5[FinishTime]) 		--·¢·Å2#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan20Lel5[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan20Lel5[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan20Lel5[FinishTime]) 		--·¢·Å5#¹¤»á×ÊÔ´
 
 					elseif iGuildlevel ==7 then
-						--TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 0 ,GuildZiYuan20Lel6[FinishTime]) 		--å‘æ”¾1#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan20Lel6[FinishTime]) 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan20Lel6[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan20Lel6[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan20Lel6[FinishTime]) 		--å‘æ”¾5#å·¥ä¼šèµ„æº
+						--TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 0 ,GuildZiYuan20Lel6[FinishTime]) 		--·¢·Å1#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan20Lel6[FinishTime]) 		--·¢·Å2#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan20Lel6[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan20Lel6[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan20Lel6[FinishTime]) 		--·¢·Å5#¹¤»á×ÊÔ´
 
 					end
 
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 					--·¢·Å¹¤»á¹¦Ñ«¶È
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
 
-					if iGuildlevel <= 4 then--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+					if iGuildlevel <= 4 then--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340Lel4[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440Lel4[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340Lel4[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440Lel4[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
 					elseif iGuildlevel == 5 or iGuildlevel == 6  then
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan40Lel5[FinishTime]) 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan40Lel5[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan40Lel5[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan40Lel5[FinishTime]) 		--å‘æ”¾5#å·¥ä¼šèµ„æº
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan40Lel5[FinishTime]) 		--·¢·Å2#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan40Lel5[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan40Lel5[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan40Lel5[FinishTime]) 		--·¢·Å5#¹¤»á×ÊÔ´
 
 					elseif iGuildlevel ==7 then
-						--TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 0 ,GuildZiYuan40Lel6[FinishTime]) 		--å‘æ”¾1#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan40Lel6[FinishTime]) 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan40Lel6[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan40Lel6[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan40Lel6[FinishTime]) 		--å‘æ”¾5#å·¥ä¼šèµ„æº
+						--TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 0 ,GuildZiYuan40Lel6[FinishTime]) 		--·¢·Å1#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan40Lel6[FinishTime]) 		--·¢·Å2#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan40Lel6[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan40Lel6[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan40Lel6[FinishTime]) 		--·¢·Å5#¹¤»á×ÊÔ´
 					end
 
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 					--·¢·Å¹¤»á¹¦Ñ«¶È
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
 
-					if iGuildlevel <= 4 then--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+					if iGuildlevel <= 4 then--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360Lel4[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460Lel4[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360Lel4[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460Lel4[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
 					elseif iGuildlevel == 5 or iGuildlevel == 6 then
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan60Lel5[FinishTime]) 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan60Lel5[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan60Lel5[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan60Lel5[FinishTime]) 		--å‘æ”¾5#å·¥ä¼šèµ„æº
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan60Lel5[FinishTime]) 		--·¢·Å2#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan60Lel5[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan60Lel5[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan60Lel5[FinishTime]) 		--·¢·Å5#¹¤»á×ÊÔ´
 
 					elseif iGuildlevel ==7 then
-						--TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 0 ,GuildZiYuan60Lel6[FinishTime]) 		--å‘æ”¾1#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan60Lel6[FinishTime]) 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan60Lel6[FinishTime]) 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan60Lel6[FinishTime]) 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan60Lel6[FinishTime]) 		--å‘æ”¾5#å·¥ä¼šèµ„æº
+						--TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 0 ,GuildZiYuan60Lel6[FinishTime]) 		--·¢·Å1#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan60Lel6[FinishTime]) 		--·¢·Å2#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan60Lel6[FinishTime]) 		--·¢·Å3#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan60Lel6[FinishTime]) 		--·¢·Å4#¹¤»á×ÊÔ´
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan60Lel6[FinishTime]) 		--·¢·Å5#¹¤»á×ÊÔ´
 					end
 				end
 
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 					local FirstTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 9286)
 					if FirstTime == 0 then
 						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 9286)
@@ -4241,59 +4246,59 @@ TaskList[8548] = --1çº§_å…¬ä¼šä»»åŠ¡_å…¬ä¼šåŸå ¡éšæœº
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
+TaskList[8549] = --1¼¶_¹«»áÈÎÎñ_×¡·¿Éú»îËæ»ú
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒæ¸…ç©ºä»»åŠ¡
+		bClearAsGiveup = true, --·ÅÆúÇå¿ÕÈÎÎñ
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯è½®4æ¬¡ï¼Œè½®æ•°é ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿ÂÖ4´Î£¬ÂÖÊı¿¿ÅÆ×ÓÏŞÖÆ
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
   	}
    	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8549 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 8549 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=22917
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=22917
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -4305,16 +4310,16 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
    		return 0
    	end
    	,
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--4ä»¥åŠä»¥ä¸‹çº§åˆ«
+			--4ÒÔ¼°ÒÔÏÂ¼¶±ğ
 			local ExpTable = {
 				[1]=20,
 				[2]=35,
@@ -4322,19 +4327,19 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8549) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8549) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 		BindMoney = function(TASKINTERFACE_POINTER)
 			local MonTable = {
 				[1]=7,
@@ -4343,20 +4348,20 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8549) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8549) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 					[1]=0,
 					[2]=1,
 					[3]=1,
@@ -4364,14 +4369,14 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -4379,21 +4384,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -4401,21 +4406,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -4423,21 +4428,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 					[1]=2,
 					[2]=4,
 					[3]=6,
 					[4]=8,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 					[1]=4,
 					[2]=8,
 					[3]=12,
 					[4]=16,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 					[1]=8,
 					[2]=12,
 					[3]=18,
@@ -4445,21 +4450,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 			local GuildZiYuan420 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 					[1]=1,
 					[2]=2,
 					[3]=3,
 					[4]=4,
 				}
 			local GuildZiYuan440 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 					[1]=2,
 					[2]=4,
 					[3]=6,
 					[4]=8,
 				}
 			local GuildZiYuan460 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 					[1]=4,
 					[2]=6,
 					[3]=9,
@@ -4467,40 +4472,40 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8549) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8549) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 			local iGuildMoneyMuti = 1
 
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
-				factionaward.economy = GuildZiYuan320[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan420[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
+				factionaward.economy = GuildZiYuan320[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan420[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
-				factionaward.economy = GuildZiYuan360[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan460[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
+				factionaward.economy = GuildZiYuan360[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan460[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				--4çº§ä»¥åŠä»¥ä¸‹åŸºåœ°
+				--4¼¶ÒÔ¼°ÒÔÏÂ»ùµØ
 
-				factionaward.economy = GuildZiYuan360[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan460[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan360[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan460[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -4513,17 +4518,17 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 	,
 
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8549 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8549 --Ê¡ÊÂÓÃµÄ¡£¡£
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8550, 8551}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8550, 8551}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 		local AssistTaskTable20 = {}
 		local AssistTaskTable40 = {}
@@ -4531,15 +4536,15 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -4558,7 +4563,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -4567,12 +4572,12 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -4587,7 +4592,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -4602,7 +4607,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -4619,7 +4624,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			end
 		end
 
-		--è¿½åŠ ç”Ÿæ´»ä½æˆ¿ä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼ÓÉú»î×¡·¿×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev< 60 then
 			table.insert(AssistTaskTable20, 8579)
 			table.insert(AssistTaskTable20, 8580)
@@ -4638,21 +4643,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			table.insert(AssistTaskTable60, 9631)
 		end
 
-				--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+				--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566,8579,8580}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡,åä¸¤ä¸ªæ˜¯ä½æˆ¿ç‰¹è‰²ä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566,8579,8580}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ,ºóÁ½¸öÊÇ×¡·¿ÌØÉ«ÈÎÎñ
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -4671,7 +4676,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -4692,23 +4697,23 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			--ç”±äº8587å’Œ8588éƒ½æ˜¯ä½çº§æ€æ€ªï¼Œæ‰€ä»¥ä¸å±è”½
+			--ÓÉÓÚ8587ºÍ8588¶¼ÊÇµÍ¼¶É±¹Ö£¬ËùÒÔ²»ÆÁ±Î
 
 			if iPlayerLev < 50 then
 				for m = 1 , #HighLevelBaseTable do
@@ -4733,7 +4738,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -4759,27 +4764,27 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -4787,17 +4792,17 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
 
 
 		end
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -4805,14 +4810,14 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8549 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8549 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -4829,7 +4834,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -4843,22 +4848,22 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 8549 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 8549 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
-		--4ä»¥åŠä»¥ä¸‹çº§åˆ«
+		--4ÒÔ¼°ÒÔÏÂ¼¶±ğ
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -4866,7 +4871,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -4878,7 +4883,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -4890,7 +4895,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			}
 
 		local ContributionTable40 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -4901,7 +4906,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=3,
 			}
 		local ContributionTable60 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -4914,21 +4919,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 
 
 		local ExploitTable20 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=0,
 				[2]=1,
 				[3]=1,
 				[4]=2,
 			}
 		local ExploitTable40 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=1,
 				[2]=2,
 				[3]=2,
 				[4]=3,
 			}
 		local ExploitTable60 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=2,
 				[2]=3,
 				[3]=4,
@@ -4936,21 +4941,21 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			}
 
 		local GuildMonTable20 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=500,
 				[2]=1000,
 				[3]=1500,
 				[4]=2000,
 			}
 		local GuildMonTable40 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=1000,
 				[2]=2000,
 				[3]=3000,
 				[4]=4000,
 			}
 		local GuildMonTable60 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=2000,
 				[2]=3000,
 				[3]=5000,
@@ -4958,7 +4963,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			}
 
 		local GuildZiYuan320 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -4969,7 +4974,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=8,
 			}
 		local GuildZiYuan340 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -4980,7 +4985,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=16,
 			}
 		local GuildZiYuan360 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -4992,7 +4997,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			}
 
 		local GuildZiYuan420 ={
-		--4å·èµ„æº
+		--4ºÅ×ÊÔ´
 
 
 
@@ -5003,7 +5008,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=4,
 			}
 		local GuildZiYuan440 ={
-		--4å·èµ„æº
+		--4ºÅ×ÊÔ´
 
 
 
@@ -5014,7 +5019,7 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 				[4]=8,
 			}
 		local GuildZiYuan460 ={
-		--4å·èµ„æº
+		--4ºÅ×ÊÔ´
 
 
 
@@ -5028,30 +5033,30 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -5061,74 +5066,74 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
 
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
 
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
 
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				end
 
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -5141,11 +5146,11 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
 
@@ -5153,35 +5158,35 @@ TaskList[8549] = --1çº§_å…¬ä¼šä»»åŠ¡_ä½æˆ¿ç”Ÿæ´»éšæœº
    	end
 }
 
-TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
+TaskList[8550] = --1¼¶_¹«»áÈÎÎñ_½ğ¿âËæ»ú
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒæ¸…ç©ºä»»åŠ¡
+		bClearAsGiveup = true, --·ÅÆúÇå¿ÕÈÎÎñ
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -5189,13 +5194,13 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -5203,14 +5208,14 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
   	}
    	,
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
 
 			local ExpTable = {
@@ -5220,23 +5225,23 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8550) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8550) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -5244,7 +5249,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -5257,22 +5262,22 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8550) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8550) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -5280,10 +5285,10 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -5294,7 +5299,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -5305,7 +5310,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					[4]=3,
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -5317,21 +5322,21 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -5339,21 +5344,21 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -5361,7 +5366,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -5372,7 +5377,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					[4]=12,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -5383,7 +5388,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					[4]=24,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -5395,7 +5400,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				}
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8550) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8550) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -5405,48 +5410,48 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-				factionaward.economy = GuildZiYuan320[FinishTime] 					--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
+				factionaward.economy = GuildZiYuan320[FinishTime] 					--·¢·Å3#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-				factionaward.economy = GuildZiYuan340[FinishTime] 					--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
+				factionaward.economy = GuildZiYuan340[FinishTime] 					--·¢·Å3#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-				factionaward.economy = GuildZiYuan360[FinishTime] 					--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
+				factionaward.economy = GuildZiYuan360[FinishTime] 					--·¢·Å3#¹¤»á×ÊÔ´
 
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -5458,24 +5463,24 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8550 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 8550 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,23911, true)
@@ -5488,17 +5493,17 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8550 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 8550 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8551}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8551}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -5511,15 +5516,15 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -5538,7 +5543,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -5547,8 +5552,8 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -5556,7 +5561,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -5571,7 +5576,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -5586,7 +5591,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -5603,7 +5608,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			end
 		end
 
-		--è¿½åŠ é‡‘åº“ä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼Ó½ğ¿â×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable20, 8581)
 			table.insert(AssistTaskTable20, 8582)
@@ -5623,30 +5628,30 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 		end
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}					--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}					--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			--8581,8582å‡ä¸º20-30æ€æ€ªé‡‘åº“ä»»åŠ¡ï¼Œä¸å±è”½
+			--8581,8582¾ùÎª20-30É±¹Ö½ğ¿âÈÎÎñ£¬²»ÆÁ±Î
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -5662,7 +5667,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -5683,18 +5688,18 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571, 8589}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571, 8589}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576, 8590}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576, 8590}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -5723,7 +5728,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -5750,26 +5755,26 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -5777,7 +5782,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -5785,10 +5790,10 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -5796,14 +5801,14 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8550 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8550 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -5821,7 +5826,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -5835,21 +5840,21 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 8550 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 8550 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -5857,7 +5862,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -5869,7 +5874,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -5880,7 +5885,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				[4]=2,
 			}
 		local ContributionTable40 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -5891,7 +5896,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				[4]=3,
 			}
 		local ContributionTable60 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -5903,21 +5908,21 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			}
 
 		local ExploitTable20 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=0,
 				[2]=1,
 				[3]=1,
 				[4]=2,
 			}
 		local ExploitTable40 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=1,
 				[2]=2,
 				[3]=2,
 				[4]=3,
 			}
 		local ExploitTable60 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=2,
 				[2]=3,
 				[3]=4,
@@ -5925,21 +5930,21 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			}
 
 		local GuildMonTable20 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=500,
 				[2]=1000,
 				[3]=1500,
 				[4]=2000,
 			}
 		local GuildMonTable40 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=1000,
 				[2]=2000,
 				[3]=3000,
 				[4]=4000,
 			}
 		local GuildMonTable60 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=2000,
 				[2]=3000,
 				[3]=5000,
@@ -5947,7 +5952,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			}
 
 		local GuildZiYuan320 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -5958,7 +5963,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				[4]=12,
 			}
 		local GuildZiYuan340 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -5969,7 +5974,7 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 				[4]=24,
 			}
 		local GuildZiYuan360 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -5983,30 +5988,30 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -6016,67 +6021,67 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -6089,50 +6094,50 @@ TaskList[8550] = --1çº§_å…¬ä¼šä»»åŠ¡_é‡‘åº“éšæœº
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
+TaskList[8551] = --1¼¶_¹«»áÈÎÎñ_Ñç»áËæ»ú
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -6140,13 +6145,13 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -6155,16 +6160,16 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--4ä»¥åŠä»¥ä¸‹çº§åˆ«
+			--4ÒÔ¼°ÒÔÏÂ¼¶±ğ
 			local ExpTable = {
 				[1]=20,
 				[2]=35,
@@ -6172,23 +6177,23 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8551) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8551) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -6196,7 +6201,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -6209,22 +6214,22 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8551) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8551) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -6232,10 +6237,10 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -6246,7 +6251,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -6257,7 +6262,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					[4]=3,
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -6269,21 +6274,21 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -6291,21 +6296,21 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -6313,7 +6318,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -6324,7 +6329,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					[4]=4,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -6335,7 +6340,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					[4]=16,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -6347,7 +6352,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				}
 
 			local GuildZiYuan420 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -6358,7 +6363,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					[4]=8,
 				}
 			local GuildZiYuan440 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -6369,7 +6374,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					[4]=8,
 				}
 			local GuildZiYuan460 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -6382,7 +6387,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8551) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 8551) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -6392,53 +6397,53 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.economy = GuildZiYuan320[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan420[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan320[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan420[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.economy = GuildZiYuan340[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan440[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan340[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan440[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.economy = GuildZiYuan360[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan460[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan360[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan460[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -6450,25 +6455,25 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8551 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 8551 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -6481,17 +6486,17 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8551 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 8551 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -6504,15 +6509,15 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -6531,7 +6536,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -6540,8 +6545,8 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -6549,7 +6554,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -6564,7 +6569,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -6579,7 +6584,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -6596,7 +6601,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			end
 		end
 
-		--è¿½åŠ å®´ä¼šä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼ÓÑç»á×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable20, 8583)
 			table.insert(AssistTaskTable20, 8584)
@@ -6615,25 +6620,25 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566,8583,8584}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566,8583,8584}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -6652,7 +6657,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -6673,18 +6678,18 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571, 8592}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571, 8592}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576, 8591}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576, 8591}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -6713,7 +6718,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -6740,26 +6745,26 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -6767,7 +6772,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -6775,10 +6780,10 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -6786,14 +6791,14 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 8551 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 8551 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -6810,7 +6815,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -6824,21 +6829,21 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 8551 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 8551 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -6846,7 +6851,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -6858,7 +6863,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -6869,7 +6874,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=2,
 			}
 		local ContributionTable40 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -6880,7 +6885,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=3,
 			}
 		local ContributionTable60 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -6892,21 +6897,21 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			}
 
 		local ExploitTable20 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=0,
 				[2]=1,
 				[3]=1,
 				[4]=2,
 			}
 		local ExploitTable40 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=1,
 				[2]=2,
 				[3]=2,
 				[4]=3,
 			}
 		local ExploitTable60 = {
-		--åŠŸå‹‹
+		--¹¦Ñ«
 				[1]=2,
 				[2]=3,
 				[3]=4,
@@ -6914,21 +6919,21 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			}
 
 		local GuildMonTable20 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=500,
 				[2]=1000,
 				[3]=1500,
 				[4]=2000,
 			}
 		local GuildMonTable40 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=1000,
 				[2]=2000,
 				[3]=3000,
 				[4]=4000,
 			}
 		local GuildMonTable60 = {
-		--å…¬ä¼šèµ„é‡‘
+		--¹«»á×Ê½ğ
 				[1]=2000,
 				[2]=3000,
 				[3]=5000,
@@ -6936,7 +6941,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			}
 
 		local GuildZiYuan320 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -6947,7 +6952,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=4,
 			}
 		local GuildZiYuan340 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -6958,7 +6963,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=16,
 			}
 		local GuildZiYuan360 ={
-		--3å·èµ„æº
+		--3ºÅ×ÊÔ´
 
 
 
@@ -6970,7 +6975,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			}
 
 		local GuildZiYuan420 ={
-		--4å·èµ„æº
+		--4ºÅ×ÊÔ´
 
 
 
@@ -6981,7 +6986,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=8,
 			}
 		local GuildZiYuan440 ={
-		--4å·èµ„æº
+		--4ºÅ×ÊÔ´
 
 
 
@@ -6992,7 +6997,7 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 				[4]=8,
 			}
 		local GuildZiYuan460 ={
-		--4å·èµ„æº
+		--4ºÅ×ÊÔ´
 
 
 
@@ -7007,30 +7012,30 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -7040,70 +7045,70 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -7116,51 +7121,51 @@ TaskList[8551] = --1çº§_å…¬ä¼šä»»åŠ¡_å®´ä¼šéšæœº
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
+TaskList[9968] = --Ñ±ÊŞÊ¦Î¹Ê³»î¶¯½±Àø·¢·ÅÈÎÎñ
 
 
 {
   	Property =
   	{
-  		bCanRedo = true,			--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,			--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-
-
-
-
-
-		bHiddenTask = true, 		--éšè—ä»»åŠ¡
-
-  		bCanGiveUp = true,			--å¯æ”¾å¼ƒ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bShowPrompt = false,			--æ˜¾ç¤ºç³»ç»Ÿæç¤º
-  		bFinishWhenDelvier = true,--æ¥å—å³å®Œæˆ
+		bHiddenTask = true, 		--Òş²ØÈÎÎñ
+
+  		bCanGiveUp = true,			--¿É·ÅÆú
+
+
+
+
+
+  		bShowPrompt = false,			--ÏÔÊ¾ÏµÍ³ÌáÊ¾
+  		bFinishWhenDelvier = true,--½ÓÊÜ¼´Íê³É
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 1,		--æ¯å¤©æœ€å¤šå®Œæˆ1æ¬¡
+  		iMaxFinishCount = 1,		--Ã¿Ìì×î¶àÍê³É1´Î
 
 
 
@@ -7168,12 +7173,12 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
 
   		iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.HuoDong,	--ä»»åŠ¡ç±»å‹ï¼šæ´»åŠ¨
+  		iType  = TaskType.HuoDong,	--ÈÎÎñÀàĞÍ£º»î¶¯
 
 
 
 
-  		iTopic = TaskTopic.YiBan,	--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,	--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -7182,7 +7187,7 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
@@ -7193,14 +7198,14 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
    		return 0
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 		return 0
 	end
@@ -7208,12 +7213,12 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -7229,20 +7234,20 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
-		local iSideOccupId = 35 --é©¯å…½å¸ˆid35
-		local bHasSideOccup = TaskCApi. HasSideOccup (TASKINTERFACE_POINTER, iSideOccupId )	 --ç©å®¶æ˜¯å¦å­¦ä¼šé©¯å…½å¸ˆè¿™ä¸ªå‰¯èŒä¸š
+		local iSideOccupId = 35 --Ñ±ÊŞÊ¦id35
+		local bHasSideOccup = TaskCApi. HasSideOccup (TASKINTERFACE_POINTER, iSideOccupId )	 --Íæ¼ÒÊÇ·ñÑ§»áÑ±ÊŞÊ¦Õâ¸ö¸±Ö°Òµ
 
 		if bSuccess then
 			if bHasSideOccup then
 
-				local iSideOccupLev = TaskCApi. GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) --è·å–ç©å®¶å½“å‰é©¯å…½å¸ˆç­‰çº§
+				local iSideOccupLev = TaskCApi. GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) --»ñÈ¡Íæ¼Òµ±Ç°Ñ±ÊŞÊ¦µÈ¼¶
 
 
 
@@ -7259,12 +7264,12 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
 												[8] = 168490000 ,
 												[9] = 168490000 ,
 												[10] = 168490000 ,
-												} --æ¯çº§é©¯å…½å¸ˆå¯¹åº”çš„å® ç‰©ç»éªŒ
+												} --Ã¿¼¶Ñ±ÊŞÊ¦¶ÔÓ¦µÄ³èÎï¾­Ñé
 
 				local iSideOccupExp = iSideOccupExpMultiTab[iSideOccupLev]
 
 
-				TaskCApi.DeliverPetExperience(TASKINTERFACE_POINTER,iSideOccupExp) --å‘æ”¾å® ç‰©ç»éªŒ
+				TaskCApi.DeliverPetExperience(TASKINTERFACE_POINTER,iSideOccupExp) --·¢·Å³èÎï¾­Ñé
 
 
 			end
@@ -7274,39 +7279,39 @@ TaskList[9968] = --é©¯å…½å¸ˆå–‚é£Ÿæ´»åŠ¨å¥–åŠ±å‘æ”¾ä»»åŠ¡
    	end
 }
 
-TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
+TaskList[10368] = --2¼¶_¹«»áÈÎÎñ_»¨Ô°
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -7314,13 +7319,13 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -7329,16 +7334,16 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--2çº§åŸºåœ°
+			--2¼¶»ùµØ
 
 
 
@@ -7350,23 +7355,23 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10368) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10368) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -7374,7 +7379,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -7387,22 +7392,22 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10368) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10368) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -7410,10 +7415,10 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -7424,7 +7429,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -7436,7 +7441,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -7448,21 +7453,21 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -7470,21 +7475,21 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -7492,7 +7497,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -7503,7 +7508,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=4,
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -7514,7 +7519,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=8,
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -7526,7 +7531,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local GuildZiYuan420 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -7537,7 +7542,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=8,
 				}
 			local GuildZiYuan440 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -7548,7 +7553,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=16,
 				}
 			local GuildZiYuan460 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -7561,7 +7566,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10368) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10368) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -7571,53 +7576,53 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan220[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan420[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan220[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan420[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan240[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan440[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan240[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan440[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan260[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.culture = GuildZiYuan460[FinishTime]		--å‘æ”¾4#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan260[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.culture = GuildZiYuan460[FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -7629,25 +7634,25 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10368 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10368 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -7660,17 +7665,17 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10368 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10368 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10369, 10370, 10371, 10444, 10445}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10369, 10370, 10371, 10444, 10445}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -7683,15 +7688,15 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -7715,7 +7720,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -7724,8 +7729,8 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -7733,7 +7738,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -7748,7 +7753,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -7763,7 +7768,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -7780,7 +7785,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 			end
 		end
 
-		--è¿½åŠ èŠ±å›­ä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼Ó»¨Ô°×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable20, 9349)
 			table.insert(AssistTaskTable20, 9362)
@@ -7800,25 +7805,25 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -7837,7 +7842,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -7858,18 +7863,18 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -7898,7 +7903,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -7925,26 +7930,26 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -7952,7 +7957,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -7960,10 +7965,10 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -7971,14 +7976,14 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10368 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 10368 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -7995,7 +8000,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -8009,21 +8014,21 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 10368 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 10368 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -8031,7 +8036,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -8043,7 +8048,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -8054,7 +8059,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -8066,7 +8071,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -8078,21 +8083,21 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -8100,21 +8105,21 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -8122,7 +8127,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -8133,7 +8138,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=4,
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -8144,7 +8149,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=8,
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -8156,7 +8161,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 				}
 
 			local GuildZiYuan420 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -8167,7 +8172,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=8,
 				}
 			local GuildZiYuan440 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -8178,7 +8183,7 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 					[4]=16,
 				}
 			local GuildZiYuan460 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -8193,30 +8198,30 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -8226,70 +8231,70 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -8302,51 +8307,51 @@ TaskList[10368] = --2çº§_å…¬ä¼šä»»åŠ¡_èŠ±å›­
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
+TaskList[10369] = --2¼¶_¹«»áÈÎÎñ_Á¶½ğÊÒ
 
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -8354,13 +8359,13 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -8369,16 +8374,16 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--2çº§åŸºåœ°
+			--2¼¶»ùµØ
 
 
 
@@ -8390,23 +8395,23 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10369) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10369) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -8414,7 +8419,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -8427,22 +8432,22 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10369) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10369) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -8450,10 +8455,10 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -8464,7 +8469,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -8476,7 +8481,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -8488,21 +8493,21 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -8510,21 +8515,21 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -8532,7 +8537,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -8544,7 +8549,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -8556,7 +8561,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -8568,7 +8573,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -8579,7 +8584,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					[4]=4,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -8590,7 +8595,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					[4]=8,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -8603,7 +8608,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10369) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10369) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -8613,53 +8618,53 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan220[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.economy  = GuildZiYuan320[FinishTime]		--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan220[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.economy  = GuildZiYuan320[FinishTime]		--·¢·Å3#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan240[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.economy = GuildZiYuan340[FinishTime]		--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan240[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.economy = GuildZiYuan340[FinishTime]		--·¢·Å3#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan260[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.economy  = GuildZiYuan360[FinishTime]		--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan260[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.economy  = GuildZiYuan360[FinishTime]		--·¢·Å3#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -8671,25 +8676,25 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10369 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10369 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -8702,17 +8707,17 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10369 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10369 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10370, 10371, 10444, 10445}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10370, 10371, 10444, 10445}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -8725,15 +8730,15 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -8757,7 +8762,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -8766,8 +8771,8 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -8775,7 +8780,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -8790,7 +8795,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -8805,7 +8810,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -8822,7 +8827,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 			end
 		end
 
-		--è¿½åŠ èŠ±å›­ä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼Ó»¨Ô°×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable20, 9435)
 			table.insert(AssistTaskTable20, 9437)
@@ -8847,25 +8852,25 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -8884,7 +8889,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -8905,18 +8910,18 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -8945,7 +8950,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -8972,26 +8977,26 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -8999,7 +9004,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -9007,10 +9012,10 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -9018,14 +9023,14 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10369 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 10369 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -9042,7 +9047,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -9056,21 +9061,21 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 10369 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 10369 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -9078,7 +9083,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -9090,7 +9095,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -9101,7 +9106,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -9113,7 +9118,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -9125,21 +9130,21 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -9147,21 +9152,21 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -9169,7 +9174,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -9181,7 +9186,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -9193,7 +9198,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -9205,7 +9210,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -9216,7 +9221,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					[4]=4,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -9227,7 +9232,7 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 					[4]=8,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -9242,30 +9247,30 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -9275,70 +9280,70 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -9351,50 +9356,50 @@ TaskList[10369] = --2çº§_å…¬ä¼šä»»åŠ¡_ç‚¼é‡‘å®¤
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
+TaskList[10370] = --2¼¶_¹«»áÈÎÎñ_Óæ³¡
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -9402,13 +9407,13 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -9417,16 +9422,16 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--2çº§åŸºåœ°
+			--2¼¶»ùµØ
 
 
 
@@ -9438,23 +9443,23 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10370) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10370) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -9462,7 +9467,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -9475,22 +9480,22 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10370) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10370) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -9498,10 +9503,10 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -9512,7 +9517,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -9524,7 +9529,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -9536,21 +9541,21 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -9558,21 +9563,21 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -9580,7 +9585,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -9591,7 +9596,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=4,
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -9603,7 +9608,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -9615,7 +9620,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -9626,7 +9631,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=8,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -9637,7 +9642,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=16,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -9650,7 +9655,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10370) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10370) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -9660,53 +9665,53 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan220[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.economy  = GuildZiYuan320[FinishTime]		--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan220[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.economy  = GuildZiYuan320[FinishTime]		--·¢·Å3#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan240[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.economy = GuildZiYuan340[FinishTime]		--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan240[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.economy = GuildZiYuan340[FinishTime]		--·¢·Å3#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan260[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.economy  = GuildZiYuan360[FinishTime]		--å‘æ”¾3#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan260[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.economy  = GuildZiYuan360[FinishTime]		--·¢·Å3#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -9718,25 +9723,25 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10370 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10370 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -9749,17 +9754,17 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10370 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10370 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10371, 10444, 10445}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10371, 10444, 10445}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -9772,15 +9777,15 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -9804,7 +9809,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -9813,8 +9818,8 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -9822,7 +9827,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -9837,7 +9842,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -9852,7 +9857,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -9869,7 +9874,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 			end
 		end
 
-		--è¿½åŠ æ¸”åœºä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼ÓÓæ³¡×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable20, 9456)
 			table.insert(AssistTaskTable20, 9458)
@@ -9889,25 +9894,25 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -9926,7 +9931,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -9947,18 +9952,18 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -9987,7 +9992,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -10014,26 +10019,26 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -10041,7 +10046,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -10049,10 +10054,10 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -10060,14 +10065,14 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10370 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 10370 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -10084,7 +10089,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -10098,21 +10103,21 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 10370 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 10370 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -10120,7 +10125,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -10132,7 +10137,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -10143,7 +10148,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -10155,7 +10160,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -10167,21 +10172,21 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -10189,21 +10194,21 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -10211,7 +10216,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -10222,7 +10227,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=4,
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -10234,7 +10239,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -10246,7 +10251,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -10257,7 +10262,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=8,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -10268,7 +10273,7 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 					[4]=16,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -10283,30 +10288,30 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -10316,70 +10321,70 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -10392,50 +10397,50 @@ TaskList[10370] = --2çº§_å…¬ä¼šä»»åŠ¡_æ¸”åœº
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
+TaskList[10371] = --2¼¶_¹«»áÈÎÎñ_¾Æ°É
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -10443,13 +10448,13 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -10458,16 +10463,16 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--2çº§åŸºåœ°
+			--2¼¶»ùµØ
 
 
 
@@ -10479,23 +10484,23 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10371) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10371) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -10503,7 +10508,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -10516,22 +10521,22 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10371) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10371) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -10539,10 +10544,10 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -10553,7 +10558,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -10565,7 +10570,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -10577,21 +10582,21 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -10599,21 +10604,21 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -10621,7 +10626,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 			local GuildZiYuan420 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -10632,7 +10637,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=8,
 				}
 			local GuildZiYuan440 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -10643,7 +10648,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=16,
 				}
 			local GuildZiYuan460 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -10654,7 +10659,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=28,
 				}
 			local GuildZiYuan520 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -10665,7 +10670,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=4,
 				}
 			local GuildZiYuan540 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -10677,7 +10682,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 				}
 			local GuildZiYuan560 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -10690,7 +10695,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10371) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10371) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -10700,53 +10705,53 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.culture = GuildZiYuan420[FinishTime] 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				factionaward.belief   = GuildZiYuan520[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.culture = GuildZiYuan420[FinishTime] 		--·¢·Å4#¹¤»á×ÊÔ´
+				factionaward.belief   = GuildZiYuan520[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.culture = GuildZiYuan440[FinishTime] 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				factionaward.belief  = GuildZiYuan540[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.culture = GuildZiYuan440[FinishTime] 		--·¢·Å4#¹¤»á×ÊÔ´
+				factionaward.belief  = GuildZiYuan540[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.culture = GuildZiYuan460[FinishTime] 		--å‘æ”¾4#å·¥ä¼šèµ„æº
-				factionaward.belief   = GuildZiYuan560[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.culture = GuildZiYuan460[FinishTime] 		--·¢·Å4#¹¤»á×ÊÔ´
+				factionaward.belief   = GuildZiYuan560[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -10758,25 +10763,25 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10371 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10371 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=20
+		--¼ì²éÍæ¼ÒµÈ¼¶>=200
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 20 then
+	   	if iPlayerLev < 200 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -10789,17 +10794,17 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10371 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10371 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10370, 10444, 10445}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10370, 10444, 10445}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -10812,15 +10817,15 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 4								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 4								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 			for i = 1, 10 do
 				AssistTaskTable20[i] = i + 8556
@@ -10844,7 +10849,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -10853,8 +10858,8 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -10862,7 +10867,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -10877,7 +10882,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -10892,7 +10897,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -10909,7 +10914,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 			end
 		end
 
-		--è¿½åŠ é…’å§ä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼Ó¾Æ°É×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable20, 9450)
 			table.insert(AssistTaskTable20, 9446)
@@ -10929,25 +10934,25 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -10966,7 +10971,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -10987,18 +10992,18 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -11027,7 +11032,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -11054,26 +11059,26 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -11081,7 +11086,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -11089,10 +11094,10 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -11100,14 +11105,14 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10371 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 10371 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -11124,7 +11129,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -11138,21 +11143,21 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 10371 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 10371 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -11160,7 +11165,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -11172,7 +11177,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -11183,7 +11188,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -11195,7 +11200,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -11207,21 +11212,21 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -11229,21 +11234,21 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -11251,7 +11256,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 				}
 
 			local GuildZiYuan420 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -11262,7 +11267,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=8,
 				}
 			local GuildZiYuan440 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -11273,7 +11278,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=16,
 				}
 			local GuildZiYuan460 ={
-			--4å·èµ„æº
+			--4ºÅ×ÊÔ´
 
 
 
@@ -11284,7 +11289,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=28,
 				}
 			local GuildZiYuan520 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -11295,7 +11300,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 					[4]=4,
 				}
 			local GuildZiYuan540 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -11307,7 +11312,7 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 
 				}
 			local GuildZiYuan560 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -11322,30 +11327,30 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -11355,70 +11360,70 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan520[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan420[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan520[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan540[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan440[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan540[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan560[FinishTime]) 			--å‘æ”¾4#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,GuildZiYuan460[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan560[FinishTime]) 			--·¢·Å4#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -11431,50 +11436,50 @@ TaskList[10371] = --2çº§_å…¬ä¼šä»»åŠ¡_é…’å§
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
+TaskList[10444] = --2¼¶_¹«»áÈÎÎñ_µØÖÊĞ­»á
 {
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
 
 
 
 
 
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
+  		bCanGiveUp = true,--¿É·ÅÆú
 
 
 
 
 
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
 
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 
 
 
 
 
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
 
 
@@ -11482,13 +11487,13 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
 
 
 
 
 
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
 
 
@@ -11497,16 +11502,16 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--2çº§åŸºåœ°
+			--2¼¶»ùµØ
 
 
 
@@ -11518,23 +11523,23 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10444) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10444) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -11542,7 +11547,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -11555,22 +11560,22 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10444) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10444) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -11578,10 +11583,10 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -11592,7 +11597,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -11604,7 +11609,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -11616,21 +11621,21 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -11638,21 +11643,21 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -11660,7 +11665,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -11671,7 +11676,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=8,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -11682,7 +11687,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=16,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -11693,7 +11698,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=28,
 				}
 			local GuildZiYuan520 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -11704,7 +11709,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=4,
 				}
 			local GuildZiYuan540 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -11715,7 +11720,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=8,
 				}
 			local GuildZiYuan560 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -11727,7 +11732,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10444) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10444) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -11737,53 +11742,53 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.economy = GuildZiYuan320[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.belief   = GuildZiYuan520[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan320[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.belief   = GuildZiYuan520[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.economy = GuildZiYuan340[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.belief  = GuildZiYuan540[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan340[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.belief  = GuildZiYuan540[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.economy = GuildZiYuan360[FinishTime] 		--å‘æ”¾3#å·¥ä¼šèµ„æº
-				factionaward.belief   = GuildZiYuan560[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.economy = GuildZiYuan360[FinishTime] 		--·¢·Å3#¹¤»á×ÊÔ´
+				factionaward.belief   = GuildZiYuan560[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -11795,25 +11800,25 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10444 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10444 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=40
+		--¼ì²éÍæ¼ÒµÈ¼¶>=400
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 40 then
+	   	if iPlayerLev < 400 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -11826,17 +11831,17 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10444 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10444 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10370, 10371, 10445}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10370, 10371, 10445}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -11849,15 +11854,15 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 10								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 10								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 
 			for i = 1, 10 do
@@ -11882,7 +11887,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -11891,8 +11896,8 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -11900,7 +11905,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -11915,7 +11920,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -11930,7 +11935,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -11947,7 +11952,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 			end
 		end
 
-		--è¿½åŠ åœ°è´¨åä¼šä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼ÓµØÖÊĞ­»á×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable40, 9418)
 			table.insert(AssistTaskTable40, 9434)
@@ -11961,25 +11966,25 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -11998,7 +12003,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -12019,18 +12024,18 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -12059,7 +12064,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -12086,26 +12091,26 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -12113,7 +12118,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 
 
 
@@ -12121,10 +12126,10 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -12132,14 +12137,14 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10444 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 10444 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
@@ -12156,7 +12161,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -12170,21 +12175,21 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 10444 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 10444 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -12192,7 +12197,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -12204,7 +12209,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -12215,7 +12220,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -12227,7 +12232,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -12239,21 +12244,21 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -12261,21 +12266,21 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -12283,7 +12288,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 				}
 
 			local GuildZiYuan320 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -12294,7 +12299,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=8,
 				}
 			local GuildZiYuan340 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -12305,7 +12310,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=16,
 				}
 			local GuildZiYuan360 ={
-			--3å·èµ„æº
+			--3ºÅ×ÊÔ´
 
 
 
@@ -12316,7 +12321,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=28,
 				}
 			local GuildZiYuan520 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -12327,7 +12332,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 					[4]=4,
 				}
 			local GuildZiYuan540 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -12339,7 +12344,7 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 
 				}
 			local GuildZiYuan560 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -12354,30 +12359,30 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
 
 
 
 
 
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
 
 
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
-
-
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
 
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -12387,70 +12392,70 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
 
 
 
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 
 
 
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan520[FinishTime]) 			--å‘æ”¾5#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan320[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan520[FinishTime]) 			--·¢·Å5#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan540[FinishTime]) 			--å‘æ”¾5#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan340[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan540[FinishTime]) 			--·¢·Å5#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--å‘æ”¾3#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan560[FinishTime]) 			--å‘æ”¾5#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,GuildZiYuan360[FinishTime]) 			--·¢·Å3#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan560[FinishTime]) 			--·¢·Å5#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -12463,49 +12468,49 @@ TaskList[10444] = --2çº§_å…¬ä¼šä»»åŠ¡_åœ°è´¨åä¼š
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
    	end
 }
 
-TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
+TaskList[10445] = --2¼¶_¹«»áÈÎÎñ_Ä§³è
 {
 
 
   	Property =
   	{
-  		bCanRedo = true,--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-  		bCanGiveUp = true,--å¯æ”¾å¼ƒ
-  		bShowPrompt = true,--æ˜¾ç¤ºç³»ç»Ÿæç¤º
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
 		bCanSeekOut = true,
-		bClearAsGiveup = true, --æ”¾å¼ƒéå¤±è´¥
+		bClearAsGiveup = true, --·ÅÆú·ÇÊ§°Ü
 		bRecordFinishCount = true,
-  		iMaxFinishCount = 4,		--æ¯å¤©æœ€å¤šå®Œæˆ4æ¬¡ï¼Œé ç‰Œå­é™åˆ¶
+  		iMaxFinishCount = 4,		--Ã¿Ìì×î¶àÍê³É4´Î£¬¿¿ÅÆ×ÓÏŞÖÆ
 
   		--iClearFinishCountType = TaskClearFinishCountType.Daily,
 
-  		iType  = TaskType.GongHui,--ä»»åŠ¡ç±»å‹ï¼šå…¬ä¼š
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 
 
 
 
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			--2çº§åŸºåœ°
+			--2¼¶»ùµØ
 			local ExpTable = {
 				[1]=20,
 				[2]=35,
@@ -12513,14 +12518,14 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				[4]=75,
 				}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10445) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10445) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
-			local iExpAwardMutli = 1  --åŸºç¡€ç»éªŒç³»æ•°
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
 
 			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
 
-			return iExpAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iExpAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -12528,7 +12533,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		end
 		,
 
-		-- ç»‘å®šé’±
+		-- °ó¶¨Ç®
 
 
 
@@ -12541,22 +12546,22 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				[4]=25,
 			}
 
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10445) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10445) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
 
 
 
 
-			local iMonAwardMutli = 1  --åŸºç¡€é‡‘é’±ç³»æ•°
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
 
 			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
 
-			return iMonAward--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 
@@ -12564,10 +12569,10 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		end
 		,
 
-		-- å…¬ä¼šå¥–åŠ±ç›¸å…³
+		-- ¹«»á½±ÀøÏà¹Ø
 		FactionAward = function(TASKINTERFACE_POINTER)
 			local ContributionTable20 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -12578,7 +12583,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -12590,7 +12595,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -12602,21 +12607,21 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -12624,21 +12629,21 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -12646,7 +12651,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -12657,7 +12662,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=8,
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 					[1]=4,
 					[2]=8,
@@ -12665,14 +12670,14 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=16,
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 					[1]=8,
 					[2]=12,
 					[3]=18,
 					[4]=28,
 				}
 			local GuildZiYuan520 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 					[1]=1,
 					[2]=2,
@@ -12680,14 +12685,14 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=4,
 				}
 			local GuildZiYuan540 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 					[1]=2,
 					[2]=4,
 					[3]=6,
 					[4]=8,
 				}
 			local GuildZiYuan560 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 					[1]=4,
 					[2]=6,
 					[3]=9,
@@ -12695,7 +12700,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10445) + 1--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 10445) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 
 
@@ -12705,53 +12710,53 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 			local factionaward = {}
 
 			if iPlayerLevel < 40 then
-				factionaward.credit = ExploitTable20[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable20[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable20[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable20[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable20[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan220[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.belief   = GuildZiYuan520[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan220[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.belief   = GuildZiYuan520[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			elseif iPlayerLevel < 60 then
-				factionaward.credit = ExploitTable40[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable40[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable40[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable40[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable40[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan240[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.belief  = GuildZiYuan540[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan240[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.belief  = GuildZiYuan540[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			elseif iPlayerLevel <= 80 then
-				factionaward.credit = ExploitTable60[FinishTime]					--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+				factionaward.credit = ExploitTable60[FinishTime]					--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-				factionaward.contribution = ContributionTable60[FinishTime] 		--å‘æ”¾è´¡çŒ®åº¦
+				factionaward.contribution = ContributionTable60[FinishTime] 		--·¢·Å¹±Ï×¶È
 
 
 
 
-				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--å‘æ”¾å·¥ä¼šèµ„é‡‘
+				factionaward.money = GuildMonTable60[FinishTime]*iGuildMoneyMuti 	--·¢·Å¹¤»á×Ê½ğ
 
-				factionaward.magic = GuildZiYuan260[FinishTime] 		--å‘æ”¾2#å·¥ä¼šèµ„æº
-				factionaward.belief   = GuildZiYuan560[FinishTime]		--å‘æ”¾5#å·¥ä¼šèµ„æº
+				factionaward.magic = GuildZiYuan260[FinishTime] 		--·¢·Å2#¹¤»á×ÊÔ´
+				factionaward.belief   = GuildZiYuan560[FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
 			end
 
-			factionaward.vitality = 2 --å…¬ä¼šæ´»è·ƒåº¦
+			factionaward.vitality = 2 --¹«»á»îÔ¾¶È
 
 
 
@@ -12763,24 +12768,24 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10445 --çœäº‹ç”¨çš„ã€‚ã€‚å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10445 --Ê¡ÊÂÓÃµÄ¡£¡£´æ±¾ÈÎÎñid
 
-		--æ£€æŸ¥ç©å®¶ç­‰çº§>=40
+		--¼ì²éÍæ¼ÒµÈ¼¶>=400
 		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 40 then
+	   	if iPlayerLev < 400 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰ä»»åŠ¡æ ¼å­
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
 		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER,9358)
 		if iRet ~= 0  then
 			return TASK_PREREQU_FAIL_FULL
    	   	end
 
-		--æ¯å¤©ç¬¬ä¸€æ¬¡åšä»»åŠ¡æ—¶æ£€æŸ¥æ˜¯å¦æœ‰ç‰Œå­id=23911
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskID)
 		if FinishTime == 0 then
 			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 23911, true)
@@ -12793,17 +12798,17 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10445 --å­˜æœ¬ä»»åŠ¡id
+		local iTaskID = 10445 --´æ±¾ÈÎÎñid
 
-		--æ£€æµ‹èº«ä¸Šæ˜¯å¦æœ‰å…¶ä»–ä¸»ä»»åŠ¡
-
-
+		--¼ì²âÉíÉÏÊÇ·ñÓĞÆäËûÖ÷ÈÎÎñ
 
 
 
-		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10370, 10371, 10444}		--å…¬ä¼šä¸»ä»»åŠ¡åˆ—è¡¨ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+
+
+		local MainTaskTable = {8547, 8548, 8549, 8550, 8551, 10368, 10369, 10370, 10371, 10444}		--¹«»áÖ÷ÈÎÎñÁĞ±í£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
@@ -12816,15 +12821,15 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 		local HelpTaskTable60 = {}
 
-		local TaskTypeNum = 10								--å…¬ä¼šä¸»ä»»åŠ¡ç±»åˆ«ï¼ˆä¸åŒ…æ‹¬æœ¬ä»»åŠ¡ï¼‰
+		local TaskTypeNum = 10								--¹«»áÖ÷ÈÎÎñÀà±ğ£¨²»°üÀ¨±¾ÈÎÎñ£©
 
 
 
 
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 		--Íæ¼ÒµÈ¼¶
 
-		--åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable20:8557-8566;åˆå§‹åŒ–è¾…åŠ©ä»»åŠ¡åº“AssistTable40:8567-8576
+		--³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable20:8557-8566;³õÊ¼»¯¸¨ÖúÈÎÎñ¿âAssistTable40:8567-8576
 		if iPlayerLev < 60 then
 
 			for i = 1, 10 do
@@ -12849,7 +12854,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 		end
 
-		--ä»è¦éšæœºçš„ä»»åŠ¡åº“ä¸­åˆ é™¤å·²æœ‰ä»»åŠ¡
+		--´ÓÒªËæ»úµÄÈÎÎñ¿âÖĞÉ¾³ıÒÑÓĞÈÎÎñ
 
 
 
@@ -12858,8 +12863,8 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		for i,v in ipairs(MainTaskTable) do
 			local bHasTask = TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v)
 			if bHasTask then
-			--æ£€æŸ¥èº«ä¸Šæ˜¯å¦æœ‰é‡å¤ä»»åŠ¡id,20-39;40+
-			--8557-8566,8567-8576åŸºç¡€åº“
+			--¼ì²éÉíÉÏÊÇ·ñÓĞÖØ¸´ÈÎÎñid,20-39;40+
+			--8557-8566,8567-8576»ù´¡¿â
 
 
 
@@ -12867,7 +12872,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 				if iPlayerLev < 40 then
 					for j = 8557,8566 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then --Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -12882,7 +12887,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					end
 				elseif iPlayerLev < 60 then
 					for j = 8567,8576 do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, j) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -12897,7 +12902,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					end
 				elseif iPlayerLev <= 80 then
 					for j,v in pairs(HelpTaskTable60) do
-						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--å¦‚æœæœ‰åˆ™ä»éšæœºè¾…ä»»åŠ¡åº“ä¸­å°†æ­¤é¡¹åˆ é™¤
+						if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER, v) then--Èç¹ûÓĞÔò´ÓËæ»ú¸¨ÈÎÎñ¿âÖĞ½«´ËÏîÉ¾³ı
 
 
 
@@ -12914,7 +12919,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 			end
 		end
 
-		--è¿½åŠ åœ°è´¨åä¼šä¸“ç”¨ä»»åŠ¡ï¼ˆä¸å±äºåŸºç¡€ä»»åŠ¡åº“ï¼‰
+		--×·¼ÓµØÖÊĞ­»á×¨ÓÃÈÎÎñ£¨²»ÊôÓÚ»ù´¡ÈÎÎñ¿â£©
 		if iPlayerLev < 60 then
 			table.insert(AssistTaskTable40, 10446)
 			table.insert(AssistTaskTable40, 10447)
@@ -12935,25 +12940,25 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		end
 
 
-		--å¯¹ç‰¹æ®Šè§’è‰²ç‰¹æ®Šå¤„ç†
+		--¶ÔÌØÊâ½ÇÉ«ÌØÊâ´¦Àí
 
 
 
 
 		if iPlayerLev < 40 then
 
-			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8557,8558,8560,8563,8565}	--20-30»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8562,8566}		--30+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8562,8566}		--30+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
 
-			--20-29çš„ç©å®¶ä¸ä¼šéšæœºåˆ°30+æ€æ€ªä»»åŠ¡
+			--20-29µÄÍæ¼Ò²»»áËæ»úµ½30+É±¹ÖÈÎÎñ
 
 
 
@@ -12972,7 +12977,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					end
 				end
 
-				--30+ç©å®¶ä¸ä¼šéšæœºåˆ°20-29æ€æ€ªä»»åŠ¡
+				--30+Íæ¼Ò²»»áËæ»úµ½20-29É±¹ÖÈÎÎñ
 
 
 
@@ -12993,18 +12998,18 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 		end
 
-		--40-49çš„ç©å®¶ä¸ä¼šéšæœºåˆ°50+æ€æ€ªä»»åŠ¡
+		--40-49µÄÍæ¼Ò²»»áËæ»úµ½50+É±¹ÖÈÎÎñ
 
 
 
 
 		if iPlayerLev >= 40 and iPlayerLev < 61 then
-			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local LowLevelBaseTable = {8567,8568,8570,8571,}			--40-50»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
 
-			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+åŸºç¡€åº“æ€æ€ªä»»åŠ¡
+			local HighLevelBaseTable = {8572,8573,8574,8575,8576,}		--50+»ù´¡¿âÉ±¹ÖÈÎÎñ
 
 
 
@@ -13033,7 +13038,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					end
 				end
 
-			--50+ç©å®¶ä¸ä¼šéšæœºåˆ°40-49æ€æ€ªä»»åŠ¡
+			--50+Íæ¼Ò²»»áËæ»úµ½40-49É±¹ÖÈÎÎñ
 
 
 
@@ -13060,26 +13065,26 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		math.randomseed(os.time())
 		if iPlayerLev < 40 then
 			iRandomR = #AssistTaskTable20
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable20[key]
 		elseif iPlayerLev < 60 then
 			iRandomR = #AssistTaskTable40
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable40[key]
 		elseif iPlayerLev <= 80 then
 			iRandomR = #AssistTaskTable60
-			key = math.random(1, iRandomR)--å°†è¦å‘æ”¾çš„è¾…åŠ©åº“ä»»åŠ¡id
+			key = math.random(1, iRandomR)--½«Òª·¢·ÅµÄ¸¨Öú¿âÈÎÎñid
 			DeliverTaskID = AssistTaskTable60[key]
 		end
 
-		--æ‹†è§£ä»»åŠ¡idï¼Œå­˜å…¥éšæœºæ•°ï¼›key1*200+key2 =taskID
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
 		local key1 = math.floor(DeliverTaskID /200)
 		local key2 = DeliverTaskID % 200
 
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, key1)
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 2, key2)
 
-		--æ¥å—ä»»åŠ¡æ—¶å€™éœ€è¦å‘æ”¾ä»»åŠ¡å’Œæ”¶å–ç‰©å“ï¼ˆç¬¬ä¸€æ¬¡æ—¶æ”¶å–ï¼‰
+		--½ÓÊÜÈÎÎñÊ±ºòĞèÒª·¢·ÅÈÎÎñºÍÊÕÈ¡ÎïÆ·£¨µÚÒ»´ÎÊ±ÊÕÈ¡£©
 
 
 
@@ -13087,13 +13092,13 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 		if FinishTime == 0 then
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --æ”¶èµ°ä¸€ä¸ªç‰Œå­
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 23911, 1) --ÊÕ×ßÒ»¸öÅÆ×Ó
 		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
-		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--å‘æ”¾è¾…åŠ©ä»»åŠ¡
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, DeliverTaskID)--·¢·Å¸¨ÖúÈÎÎñ
 
 		return 0
 	end
@@ -13101,14 +13106,14 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
-		local iTaskID = 10445 --çœäº‹ç”¨çš„ã€‚ã€‚
+		local iTaskID = 10445 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
    		local iRet = TASK_NO_FINISH
@@ -13121,7 +13126,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		end
 
 		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,DeliverTaskID,false) then
-			--å½“ç©å®¶æ”¾å¼ƒè¾…åŠ©ä»»åŠ¡æ—¶ï¼Œè®¤ä¸ºä¸»ä»»åŠ¡å¤±è´¥
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
 			iRet = TASK_FAIL_FINISH
 		end
 
@@ -13135,21 +13140,21 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
 
 
 
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local iTaskID = 10445 --çœäº‹ç”¨çš„ã€‚ã€‚
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iTaskID = 10445 --Ê¡ÊÂÓÃµÄ¡£¡£
 
 
 
 
 
 		local ExpTable = {
-		--ç»éªŒ
+		--¾­Ñé
 				[1]=20,
 				[2]=35,
 				[3]=50,
@@ -13157,7 +13162,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 		local MonTable = {
-		--ç»‘å®šé‡‘
+		--°ó¶¨½ğ
 
 
 
@@ -13169,7 +13174,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 			}
 
 		local ContributionTable20 = {
-		--è´¡çŒ®åº¦
+		--¹±Ï×¶È
 
 
 
@@ -13180,7 +13185,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=2,
 				}
 			local ContributionTable40 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -13192,7 +13197,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 				}
 			local ContributionTable60 = {
-			--è´¡çŒ®åº¦
+			--¹±Ï×¶È
 
 
 
@@ -13204,21 +13209,21 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local ExploitTable20 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=0,
 					[2]=1,
 					[3]=1,
 					[4]=2,
 				}
 			local ExploitTable40 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=1,
 					[2]=2,
 					[3]=2,
 					[4]=3,
 				}
 			local ExploitTable60 = {
-			--åŠŸå‹‹
+			--¹¦Ñ«
 					[1]=2,
 					[2]=3,
 					[3]=4,
@@ -13226,21 +13231,21 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local GuildMonTable20 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=500,
 					[2]=1000,
 					[3]=1500,
 					[4]=2000,
 				}
 			local GuildMonTable40 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=1000,
 					[2]=2000,
 					[3]=3000,
 					[4]=4000,
 				}
 			local GuildMonTable60 = {
-			--å…¬ä¼šèµ„é‡‘
+			--¹«»á×Ê½ğ
 					[1]=2000,
 					[2]=3000,
 					[3]=5000,
@@ -13248,7 +13253,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 				}
 
 			local GuildZiYuan220 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -13259,7 +13264,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=8,
 				}
 			local GuildZiYuan240 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -13270,7 +13275,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=16,
 				}
 			local GuildZiYuan260 ={
-			--2å·èµ„æº
+			--2ºÅ×ÊÔ´
 
 
 
@@ -13281,7 +13286,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=28,
 				}
 			local GuildZiYuan520 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -13292,7 +13297,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 					[4]=4,
 				}
 			local GuildZiYuan540 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -13304,7 +13309,7 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 
 				}
 			local GuildZiYuan560 ={
-			--5å·èµ„æº
+			--5ºÅ×ÊÔ´
 
 
 
@@ -13319,72 +13324,72 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 		local DeliverTaskID = ucRandomNum1*200 + ucRandomNum2
 		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£ç»éªŒ
-		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--æœ¬ç­‰çº§ä¿®æ­£é‡‘é’±
-		local iExpAwardMutli = 1 --åŸºç¡€ç»éªŒç³»æ•°
-		local iMonAwardMutli = 1 --åŸºç¡€é‡‘é’±ç³»æ•°
-		local iGuildMoneyMuti = 1 --å·¥ä¼šèµ„é‡‘ç³»æ•°
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+		local iExpAwardMutli = 1 --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1 --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
 
-		local iPersonalActive = 2	--æ´»è·ƒåº¦å¥–åŠ±æ•°å€¼
+		local iPersonalActive = 2	--»îÔ¾¶È½±ÀøÊıÖµ
 
-		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--ç¯ä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼ˆåŒ…æ‹¬æœ¬æ¬¡ï¼‰
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
 
 		if bSuccess then
 
 			if FinishTime > 0 then
-				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--å‘æ”¾ç»éªŒ
-				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--å‘æ”¾å¸®å®šé‡‘
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
 
-				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--å‘æ”¾å·¥ä¼šæ´»è·ƒåº¦
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
 
 				if iPlayerLevel < 40 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable20[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
-
-
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable20[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--å‘æ”¾2#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan520[FinishTime]) 			--å‘æ”¾5#å·¥ä¼šèµ„æº
+
+
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable20[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan220[FinishTime]) 			--·¢·Å2#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan520[FinishTime]) 			--·¢·Å5#¹¤»á×ÊÔ´
 				elseif iPlayerLevel < 60 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable40[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable40[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--å‘æ”¾2#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan540[FinishTime]) 			--å‘æ”¾5#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable40[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan240[FinishTime]) 			--·¢·Å2#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan540[FinishTime]) 			--·¢·Å5#¹¤»á×ÊÔ´
 				elseif iPlayerLevel <= 80 then
-					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--å‘æ”¾å·¥ä¼šåŠŸå‹‹åº¦
+					TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable60[FinishTime]) 				--·¢·Å¹¤»á¹¦Ñ«¶È
 
 
 
 
-					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--å‘æ”¾è´¡çŒ®åº¦
+					TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable60[FinishTime]) 		--·¢·Å¹±Ï×¶È
 
 
 
 
 
-					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--å‘æ”¾å·¥ä¼šèµ„é‡‘
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--å‘æ”¾2#å·¥ä¼šèµ„æº
-					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan560[FinishTime]) 			--å‘æ”¾5#å·¥ä¼šèµ„æº
+					TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable60[FinishTime]*iGuildMoneyMuti)	--·¢·Å¹¤»á×Ê½ğ
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,GuildZiYuan260[FinishTime]) 			--·¢·Å2#¹¤»á×ÊÔ´
+					TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,GuildZiYuan560[FinishTime]) 			--·¢·Å5#¹¤»á×ÊÔ´
 				end
 
-				if FinishTime == 4 then --4ç¯ç»“æŸæ—¶æ¸…ç©ºä»»åŠ¡å®Œæˆæ¬¡æ•°
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
 					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
 
-					--å–9286å®Œæˆæ¬¡æ•°åˆ¤æ–­æ˜¯å¦æ”¹å‘æ”¾é¢å¤–å¥–åŠ±,å¦‚æœæ²¡å®Œæˆè¿‡åˆ™å‘æ”¾ä»»åŠ¡
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
 
 
 
@@ -13397,11 +13402,11 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 			end
 
 		else
-			--æ”¾å¼ƒæ¸…æ‰æœ¬è½®å¾ªç¯æ¬¡æ•°è®°å½•
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskID)
    		end
 
-		--æ¸…é™¤ä»»åŠ¡å®Œæˆç»“æœ
+		--Çå³ıÈÎÎñÍê³É½á¹û
 		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, DeliverTaskID)
 
    		return 0
@@ -13409,12 +13414,12 @@ TaskList[10445] = --2çº§_å…¬ä¼šä»»åŠ¡_é­”å® 
 }
 
 
-TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
+TaskList[11265] = --¶¬´Í½Ú£¬Ê¥µ®Ê÷µÄÄÛÖ¦
 {
-	--ä»»åŠ¡å®Œæˆæ–¹å¼
+	--ÈÎÎñÍê³É·½Ê½
 	tabMethod =
 	{
-		[1]={0,32610,1,},--å®Œæˆæ–¹å¼ 0å¯»ç‰© 1æ€æ€ªï¼Œç›®æ ‡idï¼Œæ•°é‡ï¼Œ
+		[1]={0,32610,1,},--Íê³É·½Ê½ 0Ñ°Îï 1É±¹Ö£¬Ä¿±êid£¬ÊıÁ¿£¬
 		[2]={0,32612,1,},
 		[3]={0,32613,1,},
 	}
@@ -13428,9 +13433,9 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
-  		bCanSeekOut = false,    --ä¸å¯æŸ¥æ‰¾
+  		bCanSeekOut = false,    --²»¿É²éÕÒ
 
-		bClearAsGiveup = false, --æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
   		iMaxFinishCount = 1,
@@ -13444,29 +13449,29 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 120									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 120									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
-			local ItemId = 32499 --å†¬èµèŠ‚åº†å…¸å¾½ç« 
+			local ItemId = 32499 --¶¬´Í½ÚÇìµä»ÕÕÂ
 			items = {
-						Item1 = {ID = ItemId, NUM = 2},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = ItemId, NUM = 2},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
@@ -13474,21 +13479,21 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-	   	if iPlayerLev < 20 then --ç­‰çº§éœ€è¦é«˜äº20çº§
+	   	if iPlayerLev < 20 then --µÈ¼¶ĞèÒª¸ßÓÚ20¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--å‰æä»»åŠ¡11211å†¬å¤©åˆ°äº†
+		--Ç°ÌáÈÎÎñ11211¶¬Ììµ½ÁË
 		if not TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,11211,true) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 
 		end
 
-   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
@@ -13496,38 +13501,38 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
-		local iRandNum = 3 --ä»»åŠ¡éšæœºçš„å®Œæˆæ–¹å¼ç§ç±»
-		--å®Œæˆæ–¹å¼1ï¼šå¯»ç‰©ã€‚ç»™ç©å®¶ä¸€ç²’ç§å­ï¼ˆid=32550)ï¼Œå»ç²¾çµæ–°æ‰‹æ‘ï¼ˆå“€ä¼¤ä¸›æ—ï¼‰çš„æŸä¸ªç‚¹ç§ä¸‹ç§å­åï¼Œé‡‡ä¸€æ”¯å«©èŠ½å›æ¥
-		--å®Œæˆæ–¹å¼2ï¼šå¯»ç‰©ã€‚ç»™ç©å®¶ä¸€æŸ„è‡ªæ®‹ä¹‹åˆ€ï¼ˆæŠ€èƒ½ç‰©å“id=32555ï¼‰ï¼Œåˆºä¼¤è‡ªå·±ï¼Œå¾—åˆ°è¡€æ¶²å‡è´¨ï¼ˆä»»åŠ¡éšæœºå‘ç”Ÿå™¨ï¼‰ï¼Œæ»´çŒè¡€æ—æ–°æ‰‹æ‘çš„æŸä¸ªåœŸå£¤ï¼Œå¬çŸ¿é‡‡é›†ã€‚
-		--å®Œæˆæ–¹å¼3ï¼šå¯»ç‰©ã€‚ä½¿ç”¨ç¬¼å­(æŠ€èƒ½ç‰©å“id=32556)æŠ“ä½ä¸€åªå°åŠ¨ç‰©ï¼Œå°†å®ƒé€ç»™äººç±»æ–°æ‰‹æ‘çš„xxxï¼Œæ¢å–ä¸€åªå«©èŠ½ï¼ˆä»»åŠ¡ç‰©å“ï¼‰å¸¦å›æ¥ã€‚
+		local iRandNum = 3 --ÈÎÎñËæ»úµÄÍê³É·½Ê½ÖÖÀà
+		--Íê³É·½Ê½1£ºÑ°Îï¡£¸øÍæ¼ÒÒ»Á£ÖÖ×Ó£¨id=32550)£¬È¥¾«ÁéĞÂÊÖ´å£¨°§ÉË´ÔÁÖ£©µÄÄ³¸öµãÖÖÏÂÖÖ×Óºó£¬²ÉÒ»Ö§ÄÛÑ¿»ØÀ´
+		--Íê³É·½Ê½2£ºÑ°Îï¡£¸øÍæ¼ÒÒ»±ú×Ô²ĞÖ®µ¶£¨¼¼ÄÜÎïÆ·id=32555£©£¬´ÌÉË×Ô¼º£¬µÃµ½ÑªÒºÄıÖÊ£¨ÈÎÎñËæ»ú·¢ÉúÆ÷£©£¬µÎ¹àÑª×åĞÂÊÖ´åµÄÄ³¸öÍÁÈÀ£¬ÕÙ¿ó²É¼¯¡£
+		--Íê³É·½Ê½3£ºÑ°Îï¡£Ê¹ÓÃÁı×Ó(¼¼ÄÜÎïÆ·id=32556)×¥×¡Ò»Ö»Ğ¡¶¯Îï£¬½«ËüËÍ¸øÈËÀàĞÂÊÖ´åµÄxxx£¬»»È¡Ò»Ö»ÄÛÑ¿£¨ÈÎÎñÎïÆ·£©´ø»ØÀ´¡£
 
-		--ä¿®æ”¹çš„éƒ¨åˆ†ï¼Œå›ºå®šç©å®¶æ¯å¤©éšåˆ°çš„å†…å®¹ï¼Œå½“å¤©å¥‡å¶æ•°*ç©å®¶åˆ›å»ºè§’è‰²çš„æ—¶é—´mod2
-		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--ĞŞ¸ÄµÄ²¿·Ö£¬¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ämod2
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
-		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% iRandNum + 1 --ç©å®¶å½“å¤©éšåˆ°çš„ä»»åŠ¡ç§ç±»
+		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% iRandNum + 1 --Íæ¼Òµ±ÌìËæµ½µÄÈÎÎñÖÖÀà
 
 
-		--æµ‹è¯•ç”¨å†…å®¹
+		--²âÊÔÓÃÄÚÈİ
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			iRandomMethod = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 		end
 
 
-   		--å‘é“å…·æˆ–å¥–åŠ±
+   		--·¢µÀ¾ß»ò½±Àø
 
 		local tabDeliverItem = {
-					[1]=32550, --ä¸–ç•Œæ ‘çš„ç§å­
-					[2]=32555, --é²œè¡€ä¹‹åˆº
-					[3]=32556, --å® ç‰©æ•æ‰ç¬¼
+					[1]=32550, --ÊÀ½çÊ÷µÄÖÖ×Ó
+					[2]=32555, --ÏÊÑªÖ®´Ì
+					[3]=32556, --³èÎï²¶×½Áı
 					}
 
-		if not iRandomMethod then --é˜²æ­¢iRandomMethodå–ç©ºï¼Œå¼ºåˆ¶èµ‹å€¼ä¸ºæ–¹å¼1
+		if not iRandomMethod then --·ÀÖ¹iRandomMethodÈ¡¿Õ£¬Ç¿ÖÆ¸³ÖµÎª·½Ê½1
 			iRandomMethod = 1
 		end
 
@@ -13537,26 +13542,26 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
 		end
 
 
-		--è®¾ç½®éšæœºæ•°
+		--ÉèÖÃËæ»úÊı
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 11265, 1, iRandomMethod)
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
    		local iRandomMethod = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 11265, 1)
 
-		Method.CollectItem = { Item1 = {ID=TaskList[11265].tabMethod[iRandomMethod][2], Num=TaskList[11265].tabMethod[iRandomMethod][3], Common=true},} --ä¸–ç•Œæ ‘çš„å«©èŠ½
+		Method.CollectItem = { Item1 = {ID=TaskList[11265].tabMethod[iRandomMethod][2], Num=TaskList[11265].tabMethod[iRandomMethod][3], Common=true},} --ÊÀ½çÊ÷µÄÄÛÑ¿
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -13574,7 +13579,7 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
 
    		if bSuccess then
 
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			   return TASK_PREREQU_FAIL_GIVEN_ITEM
 			end
 
@@ -13584,18 +13589,18 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1)
-		local AwardMulti = 120									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1)
+		local AwardMulti = 120									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 		local tabDeliverItem = {
-					[1]=32550, --ä¸–ç•Œæ ‘çš„ç§å­
-					[2]=32555, --é²œè¡€ä¹‹åˆº
-					[3]=32556, --å® ç‰©æ•æ‰ç¬¼
+					[1]=32550, --ÊÀ½çÊ÷µÄÖÖ×Ó
+					[2]=32555, --ÏÊÑªÖ®´Ì
+					[3]=32556, --³èÎï²¶×½Áı
 					}
 
    		if bSuccess then
@@ -13606,13 +13611,13 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
 
 			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[11265].tabMethod[ucRandomNum1][2], num)
 
-			--å‘æ”¾å†¬èµèŠ‚åº†å…¸å¾½ç« 2ä¸ª
+			--·¢·Å¶¬´Í½ÚÇìµä»ÕÕÂ2¸ö
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 32499, 2, true)
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
-		else--å¤±è´¥æ¸…ç©ºä»»åŠ¡
+		else--Ê§°ÜÇå¿ÕÈÎÎñ
 			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, tabDeliverItem[ucRandomNum1], 1)
 
 			local num = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,TaskList[11265].tabMethod[ucRandomNum1][2], true)
@@ -13626,12 +13631,12 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
 
 			local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,32551, true)
 			if  num1 > 0 then
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32551, num1)    --æ¸…ç©ºä»»åŠ¡
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32551, num1)    --Çå¿ÕÈÎÎñ
 			end
 
 			local num2 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,32611, true)
 			if  num2 > 0 then
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32611, num2)    --æ¸…ç©ºä»»åŠ¡
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32611, num2)    --Çå¿ÕÈÎÎñ
 			end
 
    		end
@@ -13640,12 +13645,12 @@ TaskList[11265] = --å†¬èµèŠ‚ï¼Œåœ£è¯æ ‘çš„å«©æ
    	end
 }
 
-TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
+TaskList[11303] = --ÃûÈËµÄÉñ´Í½ÚĞíÔ¸¿¨
 {
-	--ä»»åŠ¡å®Œæˆæ–¹å¼
+	--ÈÎÎñÍê³É·½Ê½
 	tabMethod =
 	{
-		[1]={1,32652,1,},--1å®Œæˆæ–¹å¼æ€æ€ªï¼Œæ€æ€ªidï¼Œæ•°é‡
+		[1]={1,32652,1,},--1Íê³É·½Ê½É±¹Ö£¬É±¹Öid£¬ÊıÁ¿
 		[2]={1,32653,1,},
 	}
 	,
@@ -13658,9 +13663,9 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
-  		bCanSeekOut = false, --ä¸å¯æŸ¥æ‰¾
+  		bCanSeekOut = false, --²»¿É²éÕÒ
 
-		bClearAsGiveup = false, --æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
   		iMaxFinishCount = 1,
@@ -13674,29 +13679,29 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 100									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 100									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
-			local ItemId = 32499 --å†¬èµèŠ‚åº†å…¸å¾½ç« 
+			local ItemId = 32499 --¶¬´Í½ÚÇìµä»ÕÕÂ
 			items = {
-						Item1 = {ID = ItemId, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = ItemId, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
@@ -13704,21 +13709,21 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-	   	if iPlayerLev < 20 then --ç­‰çº§éœ€è¦é«˜äº20çº§
+	   	if iPlayerLev < 20 then --µÈ¼¶ĞèÒª¸ßÓÚ20¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--å‰æä»»åŠ¡11211å†¬å¤©åˆ°äº†
+		--Ç°ÌáÈÎÎñ11211¶¬Ììµ½ÁË
 		if not TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,11211,true) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 
 		end
 
-   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
@@ -13726,44 +13731,44 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
-		local iRandNum = 2 --ä»»åŠ¡éšæœºçš„å®Œæˆæ–¹å¼ç§ç±»
-		--å®Œæˆæ–¹å¼1ï¼šæ€æ€ªã€‚ç»™ç©å®¶ä¸€ä¸ªæ°´æ™¶èƒ½é‡å¼•å¯¼å™¨ï¼ˆæŠ€èƒ½ç‰©å“id=32553ï¼‰ï¼Œé‡‡çŸ¿å¾—åˆ°èƒ½é‡æ°´æ™¶ï¼Œå‡€åŒ–å·¨äººæ‘é‡Œâ€œçŸ³åŒ–è—¤è”“â€ï¼ˆæ€ªid=32652ï¼‰
-		--å®Œæˆæ–¹å¼2ï¼šæ€æ€ªã€‚ç©å®¶æ€æ­»åœ°å›¾çš„æ€ªç‰©æ‰è½ç¬¦èƒ½ç«ç„°ï¼ˆæŠ€èƒ½ç‰©å“id=32554ï¼‰ï¼Œåœ¨çŸ®äººæ–°æ‰‹æ‘é™¤æ‰ä¸€å—å†°(id=32653)åï¼Œé‡Šæ”¾è¢«å†·å†»çš„æ ‘æã€‚
+		local iRandNum = 2 --ÈÎÎñËæ»úµÄÍê³É·½Ê½ÖÖÀà
+		--Íê³É·½Ê½1£ºÉ±¹Ö¡£¸øÍæ¼ÒÒ»¸öË®¾§ÄÜÁ¿Òıµ¼Æ÷£¨¼¼ÄÜÎïÆ·id=32553£©£¬²É¿óµÃµ½ÄÜÁ¿Ë®¾§£¬¾»»¯¾ŞÈË´åÀï¡°Ê¯»¯ÌÙÂû¡±£¨¹Öid=32652£©
+		--Íê³É·½Ê½2£ºÉ±¹Ö¡£Íæ¼ÒÉ±ËÀµØÍ¼µÄ¹ÖÎïµôÂä·ûÄÜ»ğÑæ£¨¼¼ÄÜÎïÆ·id=32554£©£¬ÔÚ°«ÈËĞÂÊÖ´å³ıµôÒ»¿é±ù(id=32653)ºó£¬ÊÍ·Å±»Àä¶³µÄÊ÷Ö¦¡£
 
-		--ä¿®æ”¹çš„éƒ¨åˆ†ï¼Œå›ºå®šç©å®¶æ¯å¤©éšåˆ°çš„å†…å®¹ï¼Œå½“å¤©å¥‡å¶æ•°*ç©å®¶åˆ›å»ºè§’è‰²çš„æ—¶é—´mod2
-		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--ĞŞ¸ÄµÄ²¿·Ö£¬¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ämod2
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
-		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% iRandNum + 1 --ç©å®¶å½“å¤©éšåˆ°çš„ä»»åŠ¡ç§ç±»
+		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% iRandNum + 1 --Íæ¼Òµ±ÌìËæµ½µÄÈÎÎñÖÖÀà
 
 
-		--æµ‹è¯•ç”¨å†…å®¹
+		--²âÊÔÓÃÄÚÈİ
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			iRandomMethod = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 		end
 
 
-   		--å‘é“å…·æˆ–å¥–åŠ±
+   		--·¢µÀ¾ß»ò½±Àø
 		local tabDeliverItem = {
-					[1]=32553, --æ°´æ™¶èƒ½é‡å¼•å¯¼è£…ç½®
+					[1]=32553, --Ë®¾§ÄÜÁ¿Òıµ¼×°ÖÃ
 					[2]=0,
 					}
 		if tabDeliverItem[iRandomMethod] > 0 then
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, tabDeliverItem[iRandomMethod] , 1, true)
 		end
 
-		--è®¾ç½®éšæœºæ•°
+		--ÉèÖÃËæ»úÊı
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 11303, 1, iRandomMethod)
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
@@ -13776,7 +13781,7 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -13794,7 +13799,7 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
 
    		if bSuccess then
 
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 2 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 2 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			   return TASK_PREREQU_FAIL_GIVEN_ITEM
 			end
 
@@ -13804,16 +13809,16 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1)
-		local AwardMulti = 100									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1)
+		local AwardMulti = 100									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 		local tabDeliverItem = {
-					[1]=32553, --æ°´æ™¶èƒ½é‡å¼•å¯¼è£…ç½®
+					[1]=32553, --Ë®¾§ÄÜÁ¿Òıµ¼×°ÖÃ
 					[2]=0,
 					}
 
@@ -13824,7 +13829,7 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
 
 			iRandomBook = 1
 
-			--å‘æ”¾ä¹¦ç±å¥–åŠ±
+			--·¢·ÅÊé¼®½±Àø
 			math.randomseed(os.time())
 			iRandomBook = math.random(1,32)
 
@@ -13832,33 +13837,33 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
 
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, iRandomBookId, 1, true)
 
-			--å‘æ”¾å†¬èµèŠ‚åº†å…¸å¾½ç« 1ä¸ª
+			--·¢·Å¶¬´Í½ÚÇìµä»ÕÕÂ1¸ö
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 32499, 1, true)
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
    		end
 
-		--æ¸…ç©ºä»»åŠ¡ï¼Œæ— è®ºæˆåŠŸå¤±è´¥
+		--Çå¿ÕÈÎÎñ£¬ÎŞÂÛ³É¹¦Ê§°Ü
 		if ucRandomNum1 ==1 then
 			local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,32553, true)
 			if  num1 > 0 then
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32553, num1)    --æ¸…ç©ºä»»åŠ¡
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32553, num1)    --Çå¿ÕÈÎÎñ
 			end
 
 			local num2 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,32558, true)
 			if  num2 > 0 then
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32558, num2)    --æ¸…ç©ºä»»åŠ¡
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32558, num2)    --Çå¿ÕÈÎÎñ
 			end
 
 
 		elseif ucRandomNum1 ==2 then
 
-			--æ€æ­»ç«ç„°é¢†ä¸»å¾—åˆ°32554åœ¨æ”¾å¼ƒä»»åŠ¡æ—¶å€™ç†åº”è¢«æ¸…ç©º
+			--É±ËÀ»ğÑæÁìÖ÷µÃµ½32554ÔÚ·ÅÆúÈÎÎñÊ±ºòÀíÓ¦±»Çå¿Õ
 			local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,32554, true)
 			if  num1 > 0 then
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32554, num1)    --æ¸…ç©ºä»»åŠ¡
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 32554, num1)    --Çå¿ÕÈÎÎñ
 			end
 
 		end
@@ -13869,34 +13874,34 @@ TaskList[11303] = --åäººçš„ç¥èµèŠ‚è®¸æ„¿å¡
 
 
 
-TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
+TaskList[12004] = --¹¤»á»ùµØ2¼¶»îÁ¦¾®¾ÆÍ°
 {
   	Property =
   	{
-  		bCanRedo = true,		--æˆåŠŸå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,--å¤±è´¥å¯é‡å¤å®Œæˆ
-  		bCanGiveUp = true,		--å¯æ”¾å¼ƒ
-  		bShowPrompt = false,	--ä¸æ˜¾ç¤ºç³»ç»Ÿæç¤º
-  		bFinishWhenDelvier = true,--æ¥å—å³å®Œæˆ
-		bHiddenTask = true, 		--éšè—ä»»åŠ¡
+  		bCanRedo = true,		--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,		--¿É·ÅÆú
+  		bShowPrompt = false,	--²»ÏÔÊ¾ÏµÍ³ÌáÊ¾
+  		bFinishWhenDelvier = true,--½ÓÊÜ¼´Íê³É
+		bHiddenTask = true, 		--Òş²ØÈÎÎñ
 
-  		iType  = TaskType.SheJiaoJia,--ä»»åŠ¡ç±»å‹ï¼šç¤¾äº¤å®¶
-  		iTopic = TaskTopic.YiBan,--ä¸€èˆ¬ä¸»é¢˜ä»»åŠ¡
+  		iType  = TaskType.SheJiaoJia,--ÈÎÎñÀàĞÍ£ºÉç½»¼Ò
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
 
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
 
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
@@ -13904,7 +13909,7 @@ TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 		return 0
 	end
@@ -13912,17 +13917,17 @@ TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
 
    	OnMethod = function(TASKINTERFACE_POINTER)
    		local Method = {}
-   		    Method.iWaitTime = 0 --ç­‰å¾…0sè‡ªåŠ¨å®Œæˆ
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
 
    		local iRet = TASK_NO_FINISH
 
-		--10minå¤±è´¥
+		--10minÊ§°Ü
 		local ulCurTime     = TaskCApi.GetCurTime(TASKINTERFACE_POINTER)
    		local ulDeliverTime = TaskCApi.GetTaskDeliverTime(TASKINTERFACE_POINTER, 12004)
    		if ulCurTime - ulDeliverTime > 600 then
@@ -13941,7 +13946,7 @@ TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
 
 		if bSuccess then
 
-		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 
 			return TASK_PREREQU_FAIL_GIVEN_ITEM
 		end
@@ -13952,22 +13957,22 @@ TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
 
    	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
    		if bSuccess then
 
-			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
 			local tabAwarditems = {
-								[1] = 9056,--ç”œèœœæ¢¦å¢ƒ 9056
-								[2] = 9057,--è¿·é¦™æ¢¦å¢ƒ 9057
-								[3] = 9058,--æµ·æ¾œæ¢¦å¢ƒ 9058
-								[4] = 9059,--è‹ç¿ æ¢¦å¢ƒ 9059
-								[5] = 9059,--ç´«æ™¶æ¢¦å¢ƒ 9060ï¼ˆå¼€æ”¾ä¹‹å‰åªå‘æ”¾è‹ç¿ æ¢¦å¢ƒï¼‰
+								[1] = 9056,--ÌğÃÛÃÎ¾³ 9056
+								[2] = 9057,--ÃÔÏãÃÎ¾³ 9057
+								[3] = 9058,--º£À½ÃÎ¾³ 9058
+								[4] = 9059,--²Ô´äÃÎ¾³ 9059
+								[5] = 9059,--×Ï¾§ÃÎ¾³ 9060£¨¿ª·ÅÖ®Ç°Ö»·¢·Å²Ô´äÃÎ¾³£©
 								}
 
-			local ItemId --å‘æ”¾çš„å¥–åŠ±ç‰©å“id
+			local ItemId --·¢·ÅµÄ½±ÀøÎïÆ·id
 
 			local ilevel = math.floor( (iPlayerLevel+20) / 20)
 
@@ -13975,7 +13980,7 @@ TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
 				ItemId = tabAwarditems[ilevel]
 
 			else
-				math.randomseed(os.time())--éšæœºå‘å¥–æ¦‚ç‡ï¼Œä¸º2å‘æ”¾æœ¬çº§åˆ«ï¼Œä¸º1å‘æ”¾æ¬¡çº§
+				math.randomseed(os.time())--Ëæ»ú·¢½±¸ÅÂÊ£¬Îª2·¢·Å±¾¼¶±ğ£¬Îª1·¢·Å´Î¼¶
 				iRate = math.random(1,2)
 
 				ItemId = tabAwarditems[ilevel - 2 + iRate]
@@ -13989,35 +13994,35 @@ TaskList[12004] = --å·¥ä¼šåŸºåœ°2çº§æ´»åŠ›äº•é…’æ¡¶
    	end
 }
 
-TaskList[12641] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨01
+TaskList[12641] = --ÔÖÓòĞé¿Õ£­ÎäÆ÷01
 {
-	--æ¯ç§æ­¦å™¨å¯¹åº”è¦æ”¶å–çš„ç‰©å“å†…å®¹
+	--Ã¿ÖÖÎäÆ÷¶ÔÓ¦ÒªÊÕÈ¡µÄÎïÆ·ÄÚÈİ
 	Tabweapon =
 	{
-		--[èŒä¸šid]= {æ­¦å™¨idï¼Œéœ€æ±‚ç‰©å“id}
-		[1]= {36371,36339,},     --æˆ˜å£«
-		[2]= {36372,36339,},     --å®ˆæŠ¤
-		[3]= {36373,36339,},     --åˆºå®¢
-		[4]= {36374,36339,},     --ç«æª
-		[5]= {36375,36339,},     --æ³•å¸ˆ
-		[6]= {36376,36339,},     --ç‰§å¸ˆ
-		[7]= {36377,36339,},     --è¡€é­”
-		[8]= {36378,36339,},     --è¯—äºº
+		--[Ö°Òµid]= {ÎäÆ÷id£¬ĞèÇóÎïÆ·id}
+		[1]= {36371,36339,},     --Õ½Ê¿
+		[2]= {36372,36339,},     --ÊØ»¤
+		[3]= {36373,36339,},     --´Ì¿Í
+		[4]= {36374,36339,},     --»ğÇ¹
+		[5]= {36375,36339,},     --·¨Ê¦
+		[6]= {36376,36339,},     --ÄÁÊ¦
+		[7]= {36377,36339,},     --ÑªÄ§
+		[8]= {36378,36339,},     --Ê«ÈË
 
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = false,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = false,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
 
@@ -14028,19 +14033,19 @@ TaskList[12641] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨01
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60			--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = 75 			--å‘å¥–åŠ±ç”¨ï¼Œé”å®šç­‰çº§75
+			local AwardMulti = 60			--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = 75 			--·¢½±ÀøÓÃ£¬Ëø¶¨µÈ¼¶75
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 		end
@@ -14049,17 +14054,17 @@ TaskList[12641] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨01
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-	   	if iPlayerLev < 75 then --ç­‰çº§éœ€è¦é«˜äº75çº§
+	   	if iPlayerLev < 200 then --µÈ¼¶ĞèÒª¸ßÓÚ75¼¶£¨ĞŞ¸ÄÓ¢ĞÛÌ×»ñµÃÄÑ¶È£º½«ÈÎÎñµÚÒ»²½½ÓÊÜµÈ¼¶Ìá¸ß£¬²»ÔÙ·¢·Å£©
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--ç©å®¶èº«ä¸Šå¿…é¡»æœ‰æœ¬èŒä¸šå¯¹åº”æ®‹ç ´çš„æ­¦å™¨
+		--Íæ¼ÒÉíÉÏ±ØĞëÓĞ±¾Ö°Òµ¶ÔÓ¦²ĞÆÆµÄÎäÆ÷
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,TaskList[12641].Tabweapon[iOccupation][1], true) < 1 then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -14069,32 +14074,32 @@ TaskList[12641] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨01
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-   		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+   		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		Method.CollectItem = { Item1 = {ID=TaskList[12641].Tabweapon[iOccupation][2], Num=1, Common=true},} --æ­¦å™¨éœ€æ±‚ç‰©å“ï¼šç¾åŸŸä¹‹åˆƒ
+		Method.CollectItem = { Item1 = {ID=TaskList[12641].Tabweapon[iOccupation][2], Num=1, Common=true},} --ÎäÆ÷ĞèÇóÎïÆ·£ºÔÖÓòÖ®ÈĞ
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12641].Tabweapon[iOccupation][2], true) >= 1 then--æ­¦å™¨éœ€æ±‚ç‰©å“ï¼šè™šçµç²¾å36232
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12641].Tabweapon[iOccupation][2], true) >= 1 then--ÎäÆ÷ĞèÇóÎïÆ·£ºĞéÁé¾«»ª36232
 				iRet = TASK_SUCC_FINISH
 		end
 
@@ -14108,25 +14113,25 @@ TaskList[12641] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨01
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = 75 			--ï¼Œå‘å¥–åŠ±ç”¨
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = 75 			--£¬·¢½±ÀøÓÃ
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
-			--é”å®šç»éªŒç­‰çº§ä¸Šé™ä¸º79
+			--Ëø¶¨¾­ÑéµÈ¼¶ÉÏÏŞÎª79
 			if PlayerLevel >= 80 then
 				PlayerLevel = 79
 			end
 
-			--æ”¶èµ°ç‰©å“
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12641].Tabweapon[iOccupation][2], 1)    --æ”¶å–ææ–™ 1ä¸ª
+			--ÊÕ×ßÎïÆ·
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12641].Tabweapon[iOccupation][2], 1)    --ÊÕÈ¡²ÄÁÏ 1¸ö
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
@@ -14136,35 +14141,35 @@ TaskList[12641] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨01
    	end
 }
 
-TaskList[12666] = --ç¾åŸŸè™šç©ºï¼å¸½å­01
+TaskList[12666] = --ÔÖÓòĞé¿Õ£­Ã±×Ó01
 {
-	--æ¯ç§èŒä¸šå¸½å­å¯¹åº”è¦æ”¶å–çš„ç‰©å“å†…å®¹
+	--Ã¿ÖÖÖ°ÒµÃ±×Ó¶ÔÓ¦ÒªÊÕÈ¡µÄÎïÆ·ÄÚÈİ
 	Tabweapon =
 	{
-		--[èŒä¸šid]= {å¸½å­idï¼Œéœ€æ±‚ç‰©å“id}
-		[1]= {36387,36340,},     --æˆ˜å£«
-		[2]= {36388,36340,},     --å®ˆæŠ¤
-		[3]= {36389,36340,},     --åˆºå®¢
-		[4]= {36390,36340,},     --ç«æª
-		[5]= {36391,36340,},     --æ³•å¸ˆ
-		[6]= {36392,36340,},     --ç‰§å¸ˆ
-		[7]= {36393,36340,},     --è¡€é­”
-		[8]= {36394,36340,},     --è¯—äºº
+		--[Ö°Òµid]= {Ã±×Óid£¬ĞèÇóÎïÆ·id}
+		[1]= {36387,36340,},     --Õ½Ê¿
+		[2]= {36388,36340,},     --ÊØ»¤
+		[3]= {36389,36340,},     --´Ì¿Í
+		[4]= {36390,36340,},     --»ğÇ¹
+		[5]= {36391,36340,},     --·¨Ê¦
+		[6]= {36392,36340,},     --ÄÁÊ¦
+		[7]= {36393,36340,},     --ÑªÄ§
+		[8]= {36394,36340,},     --Ê«ÈË
 
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = false,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = false,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
 
@@ -14175,19 +14180,19 @@ TaskList[12666] = --ç¾åŸŸè™šç©ºï¼å¸½å­01
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 		end
@@ -14196,17 +14201,17 @@ TaskList[12666] = --ç¾åŸŸè™šç©ºï¼å¸½å­01
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-	   	if iPlayerLev < 75 then --ç­‰çº§éœ€è¦é«˜äº75çº§
+	   	if iPlayerLev < 200 then --µÈ¼¶ĞèÒª¸ßÓÚ75¼¶£¨ĞŞ¸ÄÓ¢ĞÛÌ×»ñµÃÄÑ¶È£º½«ÈÎÎñµÚÒ»²½½ÓÊÜµÈ¼¶Ìá¸ß£¬²»ÔÙ·¢·Å£©
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--ç©å®¶èº«ä¸Šå¿…é¡»æœ‰æœ¬èŒä¸šå¯¹åº”æ®‹ç ´çš„æ­¦å™¨
+		--Íæ¼ÒÉíÉÏ±ØĞëÓĞ±¾Ö°Òµ¶ÔÓ¦²ĞÆÆµÄÎäÆ÷
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,TaskList[12666].Tabweapon[iOccupation][1], true) < 1 then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -14216,32 +14221,32 @@ TaskList[12666] = --ç¾åŸŸè™šç©ºï¼å¸½å­01
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-   		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+   		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		Method.CollectItem = { Item1 = {ID=TaskList[12666].Tabweapon[iOccupation][2], Num=1, Common=true},} --æ­¦å™¨éœ€æ±‚ç‰©å“ï¼šç¾åŸŸä¹‹åˆƒ
+		Method.CollectItem = { Item1 = {ID=TaskList[12666].Tabweapon[iOccupation][2], Num=1, Common=true},} --ÎäÆ÷ĞèÇóÎïÆ·£ºÔÖÓòÖ®ÈĞ
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12666].Tabweapon[iOccupation][2], true) >= 1 then--æ­¦å™¨éœ€æ±‚ç‰©å“ï¼šè™šçµç²¾å36232
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12666].Tabweapon[iOccupation][2], true) >= 1 then--ÎäÆ÷ĞèÇóÎïÆ·£ºĞéÁé¾«»ª36232
 				iRet = TASK_SUCC_FINISH
 		end
 
@@ -14255,25 +14260,25 @@ TaskList[12666] = --ç¾åŸŸè™šç©ºï¼å¸½å­01
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
-			--é”å®šç»éªŒç­‰çº§ä¸Šé™ä¸º79
+			--Ëø¶¨¾­ÑéµÈ¼¶ÉÏÏŞÎª79
 			if PlayerLevel >= 80 then
 				PlayerLevel = 79
 			end
 
-			--æ”¶èµ°ç‰©å“
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12666].Tabweapon[iOccupation][2], 1)    --æ”¶å–ææ–™ 1ä¸ª
+			--ÊÕ×ßÎïÆ·
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12666].Tabweapon[iOccupation][2], 1)    --ÊÕÈ¡²ÄÁÏ 1¸ö
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
@@ -14283,34 +14288,34 @@ TaskList[12666] = --ç¾åŸŸè™šç©ºï¼å¸½å­01
    	end
 }
 
-TaskList[12669] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©01
+TaskList[12669] = --ÔÖÓòĞé¿Õ£­»¤¼ç01
 {
-	--æ¯ç§èŒä¸šæŠ¤è‚©å¯¹åº”è¦æ”¶å–çš„ç‰©å“å†…å®¹
+	--Ã¿ÖÖÖ°Òµ»¤¼ç¶ÔÓ¦ÒªÊÕÈ¡µÄÎïÆ·ÄÚÈİ
 	Tabweapon =
 	{
-		--[èŒä¸šid]= {æŠ¤è‚©idï¼Œéœ€æ±‚ç‰©å“id}
-		[1]= {36379,36341,},     --æˆ˜å£«
-		[2]= {36380,36341,},     --å®ˆæŠ¤
-		[3]= {36381,36341,},     --åˆºå®¢
-		[4]= {36382,36341,},     --ç«æª
-		[5]= {36383,36341,},     --æ³•å¸ˆ
-		[6]= {36384,36341,},     --ç‰§å¸ˆ
-		[7]= {36385,36341,},     --è¡€é­”
-		[8]= {36386,36341,},     --è¯—äºº
+		--[Ö°Òµid]= {»¤¼çid£¬ĞèÇóÎïÆ·id}
+		[1]= {36379,36341,},     --Õ½Ê¿
+		[2]= {36380,36341,},     --ÊØ»¤
+		[3]= {36381,36341,},     --´Ì¿Í
+		[4]= {36382,36341,},     --»ğÇ¹
+		[5]= {36383,36341,},     --·¨Ê¦
+		[6]= {36384,36341,},     --ÄÁÊ¦
+		[7]= {36385,36341,},     --ÑªÄ§
+		[8]= {36386,36341,},     --Ê«ÈË
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = false,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = false,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
 
@@ -14321,19 +14326,19 @@ TaskList[12669] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©01
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 		end
@@ -14342,17 +14347,17 @@ TaskList[12669] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©01
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-	   	if iPlayerLev < 75 then --ç­‰çº§éœ€è¦é«˜äº75çº§
+	   	if iPlayerLev < 200 then --µÈ¼¶ĞèÒª¸ßÓÚ75¼¶£¨ĞŞ¸ÄÓ¢ĞÛÌ×»ñµÃÄÑ¶È£º½«ÈÎÎñµÚÒ»²½½ÓÊÜµÈ¼¶Ìá¸ß£¬²»ÔÙ·¢·Å£©
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--ç©å®¶èº«ä¸Šå¿…é¡»æœ‰æœ¬èŒä¸šå¯¹åº”æ®‹ç ´çš„æ­¦å™¨
+		--Íæ¼ÒÉíÉÏ±ØĞëÓĞ±¾Ö°Òµ¶ÔÓ¦²ĞÆÆµÄÎäÆ÷
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,TaskList[12669].Tabweapon[iOccupation][1], true) < 1 then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -14362,32 +14367,32 @@ TaskList[12669] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©01
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-   		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+   		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		Method.CollectItem = { Item1 = {ID=TaskList[12669].Tabweapon[iOccupation][2], Num=1, Common=true},} --æ­¦å™¨éœ€æ±‚ç‰©å“ï¼šç¾åŸŸä¹‹åˆƒ
+		Method.CollectItem = { Item1 = {ID=TaskList[12669].Tabweapon[iOccupation][2], Num=1, Common=true},} --ÎäÆ÷ĞèÇóÎïÆ·£ºÔÖÓòÖ®ÈĞ
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12669].Tabweapon[iOccupation][2], true) >= 1 then--æ­¦å™¨éœ€æ±‚ç‰©å“ï¼šè™šçµç²¾å36232
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12669].Tabweapon[iOccupation][2], true) >= 1 then--ÎäÆ÷ĞèÇóÎïÆ·£ºĞéÁé¾«»ª36232
 				iRet = TASK_SUCC_FINISH
 		end
 
@@ -14401,24 +14406,24 @@ TaskList[12669] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©01
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
-			--é”å®šç»éªŒç­‰çº§ä¸Šé™ä¸º79
+			--Ëø¶¨¾­ÑéµÈ¼¶ÉÏÏŞÎª79
 			if PlayerLevel >= 80 then
 				PlayerLevel = 79
 			end
 
-			--æ”¶èµ°ç‰©å“
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12669].Tabweapon[iOccupation][2], 1)    --æ”¶å–ææ–™ 1ä¸ª
+			--ÊÕ×ßÎïÆ·
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12669].Tabweapon[iOccupation][2], 1)    --ÊÕÈ¡²ÄÁÏ 1¸ö
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
@@ -14428,34 +14433,34 @@ TaskList[12669] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©01
    	end
 }
 
-TaskList[12650] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨03çµé­‚æ¸…æ´—
+TaskList[12650] = --ÔÖÓòĞé¿Õ£­ÎäÆ÷03Áé»êÇåÏ´
 {
-	--æ¯ç§èŒä¸šæ­¦å™¨å¯¹åº”è¦æ”¶å–çš„ç‰©å“å†…å®¹
+	--Ã¿ÖÖÖ°ÒµÎäÆ÷¶ÔÓ¦ÒªÊÕÈ¡µÄÎïÆ·ÄÚÈİ
 	Tabweapon =
 	{
-		--[èŒä¸šid]= æ®‹ç ´æ­¦å™¨idï¼Œå¥–åŠ±çš„æ­¦å™¨id
-		[1]= {36371,36435,},     --æˆ˜å£«
-		[2]= {36372,36436,},     --å®ˆæŠ¤
-		[3]= {36373,36437,},     --åˆºå®¢
-		[4]= {36374,36438,},     --ç«æª
-		[5]= {36375,36439,},     --æ³•å¸ˆ
-		[6]= {36376,36440,},     --ç‰§å¸ˆ
-		[7]= {36377,36441,},     --è¡€é­”
-		[8]= {36378,36442,},     --è¯—äºº
+		--[Ö°Òµid]= ²ĞÆÆÎäÆ÷id£¬½±ÀøµÄÎäÆ÷id
+		[1]= {36371,36435,},     --Õ½Ê¿
+		[2]= {36372,36436,},     --ÊØ»¤
+		[3]= {36373,36437,},     --´Ì¿Í
+		[4]= {36374,36438,},     --»ğÇ¹
+		[5]= {36375,36439,},     --·¨Ê¦
+		[6]= {36376,36440,},     --ÄÁÊ¦
+		[7]= {36377,36441,},     --ÑªÄ§
+		[8]= {36378,36442,},     --Ê«ÈË
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = true,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
 
@@ -14466,31 +14471,31 @@ TaskList[12650] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨03çµé­‚æ¸…æ´—
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 80									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 80									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
-			local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+			local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
 			local ItemId = TaskList[12650].Tabweapon[iOccupation][2]
 
 			items = {
-						Item1 = {ID = ItemId, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = ItemId, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
@@ -14500,20 +14505,20 @@ TaskList[12650] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨03çµé­‚æ¸…æ´—
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local iPremiseTaskID = 12647 --å‰æä»»åŠ¡id
+		local iPremiseTaskID = 12647 --Ç°ÌáÈÎÎñid
 
-	   	if iPlayerLev < 75 then --ç­‰çº§éœ€è¦é«˜äº75çº§
+	   	if iPlayerLev < 75 then --µÈ¼¶ĞèÒª¸ßÓÚ75¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
 
-		--æ£€æŸ¥æ˜¯å¦å·²ç»å®Œæˆå‰ç½®ä»»åŠ¡12647
+		--¼ì²éÊÇ·ñÒÑ¾­Íê³ÉÇ°ÖÃÈÎÎñ12647
 		if not TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,iPremiseTaskID,true) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -14522,37 +14527,37 @@ TaskList[12650] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨03çµé­‚æ¸…æ´—
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºæ˜¾ç¤ºè¿½è¸ª
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		--ÉèÖÃËæ»úÊıÒÔÓÃÓÚÏÔÊ¾×·×Ù
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12650, 1, iOccupation)		--å­˜å‚¨ç©å®¶èŒä¸š
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12650, 1, iOccupation)		--´æ´¢Íæ¼ÒÖ°Òµ
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-   		Method.SubmitItem = true --æäº¤ç‰©å“çš„å®Œæˆæ–¹å¼
+   		Method.SubmitItem = true --Ìá½»ÎïÆ·µÄÍê³É·½Ê½
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		--æäº¤çš„ç‰©å“idï¼Œæäº¤çš„ç‰©å“æ•°é‡
+		--Ìá½»µÄÎïÆ·id£¬Ìá½»µÄÎïÆ·ÊıÁ¿
 		local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,12650)
 		if itemIDSubmitted and itemNumberSubmitted then
-			if itemIDSubmitted == TaskList[12650].Tabweapon[iOccupation][1] and itemNumberSubmitted == 1 then--å¦‚æœæäº¤çš„æ˜¯æœ¬èŒä¸šçš„å¯¹åº”æ®‹ç ´æ­¦å™¨
+			if itemIDSubmitted == TaskList[12650].Tabweapon[iOccupation][1] and itemNumberSubmitted == 1 then--Èç¹ûÌá½»µÄÊÇ±¾Ö°ÒµµÄ¶ÔÓ¦²ĞÆÆÎäÆ÷
 					iRet = TASK_SUCC_FINISH
 			elseif itemIDSubmitted ~= TaskList[12650].Tabweapon[iOccupation][1] then
 				TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12650, 28, 20000)
@@ -14572,36 +14577,36 @@ TaskList[12650] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨03çµé­‚æ¸…æ´—
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
 
 		local TaskID1 = 12641
 		local TaskID2 = 12647
 
-		local AwardMulti = 80									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local AwardMulti = 80									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
-			--é”å®šç»éªŒç­‰çº§ä¸Šé™ä¸º79
+			--Ëø¶¨¾­ÑéµÈ¼¶ÉÏÏŞÎª79
 			if PlayerLevel >= 80 then
 				PlayerLevel = 79
 			end
 
-			--æ”¶èµ°ç‰©å“
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12650].Tabweapon[iOccupation][1], 1)    --æ”¶å–ææ–™ 1ä¸ª
+			--ÊÕ×ßÎïÆ·
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12650].Tabweapon[iOccupation][1], 1)    --ÊÕÈ¡²ÄÁÏ 1¸ö
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
-			--å‘æ”¾æ­¦å™¨
+			--·¢·ÅÎäÆ÷
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,TaskList[12650].Tabweapon[iOccupation][2], 1,true)
 
-			--æ¸…ç©ºå‰ç½®ä»»åŠ¡è®°å½•ï¼Œå¼€å§‹æ–°çš„å¾ªç¯
+			--Çå¿ÕÇ°ÖÃÈÎÎñ¼ÇÂ¼£¬¿ªÊ¼ĞÂµÄÑ­»·
 			TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, TaskID1)
 			TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, TaskID2)
 
@@ -14611,35 +14616,35 @@ TaskList[12650] = --ç¾åŸŸè™šç©ºï¼æ­¦å™¨03çµé­‚æ¸…æ´—
    	end
 }
 
-TaskList[12668] = --ç¾åŸŸè™šç©ºï¼å¸½å­03
+TaskList[12668] = --ÔÖÓòĞé¿Õ£­Ã±×Ó03
 {
-	--æ¯ç§èŒä¸šæ­¦å™¨å¯¹åº”è¦æ”¶å–çš„ç‰©å“å†…å®¹
+	--Ã¿ÖÖÖ°ÒµÎäÆ÷¶ÔÓ¦ÒªÊÕÈ¡µÄÎïÆ·ÄÚÈİ
 	Tabweapon =
 	{
-		--[èŒä¸šid]= æ®‹ç ´å¸½å­idï¼Œå¥–åŠ±çš„å¸½å­id
-		[1]= {36387,36451,},     --æˆ˜å£«
-		[2]= {36388,36452,},     --å®ˆæŠ¤
-		[3]= {36389,36453,},     --åˆºå®¢
-		[4]= {36390,36454,},     --ç«æª
-		[5]= {36391,36455,},     --æ³•å¸ˆ
-		[6]= {36392,36456,},     --ç‰§å¸ˆ
-		[7]= {36393,36457,},     --è¡€é­”
-		[8]= {36394,36458,},     --è¯—äºº
+		--[Ö°Òµid]= ²ĞÆÆÃ±×Óid£¬½±ÀøµÄÃ±×Óid
+		[1]= {36387,36451,},     --Õ½Ê¿
+		[2]= {36388,36452,},     --ÊØ»¤
+		[3]= {36389,36453,},     --´Ì¿Í
+		[4]= {36390,36454,},     --»ğÇ¹
+		[5]= {36391,36455,},     --·¨Ê¦
+		[6]= {36392,36456,},     --ÄÁÊ¦
+		[7]= {36393,36457,},     --ÑªÄ§
+		[8]= {36394,36458,},     --Ê«ÈË
 
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = true,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
 
@@ -14650,31 +14655,31 @@ TaskList[12668] = --ç¾åŸŸè™šç©ºï¼å¸½å­03
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
-			local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+			local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
 			local ItemId = TaskList[12668].Tabweapon[iOccupation][2]
 
 			items = {
-						Item1 = {ID = ItemId, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = ItemId, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
@@ -14684,19 +14689,19 @@ TaskList[12668] = --ç¾åŸŸè™šç©ºï¼å¸½å­03
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local iPremiseTaskID = 12667 --å‰æä»»åŠ¡id
+		local iPremiseTaskID = 12667 --Ç°ÌáÈÎÎñid
 
-	   	if iPlayerLev < 75 then --ç­‰çº§éœ€è¦é«˜äº75çº§
+	   	if iPlayerLev < 75 then --µÈ¼¶ĞèÒª¸ßÓÚ75¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥æ˜¯å¦å·²ç»å®Œæˆå‰ç½®ä»»åŠ¡12667
+		--¼ì²éÊÇ·ñÒÑ¾­Íê³ÉÇ°ÖÃÈÎÎñ12667
 		if not TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,iPremiseTaskID,true) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -14705,38 +14710,38 @@ TaskList[12668] = --ç¾åŸŸè™šç©ºï¼å¸½å­03
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºæ˜¾ç¤ºè¿½è¸ª
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		--ÉèÖÃËæ»úÊıÒÔÓÃÓÚÏÔÊ¾×·×Ù
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12668, 1, iOccupation)		--å­˜å‚¨ç©å®¶èŒä¸š
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12668, 1, iOccupation)		--´æ´¢Íæ¼ÒÖ°Òµ
 
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-   		Method.SubmitItem = true --æäº¤ç‰©å“çš„å®Œæˆæ–¹å¼
+   		Method.SubmitItem = true --Ìá½»ÎïÆ·µÄÍê³É·½Ê½
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		--æäº¤çš„ç‰©å“idï¼Œæäº¤çš„ç‰©å“æ•°é‡
+		--Ìá½»µÄÎïÆ·id£¬Ìá½»µÄÎïÆ·ÊıÁ¿
 		local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,12668)
 		if itemIDSubmitted and itemNumberSubmitted then
-			if itemIDSubmitted == TaskList[12668].Tabweapon[iOccupation][1] and itemNumberSubmitted == 1 then--å¦‚æœæäº¤çš„æ˜¯æœ¬èŒä¸šçš„å¯¹åº”æ®‹ç ´æ­¦å™¨
+			if itemIDSubmitted == TaskList[12668].Tabweapon[iOccupation][1] and itemNumberSubmitted == 1 then--Èç¹ûÌá½»µÄÊÇ±¾Ö°ÒµµÄ¶ÔÓ¦²ĞÆÆÎäÆ÷
 					iRet = TASK_SUCC_FINISH
 			elseif itemIDSubmitted ~= TaskList[12668].Tabweapon[iOccupation][1] then
 				TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12668, 28, 20000)
@@ -14756,35 +14761,35 @@ TaskList[12668] = --ç¾åŸŸè™šç©ºï¼å¸½å­03
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
 		local TaskID1 = 12666
 		local TaskID2 = 12667
 
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
-			--é”å®šç»éªŒç­‰çº§ä¸Šé™ä¸º79
+			--Ëø¶¨¾­ÑéµÈ¼¶ÉÏÏŞÎª79
 			if PlayerLevel >= 80 then
 				PlayerLevel = 79
 			end
 
-			--æ”¶èµ°ç‰©å“
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12668].Tabweapon[iOccupation][1], 1)    --æ”¶å–ææ–™ 1ä¸ª
+			--ÊÕ×ßÎïÆ·
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12668].Tabweapon[iOccupation][1], 1)    --ÊÕÈ¡²ÄÁÏ 1¸ö
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
-			--å‘æ”¾å¸½å­
+			--·¢·ÅÃ±×Ó
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,TaskList[12668].Tabweapon[iOccupation][2], 1,true)
 
-			--æ¸…ç©ºå‰ç½®ä»»åŠ¡è®°å½•ï¼Œå¼€å§‹æ–°çš„å¾ªç¯
+			--Çå¿ÕÇ°ÖÃÈÎÎñ¼ÇÂ¼£¬¿ªÊ¼ĞÂµÄÑ­»·
 			TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, TaskID1)
 			TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, TaskID2)
 
@@ -14794,35 +14799,35 @@ TaskList[12668] = --ç¾åŸŸè™šç©ºï¼å¸½å­03
    	end
 }
 
-TaskList[12671] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©03
+TaskList[12671] = --ÔÖÓòĞé¿Õ£­»¤¼ç03
 {
-	--æ¯ç§èŒä¸šæŠ¤è‚©å¯¹åº”è¦æ”¶å–çš„ç‰©å“å†…å®¹
+	--Ã¿ÖÖÖ°Òµ»¤¼ç¶ÔÓ¦ÒªÊÕÈ¡µÄÎïÆ·ÄÚÈİ
 	Tabweapon =
 	{
-		--[èŒä¸šid]= æ®‹ç ´æŠ¤è‚©idï¼Œå¥–åŠ±çš„æŠ¤è‚©id
-		[1]= {36379,36443,},     --æˆ˜å£«
-		[2]= {36380,36444,},     --å®ˆæŠ¤
-		[3]= {36381,36445,},     --åˆºå®¢
-		[4]= {36382,36446,},     --ç«æª
-		[5]= {36383,36447,},     --æ³•å¸ˆ
-		[6]= {36384,36448,},     --ç‰§å¸ˆ
-		[7]= {36385,36449,},     --è¡€é­”
-		[8]= {36386,36450,},     --è¯—äºº
+		--[Ö°Òµid]= ²ĞÆÆ»¤¼çid£¬½±ÀøµÄ»¤¼çid
+		[1]= {36379,36443,},     --Õ½Ê¿
+		[2]= {36380,36444,},     --ÊØ»¤
+		[3]= {36381,36445,},     --´Ì¿Í
+		[4]= {36382,36446,},     --»ğÇ¹
+		[5]= {36383,36447,},     --·¨Ê¦
+		[6]= {36384,36448,},     --ÄÁÊ¦
+		[7]= {36385,36449,},     --ÑªÄ§
+		[8]= {36386,36450,},     --Ê«ÈË
 
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = true,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
 
@@ -14833,31 +14838,31 @@ TaskList[12671] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©03
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
-			local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+			local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
 			local ItemId = TaskList[12671].Tabweapon[iOccupation][2]
 
 			items = {
-						Item1 = {ID = ItemId, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+						Item1 = {ID = ItemId, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 					}
 			return items
 		end
@@ -14867,19 +14872,19 @@ TaskList[12671] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©03
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local iPremiseTaskID = 12670 --å‰æä»»åŠ¡id
+		local iPremiseTaskID = 12670 --Ç°ÌáÈÎÎñid
 
-	   	if iPlayerLev < 75 then --ç­‰çº§éœ€è¦é«˜äº75çº§
+	   	if iPlayerLev < 75 then --µÈ¼¶ĞèÒª¸ßÓÚ75¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥æ˜¯å¦å·²ç»å®Œæˆå‰ç½®ä»»åŠ¡12670
+		--¼ì²éÊÇ·ñÒÑ¾­Íê³ÉÇ°ÖÃÈÎÎñ12670
 		if not TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,iPremiseTaskID,true) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -14888,37 +14893,37 @@ TaskList[12671] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©03
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºæ˜¾ç¤ºè¿½è¸ª
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		--ÉèÖÃËæ»úÊıÒÔÓÃÓÚÏÔÊ¾×·×Ù
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12671, 1, iOccupation)		--å­˜å‚¨ç©å®¶èŒä¸š
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12671, 1, iOccupation)		--´æ´¢Íæ¼ÒÖ°Òµ
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-   		Method.SubmitItem = true --æäº¤ç‰©å“çš„å®Œæˆæ–¹å¼
+   		Method.SubmitItem = true --Ìá½»ÎïÆ·µÄÍê³É·½Ê½
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		--æäº¤çš„ç‰©å“idï¼Œæäº¤çš„ç‰©å“æ•°é‡
+		--Ìá½»µÄÎïÆ·id£¬Ìá½»µÄÎïÆ·ÊıÁ¿
 		local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,12671)
 		if itemIDSubmitted and itemNumberSubmitted then
-			if itemIDSubmitted == TaskList[12671].Tabweapon[iOccupation][1] and itemNumberSubmitted == 1 then--å¦‚æœæäº¤çš„æ˜¯æœ¬èŒä¸šçš„å¯¹åº”æ®‹ç ´æ­¦å™¨
+			if itemIDSubmitted == TaskList[12671].Tabweapon[iOccupation][1] and itemNumberSubmitted == 1 then--Èç¹ûÌá½»µÄÊÇ±¾Ö°ÒµµÄ¶ÔÓ¦²ĞÆÆÎäÆ÷
 					iRet = TASK_SUCC_FINISH
 			elseif itemIDSubmitted ~= TaskList[12671].Tabweapon[iOccupation][1] then
 				TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12671, 28, 20000)
@@ -14938,30 +14943,30 @@ TaskList[12671] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©03
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
 		local TaskID1 = 12669
 		local TaskID2 = 12670
 
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = 75 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--è·å–ç©å®¶èŒä¸š
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = 75 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iOccupation = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER)--»ñÈ¡Íæ¼ÒÖ°Òµ
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
-			--æ”¶èµ°ç‰©å“
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12671].Tabweapon[iOccupation][1], 1)    --æ”¶å–ææ–™ 1ä¸ª
+			--ÊÕ×ßÎïÆ·
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, TaskList[12671].Tabweapon[iOccupation][1], 1)    --ÊÕÈ¡²ÄÁÏ 1¸ö
 
-			--é”å®šç»éªŒç­‰çº§ä¸Šé™ä¸º79
+			--Ëø¶¨¾­ÑéµÈ¼¶ÉÏÏŞÎª79
 			if PlayerLevel >= 80 then
 				PlayerLevel = 79
 			end
 
-			--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+			--¸øÍæ¼Ò·¢·Å¾­Ñé
 			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 
-			--å‘æ”¾æŠ¤è‚©
+			--·¢·Å»¤¼ç
 			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,TaskList[12671].Tabweapon[iOccupation][2], 1,true)
 
 			TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, TaskID1)
@@ -14973,16 +14978,16 @@ TaskList[12671] = --ç¾åŸŸè™šç©ºï¼æŠ¤è‚©03
    	end
 }
 
-TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
+TaskList[12760] = --ÎäÆ÷Ê¦ÈÕ³£
 {
-	--ä»»åŠ¡å®Œæˆæ–¹å¼ä¸€å…±æœ‰4å¤§ç±»ï¼Œåˆ†åˆ«å¯¹åº”ç´¢å¼•1ï¼Œ2ï¼Œ3ï¼Œ4
+	--ÈÎÎñÍê³É·½Ê½Ò»¹²ÓĞ4´óÀà£¬·Ö±ğ¶ÔÓ¦Ë÷Òı1£¬2£¬3£¬4
 	Tabtaskmethod =
 	{
-		--1ç±»ä¸ºæ”¶å–æ­¦å™¨ç”Ÿäº§è¿‡ç¨‹ä¸­çš„äº§å“.ç´¢å¼•é¡¹ä¸ºå‰¯èŒä¸šç­‰çº§
+		--1ÀàÎªÊÕÈ¡ÎäÆ÷Éú²ú¹ı³ÌÖĞµÄ²úÆ·.Ë÷ÒıÏîÎª¸±Ö°ÒµµÈ¼¶
 		[1] = {
-			--1çº§æ­¦å™¨å¸ˆ
+			--1¼¶ÎäÆ÷Ê¦
 			[1] = {
-			--å“è´¨2=è“è‰²ï¼Œ1=ç»¿è‰²ï¼›ç‰©å“id
+			--Æ·ÖÊ2=À¶É«£¬1=ÂÌÉ«£»ÎïÆ·id
 					{2 , 28315,},
 					{2 , 28316,},
 					{2 , 28317,},
@@ -15001,7 +15006,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					{1 , 28917,},
 				},
 
-			--2çº§æ­¦å™¨å¸ˆ
+			--2¼¶ÎäÆ÷Ê¦
 			[2] = {
 					{2 , 28319,},
 					{2 , 28320,},
@@ -15021,7 +15026,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					{1 , 28921,},
 				},
 
-			--3çº§æ­¦å™¨å¸ˆ
+			--3¼¶ÎäÆ÷Ê¦
 			[3] = {
 					{2 , 28323,},
 					{2 , 28324,},
@@ -15041,7 +15046,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					{1 , 28925,},
 				},
 
-			--4çº§æ­¦å™¨å¸ˆ
+			--4¼¶ÎäÆ÷Ê¦
 			[4] = {
 					{2 , 28327,},
 					{2 , 28328,},
@@ -15061,7 +15066,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					{1 , 28929,},
 				},
 
-			--5çº§æ­¦å™¨å¸ˆ
+			--5¼¶ÎäÆ÷Ê¦
 			[5] = {
 					{2 , 28331,},
 					{2 , 28332,},
@@ -15081,7 +15086,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					{1 , 28933,},
 				},
 
-			--6çº§æ­¦å™¨å¸ˆ
+			--6¼¶ÎäÆ÷Ê¦
 			[6] = {
 					{2 , 28335,},
 					{2 , 28336,},
@@ -15101,53 +15106,53 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					{1 , 28937,},
 				},
 
-			--7çº§æ­¦å™¨å¸ˆ(æœªå¼€æ”¾ï¼Œ80çº§è£…å¤‡ç”Ÿäº§ï¼‰
+			--7¼¶ÎäÆ÷Ê¦(Î´¿ª·Å£¬80¼¶×°±¸Éú²ú£©
 			[7] = {
 					{1, 28925,},
 				},
 
 			},
 
-		--2ç±»ä¸ºæ€å½“å‰ç­‰çº§æ€ªç‰©ï¼Œç´¢å¼•é¡¹ä¸ºç­‰çº§åˆ†æ®µ
+		--2ÀàÎªÉ±µ±Ç°µÈ¼¶¹ÖÎï£¬Ë÷ÒıÏîÎªµÈ¼¶·Ö¶Î
 		[2] = {
-			--æ€ªç‰©idï¼Œä»»åŠ¡ç‰©å“36693=é­”åŒ–é’¢é”­
-			[40] = {50, 36693} , 	--ç‹®é¹«,é­”åŒ–é’¢é”­
-			[45] = {44, 36693} , 	--å¹½é­‚çº³è¿¦,é­”åŒ–é’¢é”­
-			[50] = {42, 36693} , 	--å°é­”å¥³,é­”åŒ–é’¢é”­
-			[55] = {53, 36693} , 	--å¤šå¤´è›‡èœ¥,é­”åŒ–é’¢é”­
-			[60] = {10464, 36693} , --é£Ÿäººé›¾,é­”åŒ–é’¢é”­
-			[65] = {10463, 36693} , --ä¸›æ—é»‘è±¹,é­”åŒ–é’¢é”­
-			[70] = {10449, 36693} , --æ¯æœ¨æ€æ‰‹,é­”åŒ–é’¢é”­
-			[75] = {10444, 36693} , --å’¬è¶¾è™«,é­”åŒ–é’¢é”­
-			[80] = {10444, 36693} , --å’¬è¶¾è™«,é­”åŒ–é’¢é”­
+			--¹ÖÎïid£¬ÈÎÎñÎïÆ·36693=Ä§»¯¸Ö¶§
+			[40] = {50, 36693} , 	--Ê¨ğÕ,Ä§»¯¸Ö¶§
+			[45] = {44, 36693} , 	--ÓÄ»êÄÉåÈ,Ä§»¯¸Ö¶§
+			[50] = {42, 36693} , 	--Ğ¡Ä§Å®,Ä§»¯¸Ö¶§
+			[55] = {53, 36693} , 	--¶àÍ·Éßòá,Ä§»¯¸Ö¶§
+			[60] = {10464, 36693} , --Ê³ÈËÎí,Ä§»¯¸Ö¶§
+			[65] = {10463, 36693} , --´ÔÁÖºÚ±ª,Ä§»¯¸Ö¶§
+			[70] = {10449, 36693} , --¿İÄ¾É±ÊÖ,Ä§»¯¸Ö¶§
+			[75] = {10444, 36693} , --Ò§Öº³æ,Ä§»¯¸Ö¶§
+			[80] = {10444, 36693} , --Ò§Öº³æ,Ä§»¯¸Ö¶§
 
 			},
 
-		--3ç±»å®Œæˆç‰¹å®šä»»åŠ¡åå®Œæˆï¼Œè¡¨å†…å®¹ä¸ºå¯¹åº”çš„ä»»åŠ¡id
+		--3ÀàÍê³ÉÌØ¶¨ÈÎÎñºóÍê³É£¬±íÄÚÈİÎª¶ÔÓ¦µÄÈÎÎñid
 		[3] = {
 				[1] = {12797, 12810,},
 				[2] = {12798, 12812,},
 				},
 
-		--4ç±»ä¸ºéœ€è¦ç‰©å“,æ ¹æ®å‰¯èŒä¸šç­‰çº§æ”¶å–çš„ç‰©å“ä¸åŒ
+		--4ÀàÎªĞèÒªÎïÆ·,¸ù¾İ¸±Ö°ÒµµÈ¼¶ÊÕÈ¡µÄÎïÆ·²»Í¬
 		[4] = {
-				--ç‚¼é‡‘
+				--Á¶½ğ
 				[1] = {
-						[1] = 9704,--9704	æ¬¡çº§ä½é¤è¯å‰‚ï¼Œ40
-						[2] = 9719,--9719	ä¸­æ•ˆä½é¤è¯å‰‚ï¼Œ50
-						[3] = 9729,--9729	ä½é¤è¯å‰‚ï¼Œ	  60
-						[4] = 30987,--30987	å¼ºæ•ˆä½é¤è¯å‰‚ï¼Œ70
+						[1] = 9704,--9704	´Î¼¶×ô²ÍÒ©¼Á£¬40
+						[2] = 9719,--9719	ÖĞĞ§×ô²ÍÒ©¼Á£¬50
+						[3] = 9729,--9729	×ô²ÍÒ©¼Á£¬	  60
+						[4] = 30987,--30987	Ç¿Ğ§×ô²ÍÒ©¼Á£¬70
 						[5] = 30987,
 						[6] = 30987,
 						[7] = 30987,
 						[8] = 30987,
 					},
-				--çƒ¹é¥ª
+				--Åëâ¿
 				[2] = {
-						[1] = 12255,--12255	å¤œæ——é±¼æ±¤ï¼Œ40
-						[2] = 11688,--11688	é“¶è²é…’ï¼Œ  50
-						[3] = 12264,--12264	é¾™èˆŒå…°é…’ï¼Œ60
-						[4] = 34165,--34165	æ™¨éœ²é…’ï¼Œ  70
+						[1] = 12255,--12255	Ò¹ÆìÓãÌÀ£¬40
+						[2] = 11688,--11688	ÒøÁ«¾Æ£¬  50
+						[3] = 12264,--12264	ÁúÉàÀ¼¾Æ£¬60
+						[4] = 34165,--34165	³¿Â¶¾Æ£¬  70
 						[5] = 34165,
 						[6] = 34165,
 						[7] = 34165,
@@ -15158,20 +15163,20 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = true,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
-		iMaxFinishCount = 1,--æœ€å¤§å®Œæˆæ¬¡æ•°ä¸º1
-  		iClearFinishCountType = TaskClearFinishCountType.Daily,--æ¯å¤©æ¸…ç©º
+		iMaxFinishCount = 1,--×î´óÍê³É´ÎÊıÎª1
+  		iClearFinishCountType = TaskClearFinishCountType.Daily,--Ã¿ÌìÇå¿Õ
 
 		iSuitableLevel = 200,
 
@@ -15180,19 +15185,19 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- å‰¯èŒä¸šç»éªŒ
+		-- ¸±Ö°Òµ¾­Ñé
 		SideOccupExp = function(TASKINTERFACE_POINTER)
 			local soe = {}
-			local tabSideOccupExp = {7,15,26,76,91,182,200,200}											--å­˜æ”¾å‰¯èŒä¸šç»éªŒå¥–åŠ±
+			local tabSideOccupExp = {20,50,100,200,380,728,1000,1500,1500,1500}							--´æ·Å¸±Ö°Òµ¾­Ñé½±Àø
 
-			local iSideOccupId = 9 																		--æ­¦å™¨å¸ˆå‰¯èŒä¸šid
-			local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--è·å–ç©å®¶æ­¦å™¨å¸ˆç­‰çº§
+			local iSideOccupId = 9 																		--ÎäÆ÷Ê¦¸±Ö°Òµid
+			local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--»ñÈ¡Íæ¼ÒÎäÆ÷Ê¦µÈ¼¶
 
 			soe = {
-						SOE1 = {ID = iSideOccupId, EXP = tabSideOccupExp[iSideOccuplev]},--idä¸ºå‰¯èŒä¸šidï¼Œexpä¸ºæ•°å€¼ï¼Œexpä¸º0æ˜¾ç¤ºï¼Ÿï¼Ÿï¼Ÿ
+						SOE1 = {ID = iSideOccupId, EXP = tabSideOccupExp[iSideOccuplev]},--idÎª¸±Ö°Òµid£¬expÎªÊıÖµ£¬expÎª0ÏÔÊ¾£¿£¿£¿
 				  }
 			return soe
 		end
@@ -15201,24 +15206,24 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-		local iSideOccupIdhighlevel = 6 --å½“å‰æ»¡çº§æ­¦å™¨å¸ˆä¸º6çº§
+		local iSideOccupIdhighlevel = 8 --µ±Ç°Âú¼¶ÎäÆ÷Ê¦Îª8¼¶	--2013.09.07¸Ä
 
-		local iSideOccupId = 9 --æ­¦å™¨å¸ˆå‰¯èŒä¸šid
+		local iSideOccupId = 9 --ÎäÆ÷Ê¦¸±Ö°Òµid
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 40 then --ç­‰çº§éœ€è¦é«˜äº40çº§
+	   	if iPlayerLev < 40 then --µÈ¼¶ĞèÒª¸ßÓÚ40¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥æ˜¯å¦å­¦ä¼šæ­¦å™¨å¸ˆ
+		--¼ì²éÊÇ·ñÑ§»áÎäÆ÷Ê¦
 		if not TaskCApi.HasSideOccup(TASKINTERFACE_POINTER, iSideOccupId) then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
 
-		--å½“å‰æ»¡çº§æ­¦å™¨å¸ˆä¸ºiSideOccupIdhighlevelçº§ï¼Œæ‰€ä»¥iSideOccupIdhighlevelçº§ä»¥åŠiSideOccupIdhighlevelçº§ä»¥ä¸Šå°†ä¸ä¼šæ¥åˆ°æ­¤ä»»åŠ¡
+		--µ±Ç°Âú¼¶ÎäÆ÷Ê¦ÎªiSideOccupIdhighlevel¼¶£¬ËùÒÔiSideOccupIdhighlevel¼¶ÒÔ¼°iSideOccupIdhighlevel¼¶ÒÔÉÏ½«²»»á½Óµ½´ËÈÎÎñ
 		if TaskCApi. GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) >= iSideOccupIdhighlevel then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
@@ -15227,56 +15232,56 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iflagtaskid = 12761		--æ­¦å™¨å¸ˆflagè®¡æ•°ä»»åŠ¡id
-		local itaskmethodid = 1 		--éšæœºåˆ°çš„ä»»åŠ¡ç±»å‹ï¼Œé»˜è®¤ä¸º1ï¼Œé¿å…ç©ºå€¼
-		local isubtaskmethodid = 1		--é’ˆå¯¹cdç±»ä»»åŠ¡åº“çš„å­ä»»åŠ¡ç±»å‹ï¼Œé»˜è®¤ä¸º1
+		local iflagtaskid = 12761		--ÎäÆ÷Ê¦flag¼ÆÊıÈÎÎñid
+		local itaskmethodid = 1 		--Ëæ»úµ½µÄÈÎÎñÀàĞÍ£¬Ä¬ÈÏÎª1£¬±ÜÃâ¿ÕÖµ
+		local isubtaskmethodid = 1		--Õë¶ÔcdÀàÈÎÎñ¿âµÄ×ÓÈÎÎñÀàĞÍ£¬Ä¬ÈÏÎª1
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--Íæ¼ÒµÈ¼¶
 
-		--å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)
 
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
 
-		--å–flagä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼Œå¦‚æœ7<=x<=8åˆ™éšæœºDç±»ä»»åŠ¡åº“
+		--È¡flagÈÎÎñÍê³É´ÎÊı£¬Èç¹û7<=x<=8ÔòËæ»úDÀàÈÎÎñ¿â
 		local iflagtasktimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iflagtaskid) + 1
 		if iflagtasktimes ==7 then
 			itaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 3
 		elseif iflagtasktimes >= 8 then
 			itaskmethodid = 4
-		else--flagè®¡æ•°ä¸º1-6æ—¶ï¼Œä»…åœ¨abcç±»å†…éšæœºï¼Œé€šè¿‡æ—¶é—´å’Œè§’è‰²idåŠ å’Œå–ä½™æ•°å›ºå®šç©å®¶å½“å¤©çš„éšæœºå†…å®¹
+		else--flag¼ÆÊıÎª1-6Ê±£¬½öÔÚabcÀàÄÚËæ»ú£¬Í¨¹ıÊ±¼äºÍ½ÇÉ«id¼ÓºÍÈ¡ÓàÊı¹Ì¶¨Íæ¼Òµ±ÌìµÄËæ»úÄÚÈİ
 			itaskmethodid = ( RoleCreateTime + dayInYear) % 3 + 1
 		end
 
-		--æµ‹è¯•ç”¨å†…å®¹,4493æ§åˆ¶itaskmethodid
+		--²âÊÔÓÃÄÚÈİ,4493¿ØÖÆitaskmethodid
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			itaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 		end
 
-		if itaskmethodid == 3 then --Cç±»ä»»åŠ¡æœ‰2ç§ç±»å‹
+		if itaskmethodid == 3 then --CÀàÈÎÎñÓĞ2ÖÖÀàĞÍ
 			isubtaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 1
 
-			--æµ‹è¯•ç”¨å†…å®¹
+			--²âÊÔÓÃÄÚÈİ
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true) > 0 then
 			isubtaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true)
 			end
 
-			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,TaskList[12760].Tabtaskmethod[itaskmethodid][isubtaskmethodid][1])--å‘æ”¾åˆ†æ”¯ä»»åŠ¡
+			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,TaskList[12760].Tabtaskmethod[itaskmethodid][isubtaskmethodid][1])--·¢·Å·ÖÖ§ÈÎÎñ
 
-		elseif itaskmethodid == 4 then --Dç±»ä»»åŠ¡æœ‰2ç§ç±»å‹
+		elseif itaskmethodid == 4 then --DÀàÈÎÎñÓĞ2ÖÖÀàĞÍ
 			isubtaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 1
 
-			--æµ‹è¯•ç”¨å†…å®¹
+			--²âÊÔÓÃÄÚÈİ
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true) > 0 then
 			isubtaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true)
 			end
 		end
 
-		--æµ‹è¯•ç”¨å†…å®¹,4493å’Œ4495æ§åˆ¶ä¸¤ä¸ªid
+		--²âÊÔÓÃÄÚÈİ,4493ºÍ4495¿ØÖÆÁ½¸öid
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			itaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 
@@ -15285,34 +15290,34 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 			end
 		end
 
-		--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºå­˜å‚¨éšæœºåˆ°çš„å½“å‰ä»»åŠ¡å†…å®¹
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 1, itaskmethodid)		--ä»»åŠ¡ç±»å‹ï¼ˆABCDå¤§ç±»ï¼‰
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 2, isubtaskmethodid)		--å­ä»»åŠ¡ç±»å‹ï¼ˆé’ˆå¯¹CDç±»ä»»åŠ¡åº“ï¼‰
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 3, 100)					--ç»™äº¤çº³ç‰©å“ç”¨çš„éšæœºæ•°ï¼Œé˜²æ­¢å–ç©ºï¼Œé¢„å­˜å€¼100
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 4, iPlayerLev)			--å­˜å‚¨ç©å®¶ç­‰çº§,ç»™å®¢æˆ·ç«¯æ˜¾ç¤ºè¿½è¸ªç”¨
+		--ÉèÖÃËæ»úÊıÒÔÓÃÓÚ´æ´¢Ëæ»úµ½µÄµ±Ç°ÈÎÎñÄÚÈİ
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 1, itaskmethodid)		--ÈÎÎñÀàĞÍ£¨ABCD´óÀà£©
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 2, isubtaskmethodid)		--×ÓÈÎÎñÀàĞÍ£¨Õë¶ÔCDÀàÈÎÎñ¿â£©
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 3, 100)					--¸ø½»ÄÉÎïÆ·ÓÃµÄËæ»úÊı£¬·ÀÖ¹È¡¿Õ£¬Ô¤´æÖµ100
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 4, iPlayerLev)			--´æ´¢Íæ¼ÒµÈ¼¶,¸ø¿Í»§¶ËÏÔÊ¾×·×ÙÓÃ
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 1)		--å–å‡ºä»»åŠ¡ç±»å‹ï¼ˆABCDå¤§ç±»ï¼‰
-		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 2)	--å–å‡ºå­ä»»åŠ¡ç±»å‹ï¼ˆé’ˆå¯¹CDç±»ä»»åŠ¡åº“ï¼‰
-		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 4)			--å–å‡ºç©å®¶æ¥å—ä»»åŠ¡æ—¶çš„äººç‰©ç­‰çº§
+		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 1)		--È¡³öÈÎÎñÀàĞÍ£¨ABCD´óÀà£©
+		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 2)	--È¡³ö×ÓÈÎÎñÀàĞÍ£¨Õë¶ÔCDÀàÈÎÎñ¿â£©
+		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 4)			--È¡³öÍæ¼Ò½ÓÊÜÈÎÎñÊ±µÄÈËÎïµÈ¼¶
 
-		local iSideOccupId = 9 																		--æ­¦å™¨å¸ˆå‰¯èŒä¸šid
-		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 		--è·å–ç©å®¶æ­¦å™¨å¸ˆç­‰çº§
+		local iSideOccupId = 9 																		--ÎäÆ÷Ê¦¸±Ö°Òµid
+		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 		--»ñÈ¡Íæ¼ÒÎäÆ÷Ê¦µÈ¼¶
 
 		if itaskmethodid == 1 then
-			Method.SubmitItem = true--æäº¤ç‰©å“çš„å®Œæˆæ–¹å¼
+			Method.SubmitItem = true--Ìá½»ÎïÆ·µÄÍê³É·½Ê½
 
 		elseif itaskmethodid == 2 then
 			local iPlayerLev2 = math.floor(iPlayerLev /5)*5
-			--æ€æ€ª
+			--É±¹Ö
 
 			Method.KillMonster = {
 						Mons1={ID=TaskList[12760].Tabtaskmethod[itaskmethodid][iPlayerLev2][1], Num=0, DropItemID =TaskList[12760].Tabtaskmethod[itaskmethodid][iPlayerLev2][2], DropItemProbability = 1},
@@ -15322,7 +15327,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 						}
 
 		elseif itaskmethodid == 3 then
-			--cdåº“ç±»ä»»åŠ¡éƒ½æ˜¯é€šè¿‡å®Œæˆç‰¹å®šä»»åŠ¡çš„æ–¹å¼æ¥å®ç°
+			--cd¿âÀàÈÎÎñ¶¼ÊÇÍ¨¹ıÍê³ÉÌØ¶¨ÈÎÎñµÄ·½Ê½À´ÊµÏÖ
 			local iTaskid = TaskList[12760].Tabtaskmethod[itaskmethodid][isubtaskmethodid][2]
 			Method.CompleteTask = {TaskID = iTaskid , Num = 1}
 
@@ -15335,27 +15340,27 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
-		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 1)		--å–å‡ºä»»åŠ¡ç±»å‹ï¼ˆABCDå¤§ç±»ï¼‰
-		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 2)	--å–å‡ºå­ä»»åŠ¡ç±»å‹ï¼ˆé’ˆå¯¹CDç±»ä»»åŠ¡åº“ï¼‰
-		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 4)			--å–å‡ºç©å®¶æ¥å—ä»»åŠ¡æ—¶çš„äººç‰©ç­‰çº§						--ç©å®¶ç­‰çº§
+		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 1)		--È¡³öÈÎÎñÀàĞÍ£¨ABCD´óÀà£©
+		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 2)	--È¡³ö×ÓÈÎÎñÀàĞÍ£¨Õë¶ÔCDÀàÈÎÎñ¿â£©
+		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12760, 4)			--È¡³öÍæ¼Ò½ÓÊÜÈÎÎñÊ±µÄÈËÎïµÈ¼¶						--Íæ¼ÒµÈ¼¶
 
-		local iSideOccupId = 9 																		--æ­¦å™¨å¸ˆå‰¯èŒä¸šid
-		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 		--è·å–ç©å®¶æ­¦å™¨å¸ˆç­‰çº§
+		local iSideOccupId = 9 																		--ÎäÆ÷Ê¦¸±Ö°Òµid
+		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 		--»ñÈ¡Íæ¼ÒÎäÆ÷Ê¦µÈ¼¶
 
 		if itaskmethodid == 1 then
-		--æäº¤ç‰©å“çš„æ–¹å¼æ¥å®ç°
-			--æäº¤çš„ç‰©å“idï¼Œæäº¤çš„ç‰©å“æ•°é‡
+		--Ìá½»ÎïÆ·µÄ·½Ê½À´ÊµÏÖ
+			--Ìá½»µÄÎïÆ·id£¬Ìá½»µÄÎïÆ·ÊıÁ¿
 			local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,12760)
 
 			if itemIDSubmitted and itemNumberSubmitted then
 
 				for i,j in pairs(TaskList[12760].Tabtaskmethod[1][iSideOccuplev]) do
 					if itemIDSubmitted == j[2] and  itemNumberSubmitted == 1 then
-					--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºå­˜å‚¨ç©å®¶äº¤çº³çš„ç‰©å“ç´¢å¼•
+					--ÉèÖÃËæ»úÊıÒÔÓÃÓÚ´æ´¢Íæ¼Ò½»ÄÉµÄÎïÆ·Ë÷Òı
 					TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12760, 3, i)
 
 					iRet = TASK_SUCC_FINISH
@@ -15363,11 +15368,11 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					return iRet
 
 					elseif itemIDSubmitted == j[2] and itemNumberSubmitted > 1 then
-					--æ•°é‡ä¸å¯¹
+					--ÊıÁ¿²»¶Ô
 						TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12760, 29, 20001)
 					end
 
-					if i == 16 then --ç‰©å“ä¸å¯¹
+					if i == 16 then --ÎïÆ·²»¶Ô
 						TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12760, 28, 20000)
 					end
 				end
@@ -15375,7 +15380,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 
 		elseif itaskmethodid == 2 then
 
-		--æ€æ€ªè·å¾—ä»»åŠ¡ç‰©å“
+		--É±¹Ö»ñµÃÈÎÎñÎïÆ·
 			local iPlayerLev2 = math.floor(iPlayerLev /5)*5
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12760].Tabtaskmethod[itaskmethodid][iPlayerLev2][2],  false)  >= 1 then
    		           iRet = TASK_SUCC_FINISH
@@ -15383,7 +15388,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 
 
 		elseif itaskmethodid == 3 then
-		--Cä»»åŠ¡åº“é€šè¿‡å®Œæˆä»»åŠ¡çš„æ–¹å¼æ¥å®ç°
+		--CÈÎÎñ¿âÍ¨¹ıÍê³ÉÈÎÎñµÄ·½Ê½À´ÊµÏÖ
 			local iTaskid = TaskList[12760].Tabtaskmethod[itaskmethodid][isubtaskmethodid][2]
 			local TaskCompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskid)
 
@@ -15392,7 +15397,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 			end
 
 		else
-		--Dä»»åŠ¡åº“å¯»ç‰©
+		--DÈÎÎñ¿âÑ°Îï
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12760].Tabtaskmethod[itaskmethodid][isubtaskmethodid][math.floor(iPlayerLev/10)-3], true)>= 5 then
    		           iRet = TASK_SUCC_FINISH
    		    end
@@ -15408,34 +15413,34 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2,ucRandomNum3,ucRandomNum4)
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2,ucRandomNum3,ucRandomNum4)
 
-		local AwardMulti = 30																		--å­˜æ”¾è§’è‰²ç»éªŒå¥–åŠ±ç³»æ•°
-		local tabSideOccupExp = {7,15,26,76,91,182,200,200}											--å­˜æ”¾å‰¯èŒä¸šç»éªŒå¥–åŠ±
+		local AwardMulti = 30																		--´æ·Å½ÇÉ«¾­Ñé½±ÀøÏµÊı
+		local tabSideOccupExp = {20,50,100,200,380,728,1000,1500,1500,1500}							--´æ·Å¸±Ö°Òµ¾­Ñé½±Àø
 
-		local PlayerLevel = ucRandomNum4												 			--å–å¾—ç©å®¶æ¥æ”¶ä»»åŠ¡æ—¶çš„ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iSideOccupId = 9 																		--æ­¦å™¨å¸ˆå‰¯èŒä¸šid
-		local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--è·å–ç©å®¶æ­¦å™¨å¸ˆç­‰çº§
+		local PlayerLevel = ucRandomNum4												 			--È¡µÃÍæ¼Ò½ÓÊÕÈÎÎñÊ±µÄµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iSideOccupId = 9 																		--ÎäÆ÷Ê¦¸±Ö°Òµid
+		local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--»ñÈ¡Íæ¼ÒÎäÆ÷Ê¦µÈ¼¶
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
 			if ucRandomNum1 == 1 then
 				--[[
-				--ç”±äºåŠŸèƒ½é™åˆ¶ï¼Œæ­¤å¤„ç‰©å“ä¸å†æ”¶å–
+				--ÓÉÓÚ¹¦ÄÜÏŞÖÆ£¬´Ë´¦ÎïÆ·²»ÔÙÊÕÈ¡
 				local iItemsid = TaskList[12760].Tabtaskmethod[1][iSideOccuplev][ucRandomNum3][2]
-				--æ”¶èµ°ç‰©å“
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,iItemsid, 1)    					--æ”¶å–æ­¦å™¨ 1ä¸ª
+				--ÊÕ×ßÎïÆ·
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,iItemsid, 1)    					--ÊÕÈ¡ÎäÆ÷ 1¸ö
 
-				if TaskList[12760].Tabtaskmethod[1][iSideOccuplev][ucRandomNum3][1] == 2 then			--è“è‰²å“è´¨ç‰©å“é¢å¤–å¥–åŠ±å°é¢äººç‰©ç»éªŒ
-				--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+				if TaskList[12760].Tabtaskmethod[1][iSideOccuplev][ucRandomNum3][1] == 2 then			--À¶É«Æ·ÖÊÎïÆ·¶îÍâ½±ÀøĞ¡¶îÈËÎï¾­Ñé
+				--¸øÍæ¼Ò·¢·Å¾­Ñé
 				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 				end
 				]]--
 
-				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12761)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12761)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
 			elseif ucRandomNum1 == 2 then
 				local iPlayerLev2 = math.floor(PlayerLevel /5)*5
@@ -15446,16 +15451,16 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 					iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,iItemsid, false)
 				end
 
-				--æ”¶èµ°ä»»åŠ¡ç‰©å“
+				--ÊÕ×ßÈÎÎñÎïÆ·
 				TaskCApi.TakeAwayTaskItem(TASKINTERFACE_POINTER,iItemsid, iItemsnum)
 
-				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12761)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12761)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
 			elseif ucRandomNum1 == 3 then
 
-				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12761)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12761)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
-				--æ¸…ç©ºè¾…åŠ©ä»»åŠ¡è®¡æ•°
+				--Çå¿Õ¸¨ÖúÈÎÎñ¼ÆÊı
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12797)
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12798)
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12810)
@@ -15464,27 +15469,27 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 
 			elseif ucRandomNum1 == 4 then
 				iItemsid = TaskList[12760].Tabtaskmethod[ucRandomNum1][ucRandomNum2][math.floor(PlayerLevel/10)-3]
-				--æ”¶èµ°ä»»åŠ¡ç‰©å“
+				--ÊÕ×ßÈÎÎñÎïÆ·
 				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,iItemsid, 5)
 
-				--Dç±»ä»»åŠ¡å®Œæˆï¼Œæ¸…é™¤flagä»»åŠ¡å®Œæˆæ¬¡æ•°
+				--DÀàÈÎÎñÍê³É£¬Çå³ıflagÈÎÎñÍê³É´ÎÊı
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12761)
 			end
 
-			TaskCApi.DeliverSideOccupExp (TASKINTERFACE_POINTER, iSideOccupId, tabSideOccupExp[iSideOccuplev] )--å‘æ”¾å‰¯èŒä¸šç»éªŒ
+			TaskCApi.DeliverSideOccupExp (TASKINTERFACE_POINTER, iSideOccupId, tabSideOccupExp[iSideOccuplev] )--·¢·Å¸±Ö°Òµ¾­Ñé
 
 		else
-			--å¤±è´¥çš„è¯éœ€è¦ä¸­æ­¢Cåº“çš„å¼•å¯¼ä»»åŠ¡
+			--Ê§°ÜµÄ»°ĞèÒªÖĞÖ¹C¿âµÄÒıµ¼ÈÎÎñ
 			if ucRandomNum1 == 3 then
 				local iTaskID = TaskList[12760].Tabtaskmethod[ucRandomNum1][ucRandomNum2][1]
 				if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iTaskID) then
-				--å¦‚æœå­˜åœ¨ï¼Œåˆ™ä¸­æ­¢
+				--Èç¹û´æÔÚ£¬ÔòÖĞÖ¹
 					TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, iTaskID, false)
 				end
 
 				local iTaskID2 = TaskList[12760].Tabtaskmethod[ucRandomNum1][ucRandomNum2][2]
 				if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iTaskID2) then
-				--å¦‚æœå­˜åœ¨ï¼Œåˆ™ä¸­æ­¢
+				--Èç¹û´æÔÚ£¬ÔòÖĞÖ¹
 					TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, iTaskID2, false)
 				end
 
@@ -15492,7 +15497,7 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 
    		end
 
-		--å¤±è´¥æˆ–è€…æ”¾å¼ƒéœ€è¦æ”¶èµ°Bç±»åº“ä¸­çš„ä»»åŠ¡ç‰©å“
+		--Ê§°Ü»òÕß·ÅÆúĞèÒªÊÕ×ßBÀà¿âÖĞµÄÈÎÎñÎïÆ·
 		if ucRandomNum1 == 2 then
 			local iPlayerLev2 = math.floor(PlayerLevel /5)*5
 
@@ -15500,11 +15505,11 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 			local iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,iItemsid, false)
 
 			if iItemsnum > 0 then
-				--å¦‚æœå­˜åœ¨ï¼Œå°±æ”¶èµ°ä»»åŠ¡ç‰©å“
+				--Èç¹û´æÔÚ£¬¾ÍÊÕ×ßÈÎÎñÎïÆ·
 				TaskCApi.TakeAwayTaskItem(TASKINTERFACE_POINTER,iItemsid, iItemsnum)
 			end
 
-		--æ— è®ºå¤±è´¥æˆåŠŸæˆ–è€…æ”¾å¼ƒæ¸…ç©ºCç±»ä»»åŠ¡çš„ä»»åŠ¡å®Œæˆè®¡æ•°
+		--ÎŞÂÛÊ§°Ü³É¹¦»òÕß·ÅÆúÇå¿ÕCÀàÈÎÎñµÄÈÎÎñÍê³É¼ÆÊı
 		elseif ucRandomNum1 == 3 then
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12797)
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12798)
@@ -15517,16 +15522,16 @@ TaskList[12760] = --æ­¦å™¨å¸ˆæ—¥å¸¸
 }
 
 
-TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
+TaskList[12763] = --·À¾ßÊ¦ÈÕ³£
 {
-	--ä»»åŠ¡å®Œæˆæ–¹å¼ä¸€å…±æœ‰4å¤§ç±»ï¼Œåˆ†åˆ«å¯¹åº”ç´¢å¼•1ï¼Œ2ï¼Œ3ï¼Œ4
+	--ÈÎÎñÍê³É·½Ê½Ò»¹²ÓĞ4´óÀà£¬·Ö±ğ¶ÔÓ¦Ë÷Òı1£¬2£¬3£¬4
 	Tabtaskmethod =
 	{
-		--1ç±»ä¸ºæ”¶å–æ­¦å™¨ç”Ÿäº§è¿‡ç¨‹ä¸­çš„äº§å“.ç´¢å¼•é¡¹ä¸ºå‰¯èŒä¸šç­‰çº§
+		--1ÀàÎªÊÕÈ¡ÎäÆ÷Éú²ú¹ı³ÌÖĞµÄ²úÆ·.Ë÷ÒıÏîÎª¸±Ö°ÒµµÈ¼¶
 		[1] = {
-			--1çº§é˜²å…·å¸ˆ
+			--1¼¶·À¾ßÊ¦
 			[1] = {
-			--å“è´¨2=è“è‰²ï¼Œ1=ç»¿è‰²ï¼›ç‰©å“id
+			--Æ·ÖÊ2=À¶É«£¬1=ÂÌÉ«£»ÎïÆ·id
 
 					{2 , 28399,},
 					{2 , 28455,},
@@ -15642,7 +15647,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					{1 , 29278,},
 				},
 
-			--2çº§é˜²å…·å¸ˆ
+			--2¼¶·À¾ßÊ¦
 			[2] = {
 					{2 , 28403,},
 					{2 , 28459,},
@@ -15758,7 +15763,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					{1 , 29282,},
 				},
 
-			--3çº§é˜²å…·å¸ˆ
+			--3¼¶·À¾ßÊ¦
 			[3] = {
 					{2 , 28407,},
 					{2 , 28463,},
@@ -15874,7 +15879,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					{1 , 29286,},
 				},
 
-			--4çº§é˜²å…·å¸ˆ
+			--4¼¶·À¾ßÊ¦
 			[4] = {
 					{2 , 28411,},
 					{2 , 28467,},
@@ -15990,7 +15995,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					{1 , 29290,},
 				},
 
-			--5çº§é˜²å…·å¸ˆ
+			--5¼¶·À¾ßÊ¦
 			[5] = {
 					{2 , 28415,},
 					{2 , 28471,},
@@ -16106,7 +16111,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					{1 , 29294,},
 				},
 
-			--6çº§é˜²å…·å¸ˆ
+			--6¼¶·À¾ßÊ¦
 			[6] = {
 					{2 , 28419,},
 					{2 , 28475,},
@@ -16222,59 +16227,59 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					{1 , 29298,},
 				},
 
-			--7çº§é˜²å…·å¸ˆ(æœªå¼€æ”¾ï¼Œ80çº§è£…å¤‡ç”Ÿäº§ï¼‰
+			--7¼¶·À¾ßÊ¦(Î´¿ª·Å£¬80¼¶×°±¸Éú²ú£©
 			[7] = {
 					{1 , 29298,},
 				},
 
 			},
 
-		--2ç±»ä¸ºæ€å½“å‰ç­‰çº§æ€ªç‰©ï¼Œç´¢å¼•é¡¹ä¸ºç­‰çº§åˆ†æ®µ
+		--2ÀàÎªÉ±µ±Ç°µÈ¼¶¹ÖÎï£¬Ë÷ÒıÏîÎªµÈ¼¶·Ö¶Î
 		[2] = {
-			--æ€ªç‰©id
-			[40] = 50 , 	--ç‹®é¹«
-			[45] = 44 , 	--å¹½é­‚çº³è¿¦
-			[50] = 42 , 	--å°é­”å¥³
-			[55] = 53 , 	--å¤šå¤´è›‡èœ¥
-			[60] = 10464 , --é£Ÿäººé›¾
-			[65] = 10463 , --ä¸›æ—é»‘è±¹
-			[70] = 10449 , --æ¯æœ¨æ€æ‰‹
-			[75] = 10444 , --å’¬è¶¾è™«
-			[80] = 10444 , --å’¬è¶¾è™«
+			--¹ÖÎïid
+			[40] = 50 , 	--Ê¨ğÕ
+			[45] = 44 , 	--ÓÄ»êÄÉåÈ
+			[50] = 42 , 	--Ğ¡Ä§Å®
+			[55] = 53 , 	--¶àÍ·Éßòá
+			[60] = 10464 , --Ê³ÈËÎí
+			[65] = 10463 , --´ÔÁÖºÚ±ª
+			[70] = 10449 , --¿İÄ¾É±ÊÖ
+			[75] = 10444 , --Ò§Öº³æ
+			[80] = 10444 , --Ò§Öº³æ
 
 			},
 
-		--3ç±»å®Œæˆç‰¹å®šä»»åŠ¡åå®Œæˆï¼Œè¡¨å†…å®¹ä¸ºå¯¹åº”çš„ä»»åŠ¡id
+		--3ÀàÍê³ÉÌØ¶¨ÈÎÎñºóÍê³É£¬±íÄÚÈİÎª¶ÔÓ¦µÄÈÎÎñid
 		[3] = {
-				[1] = {12936, 12932,},--å¼•å¯¼ä»»åŠ¡ï¼Œå®Œæˆçš„ä»»åŠ¡æ¡ä»¶
+				[1] = {12936, 12932,},--Òıµ¼ÈÎÎñ£¬Íê³ÉµÄÈÎÎñÌõ¼ş
 				[2] = {12933, 12935,},
 				},
 
-		--4ç±»ä¸ºéœ€è¦ç‰©å“,æ ¹æ®å‰¯èŒä¸šç­‰çº§æ”¶å–çš„ç‰©å“ä¸åŒ
+		--4ÀàÎªĞèÒªÎïÆ·,¸ù¾İ¸±Ö°ÒµµÈ¼¶ÊÕÈ¡µÄÎïÆ·²»Í¬
 		[4] = {
-				--å·¥è‰º
-				[1] = 36876,--çµå·§ä¹‹èƒ½
-				--å®çŸ³ç²‰å°˜
+				--¹¤ÒÕ
+				[1] = 36876,--ÁéÇÉÖ®ÄÜ
+				--±¦Ê¯·Û³¾
 				[2] = 33661,
 			},
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = true,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
-		iMaxFinishCount = 1,--æœ€å¤§å®Œæˆæ¬¡æ•°ä¸º1
-  		iClearFinishCountType = TaskClearFinishCountType.Daily,--æ¯å¤©æ¸…ç©º
+		iMaxFinishCount = 1,--×î´óÍê³É´ÎÊıÎª1
+  		iClearFinishCountType = TaskClearFinishCountType.Daily,--Ã¿ÌìÇå¿Õ
 
 		iSuitableLevel = 200,
 
@@ -16283,19 +16288,19 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- å‰¯èŒä¸šç»éªŒ
+		-- ¸±Ö°Òµ¾­Ñé
 		SideOccupExp = function(TASKINTERFACE_POINTER)
 			local soe = {}
-			local tabSideOccupExp = {7,14,28,56,112,224,250,250}											--å­˜æ”¾å‰¯èŒä¸šç»éªŒå¥–åŠ±
+			local tabSideOccupExp = {60,92,162,310,578,1098,1500,1500,1500,1500}						--´æ·Å¸±Ö°Òµ¾­Ñé½±Àø
 
-			local iSideOccupId = 10 																		--é˜²å…·å¸ˆå‰¯èŒä¸šid
-			local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--è·å–ç©å®¶æ­¦å™¨å¸ˆç­‰çº§
+			local iSideOccupId = 10 																		--·À¾ßÊ¦¸±Ö°Òµid
+			local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--»ñÈ¡Íæ¼ÒÎäÆ÷Ê¦µÈ¼¶
 
 			soe = {
-						SOE1 = {ID = iSideOccupId, EXP = tabSideOccupExp[iSideOccuplev]},--idä¸ºå‰¯èŒä¸šidï¼Œexpä¸ºæ•°å€¼ï¼Œexpä¸º0æ˜¾ç¤ºï¼Ÿï¼Ÿï¼Ÿ
+						SOE1 = {ID = iSideOccupId, EXP = tabSideOccupExp[iSideOccuplev]},--idÎª¸±Ö°Òµid£¬expÎªÊıÖµ£¬expÎª0ÏÔÊ¾£¿£¿£¿
 				  }
 			return soe
 		end
@@ -16304,54 +16309,54 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-		local iSideOccupIdhighlevel = 6 --å½“å‰æ»¡çº§é˜²å…·å¸ˆä¸º6çº§
+		local iSideOccupIdhighlevel = 8 --µ±Ç°Âú¼¶·À¾ßÊ¦Îª8¼¶	--2013.09,07¸Ä
 
-		local iSideOccupId = 10			 --é˜²å…·å¸ˆå‰¯èŒä¸šid
+		local iSideOccupId = 10			 --·À¾ßÊ¦¸±Ö°Òµid
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
-	   	if iPlayerLev < 40 then --ç­‰çº§éœ€è¦é«˜äº40çº§
+	   	if iPlayerLev < 40 then --µÈ¼¶ĞèÒª¸ßÓÚ40¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		--æ£€æŸ¥æ˜¯å¦å­¦ä¼šé˜²å…·
+		--¼ì²éÊÇ·ñÑ§»á·À¾ß
 		if not TaskCApi.HasSideOccup(TASKINTERFACE_POINTER, iSideOccupId) then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
 
-		--å½“å‰æ»¡çº§é˜²å…·å¸ˆä¸ºiSideOccupIdhighlevelçº§ï¼Œæ‰€ä»¥iSideOccupIdhighlevelçº§ä»¥åŠiSideOccupIdhighlevelçº§ä»¥ä¸Šå°†ä¸ä¼šæ¥åˆ°æ­¤ä»»åŠ¡
+		--µ±Ç°Âú¼¶·À¾ßÊ¦ÎªiSideOccupIdhighlevel¼¶£¬ËùÒÔiSideOccupIdhighlevel¼¶ÒÔ¼°iSideOccupIdhighlevel¼¶ÒÔÉÏ½«²»»á½Óµ½´ËÈÎÎñ
 		if TaskCApi. GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) >= iSideOccupIdhighlevel then
 			return TASK_PREREQU_FAIL_BELOW_LEVEL
 		end
 
-		--Dåº“æ£€æŸ¥åŒ…è£¹ç©ºé—´1æ ¼
+		--D¿â¼ì²é°ü¹ü¿Õ¼ä1¸ñ
 
-		--å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
 
-		--å–flagä»»åŠ¡12764å®Œæˆæ¬¡æ•°ï¼Œå¦‚æœ7<=x<=8åˆ™éšæœºDç±»ä»»åŠ¡åº“
+		--È¡flagÈÎÎñ12764Íê³É´ÎÊı£¬Èç¹û7<=x<=8ÔòËæ»úDÀàÈÎÎñ¿â
 		local iflagtasktimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,12764) + 1
 
 		local itaskmethodid = 1
-		--3ä¸ªæ•°å€¼éƒ½å­˜åœ¨
+		--3¸öÊıÖµ¶¼´æÔÚ
 		if RoleCreateTime and dayInYear and iflagtasktimes then
 			if iflagtasktimes >=7 then
 				itaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 3
 			end
 		end
 
-		--æµ‹è¯•ç”¨å†…å®¹,4493æ§åˆ¶itaskmethodid
+		--²âÊÔÓÃÄÚÈİ,4493¿ØÖÆitaskmethodid
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			itaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 		end
 
 		if itaskmethodid == 4 then
-			if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+			if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 				return TASK_PREREQU_FAIL_GIVEN_ITEM
 			end
 		end
@@ -16360,67 +16365,67 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iflagtaskid = 12764		--é˜²å…·å¸ˆflagè®¡æ•°ä»»åŠ¡id
-		local itaskmethodid = 1 		--éšæœºåˆ°çš„ä»»åŠ¡ç±»å‹ï¼Œé»˜è®¤ä¸º1ï¼Œé¿å…ç©ºå€¼
-		local isubtaskmethodid = 1		--é’ˆå¯¹cdç±»ä»»åŠ¡åº“çš„å­ä»»åŠ¡ç±»å‹ï¼Œé»˜è®¤ä¸º1
+		local iflagtaskid = 12764		--·À¾ßÊ¦flag¼ÆÊıÈÎÎñid
+		local itaskmethodid = 1 		--Ëæ»úµ½µÄÈÎÎñÀàĞÍ£¬Ä¬ÈÏÎª1£¬±ÜÃâ¿ÕÖµ
+		local isubtaskmethodid = 1		--Õë¶ÔcdÀàÈÎÎñ¿âµÄ×ÓÈÎÎñÀàĞÍ£¬Ä¬ÈÏÎª1
 
-		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--ç©å®¶ç­‰çº§
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)--Íæ¼ÒµÈ¼¶
 
-		--å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
+		--È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
 		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)
 
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
 
-		--å–flagä»»åŠ¡å®Œæˆæ¬¡æ•°ï¼Œå¦‚æœ7<=x<=8åˆ™éšæœºDç±»ä»»åŠ¡åº“
+		--È¡flagÈÎÎñÍê³É´ÎÊı£¬Èç¹û7<=x<=8ÔòËæ»úDÀàÈÎÎñ¿â
 		local iflagtasktimes = 	TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iflagtaskid) + 1
 
 		if iflagtasktimes ==7 then
 			itaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 3
 
 		elseif iflagtasktimes >= 8 then
-		--å¦‚æœç¬¬ä¸ƒå¤©æ²¡å‘Dåº“ï¼Œé‚£ä¹ˆç¬¬8å¤©ä¸€å®šå‘dåº“
+		--Èç¹ûµÚÆßÌìÃ»·¢D¿â£¬ÄÇÃ´µÚ8ÌìÒ»¶¨·¢d¿â
 
 			itaskmethodid = 4
 
-		else--flagè®¡æ•°ä¸º1-6æ—¶ï¼Œä»…åœ¨abcç±»å†…éšæœºï¼Œé€šè¿‡æ—¶é—´å’Œè§’è‰²idåŠ å’Œå–ä½™æ•°å›ºå®šç©å®¶å½“å¤©çš„éšæœºå†…å®¹
+		else--flag¼ÆÊıÎª1-6Ê±£¬½öÔÚabcÀàÄÚËæ»ú£¬Í¨¹ıÊ±¼äºÍ½ÇÉ«id¼ÓºÍÈ¡ÓàÊı¹Ì¶¨Íæ¼Òµ±ÌìµÄËæ»úÄÚÈİ
 			itaskmethodid = ( RoleCreateTime + dayInYear) % 3 + 1
 		end
 
-		--æµ‹è¯•ç”¨å†…å®¹,4493æ§åˆ¶itaskmethodid
+		--²âÊÔÓÃÄÚÈİ,4493¿ØÖÆitaskmethodid
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			itaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 		end
 
-		if itaskmethodid == 3 then --Cç±»ä»»åŠ¡æœ‰2ç§ç±»å‹
+		if itaskmethodid == 3 then --CÀàÈÎÎñÓĞ2ÖÖÀàĞÍ
 			isubtaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 1
 
-			--æµ‹è¯•ç”¨å†…å®¹
+			--²âÊÔÓÃÄÚÈİ
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true) > 0 then
 			isubtaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true)
 			end
 
-			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,TaskList[12763].Tabtaskmethod[itaskmethodid][isubtaskmethodid][1])--å‘æ”¾åˆ†æ”¯ä»»åŠ¡
+			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,TaskList[12763].Tabtaskmethod[itaskmethodid][isubtaskmethodid][1])--·¢·Å·ÖÖ§ÈÎÎñ
 
-		elseif itaskmethodid == 4 then --Dç±»ä»»åŠ¡æœ‰2ç§ç±»å‹
+		elseif itaskmethodid == 4 then --DÀàÈÎÎñÓĞ2ÖÖÀàĞÍ
 			isubtaskmethodid = ( RoleCreateTime + dayInYear) % 2 + 1
 
-			--æµ‹è¯•ç”¨å†…å®¹
+			--²âÊÔÓÃÄÚÈİ
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true) > 0 then
 			isubtaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4495, true)
 			end
 
-			--å­éšæœºæ–¹å¼1éœ€è¦é¢å¤–å‘æ”¾ä»»åŠ¡é“å…·
-			if isubtaskmethodid == 1 then --å‘æ”¾ä»»åŠ¡éšæœºå‘ç”Ÿå™¨36875çµèƒ½ç¢ç²’
+			--×ÓËæ»ú·½Ê½1ĞèÒª¶îÍâ·¢·ÅÈÎÎñµÀ¾ß
+			if isubtaskmethodid == 1 then --·¢·ÅÈÎÎñËæ»ú·¢ÉúÆ÷36875ÁéÄÜËéÁ£
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 36875, 1, false)
 			end
 
 		end
 
-		--æµ‹è¯•ç”¨å†…å®¹,4493å’Œ4495æ§åˆ¶ä¸¤ä¸ªid
+		--²âÊÔÓÃÄÚÈİ,4493ºÍ4495¿ØÖÆÁ½¸öid
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			itaskmethodid = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 
@@ -16429,41 +16434,41 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 			end
 		end
 
-		--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºå­˜å‚¨éšæœºåˆ°çš„å½“å‰ä»»åŠ¡å†…å®¹
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 1, itaskmethodid)		--ä»»åŠ¡ç±»å‹ï¼ˆABCDå¤§ç±»ï¼‰
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 2, isubtaskmethodid)		--å­ä»»åŠ¡ç±»å‹ï¼ˆé’ˆå¯¹CDç±»ä»»åŠ¡åº“ï¼‰
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 3, 100)					--ç»™äº¤çº³ç‰©å“ç”¨çš„éšæœºæ•°ï¼Œé˜²æ­¢å–ç©ºï¼Œé¢„å­˜å€¼100
-		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 4, iPlayerLev)			--å­˜å‚¨ç©å®¶ç­‰çº§,ç»™å®¢æˆ·ç«¯æ˜¾ç¤ºè¿½è¸ªç”¨
+		--ÉèÖÃËæ»úÊıÒÔÓÃÓÚ´æ´¢Ëæ»úµ½µÄµ±Ç°ÈÎÎñÄÚÈİ
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 1, itaskmethodid)		--ÈÎÎñÀàĞÍ£¨ABCD´óÀà£©
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 2, isubtaskmethodid)		--×ÓÈÎÎñÀàĞÍ£¨Õë¶ÔCDÀàÈÎÎñ¿â£©
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 3, 100)					--¸ø½»ÄÉÎïÆ·ÓÃµÄËæ»úÊı£¬·ÀÖ¹È¡¿Õ£¬Ô¤´æÖµ100
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 4, iPlayerLev)			--´æ´¢Íæ¼ÒµÈ¼¶,¸ø¿Í»§¶ËÏÔÊ¾×·×ÙÓÃ
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
-		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 1)		--å–å‡ºä»»åŠ¡ç±»å‹ï¼ˆABCDå¤§ç±»ï¼‰
-		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 2)	--å–å‡ºå­ä»»åŠ¡ç±»å‹ï¼ˆé’ˆå¯¹CDç±»ä»»åŠ¡åº“ï¼‰
-		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 4)			--å–å‡ºç©å®¶æ¥å—ä»»åŠ¡æ—¶çš„äººç‰©ç­‰çº§
+		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 1)		--È¡³öÈÎÎñÀàĞÍ£¨ABCD´óÀà£©
+		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 2)	--È¡³ö×ÓÈÎÎñÀàĞÍ£¨Õë¶ÔCDÀàÈÎÎñ¿â£©
+		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 4)			--È¡³öÍæ¼Ò½ÓÊÜÈÎÎñÊ±µÄÈËÎïµÈ¼¶
 
-		local iSideOccupId = 10 																		--é˜²å…·å¸ˆå‰¯èŒä¸šid
-		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 		--è·å–ç©å®¶é˜²å…·å¸ˆç­‰çº§
+		local iSideOccupId = 10 																		--·À¾ßÊ¦¸±Ö°Òµid
+		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 		--»ñÈ¡Íæ¼Ò·À¾ßÊ¦µÈ¼¶
 
 		if itaskmethodid == 1 then
-			Method.SubmitItem = true--æäº¤ç‰©å“çš„å®Œæˆæ–¹å¼
+			Method.SubmitItem = true--Ìá½»ÎïÆ·µÄÍê³É·½Ê½
 
 		elseif itaskmethodid == 2 then
 			local iPlayerLev2 = math.floor(iPlayerLev /5)*5
-			--æ€æ€ª
+			--É±¹Ö
 
 			Method.KillMonster = {
 						Mons1={ID=TaskList[12763].Tabtaskmethod[itaskmethodid][iPlayerLev2], Num=3,},
 						}
 
 		elseif itaskmethodid == 3 then
-			--cdåº“ç±»ä»»åŠ¡éƒ½æ˜¯é€šè¿‡å®Œæˆç‰¹å®šä»»åŠ¡çš„æ–¹å¼æ¥å®ç°
+			--cd¿âÀàÈÎÎñ¶¼ÊÇÍ¨¹ıÍê³ÉÌØ¶¨ÈÎÎñµÄ·½Ê½À´ÊµÏÖ
 			local iTaskid = TaskList[12763].Tabtaskmethod[itaskmethodid][isubtaskmethodid][2]
 			Method.CompleteTask = {TaskID = iTaskid , Num = 1}
 
@@ -16476,27 +16481,27 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
-		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 1)		--å–å‡ºä»»åŠ¡ç±»å‹ï¼ˆABCDå¤§ç±»ï¼‰
-		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 2)	--å–å‡ºå­ä»»åŠ¡ç±»å‹ï¼ˆé’ˆå¯¹CDç±»ä»»åŠ¡åº“ï¼‰
-		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 4)			--å–å‡ºç©å®¶æ¥å—ä»»åŠ¡æ—¶çš„äººç‰©ç­‰çº§						--ç©å®¶ç­‰çº§
+		local itaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 1)		--È¡³öÈÎÎñÀàĞÍ£¨ABCD´óÀà£©
+		local isubtaskmethodid = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 2)	--È¡³ö×ÓÈÎÎñÀàĞÍ£¨Õë¶ÔCDÀàÈÎÎñ¿â£©
+		local iPlayerLev = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, 12763, 4)			--È¡³öÍæ¼Ò½ÓÊÜÈÎÎñÊ±µÄÈËÎïµÈ¼¶						--Íæ¼ÒµÈ¼¶
 
-		local iSideOccupId = 10 																		--é˜²å…·å¸ˆå‰¯èŒä¸šid
-		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 				--è·å–ç©å®¶é˜²å…·å¸ˆç­‰çº§
+		local iSideOccupId = 10 																		--·À¾ßÊ¦¸±Ö°Òµid
+		local iSideOccuplev = TaskCApi.GetSideOccupLev(TASKINTERFACE_POINTER,iSideOccupId) 				--»ñÈ¡Íæ¼Ò·À¾ßÊ¦µÈ¼¶
 
 		if itaskmethodid == 1 then
-		--æäº¤ç‰©å“çš„æ–¹å¼æ¥å®ç°
-			--æäº¤çš„ç‰©å“idï¼Œæäº¤çš„ç‰©å“æ•°é‡
+		--Ìá½»ÎïÆ·µÄ·½Ê½À´ÊµÏÖ
+			--Ìá½»µÄÎïÆ·id£¬Ìá½»µÄÎïÆ·ÊıÁ¿
 			local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,12763)
 
 			if itemIDSubmitted and itemNumberSubmitted then
 
 				for i,j in pairs(TaskList[12763].Tabtaskmethod[1][iSideOccuplev]) do
 					if itemIDSubmitted == j[2] and  itemNumberSubmitted == 1 then
-					--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºå­˜å‚¨ç©å®¶äº¤çº³çš„ç‰©å“ç´¢å¼•
+					--ÉèÖÃËæ»úÊıÒÔÓÃÓÚ´æ´¢Íæ¼Ò½»ÄÉµÄÎïÆ·Ë÷Òı
 					TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 12763, 3, i)
 
 					iRet = TASK_SUCC_FINISH
@@ -16504,18 +16509,18 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 					return iRet
 
 					elseif itemIDSubmitted == j[2] and itemNumberSubmitted > 1 then
-					--æ•°é‡ä¸å¯¹
+					--ÊıÁ¿²»¶Ô
 						TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12763, 29, 20001)
 					end
 
-					if i == 112 then --ç‰©å“ä¸å¯¹
+					if i == 112 then --ÎïÆ·²»¶Ô
 						TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 12763, 28, 20000)
 					end
 				end
 			end
 
 		elseif itaskmethodid == 2 then
-		--æ€æ€ª
+		--É±¹Ö
 			if TaskCApi.GetMonstersKilled(TASKINTERFACE_POINTER, 12763, "Mons1") >= 3 then
    		        iRet = TASK_SUCC_FINISH
 			    return iRet
@@ -16523,7 +16528,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 
 
 		elseif itaskmethodid == 3 then
-		--Cä»»åŠ¡åº“é€šè¿‡å®Œæˆä»»åŠ¡çš„æ–¹å¼æ¥å®ç°
+		--CÈÎÎñ¿âÍ¨¹ıÍê³ÉÈÎÎñµÄ·½Ê½À´ÊµÏÖ
 			local iTaskid = TaskList[12763].Tabtaskmethod[itaskmethodid][isubtaskmethodid][2]
 			local TaskCompleteTimes = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskid)
 
@@ -16534,7 +16539,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 			end
 
 		elseif itaskmethodid == 4 then
-		--Dä»»åŠ¡åº“å¯»ç‰©
+		--DÈÎÎñ¿âÑ°Îï
 			if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, TaskList[12763].Tabtaskmethod[itaskmethodid][isubtaskmethodid], true)>= 1 then
 				iRet = TASK_SUCC_FINISH
 				return iRet
@@ -16551,43 +16556,43 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2,ucRandomNum3,ucRandomNum4)
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2,ucRandomNum3,ucRandomNum4)
 
-		local AwardMulti = 30																		--å­˜æ”¾è§’è‰²ç»éªŒå¥–åŠ±ç³»æ•°
-		local tabSideOccupExp = {7,14,28,56,112,224,250,250}										--å­˜æ”¾å‰¯èŒä¸šç»éªŒå¥–åŠ±
+		local AwardMulti = 30																		--´æ·Å½ÇÉ«¾­Ñé½±ÀøÏµÊı
+		local tabSideOccupExp = {60,92,162,310,578,1098,1500,1500,1500,1500}						--´æ·Å¸±Ö°Òµ¾­Ñé½±Àø
 
-		local PlayerLevel = ucRandomNum4												 			--å–å¾—ç©å®¶æ¥æ”¶ä»»åŠ¡æ—¶çš„ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local iSideOccupId = 10 																	--é˜²å…·å¸ˆå‰¯èŒä¸šid
-		local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--è·å–ç©å®¶é˜²å…·å¸ˆç­‰çº§
+		local PlayerLevel = ucRandomNum4												 			--È¡µÃÍæ¼Ò½ÓÊÕÈÎÎñÊ±µÄµÈ¼¶£¬·¢½±ÀøÓÃ
+		local iSideOccupId = 10 																	--·À¾ßÊ¦¸±Ö°Òµid
+		local iSideOccuplev = TaskCApi.GetSideOccupLev (TASKINTERFACE_POINTER,iSideOccupId ) 		--»ñÈ¡Íæ¼Ò·À¾ßÊ¦µÈ¼¶
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
 			if ucRandomNum1 == 1 then
 				--[[
-				--ç”±äºåŠŸèƒ½é™åˆ¶ï¼Œæ­¤å¤„ç‰©å“ä¸å†æ”¶å–
+				--ÓÉÓÚ¹¦ÄÜÏŞÖÆ£¬´Ë´¦ÎïÆ·²»ÔÙÊÕÈ¡
 				local iItemsid = TaskList[12763].Tabtaskmethod[1][iSideOccuplev][ucRandomNum3][2]
-				--æ”¶èµ°ç‰©å“
-				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,iItemsid, 1)    					--æ”¶å–æ­¦å™¨ 1ä¸ª
+				--ÊÕ×ßÎïÆ·
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,iItemsid, 1)    					--ÊÕÈ¡ÎäÆ÷ 1¸ö
 
-				if TaskList[12763].Tabtaskmethod[1][iSideOccuplev][ucRandomNum3][1] == 2 then			--è“è‰²å“è´¨ç‰©å“é¢å¤–å¥–åŠ±å°é¢äººç‰©ç»éªŒ
-				--ç»™ç©å®¶å‘æ”¾ç»éªŒ
+				if TaskList[12763].Tabtaskmethod[1][iSideOccuplev][ucRandomNum3][1] == 2 then			--À¶É«Æ·ÖÊÎïÆ·¶îÍâ½±ÀøĞ¡¶îÈËÎï¾­Ñé
+				--¸øÍæ¼Ò·¢·Å¾­Ñé
 				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
 				end
 				]]--
-				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12764)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12764)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
 			elseif ucRandomNum1 == 2 then
 
-				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12764)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12764)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
 			elseif ucRandomNum1 == 3 then
 
-				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12764)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,12764)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
-				--æ¸…ç©ºè¾…åŠ©ä»»åŠ¡è®¡æ•°
+				--Çå¿Õ¸¨ÖúÈÎÎñ¼ÆÊı
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12932)
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12933)
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12935)
@@ -16596,40 +16601,40 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
 
 			elseif ucRandomNum1 == 4 then
 				iItemsid = TaskList[12763].Tabtaskmethod[ucRandomNum1][ucRandomNum2]
-				--æ”¶èµ°ä»»åŠ¡ç‰©å“
+				--ÊÕ×ßÈÎÎñÎïÆ·
 				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,iItemsid, 1)
 
-				--Dç±»ä»»åŠ¡å®Œæˆï¼Œæ¸…é™¤flagä»»åŠ¡å®Œæˆæ¬¡æ•°
+				--DÀàÈÎÎñÍê³É£¬Çå³ıflagÈÎÎñÍê³É´ÎÊı
 				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12764)
 			end
 
-			TaskCApi.DeliverSideOccupExp (TASKINTERFACE_POINTER, iSideOccupId, tabSideOccupExp[iSideOccuplev] )--å‘æ”¾å‰¯èŒä¸šç»éªŒ
+			TaskCApi.DeliverSideOccupExp (TASKINTERFACE_POINTER, iSideOccupId, tabSideOccupExp[iSideOccuplev] )--·¢·Å¸±Ö°Òµ¾­Ñé
 		else
-			--å¤±è´¥çš„è¯éœ€è¦ä¸­æ­¢Cåº“çš„å¼•å¯¼ä»»åŠ¡
+			--Ê§°ÜµÄ»°ĞèÒªÖĞÖ¹C¿âµÄÒıµ¼ÈÎÎñ
 			if ucRandomNum1 == 3 then
 				local iTaskID = TaskList[12763].Tabtaskmethod[ucRandomNum1][ucRandomNum2][1]
 				if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iTaskID) then
-				--å¦‚æœå­˜åœ¨ï¼Œåˆ™ä¸­æ­¢
+				--Èç¹û´æÔÚ£¬ÔòÖĞÖ¹
 					TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, iTaskID, false)
 				end
 
 				local iTaskID2 = TaskList[12763].Tabtaskmethod[ucRandomNum1][ucRandomNum2][2]
 				if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iTaskID2) then
-				--å¦‚æœå­˜åœ¨ï¼Œåˆ™ä¸­æ­¢
+				--Èç¹û´æÔÚ£¬ÔòÖĞÖ¹
 					TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, iTaskID2, false)
 				end
 			end
 
    		end
 
-		--æ— è®ºå¤±è´¥æˆåŠŸæˆ–è€…æ”¾å¼ƒæ¸…ç©ºCç±»ä»»åŠ¡çš„ä»»åŠ¡å®Œæˆè®¡æ•°
+		--ÎŞÂÛÊ§°Ü³É¹¦»òÕß·ÅÆúÇå¿ÕCÀàÈÎÎñµÄÈÎÎñÍê³É¼ÆÊı
 		if ucRandomNum1 == 3 then
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12932)
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12933)
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12935)
 			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, 12936)
 
-		--Dä»»åŠ¡åº“å­ä»»åŠ¡1ä¸­å‘æ”¾çš„ç‰©å“å¦‚æœå­˜åœ¨å°±æ”¶å›
+		--DÈÎÎñ¿â×ÓÈÎÎñ1ÖĞ·¢·ÅµÄÎïÆ·Èç¹û´æÔÚ¾ÍÊÕ»Ø
 		elseif ucRandomNum1 == 4 and ucRandomNum2 == 1 then
 			local iItemsnum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 36875, true)
 			if iItemsnum > 0 then
@@ -16642,7 +16647,7 @@ TaskList[12763] = --é˜²å…·å¸ˆæ—¥å¸¸
    	end
 }
 
-TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
+TaskList[13520] = --·ÉĞĞ»î¶¯£º±©·çĞ°ÄÜÈëÇÖ
 {
   	Property =
   	{
@@ -16654,7 +16659,9 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, --æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+		iRetrieveIdx = 27,
 
   		bRecordFinishCount = true,
   		iMaxFinishCount = 1,
@@ -16668,41 +16675,41 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 30									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 30									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 		end
 		,
 
-		-- ç‰©å“
+		-- ÎïÆ·
 		Items = function(TASKINTERFACE_POINTER)
 			local items = {}
 
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local ItemId1 = 38004	--ç¢§è“ä¹‹ç¿¼å¥–ç« 
-			local ItemId2 = 41074   --é‚ªèƒ½æ®‹è¾‰
+			local ItemId1 = 38004	--±ÌÀ¶Ö®Òí½±ÕÂ
+			local ItemId2 = 41074   --Ğ°ÄÜ²Ğ»Ô
 
 			if PlayerLevel>= 65 then
 				items = {
-							Item1 = {ID = ItemId1, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+							Item1 = {ID = ItemId1, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 							Item2 = {ID = ItemId2, NUM = 1},
 						}
 			else
 				items = {
-							Item1 = {ID = ItemId1, NUM = 1},--0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–æ˜¾ç¤ºç‰©å“å’Œæ•°é‡
+							Item1 = {ID = ItemId1, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
 						}
 			end
 
@@ -16713,25 +16720,25 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-	   	if iPlayerLev < 25 then --ç­‰çº§éœ€è¦é«˜äº25çº§
+	   	if iPlayerLev < 25 then --µÈ¼¶ĞèÒª¸ßÓÚ25¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			return TASK_PREREQU_FAIL_GIVEN_ITEM
    		end
 
-		--å’Œæ°”çƒå¤§èµ›13589å½“å‰äº’æ–¥
+		--ºÍÆøÇò´óÈü13589µ±Ç°»¥³â
 		if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,13589) then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
 
-		--æ´»åŠ¨è®¡æ¬¡ï¼Œ7å·(id=6)æ´»åŠ¨è®¡æ•°>0
+		--»î¶¯¼Æ´Î£¬7ºÅ(id=6)»î¶¯¼ÆÊı>0
 		if TaskCApi.GetCommonTaskCount(TASKINTERFACE_POINTER,6) == 0 then
 			return TASK_PREREQU_FAIL_LUA_TASK
 		end
@@ -16740,36 +16747,36 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 
-		--éšæœºä»20ä¸ªå®šä½å™¨ä¸­é€‰å‡ºä¸€ä¸ª
+		--Ëæ»ú´Ó20¸ö¶¨Î»Æ÷ÖĞÑ¡³öÒ»¸ö
 		math.randomseed(os.time())
-		local iRandomMethod = math.random(1, 20) --ç©å®¶éšåˆ°çš„ä»»åŠ¡ç§ç±»
+		local iRandomMethod = math.random(1, 20) --Íæ¼ÒËæµ½µÄÈÎÎñÖÖÀà
 
-		local iItemID = 37774 + iRandomMethod  --å®šä½å™¨idä»37775-37794
+		local iItemID = 37774 + iRandomMethod  --¶¨Î»Æ÷id´Ó37775-37794
 
-   		--å‘é“å…·æˆ–å¥–åŠ±
-		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, iItemID, 1, true)     --å‘ æ„Ÿåº”å™¨37775-37794
+   		--·¢µÀ¾ß»ò½±Àø
+		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, iItemID, 1, true)     --·¢ ¸ĞÓ¦Æ÷37775-37794
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
 
 		Method.CollectItem = { Item1 = {ID=38037, Num = 3, Common= true},
-				} --5ä¸ªæ™®é€šç‰©å“é‚ªèƒ½æ ¸å¿ƒ 38037
+				} --5¸öÆÕÍ¨ÎïÆ·Ğ°ÄÜºËĞÄ 38037
 
-		Method.iTimeLimit = 1800 --30minå®Œæˆåˆ™ä»»åŠ¡å¤±è´¥
+		Method.iTimeLimit = 1800 --30minÍê³ÉÔòÈÎÎñÊ§°Ü
 
    		return Method
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -16777,7 +16784,7 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
 			iRet = TASK_SUCC_FINISH
 		end
 
-		--è¶…æ—¶åˆ™ä»»åŠ¡å¤±è´¥
+		--³¬Ê±ÔòÈÎÎñÊ§°Ü
    		local ulCurTime     = TaskCApi.GetCurTime(TASKINTERFACE_POINTER)
    		local ulDeliverTime = TaskCApi.GetTaskDeliverTime(TASKINTERFACE_POINTER, 13520)
    		if ulCurTime - ulDeliverTime > 1800 then
@@ -16792,7 +16799,7 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
 
    		if bSuccess then
 
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 
    			   return TASK_PREREQU_FAIL_GIVEN_ITEM
 			end
@@ -16803,20 +16810,22 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local AwardMulti = 30									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iRetrieveIdx = 27
 
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardMulti = 30									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 
    		if bSuccess then
-			--æ”¶èµ°æ‰€éœ€ä»»åŠ¡ç‰©å“37753é‚ªèƒ½æ ¸å¿ƒ
+			--ÊÕ×ßËùĞèÈÎÎñÎïÆ·37753Ğ°ÄÜºËĞÄ
 			local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,38037, true)
 			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 38037, num1)
 
-			--æ”¶èµ°ç©å®¶èº«ä¸Šå‰©ä½™çš„å®šä½å™¨
+			--ÊÕ×ßÍæ¼ÒÉíÉÏÊ£ÓàµÄ¶¨Î»Æ÷
 			for i = 37775, 37794 do
 				local num2 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,i, true)
 				if num2> 0 then
@@ -16824,38 +16833,42 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
 				end
 			end
 
-			--æ ¹æ®ç­‰çº§å‘æ”¾å¥–åŠ±38004é£è¡Œå¥–ç« ï¼Œ65çº§ä»¥ä¸Šå‘éç»‘å®š
+			--¸ù¾İµÈ¼¶·¢·Å½±Àø38004·ÉĞĞ½±ÕÂ£¬65¼¶ÒÔÉÏ·¢·Ç°ó¶¨
 			if PlayerLevel >= 65 then
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38004, 1, false)
-				--å‘æ”¾ç‰©å“éç»‘å®š41074é‚ªèƒ½æ®‹è¾‰
+				--·¢·ÅÎïÆ··Ç°ó¶¨41074Ğ°ÄÜ²Ğ»Ô
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 41074, 1, false)
 			else
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38004, 1, true)
 			end
 
-			--å‘æ”¾ç»éªŒ
-			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
+			--·¢·Å¾­Ñé
+			--TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
+			TaskCApi. DeliverRetrieveExp(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti,bRetrieve,iRetrieveIdx)
 
-			--å‘æ”¾ç‰©å“ç»‘å®š38363é­‚åŠ›ç¢ç‰‡
+			--·¢·ÅÎïÆ·°ó¶¨38363»êÁ¦ËéÆ¬
 			--TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38363, 1, true)
 
-			--ä¿®æ”¹æ´»åŠ¨è®¡æ¬¡ï¼Œ7å·æ´»åŠ¨è®¡æ•°
+			--ĞŞ¸Ä»î¶¯¼Æ´Î£¬7ºÅ»î¶¯¼ÆÊı
 			TaskCApi.ModifyCommonTaskCount(TASKINTERFACE_POINTER,6, -1)
 
-			--0.35æ¦‚ç‡å‘æ”¾1ä¸ª37708
+			--0.35¸ÅÂÊ·¢·Å1¸ö37708
 			math.randomseed(os.time())
-			local iRandomnum = math.random(1, 100) --ç©å®¶éšåˆ°çš„ä»»åŠ¡ç§ç±»
+			local iRandomnum = math.random(1, 100) --Íæ¼ÒËæµ½µÄÈÎÎñÖÖÀà
 			if iRandomnum <= 35 then
 				TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 37708, 1, true)
 			end
 
-		else--å¤±è´¥æ¸…ç©ºä»»åŠ¡
+			--Çå¿Õ²¹³¥Öµ
+			TaskCApi. ClearRetrieveVal(TASKINTERFACE_POINTER,13520, iRetrieveIdx)
 
-			--æ”¶èµ°æ‰€éœ€ä»»åŠ¡ç‰©å“
+		else--Ê§°ÜÇå¿ÕÈÎÎñ
+
+			--ÊÕ×ßËùĞèÈÎÎñÎïÆ·
 			local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,38037, true)
 			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, 38037, num1)
 
-			--æ”¶èµ°ç©å®¶èº«ä¸Šå‰©ä½™çš„å®šä½å™¨
+			--ÊÕ×ßÍæ¼ÒÉíÉÏÊ£ÓàµÄ¶¨Î»Æ÷
 			for i = 37775, 37794 do
 				local num2 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,i, true)
 				if num2> 0 then
@@ -16869,7 +16882,7 @@ TaskList[13520] = --é£è¡Œæ´»åŠ¨ï¼šæš´é£é‚ªèƒ½å…¥ä¾µ
    	end
 }
 
-TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
+TaskList[13643] = --À×ĞÁ¸ñ²»»á¸æËßÄã
 {
   	Property =
   	{
@@ -16881,7 +16894,9 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, --æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+		iRetrieveIdx = 29,
 
   		bRecordFinishCount = true,
   		iMaxFinishCount = 1,
@@ -16895,19 +16910,19 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
-		-- ç»éªŒ
+		-- ¾­Ñé
 		Exp = function(TASKINTERFACE_POINTER)
-			local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
+			local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
 
-			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 			local AwardExp = AwardExpAdjust * AwardMulti
 
-			return AwardExp--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿï¼Œå…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
 
 
 		end
@@ -16915,7 +16930,7 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 
 		FriendShips = function(TASKINTERFACE_POINTER)
 			local friendships = {}
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶
 			local iPrestige
 			local TabPrestige = {
 									[60] = 100,
@@ -16935,7 +16950,7 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 			end
 
 			friendships = {
-								FS1 = {ID = 1, VAL = iPrestige},--idä¸ºå£°æœ›id,valä¸ºæ•°å€¼ï¼›val=0 ,ï¼Ÿï¼Ÿï¼Ÿï¼ˆid=-1ï¼‰ å£°æœ› ï¼Ÿï¼Ÿï¼Ÿï¼ˆval=0ï¼‰
+								FS1 = {ID = 1, VAL = iPrestige},--idÎªÉùÍûid,valÎªÊıÖµ£»val=0 ,£¿£¿£¿£¨id=-1£© ÉùÍû £¿£¿£¿£¨val=0£©
 						  }
 			return friendships
 		end	,
@@ -16943,31 +16958,31 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 		Belief = function(TASKINTERFACE_POINTER)
 
 			local iBelief = nil
-			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶
 			if PlayerLevel >= 80 then
 				iBelief= 9000
 			end
 
-			return iBelief--è¿”å›0æ—¶ä¸ºï¼Ÿï¼Ÿï¼Ÿ,å…¶ä»–ä¸ºæ˜¾ç¤ºçš„å€¼
+			return iBelief--·µ»Ø0Ê±Îª£¿£¿£¿,ÆäËûÎªÏÔÊ¾µÄÖµ
 		end	,
 
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
 	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
 
-	   	if iPlayerLev < 60 then --ç­‰çº§éœ€è¦é«˜äº60çº§
+	   	if iPlayerLev < 60 then --µÈ¼¶ĞèÒª¸ßÓÚ60¼¶
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
-		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
 			return TASK_PREREQU_FAIL_GIVEN_ITEM
 		end
 
-		--8å·(id = 8)æ´»åŠ¨è®¡æ•° > 0
+		--8ºÅ(id = 8)»î¶¯¼ÆÊı > 0
 		if TaskCApi.GetCommonTaskCount(TASKINTERFACE_POINTER,8) < 1 then
 			return TASK_PREREQU_FAIL_GIVEN_ITEM
 		end
@@ -16983,42 +16998,42 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
-		local iRandomNum = 3 --æ—¥å¸¸æ´»åŠ¨éšæœºç§ç±»
-		--1:NPCè®©ç©å®¶å»å¤§å·¥åŒ é‚£é‡Œæ‹¿ä¸€æŠŠèºä¸åˆ€38806ï¼Œå»é…’é¦†å·é…’38808
-		--2:NPCç»™ç©å®¶ä¸€å¼ ç™½çº¸ï¼Œå‘Šè¯‰ç©å®¶å»å¹³æ°‘åŒºä¸€ä¸ªåºŸå¼ƒçš„è½¨é“è½¦ä¸‹é¢æ‰¾æŸäººåˆ»ä¸‹çš„å­—ï¼Œæ‹“å†™åäº¤ç»™npc
-		--3:NPCè®©ç©å®¶å»å­¦æœ¯åŒºå¤§æ ‘åº•ä¸‹æŒ–å‡ æ¡è™«å­ï¼Œç„¶åå»å–·æ³‰é‡Œç”¨ç‰¹åˆ¶çš„é±¼ç«¿é’“é±¼ã€‚
+		local iRandomNum = 3 --ÈÕ³£»î¶¯Ëæ»úÖÖÀà
+		--1:NPCÈÃÍæ¼ÒÈ¥´ó¹¤½³ÄÇÀïÄÃÒ»°ÑÂİË¿µ¶38806£¬È¥¾Æ¹İÍµ¾Æ38808
+		--2:NPC¸øÍæ¼ÒÒ»ÕÅ°×Ö½£¬¸æËßÍæ¼ÒÈ¥Æ½ÃñÇøÒ»¸ö·ÏÆúµÄ¹ìµÀ³µÏÂÃæÕÒÄ³ÈË¿ÌÏÂµÄ×Ö£¬ÍØĞ´ºó½»¸ønpc
+		--3:NPCÈÃÍæ¼ÒÈ¥Ñ§ÊõÇø´óÊ÷µ×ÏÂÍÚ¼¸Ìõ³æ×Ó£¬È»ºóÈ¥ÅçÈªÀïÓÃÌØÖÆµÄÓã¸ÍµöÓã¡£
 
-		--å›ºå®šç©å®¶æ¯å¤©éšåˆ°çš„å†…å®¹ï¼Œå½“å¤©å¥‡å¶æ•°*ç©å®¶åˆ›å»ºè§’è‰²çš„æ—¶é—´ %#iPlayervacationid+1
-		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --å–å¾—ç©å®¶è§’è‰²åˆ›å»ºæ—¶é—´
-		--å–å‡ºä»Šå¤©æ˜¯ä¸€å¹´å†…çš„ç¬¬å‡ å¤©ï¼Œæ”¾å…¥dayInYearä¸­ï¼Œ1æœˆ1æ—¥æ˜¯1ï¼Œ12æœˆ31æ—¥æ˜¯365
+		--¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ä %#iPlayervacationid+1
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
 		local timePackage = os.date("*t", os.time())
 		local dayInYear = timePackage.yday
 
-		local iRandomMethod = (timePackage.yday + RoleCreateTime ) % iRandomNum + 1 --å†³å®šä»Šå¤©æ­¤ç©å®¶ä¼šå‘æ”¾çš„éšæœºç§ç±»
+		local iRandomMethod = (timePackage.yday + RoleCreateTime ) % iRandomNum + 1 --¾ö¶¨½ñÌì´ËÍæ¼Ò»á·¢·ÅµÄËæ»úÖÖÀà
 
-		--æµ‹è¯•ç”¨å†…å®¹
+		--²âÊÔÓÃÄÚÈİ
 		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
 			iRandomMethod = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
 		end
 
 		if iRandomMethod == 2 then
-			--å‘é“å…·æˆ–å¥–åŠ±
-			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38836, 1, true)     --å‘ é“å…· 38836 ç©ºç™½çš„çº¸
+			--·¢µÀ¾ß»ò½±Àø
+			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38836, 1, true)     --·¢ µÀ¾ß 38836 ¿Õ°×µÄÖ½
 		elseif iRandomMethod == 3 then
-			--å‘é“å…·æˆ–å¥–åŠ±
-			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38841, 1, true)     --å‘ é“å…· 38841 å°å·§çš„é±¼ç«¿
+			--·¢µÀ¾ß»ò½±Àø
+			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, 38841, 1, true)     --·¢ µÀ¾ß 38841 Ğ¡ÇÉµÄÓã¸Í
 		end
 
-		--è®¾ç½®éšæœºæ•°
+		--ÉèÖÃËæ»úÊı
 		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 13643, 1, iRandomMethod)
 
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
@@ -17038,7 +17053,7 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
 
@@ -17062,7 +17077,7 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 		--[[
    		if bSuccess then
 
-   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --æ™®é€šåŒ…è£¹æ éœ€è¦1æ ¼
+   	    	if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
    			   return TASK_PREREQU_FAIL_GIVEN_ITEM
 			end
 
@@ -17073,11 +17088,13 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1,ucRandomNum2)
-		local AwardMulti = 60									--å­˜æ”¾å¥–åŠ±ç³»æ•°
-		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--å–å¾—ç©å®¶ç­‰çº§ï¼Œå‘å¥–åŠ±ç”¨
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		local iRetrieveIdx = 29
+
+		local AwardMulti = 60									--´æ·Å½±ÀøÏµÊı
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
 		local TabItem = {
 						[1] = {38808 , 1},
@@ -17085,16 +17102,16 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 						[3] = {38844 , 1},
 						}
 
-		--æ”¶èµ°ç›¸å…³çš„ç‰©å“
-		--38806	é›·è¾›æ ¼æ´»åŠ¨_èºä¸åˆ€	å¤§å·¥åŒ çš„èºä¸åˆ€
-		--38808	é›·è¾›æ ¼æ´»åŠ¨_è‘¡è„é…’	è‘¡è„é…’
-		--38810	é›·è¾›æ ¼æ´»åŠ¨_åœŸå †é‡Œçš„è™«å­	åœŸå †é‡Œçš„è™«å­
-		--38833	é›·è¾›æ ¼æ´»åŠ¨_æ—§æ—¥æƒ…ä¹¦	æ—§æ—¥æƒ…ä¹¦
-		--38836	é›·è¾›æ ¼æ´»åŠ¨_ç©ºç™½çš„çº¸	ç©ºç™½çš„çº¸
-		--38841	é›·è¾›æ ¼æ´»åŠ¨_ç‰¹åˆ¶é±¼ç«¿	å°å·§çš„é±¼ç«¿
-		--38842	é›·è¾›æ ¼æ´»åŠ¨_æœ‰é±¼é¥µçš„é±¼ç«¿	æœ‰é±¼é¥µçš„é±¼ç«¿
-		--38843	é›·è¾›æ ¼æ´»åŠ¨_å–·æ³‰ç¡¬å¸	å–·æ³‰ç¡¬å¸
-		--38844	é›·è¾›æ ¼æ´»åŠ¨_å–·æ³‰æ°´æ™¶é±¼	å–·æ³‰æ™¶éª¨é±¼
+		--ÊÕ×ßÏà¹ØµÄÎïÆ·
+		--38806	À×ĞÁ¸ñ»î¶¯_ÂİË¿µ¶	´ó¹¤½³µÄÂİË¿µ¶
+		--38808	À×ĞÁ¸ñ»î¶¯_ÆÏÌÑ¾Æ	ÆÏÌÑ¾Æ
+		--38810	À×ĞÁ¸ñ»î¶¯_ÍÁ¶ÑÀïµÄ³æ×Ó	ÍÁ¶ÑÀïµÄ³æ×Ó
+		--38833	À×ĞÁ¸ñ»î¶¯_¾ÉÈÕÇéÊé	¾ÉÈÕÇéÊé
+		--38836	À×ĞÁ¸ñ»î¶¯_¿Õ°×µÄÖ½	¿Õ°×µÄÖ½
+		--38841	À×ĞÁ¸ñ»î¶¯_ÌØÖÆÓã¸Í	Ğ¡ÇÉµÄÓã¸Í
+		--38842	À×ĞÁ¸ñ»î¶¯_ÓĞÓã¶üµÄÓã¸Í	ÓĞÓã¶üµÄÓã¸Í
+		--38843	À×ĞÁ¸ñ»î¶¯_ÅçÈªÓ²±Ò	ÅçÈªÓ²±Ò
+		--38844	À×ĞÁ¸ñ»î¶¯_ÅçÈªË®¾§Óã	ÅçÈª¾§¹ÇÓã
 
 		local TabItem = {	38806,
 							38808,
@@ -17114,11 +17131,12 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 		end
 
    		if bSuccess then
-			--å‘æ”¾ç»éªŒ
-			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
+			--·¢·Å¾­Ñé
+			--TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti)
+			TaskCApi. DeliverRetrieveExp(TASKINTERFACE_POINTER, AwardExpAdjust * AwardMulti,bRetrieve,iRetrieveIdx)
 
 			local iPrestige
-			--å‘æ”¾é›·è¾›æ ¼å£°æœ›
+			--·¢·ÅÀ×ĞÁ¸ñÉùÍû
 			local TabPrestige = {
 									[60] = 100,
 									[65] = 600,
@@ -17137,21 +17155,26 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
 
 			TaskCApi.DeliverRegionReputation(TASKINTERFACE_POINTER,1, iPrestige)
 
-			--80çº§åè·å¾—ä¿¡ä»°å€¼ï¼ˆå¯ä»¥çªç ´ä¸Šé™çš„æ–¹å¼ï¼‰9000
+			--80¼¶ºó»ñµÃĞÅÑöÖµ£¨¿ÉÒÔÍ»ÆÆÉÏÏŞµÄ·½Ê½£©9000
 			if PlayerLevel>= 80 then
-				TaskCApi. DeliverBelief(TASKINTERFACE_POINTER,9000, true)
+				--TaskCApi. DeliverBelief(TASKINTERFACE_POINTER,9000, true)
+				TaskCApi. DeliverRetrieveBelief(TASKINTERFACE_POINTER, 9000, true, bRetrieve ,iRetrieveIdx)
 			end
 
-			--å¢åŠ æ´»è·ƒåº¦ 13122 +1
+			--Ôö¼Ó»îÔ¾¶È 13122 +1
 			TaskCApi. ModifyTaskFinishCnt (TASKINTERFACE_POINTER, 13122, 1)
-			--ä¿®æ”¹å¹¸è¿ä»»åŠ¡è®¡æ¬¡æ¬¡æ•°ï¼š13646 +1
+			--ĞŞ¸ÄĞÒÔËÈÎÎñ¼Æ´Î´ÎÊı£º13646 +1
 			TaskCApi. ModifyTaskFinishCnt (TASKINTERFACE_POINTER, 13646, 1)
 
-			--ä¿®æ”¹æ´»åŠ¨è®¡æ¬¡ï¼Œ9å·æ´»åŠ¨è®¡æ•°
+			--ĞŞ¸Ä»î¶¯¼Æ´Î£¬9ºÅ»î¶¯¼ÆÊı
 			TaskCApi.ModifyCommonTaskCount(TASKINTERFACE_POINTER,8, -1)
 
-			--ç”¨äºé˜¶æ®µæ€§å¥–åŠ±ï¼Œä¿®æ”¹14007+1
+			--ÓÃÓÚ½×¶ÎĞÔ½±Àø£¬ĞŞ¸Ä14007+1
 			TaskCApi. ModifyTaskFinishCnt (TASKINTERFACE_POINTER, 14007, 1)
+
+			--Çå¿Õ²¹³¥Öµ
+			TaskCApi. ClearRetrieveVal(TASKINTERFACE_POINTER,13643, iRetrieveIdx)
+
 		end
 
 
@@ -17159,37 +17182,37 @@ TaskList[13643] = --é›·è¾›æ ¼ä¸ä¼šå‘Šè¯‰ä½ 
    	end
 }
 
-TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
+TaskList[14094] = --ÆßÈÕÌ¸ÊÕÈ¡¼ÆÊı
 {
-	--ä»»åŠ¡è‡ªå®šä¹‰è¡¨
+	--ÈÎÎñ×Ô¶¨Òå±í
 	Tabtaskmethod =
 	{
-		--ç´¢å¼•é¡¹ä¸ºè¦äº¤çº³çš„ä¹¦ç±id
+		--Ë÷ÒıÏîÎªÒª½»ÄÉµÄÊé¼®id
 
-		[40876] = 14096, --ç´«æ™¶ä¹‹çµ
-		[40877] = 14097, --å¹½æœˆä¹‹å…‰
-		[40878] = 14098, --å¤©ä½¿ä¹‹æ³ª
-		[40879] = 14099, --æ°´æ™¶é™µå¢“
-		[40880] = 14100, --æ³•è€ä¹‹æ³ª
-		[40881] = 14101, --é»„é‡‘è¯…å’’
-		[40882] = 14102, --ç«¥å£°ç¬‘è¯­
+		[40876] = 14096, --×Ï¾§Ö®Áé
+		[40877] = 14097, --ÓÄÔÂÖ®¹â
+		[40878] = 14098, --ÌìÊ¹Ö®Àá
+		[40879] = 14099, --Ë®¾§ÁêÄ¹
+		[40880] = 14100, --·¨ÀÏÖ®Àá
+		[40881] = 14101, --»Æ½ğ×çÖä
+		[40882] = 14102, --Í¯ÉùĞ¦Óï
 	},
 
   	Property =
   	{
-		bRecordFinish = true,			--è®°å½•å®Œæˆç»“æœ
-  		bCanRedo = true,				--æˆåŠŸåå¯é‡å¤å®Œæˆ
-  		bCanRedoAfterFailure = true,	--å¤±è´¥åå¯é‡å¤å®Œæˆ
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
 
   		bCanGiveUp = true,
 
   		bShowPrompt = true,
   		bCanSeekOut = true,
 
-		bClearAsGiveup = false, 		--æ”¾å¼ƒä»»åŠ¡å‘å¤±è´¥å¥–åŠ±
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
 
   		bRecordFinishCount = true,
-		iMaxFinishCount = 7000,--æœ€å¤§å®Œæˆæ¬¡æ•°ä¸º7
+		iMaxFinishCount = 7,--×î´óÍê³É´ÎÊıÎª7
 
 		iSuitableLevel = 200,
 
@@ -17198,16 +17221,17 @@ TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
   	}
    	,
 
-	-- æˆåŠŸæ—¶æœ‰æ•ˆ
+	-- ³É¹¦Ê±ÓĞĞ§
 	AwardPreview =
 	{
 	}
 	,
 
-   	--ä»»åŠ¡å‘æ”¾æ£€æŸ¥ï¼Œå®¢æˆ·ç«¯åœ¨NPCæ˜¾ç¤ºã€ç©å®¶ç¡®è®¤æ¥å—æ—¶è°ƒç”¨ï¼ŒæœåŠ¡å™¨åœ¨å“åº”å‘æ”¾æ—¶è°ƒç”¨
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
    	OnCheckDeliver = function(TASKINTERFACE_POINTER)
 
-		if iPlayerLev < 81 then
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+		if iPlayerLev < 20 then
 	   	    return TASK_PREREQU_FAIL_LUA_TASK
 	   	end
 
@@ -17216,13 +17240,13 @@ TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
    	end
    	,
 
-   	--ç©å®¶æ¥æ”¶è¯¥ä»»åŠ¡æ—¶è°ƒç”¨
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
    	OnDeliver = function(TASKINTERFACE_POINTER)
 		return 0
 	end
 	,
 
-   	--æœåŠ¡å™¨æ€æ€ªã€å–å¾—ç‰©å“ç­‰æ¡ä»¶ä¸‹è°ƒç”¨ï¼Œå®¢æˆ·ç«¯ä»»åŠ¡ç•Œé¢æ˜¾ç¤ºæ—¶è°ƒç”¨
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
    	OnMethod = function(TASKINTERFACE_POINTER)
 
    		local Method = {}
@@ -17234,19 +17258,22 @@ TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
    	end
    	,
 
-   	--æ£€æŸ¥å®Œæˆä»»åŠ¡,åœ¨æ€æ€ªã€æ‹¾å–ç‰©å“ã€æ¯éš”ä¸€å®šæ—¶é—´ã€å‘å¥–å‰è°ƒç”¨
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
    	OnCheckFinish = function(TASKINTERFACE_POINTER)
    		local iRet = TASK_NO_FINISH
-		local TabFlag = {} --å»ºç«‹è¡¨æ ¼ï¼Œå­˜å‚¨å·²ç»äº¤çº³ä¹¦ç±çš„çŠ¶å†µ
+		local TabFlag = {} --½¨Á¢±í¸ñ£¬´æ´¢ÒÑ¾­½»ÄÉÊé¼®µÄ×´¿ö
 
-		--æäº¤çš„ç‰©å“idï¼Œæäº¤çš„ç‰©å“æ•°é‡
+		--Ìá½»µÄÎïÆ·id£¬Ìá½»µÄÎïÆ·ÊıÁ¿
 		local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,14094)
+
+		local key1
+		local key2
 
 		if itemIDSubmitted and itemNumberSubmitted then
 
-			--æ„å»ºtabflagè¡¨æ ¼å­˜å‚¨ç©å®¶å·²ç»äº¤çº³çš„æƒ…å†µï¼Œç´¢å¼•é¡¹ä¸ºæ ‡å¿—ä»»åŠ¡id
+			--¹¹½¨tabflag±í¸ñ´æ´¢Íæ¼ÒÒÑ¾­½»ÄÉµÄÇé¿ö£¬Ë÷ÒıÏîÎª±êÖ¾ÈÎÎñid
 			for i= 14096, 14102 do
-				--14096-14102åˆ†åˆ«å¯¹åº”7ä¸ªä¹¦ç±çš„äº¤çº³ç»“æœ
+				--14096-14102·Ö±ğ¶ÔÓ¦7¸öÊé¼®µÄ½»ÄÉ½á¹û
 				if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, i ,true) then
 					TabFlag[i] = 1
 				else
@@ -17254,16 +17281,23 @@ TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
 				end
 			end
 
-			local iTaskID = TaskList[14094].Tabtaskmethod[itemIDSubmitted] --ç©å®¶äº¤çº³çš„ä»»åŠ¡ç‰©å“æ‰€å¯¹åº”çš„æ ‡å¿—ä»»åŠ¡id
+			local iTaskID = TaskList[14094].Tabtaskmethod[itemIDSubmitted] --Íæ¼Ò½»ÄÉµÄÈÎÎñÎïÆ·Ëù¶ÔÓ¦µÄ±êÖ¾ÈÎÎñid
 
-			if iTaskID then --æ ‡å¿—ä»»åŠ¡idä¸ä¸ºç©ºï¼Œå±äºéœ€è¦äº¤çº³å†…å®¹
+			if iTaskID then --±êÖ¾ÈÎÎñid²»Îª¿Õ£¬ÊôÓÚĞèÒª½»ÄÉÄÚÈİ
 				if TabFlag[iTaskID] == 1 then
 					TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 14094, 28, 20002)
-					--å·²ç»äº¤çº³è¿‡äº†
+					--ÒÑ¾­½»ÄÉ¹ıÁË
 				elseif TabFlag[iTaskID] == 0 then
 
-					--è®¾ç½®éšæœºæ•°ä»¥ç”¨äºå­˜å‚¨ç©å®¶äº¤çº³çš„ç‰©å“
-					TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 14094, 1, itemIDSubmitted)
+					--²ğ½âÎïÆ·id£¬´æÈëËæ»úÊı£»key1*200+key2 =itemIDSubmitted
+					key1 = math.floor(itemIDSubmitted /200)
+					key2 = itemIDSubmitted % 200
+
+					--ÉèÖÃËæ»úÊıÒÔÓÃÓÚ´æ´¢Íæ¼Ò½»ÄÉµÄÎïÆ·
+					TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 14094, 1, key1)
+					TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, 14094, 2, key2)
+
+					TaskCApi.TakeAwaySubmitItem(TASKINTERFACE_POINTER, 14094, 1)
 
 					iRet = TASK_SUCC_FINISH
 
@@ -17271,7 +17305,7 @@ TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
 
 			else
 				TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, 14094, 28, 20000)
-				--ç‰©å“ä¸å¯¹
+				--ÎïÆ·²»¶Ô
 			end
 
 		end
@@ -17286,21 +17320,2816 @@ TaskList[14094] = --ä¸ƒæ—¥è°ˆæ”¶å–è®¡æ•°
    	end
    	,
 
-   	--å®Œæˆè¯¥ä»»åŠ¡æ—¶æœåŠ¡å™¨è°ƒç”¨
-   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,ucRandomNum1)
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
 
-		local AwardMulti = 30																		--å­˜æ”¾è§’è‰²ç»éªŒå¥–åŠ±ç³»æ•°
-		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--ç©å®¶ç­‰çº§çš„ä¿®æ­£ç»éªŒ
+		local AwardMulti = 30																		--´æ·Å½ÇÉ«¾­Ñé½±ÀøÏµÊı
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
 
    		if bSuccess then
 
-			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,ucRandomNum1, 1)    					--æ”¶å–ç©å®¶äº¤çº³çš„ä¹¦ç±1ä¸ª
+			local iTaskId =TaskList[14094].Tabtaskmethod[ucRandomNum1*200+ucRandomNum2]--ĞèÒª·¢·ÅµÄ±êÖ¾ÈÎÎñ
 
-			local iTaskId =TaskList[14094].Tabtaskmethod[ucRandomNum1]--éœ€è¦å‘æ”¾çš„æ ‡å¿—ä»»åŠ¡
-			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,iTaskId)--å‘æ”¾flagä»»åŠ¡ä»¥è®¡æ•°
+			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,iTaskId)--·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
 
    		end
 
    		return 0
    	end
+}
+
+
+TaskList[14262] = --2012´º½Ú»î¶¯ÖÖ·ûÎÄ
+{
+	--ÈÎÎñÍê³É·½Ê½
+
+	TabRuneExchage =
+	{
+		--[Ö°Òµid] = {ÖÖ×Ó·ûÎÄ£¬ÊÕ»ñºì·ûÎÄ£¬ÊÕ»ñµÄ»Æ·ûÎÄ£¬ÊÕ»ñµÄÀ¶·ûÎÄ}
+
+		--1£ºÕ½Ê¿
+		[1] = {
+				{38933, 40045, 40053, 40061},
+				{38941, 40117, 40125, 40133},
+				{38973, 40045, 40053, 40061},
+				{38981, 40117, 40125, 40133},
+				{39013, 40045, 40053, 40061},
+				{39021, 40117, 40125, 40133},
+				{39997, 40045, 40053, 40061},
+				{40005, 40045, 40053, 40061},
+				{40013, 40045, 40053, 40061},
+				{40021, 40045, 40053, 40061},
+				{40029, 40045, 40053, 40061},
+				{40037, 40045, 40053, 40061},
+				{40045, 40045, 40053, 40061},
+				{40053, 40045, 40053, 40061},
+				{40061, 40045, 40053, 40061},
+				{40069, 40117, 40125, 40133},
+				{40077, 40117, 40125, 40133},
+				{40085, 40117, 40125, 40133},
+				{40093, 40117, 40125, 40133},
+				{40101, 40117, 40125, 40133},
+				{40109, 40117, 40125, 40133},
+				{40117, 40117, 40125, 40133},
+				{40125, 40117, 40125, 40133},
+				{40133, 40117, 40125, 40133},
+				{40141, 40237, 40245, 40253},
+				{40149, 40237, 40245, 40253},
+				{40157, 40237, 40245, 40253},
+				{40165, 40237, 40245, 40253},
+				{40173, 40237, 40245, 40253},
+				{40181, 40237, 40245, 40253},
+				{40189, 40237, 40245, 40253},
+				{40197, 40237, 40245, 40253},
+				{40205, 40237, 40245, 40253},
+				{40213, 40237, 40245, 40253},
+				{40221, 40237, 40245, 40253},
+				{40229, 40237, 40245, 40253},
+				{40237, 40237, 40245, 40253},
+				{40245, 40237, 40245, 40253},
+				{40253, 40237, 40245, 40253},
+			},
+
+		--2£ºÊØ»¤Õß
+		[2] = {
+				{38934, 40046, 40054, 40062},
+				{38942, 40118, 40126, 40134},
+				{38974, 40046, 40054, 40062},
+				{38982, 40118, 40126, 40134},
+				{39014, 40046, 40054, 40062},
+				{39022, 40118, 40126, 40134},
+				{39998, 40046, 40054, 40062},
+				{40006, 40046, 40054, 40062},
+				{40014, 40046, 40054, 40062},
+				{40022, 40046, 40054, 40062},
+				{40030, 40046, 40054, 40062},
+				{40038, 40046, 40054, 40062},
+				{40046, 40046, 40054, 40062},
+				{40054, 40046, 40054, 40062},
+				{40062, 40046, 40054, 40062},
+				{40070, 40118, 40126, 40134},
+				{40078, 40118, 40126, 40134},
+				{40086, 40118, 40126, 40134},
+				{40094, 40118, 40126, 40134},
+				{40102, 40118, 40126, 40134},
+				{40110, 40118, 40126, 40134},
+				{40118, 40118, 40126, 40134},
+				{40126, 40118, 40126, 40134},
+				{40134, 40118, 40126, 40134},
+				{40142, 40238, 40246, 40254},
+				{40150, 40238, 40246, 40254},
+				{40158, 40238, 40246, 40254},
+				{40166, 40238, 40246, 40254},
+				{40174, 40238, 40246, 40254},
+				{40182, 40238, 40246, 40254},
+				{40190, 40238, 40246, 40254},
+				{40198, 40238, 40246, 40254},
+				{40206, 40238, 40246, 40254},
+				{40214, 40238, 40246, 40254},
+				{40222, 40238, 40246, 40254},
+				{40230, 40238, 40246, 40254},
+				{40238, 40238, 40246, 40254},
+				{40246, 40238, 40246, 40254},
+				{40254, 40238, 40246, 40254},
+			},
+
+		--3 ´Ì¿Í
+		[3] = {
+				{38935, 40047, 40055, 40063},
+				{38943, 40119, 40127, 40135},
+				{38975, 40047, 40055, 40063},
+				{38983, 40119, 40127, 40135},
+				{39015, 40047, 40055, 40063},
+				{39023, 40119, 40127, 40135},
+				{39999, 40047, 40055, 40063},
+				{40007, 40047, 40055, 40063},
+				{40015, 40047, 40055, 40063},
+				{40023, 40047, 40055, 40063},
+				{40031, 40047, 40055, 40063},
+				{40039, 40047, 40055, 40063},
+				{40047, 40047, 40055, 40063},
+				{40055, 40047, 40055, 40063},
+				{40063, 40047, 40055, 40063},
+				{40071, 40119, 40127, 40135},
+				{40079, 40119, 40127, 40135},
+				{40087, 40119, 40127, 40135},
+				{40095, 40119, 40127, 40135},
+				{40103, 40119, 40127, 40135},
+				{40111, 40119, 40127, 40135},
+				{40119, 40119, 40127, 40135},
+				{40127, 40119, 40127, 40135},
+				{40135, 40119, 40127, 40135},
+				{40143, 40239, 40247, 40255},
+				{40151, 40239, 40247, 40255},
+				{40159, 40239, 40247, 40255},
+				{40167, 40239, 40247, 40255},
+				{40175, 40239, 40247, 40255},
+				{40183, 40239, 40247, 40255},
+				{40191, 40239, 40247, 40255},
+				{40199, 40239, 40247, 40255},
+				{40207, 40239, 40247, 40255},
+				{40215, 40239, 40247, 40255},
+				{40223, 40239, 40247, 40255},
+				{40231, 40239, 40247, 40255},
+				{40239, 40239, 40247, 40255},
+				{40247, 40239, 40247, 40255},
+				{40255, 40239, 40247, 40255},
+			},
+
+		--4 »ğÇ¹
+		[4] = {
+				{38936, 40048, 40056, 40064},
+				{38944, 40120, 40128, 40136},
+				{38976, 40048, 40056, 40064},
+				{38984, 40120, 40128, 40136},
+				{39016, 40048, 40056, 40064},
+				{39024, 40120, 40128, 40136},
+				{40000, 40048, 40056, 40064},
+				{40008, 40048, 40056, 40064},
+				{40016, 40048, 40056, 40064},
+				{40024, 40048, 40056, 40064},
+				{40032, 40048, 40056, 40064},
+				{40040, 40048, 40056, 40064},
+				{40048, 40048, 40056, 40064},
+				{40056, 40048, 40056, 40064},
+				{40064, 40048, 40056, 40064},
+				{40072, 40120, 40128, 40136},
+				{40080, 40120, 40128, 40136},
+				{40088, 40120, 40128, 40136},
+				{40096, 40120, 40128, 40136},
+				{40104, 40120, 40128, 40136},
+				{40112, 40120, 40128, 40136},
+				{40120, 40120, 40128, 40136},
+				{40128, 40120, 40128, 40136},
+				{40136, 40120, 40128, 40136},
+				{40144, 40240, 40248, 40256},
+				{40152, 40240, 40248, 40256},
+				{40160, 40240, 40248, 40256},
+				{40168, 40240, 40248, 40256},
+				{40176, 40240, 40248, 40256},
+				{40184, 40240, 40248, 40256},
+				{40192, 40240, 40248, 40256},
+				{40200, 40240, 40248, 40256},
+				{40208, 40240, 40248, 40256},
+				{40216, 40240, 40248, 40256},
+				{40224, 40240, 40248, 40256},
+				{40232, 40240, 40248, 40256},
+				{40240, 40240, 40248, 40256},
+				{40248, 40240, 40248, 40256},
+				{40256, 40240, 40248, 40256},
+			},
+
+		--5 ·¨Ê¦
+		[5] = {
+				{38937, 40049, 40057, 40065},
+				{38945, 40121, 40129, 40137},
+				{38977, 40049, 40057, 40065},
+				{38985, 40121, 40129, 40137},
+				{39017, 40049, 40057, 40065},
+				{39025, 40121, 40129, 40137},
+				{40001, 40049, 40057, 40065},
+				{40009, 40049, 40057, 40065},
+				{40017, 40049, 40057, 40065},
+				{40025, 40049, 40057, 40065},
+				{40033, 40049, 40057, 40065},
+				{40041, 40049, 40057, 40065},
+				{40049, 40049, 40057, 40065},
+				{40057, 40049, 40057, 40065},
+				{40065, 40049, 40057, 40065},
+				{40073, 40121, 40129, 40137},
+				{40081, 40121, 40129, 40137},
+				{40089, 40121, 40129, 40137},
+				{40097, 40121, 40129, 40137},
+				{40105, 40121, 40129, 40137},
+				{40113, 40121, 40129, 40137},
+				{40121, 40121, 40129, 40137},
+				{40129, 40121, 40129, 40137},
+				{40137, 40121, 40129, 40137},
+				{40145, 40241, 40249, 40257},
+				{40153, 40241, 40249, 40257},
+				{40161, 40241, 40249, 40257},
+				{40169, 40241, 40249, 40257},
+				{40177, 40241, 40249, 40257},
+				{40185, 40241, 40249, 40257},
+				{40193, 40241, 40249, 40257},
+				{40201, 40241, 40249, 40257},
+				{40209, 40241, 40249, 40257},
+				{40217, 40241, 40249, 40257},
+				{40225, 40241, 40249, 40257},
+				{40233, 40241, 40249, 40257},
+				{40241, 40241, 40249, 40257},
+				{40249, 40241, 40249, 40257},
+				{40257, 40241, 40249, 40257},
+			},
+
+		--6 ÄÁÊ¦
+		[6] = {
+				{38938, 40050, 40058, 40066},
+				{38946, 40122, 40130, 40138},
+				{38978, 40050, 40058, 40066},
+				{38986, 40122, 40130, 40138},
+				{39018, 40050, 40058, 40066},
+				{39026, 40122, 40130, 40138},
+				{40002, 40050, 40058, 40066},
+				{40010, 40050, 40058, 40066},
+				{40018, 40050, 40058, 40066},
+				{40026, 40050, 40058, 40066},
+				{40034, 40050, 40058, 40066},
+				{40042, 40050, 40058, 40066},
+				{40050, 40050, 40058, 40066},
+				{40058, 40050, 40058, 40066},
+				{40066, 40050, 40058, 40066},
+				{40074, 40122, 40130, 40138},
+				{40082, 40122, 40130, 40138},
+				{40090, 40122, 40130, 40138},
+				{40098, 40122, 40130, 40138},
+				{40106, 40122, 40130, 40138},
+				{40114, 40122, 40130, 40138},
+				{40122, 40122, 40130, 40138},
+				{40130, 40122, 40130, 40138},
+				{40138, 40122, 40130, 40138},
+				{40146, 40242, 40250, 40258},
+				{40154, 40242, 40250, 40258},
+				{40162, 40242, 40250, 40258},
+				{40170, 40242, 40250, 40258},
+				{40178, 40242, 40250, 40258},
+				{40186, 40242, 40250, 40258},
+				{40194, 40242, 40250, 40258},
+				{40202, 40242, 40250, 40258},
+				{40210, 40242, 40250, 40258},
+				{40218, 40242, 40250, 40258},
+				{40226, 40242, 40250, 40258},
+				{40234, 40242, 40250, 40258},
+				{40242, 40242, 40250, 40258},
+				{40250, 40242, 40250, 40258},
+				{40258, 40242, 40250, 40258},
+			},
+
+		--7 ÑªÄ§
+		[7] = {
+				{38939, 40051, 40059, 40067},
+				{38947, 40123, 40131, 40139},
+				{38979, 40051, 40059, 40067},
+				{38987, 40123, 40131, 40139},
+				{39019, 40051, 40059, 40067},
+				{39027, 40123, 40131, 40139},
+				{40003, 40051, 40059, 40067},
+				{40011, 40051, 40059, 40067},
+				{40019, 40051, 40059, 40067},
+				{40027, 40051, 40059, 40067},
+				{40035, 40051, 40059, 40067},
+				{40043, 40051, 40059, 40067},
+				{40051, 40051, 40059, 40067},
+				{40059, 40051, 40059, 40067},
+				{40067, 40051, 40059, 40067},
+				{40075, 40123, 40131, 40139},
+				{40083, 40123, 40131, 40139},
+				{40091, 40123, 40131, 40139},
+				{40099, 40123, 40131, 40139},
+				{40107, 40123, 40131, 40139},
+				{40115, 40123, 40131, 40139},
+				{40123, 40123, 40131, 40139},
+				{40131, 40123, 40131, 40139},
+				{40139, 40123, 40131, 40139},
+				{40147, 40243, 40251, 40259},
+				{40155, 40243, 40251, 40259},
+				{40163, 40243, 40251, 40259},
+				{40171, 40243, 40251, 40259},
+				{40179, 40243, 40251, 40259},
+				{40187, 40243, 40251, 40259},
+				{40195, 40243, 40251, 40259},
+				{40203, 40243, 40251, 40259},
+				{40211, 40243, 40251, 40259},
+				{40219, 40243, 40251, 40259},
+				{40227, 40243, 40251, 40259},
+				{40235, 40243, 40251, 40259},
+				{40243, 40243, 40251, 40259},
+				{40251, 40243, 40251, 40259},
+				{40259, 40243, 40251, 40259},
+			},
+
+		--8 Ê«ÈË
+		[8] = {
+				{38940, 40052, 40060, 40068},
+				{38948, 40124, 40132, 40140},
+				{38980, 40052, 40060, 40068},
+				{38988, 40124, 40132, 40140},
+				{39020, 40052, 40060, 40068},
+				{39028, 40124, 40132, 40140},
+				{40004, 40052, 40060, 40068},
+				{40012, 40052, 40060, 40068},
+				{40020, 40052, 40060, 40068},
+				{40028, 40052, 40060, 40068},
+				{40036, 40052, 40060, 40068},
+				{40044, 40052, 40060, 40068},
+				{40052, 40052, 40060, 40068},
+				{40060, 40052, 40060, 40068},
+				{40068, 40052, 40060, 40068},
+				{40076, 40124, 40132, 40140},
+				{40084, 40124, 40132, 40140},
+				{40092, 40124, 40132, 40140},
+				{40100, 40124, 40132, 40140},
+				{40108, 40124, 40132, 40140},
+				{40116, 40124, 40132, 40140},
+				{40124, 40124, 40132, 40140},
+				{40132, 40124, 40132, 40140},
+				{40140, 40124, 40132, 40140},
+				{40148, 40244, 40252, 40260},
+				{40156, 40244, 40252, 40260},
+				{40164, 40244, 40252, 40260},
+				{40172, 40244, 40252, 40260},
+				{40180, 40244, 40252, 40260},
+				{40188, 40244, 40252, 40260},
+				{40196, 40244, 40252, 40260},
+				{40204, 40244, 40252, 40260},
+				{40212, 40244, 40252, 40260},
+				{40220, 40244, 40252, 40260},
+				{40228, 40244, 40252, 40260},
+				{40236, 40244, 40252, 40260},
+				{40244, 40244, 40252, 40260},
+				{40252, 40244, 40252, 40260},
+				{40260, 40244, 40252, 40260},
+			},
+	},
+
+  	Property =
+  	{
+		bRecordFinish = true,			--¼ÇÂ¼Íê³É½á¹û
+  		bCanRedo = false,				--³É¹¦ºó²»¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
+
+  		bCanGiveUp = true,
+
+  		bShowPrompt = true,
+  		bCanSeekOut = false,
+
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+  		bRecordFinishCount = true,
+
+		iSuitableLevel = 200,
+
+  		iType  = TaskType.HuoDong,
+  		iTopic = TaskTopic.YiBan,
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+		-- ÎïÆ·
+		Items = function(TASKINTERFACE_POINTER)
+			local items = {}
+			items = {
+					Item1 = {ID = 41385, NUM = 1},--ÏÔÊ¾µÄ½±ÀøÎªÒ»¸ö²»»á³öÏÖµÄÎïÆ·41385£¬½öÓÃÓÚÏÔÊ¾½±ÀøÓÃ
+					}
+
+			return items
+		end
+		,
+
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+
+	    local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+
+	   	if iPlayerLev < 45 then --µÈ¼¶ĞèÒª¸ßÓÚ45¼¶
+	   	    return TASK_PREREQU_FAIL_LUA_TASK
+	   	end
+
+		--ÏŞÊ±ÈÎÎñ
+		local timePackage = os.date("*t", os.time())
+		local now_year = timePackage.year
+		local now_month = timePackage.month
+		local now_day = timePackage.day
+		local now_hour = timePackage.hour
+
+		if now_year == 2012 then
+			if now_month == 1 then
+				if now_day < 10 or now_day > 22 then
+					return TASK_PREREQU_FAIL_LUA_TASK
+				end
+			else
+				return TASK_PREREQU_FAIL_LUA_TASK
+			end
+		end
+
+		if now_year > 2012 then
+			return TASK_PREREQU_FAIL_LUA_TASK
+		end
+
+   		return 0
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+		return 0
+	end
+	,
+
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
+   	OnMethod = function(TASKINTERFACE_POINTER)
+
+		local Method = {}
+		Method.SubmitItem = true--Ìá½»ÎïÆ·µÄÍê³É·½Ê½
+		Method.iTimeLimit = 3628800 --1Ğ¡Ê±Ã»Íê³ÉÔòÈÎÎñÊ§°Ü
+
+   		return Method
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+   		local iRet = TASK_NO_FINISH
+
+		local iTaskId = 14262 --±¾ÈÎÎñid
+		local iOccupationId = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER) --»ñÈ¡Íæ¼ÒÖ°Òµid
+
+		--ºìÉ« 14267
+		--»ÆÉ« 14268
+		--À¶É« 14269
+		local bflagred = TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,14267,true)
+		local bflagyel = TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,14268,true)
+		local bflagblu = TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,14269,true)
+
+		local iRuneOccNum = 39 --Ã¿¸öÖ°Òµ¿ÉÊÕÈ¡µÄ·ûÎÄ¸öÊı
+		local bFlag = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 1)--1ºÅËæ»úÊıÓÃÓÚ´æ´¢ÊÇ·ñ½»ÄÉÖÖ×Ó·ûÎÄ£¬Èç¹ûÎª0ÔòÎªÎ´½»ÄÉ
+
+		local itemIDSubmitted,itemNumberSubmitted = TaskCApi.GetSubmitItemInfo(TASKINTERFACE_POINTER,iTaskId)	--Ìá½»ÎïÆ·µÄĞÅÏ¢£ºid£¬ÊıÁ¿
+
+		if itemIDSubmitted and itemNumberSubmitted then
+
+			if bFlag == 0 then		--Íæ¼Ò²¢Î´Ìá½»ÖÖ×Ó·ûÎÄ
+
+				for i = 1 , iRuneOccNum do
+					if itemIDSubmitted == TaskList[iTaskId].TabRuneExchage[iOccupationId][i][1] then--Èç¹ûÌá½»µÄÄÚÈİÊÇ±¾Ö°ÒµÔ­Ê¼·ûÎÄ
+						if itemNumberSubmitted == 1 then --ÊıÁ¿ÕıÈ·ÔòÊÕÈ¡²¢Ìá½»
+							TaskCApi.TakeAwaySubmitItem(TASKINTERFACE_POINTER,iTaskId, 1)
+
+							TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, iTaskId, 28, 15)
+
+							bFlag = 1 --ÒÑ¾­ÊÕÈ¡ÎïÆ·
+							--ÉèÖÃËæ»úÊı1ºÅÒÔÓÃÓÚ´æ´¢Íæ¼ÒÌá½»µÄ·ûÎÄË÷Òı
+							TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1, i)
+
+							--·¢·ÅÈÎÎñ14264·¢´ú±Ò
+							TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,14264)
+
+						else
+							TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, iTaskId, 29, 20001)--ÊıÁ¿²»¶Ô
+						end
+						break
+					end
+
+					if i == iRuneOccNum then--Ìá½»µÄÎïÆ·´íÎó
+						TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, iTaskId, 28, 20000)
+					end
+
+				end
+
+			else	--Íæ¼ÒÒÑ¾­Ìá½»ÖÖ×Ó·ûÎÄ
+
+				if itemIDSubmitted == 41302 then	--Íæ¼ÒÌá½»µÄÊÇÖÖÖ²Æ¾Ö¤
+					if bflagred or bflagyel or bflagblu then --ÒÑ¾­Ñ¡ÔñÑÕÉ«£¬ÓĞÒ»ÏîÎªÕæ
+						if itemNumberSubmitted == 1 then --Ìá½»ÊıÁ¿ÕıÈ·ÊÕ×ßÎïÆ··¢½±
+							TaskCApi.TakeAwaySubmitItem(TASKINTERFACE_POINTER,iTaskId, 1)
+							iRet = TASK_SUCC_FINISH
+						else--ÊıÁ¿²»¶Ô
+							TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, iTaskId, 29, 20001)--ÊıÁ¿²»¶Ô
+						end
+					else--Èç¹ûÍæ¼ÒÃ»ÓĞÑ¡ÔñÑÕÉ«£¬Ôò²»ÊÕÈ¡²¢ÌáÊ¾Ò»¸ö×Ô¶¨Òå´íÎóĞÅÏ¢
+						TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, iTaskId, 28, 6)--´òÓ¡Ò»¾ä´íÎóÌáÊ¾£¬¸æÖªÍæ¼ÒÎ´Ñ¡ÔñÑÕÉ«
+					end
+				else--Ìá½»µÄÎïÆ·´íÎó
+					TaskCApi.NotifySubmitItemErr(TASKINTERFACE_POINTER, iTaskId, 28, 20000)
+				end
+			end
+
+		end
+
+		local ulCurTime     = TaskCApi.GetCurTime(TASKINTERFACE_POINTER)
+   		local ulDeliverTime = TaskCApi.GetTaskDeliverTime(TASKINTERFACE_POINTER, iTaskId)
+   		if ulCurTime - ulDeliverTime > 3628800 then
+   		    iRet = TASK_FAIL_FINISH
+   		end
+
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1)
+		local iTaskId = 14262 --±¾ÈÎÎñid
+		local iOccupationId = TaskCApi.GetPlayerOccupation(TASKINTERFACE_POINTER) --»ñÈ¡Íæ¼ÒÖ°Òµid
+
+		--ºìÉ« 14267
+		--»ÆÉ« 14268
+		--À¶É« 14269
+		local bflagred = TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,14267,true)
+		local bflagyel = TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,14268,true)
+		local bflagblu = TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER,14269,true)
+
+		local bflagcol = 2 --Ä¬ÈÏÑ¡2£¬Íæ¼ÒÑ¡ÔñµÄÑÕÉ«£¬2ÎªºìÉ«£¬3Îª»ÆÉ«£¬4ÎªÀ¶É«
+		local iAwardRuneId --Òª·¢·ÅµÄ·ûÎÄid
+
+		if bSuccess then
+			if bflagred then
+				bflagcol = 2
+			elseif bflagyel then
+				bflagcol = 3
+			elseif bflagblu then
+				bflagcol = 4
+			end
+
+			iAwardRuneId = TaskList[iTaskId].TabRuneExchage[iOccupationId][ucRandomNum1][bflagcol]
+			TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,iAwardRuneId, 1,true)
+
+		end
+
+		return 0
+   	end
+}
+
+
+TaskList[14379] = --new_¹«»á_Í¨ÓÃ½¨ÉèÈÎÎñ
+
+{
+	--¿âÈÎÎñid±í
+	TabSubTask =
+	{
+		--ĞÂÈÎÎñ¿â£¬¼òµ¥
+		[1] =	{
+				[20] = {14409, 14411, 14412, 14413, 14414, 14415, 14416, 14417, 14418, 14419, 14420, 14421, 14422, 14423, 14424, 14425, 14427, 14428,} ,
+				[25] = {14409, 14410, 14411, 14412, 14413, 14414, 14415, 14416, 14417, 14418, 14419, 14420, 14421, 14422, 14423, 14424, 14425, 14426, 14427, 14428, 14429, 14430, 14431, 14432, 14433, 14434, 14435, 14436, 14437, 14438, 14439, 14440, 14441, 14442, 14443, 14444, 14445, 14446, 14447, 14448, } ,
+			},
+
+		--¾ÉÈÎÎñ¿â£¬ÄÑ
+		[2] =	{
+				[20] = {8557, 8558, 8565, },
+				[25] = {8557, 8558, 8565, },
+				[30] = {8557, 8558, 8565, 8560},
+				[35] = {8557, 8558, 8565, 8560, 8562,},
+
+				[40] = {8568, 8571, },
+				[45] = {8568, 8571, 8570},
+				[50] = {8568, 8571, 8570, 8573, 8576},
+				[55] = {8568, 8571, 8570, 8573, 8576, 8574},
+
+				[60] = {9622, 9623, 9624, 9625,},
+				[65] = {9622, 9623, 9624, 9625,},
+				[70] = {9622, 9623, 9624, 9625,},
+				[75] = {9622, 9623, 9624, 9625,},
+
+				[80] = {9622, 9623, 9624, 9625,},
+			},
+	}
+	,
+
+  	Property =
+  	{
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
+		bCanSeekOut = true,
+
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+		bBuildTask = true, --¹«»á½¨ÉèÈÎÎñ
+
+		bRecordFinishCount = true,
+  		iMaxFinishCount = 4,		--Ã¿ÂÖ×î¶àÍê³É4´Î
+
+		iSuitableLevel = 80,
+
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
+
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+
+	AwardPreview =
+	{
+		-- ¾­Ñé
+		Exp = function(TASKINTERFACE_POINTER)
+			local iTaskId = 14379 --±¾ÈÎÎñid
+			local ExpTable = {
+								--¾­Ñé
+								[1]=8,
+								[2]=16,
+								[3]=24,
+								[4]=32,
+								}
+
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
+			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
+			return iExpAward --·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+
+		end
+		,
+
+		-- °ó¶¨Ç®
+		BindMoney = function(TASKINTERFACE_POINTER)
+			local iTaskId = 14379 --±¾ÈÎÎñid
+			local MonTable = {
+								--°ó¶¨½ğ
+								[1]=3,
+								[2]=6,
+								[3]=9,
+								[4]=12,
+								}
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
+			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+		end
+		,
+
+		-- ¹«»á½±ÀøÏà¹Ø
+		FactionAward = function(TASKINTERFACE_POINTER)
+			local factionaward = {}
+			factionaward.contribution = 4 --¹«»á¹±Ï×¶È
+			factionaward.credit = 4  --¹«»á¹¦Ñ«
+			return factionaward
+		end
+		,
+
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+		local iItemId = 23911 --´æ´¢Ç°ÌáËùĞè¹«»áÊÂÎïº¯id
+		local iOldTaskId = 8547 --¾ÉµÄ½¨ÉèÈÎÎñid 8547
+		local iTaskId = 14379 --±¾ÈÎÎñid
+
+		--¼ì²éÍæ¼ÒµÈ¼¶>=20
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+	   	if iPlayerLev < 20 then
+	   	    return TASK_PREREQU_FAIL_LUA_TASK
+	   	end
+
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
+		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 9358)
+		if iRet ~= 0  then
+			return TASK_PREREQU_FAIL_FULL
+   	   	end
+
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+
+		--Óë¾ÉµÄ½¨ÉèÈÎÎñ»¥³â
+		if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iOldTaskId) then
+			return TASK_PREREQU_FAIL_LUA_TASK
+		end
+
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+		local iOldFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iOldTaskId) --¾É»ùµØ½¨ÉèÈÎÎñÍê³É´ÎÊı
+
+		if FinishTime == 0 and iOldFinishTime == 0 then
+			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, iItemId, true)
+			if iItemNum < 1 then
+				return TASK_PREREQU_FAIL_NO_ITEM
+			end
+		end
+
+   		return 0
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+
+		local iTaskId = 14379   --±¾ÈÎÎñid 14379
+		local iTaskId2 = 14380  --ĞÂµÄ»ùµØ·Ç½¨ÉèÈÎÎñ14380
+		local iFlagTaskID = 14578 --ÓÃÓÚÏÔÊ¾ÈÎÎñ×·×ÙµÄÈÎÎñ£¬±êÊ¾¸¨ÖúÈÎÎñÊÇ·ñÍê³É
+
+		local iOldTaskId = 8547 --¾ÉµÄ½¨ÉèÈÎÎñid 8547
+		local iItemId = 23911   --¹¤»áÊÂÎïº¯ 23911
+
+		local iTaskType = 1     --ÈÎÎñÄÑ¶ÈÀàĞÍ£¬1Îª¼òµ¥£¨Ä¬ÈÏ£©£¬2ÎªÄÑ
+
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)	--Íæ¼ÒµÈ¼¶
+
+		--Ã¿ÂÖ£¨4´Î£©»ùµØÈÎÎñÊ×´ÎÊ±ÊÕ×ßÒ»¸ö»ùµØÊÂÎñº¯
+		local iFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) --±¾ÈÎÎñµ±ÌìÒÑÍê³É´ÎÊı
+		local iOldFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iOldTaskId) --¾Í»ùµØ½¨ÉèÈÎÎñÍê³É´ÎÊı
+		local iFlagFinishiTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iFlagTaskID)
+
+		if iFinishTime == 0 and iOldFinishTime == 0 then
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, iItemId, 1) --ÊÕ×ßÒ»¸ö¹¤»áÊÂÎïº¯
+		end
+
+		--Èç¹û¾ÉµÄ½¨ÉèÈÎÎñ´ÎÊı·Ç0£¬½«¾ÉµÄÈÎÎñÍê³É´ÎÊı¼Ì³Ğµ½ĞÂÈÎÎñÉÏ
+		if iOldFinishTime > 0 then
+			TaskCApi. ModifyTaskFinishCnt (TASKINTERFACE_POINTER, iTaskId, iOldFinishTime)  --ĞŞ¸ÄĞÂ½¨ÉèÈÎÎñ14379µÄÒÑÍê³É´ÎÊı£¨¼Ì³Ğ¾ÉÈÎÎñµÄ´ÎÊı£©
+		end
+
+		--Çå¿Õ±êÖ¾ÈÎÎñ´ÎÊı£¬ÓÃÓÚÍê³ÉÈÎÎñÅĞ¶Ï
+		if iFlagFinishiTime >0 then
+			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,iFlagTaskID)   --ĞŞ¸Ä±êÖ¾ÈÎÎñ´ÎÊı
+		end
+
+		--Çå¿Õ¾É½¨ÉèÈÎÎñµÄ´ÎÊı£¬·ÀÖ¹ÏÂ´Î½ÓÊÜÊ±ÖØ¸´¼Ì³Ğ
+		TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,iOldTaskId)
+
+		math.randomseed(os.time())
+		local iRandomNum = math.random(1, 10)
+
+		--2012.12.28ÈÎÎñĞŞ¸Ä£¬¹«»á»ùµØÈÎÎñ²»ÔÙ·¢·Å¸´ÔÓÈÎÎñ
+		if iRandomNum <= 0 then
+		--20%·¢·Å¸´ÔÓÈÎÎñ
+			iTaskType = 2
+		end
+
+		--²âÊÔÓÃÄÚÈİ
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
+			iTaskType = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
+		end
+
+		local iPlayerLevIndex = 20
+
+		if iTaskType == 1 then
+			if iPlayerLev >= 25 then
+				iPlayerLevIndex = 25
+			end
+		else
+			--´óÓÚ80µÄ½ÇÉ«²¢Ã»ÓĞĞÂµÄÈÎÎñ¿â£¬ÑØÓÃ
+			if iPlayerLev >= 80 then
+				iPlayerLevIndex = 80
+			else
+				iPlayerLevIndex = iPlayerLev-iPlayerLev%5
+			end
+		end
+
+		local iRandomTaskNum = math.random(1, #TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex])--ÔÚÒÑ¾­È·ÈÏµÄµÈ¼¶¶ÎÄÚËæ»ú·¶Î§
+		local iDeliverTaskID = TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex][iRandomTaskNum]--½«Òª·¢·ÅµÄÈÎÎñ¿âid
+
+		--ÓÉÓÚÓë·Ç½¨ÉèÈÎÎñµÄ¿âÈÎÎñ¹²Ïí£¬ËùÒÔÒª±ÜÃâ·¢·ÅÖØ¸´ÈÎÎñ,¶ÔiDeliverTaskID×öÌØÊâ´¦Àí
+		if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iDeliverTaskID) then
+			if iRandomTaskNum < #TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex] then
+				iDeliverTaskID = TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex][iRandomTaskNum +1]
+			else
+				iDeliverTaskID = TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex][1]
+			end
+		end
+
+		--Çå³ıÈÎÎñÍê³É½á¹û
+		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, iDeliverTaskID)
+
+		--·¢·Å¸¨ÖúÈÎÎñ
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iDeliverTaskID)
+
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
+		local key1 = math.floor(iDeliverTaskID /200)
+		local key2 = iDeliverTaskID % 200
+
+        --ÉèÖÃËæ»úÊı
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 1, key1)
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 2, key2)
+
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 3, iTaskType) --ÈÎÎñÄÑ¶ÈÏµÊı´æÈë3ºÅËæ»úÊı
+
+		return 0
+	end
+	,
+
+   	OnMethod = function(TASKINTERFACE_POINTER)
+		local iTaskId = 14379   --±¾ÈÎÎñid 14379
+		local iFlagTaskID = 14578
+
+		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 2)
+
+		local iDeliverTaskID = key1*200 + key2
+
+   		local Method = {}
+
+		Method.CompleteTask = {TaskID = iFlagTaskID, Num = 1}	--Íê³ÉÌØ¶¨ÈÎÎñ1´Î
+
+   		return Method
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+   		local iRet = TASK_NO_FINISH
+
+		local iTaskId = 14379   --±¾ÈÎÎñid 14379
+		local iFlagTaskID = 14578
+
+		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 2)
+
+		local iDeliverTaskID = key1*200 + key2
+
+		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, iDeliverTaskID,true) then
+
+			if TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iFlagTaskID) == 0 then
+				TaskCApi.ModifyTaskFinishCnt (TASKINTERFACE_POINTER, iFlagTaskID, 1)
+			end
+
+			iRet = TASK_SUCC_FINISH
+		end
+
+		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, iDeliverTaskID,false) then
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
+			iRet = TASK_FAIL_FINISH
+		end
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+
+		local iTaskId = 14380   --±¾ÈÎÎñid 14380
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+		if FinishTime == 4 then
+			if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+				return TASK_PREREQU_FAIL_GIVEN_ITEM
+			end
+		end
+
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2,ucRandomNum3)
+		local ExpTable = {
+		--¾­Ñé
+				[1]=8,
+				[2]=16,
+				[3]=24,
+				[4]=32,
+				}
+
+		local MonTable = {
+		--°ó¶¨½ğ
+				[1]=3,
+				[2]=6,
+				[3]=9,
+				[4]=12,
+			}
+
+		local ContributionTable = {
+		--¹±Ï×¶È
+				[1]=4,
+				[2]=4,
+				[3]=4,
+				[4]=4,
+			}
+
+		local ExploitTable = {
+		--¹¦Ñ«
+				[1]=4,
+				[2]=4,
+				[3]=4,
+				[4]=4,
+			}
+
+		local iTaskId = 14379   --±¾ÈÎÎñid 14379
+
+		local iLucResourcetype = 9 --ĞÒÔË×ÊÔ´Öµid
+
+		local iDeliverTaskID = ucRandomNum1*200 + ucRandomNum2
+		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+
+		local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
+		local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
+		local iGuildMoneyMuti = 1 --¹¤»á×Ê½ğÏµÊı
+
+		local iPersonalActive = 1		--»îÔ¾¶È½±ÀøÊıÖµ
+
+		local iExpMuti = 400	--ÌØÊâ½±Àø¾­ÑéÏµÊı
+		local iMonMuti = 150	--ÌØÊâ½±Àø»ê±ÒÏµÊı
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+		if bSuccess then
+
+			if FinishTime > 0 then
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAwardMutli*iMonAdjust)	--·¢·Å°ï¶¨½ğ
+
+				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable[FinishTime]) 						--·¢·Å¹¤»á¹¦Ñ«¶È
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹¤»á»îÔ¾¶È
+				TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable[FinishTime]) 			--·¢·Å¹±Ï×¶È
+
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
+
+					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 16106)--2013.1.4Á÷¹âÓÅ»¯Ïà¹Ø
+
+					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+					--ÆµµÀ¹ã²¥
+					TaskCApi.Broadcast(TASKINTERFACE_POINTER, iTaskId, TaskBroadcastChannel.Kingdom)
+
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
+					local FirstTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 9286)
+					if FirstTime == 0 then
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 9286)
+					end
+
+					--È¡14381Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ£¬ÓÃÓÚ×÷ÎªÁì½±ÈÎÎñµÄÇ°Ìá¡£
+					local FirstTimeWeek = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 14381)
+					if FirstTimeWeek == 0 then
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 14381)
+					end
+				end
+			end
+
+			--Ëæ»úµ½ÄÑÈÎÎñµÄ¶îÍâ½±Àø
+			if ucRandomNum3 == 1 then--2013.1.4ĞŞ¸Ä£¬¼òµ¥ÈÎÎñ´¥·¢±¦Ïä
+
+				local iGuildCtrlIdlev1 = 103522 --¹«»á_»ùµØÈÎÎñ1µÈ½± ¿ØÖÆÆ÷id
+				local iGuildCtrlIdlev2 = 103523 --¹«»á_»ùµØÈÎÎñ2µÈ½± ¿ØÖÆÆ÷id
+				local iGuildCtrlIdlev3 = 103524 --¹«»á_»ùµØÈÎÎñ3µÈ½± ¿ØÖÆÆ÷id
+
+				local iBroadTaskid1 = 14584 --º°»°0-1
+				local iBroadTaskid2 = 14585 --º°»°0-2
+				local iBroadTaskid3 = 14586 --º°»°1-2
+				local iBroadTaskid4 = 14587 --º°»°2-3
+
+				local iLucResourceVal = TaskCApi. GetFactionResourceVal(TASKINTERFACE_POINTER, iLucResourcetype)
+
+				math.randomseed(os.time())
+				local iAwardnum = math.random(1, 50000)   --¹«»á±¦Ïä¶îÍâ¿ªÆô½±ÀøËæ»úÊı
+
+				if iLucResourceVal == 0 then--Ä¿Ç°Î´¿ªÆôÈÎºÎ½±Àø
+					--1-200 0-1¼¶£¬201-210 0-2¼¶£»
+					if iAwardnum <= 200 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid1)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev1, true) --¼¤»î¿ØÖÆÆ÷1¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 1) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(0+1=1)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					elseif iAwardnum <= 210 and iAwardnum > 200 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid2)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev2, true) 	 --¼¤»î¿ØÖÆÆ÷2¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 2) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(0+2=2)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					end
+
+				elseif iLucResourceVal == 1 then --Ä¿Ç°ÒÑ¾­¿ªÆô1µÈ½±
+					--0.5% 1¼¶Éı¼¶µ½2¼¶
+					if iAwardnum <= 50 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid3)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev2, true) 	 --¼¤»î¿ØÖÆÆ÷2¼¶µÄ¿ØÖÆÆ÷
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev1, false)  --¹Ø±Õ¿ØÖÆÆ÷1¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 1) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(1+1=2)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					end
+
+				elseif iLucResourceVal == 2 then --Ä¿Ç°ÒÑ¾­¿ªÆô2µÈ½±
+					--0.15% 2¼¶Éı¼¶µ½3¼¶
+					if iAwardnum <= 15 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid4)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev3, true) 	 --¼¤»î¿ØÖÆÆ÷3¼¶µÄ¿ØÖÆÆ÷
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev2, false)  --¹Ø±Õ¿ØÖÆÆ÷2¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 1) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(2+1=3)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					end
+
+				end
+			end
+
+		else
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
+			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+			--·ÅÆúÉ¾³ıÉíÉÏÒÑ¾­·¢·ÅµÄiDeliverTaskIDÈÎÎñ
+			TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, iDeliverTaskID, false )
+
+   		end
+		--Çå³ıÈÎÎñÍê³É½á¹û
+		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, iDeliverTaskID)
+
+   		return 0
+   	end
+}
+
+TaskList[14380] = --new_¹«»á_Í¨ÓÃ·Ç½¨ÉèÈÎÎñ
+
+{
+	--¿âÈÎÎñid±í
+	TabSubTask =
+	{
+		--ĞÂÈÎÎñ¿â£¬¼òµ¥
+		[1] =	{
+				[20] = {14409, 14411, 14412, 14413, 14414, 14415, 14416, 14417, 14418, 14419, 14420, 14421, 14422, 14423, 14424, 14425, 14427, 14428,} ,
+				[25] = {14409, 14410, 14411, 14412, 14413, 14414, 14415, 14416, 14417, 14418, 14419, 14420, 14421, 14422, 14423, 14424, 14425, 14426, 14427, 14428, 14429, 14430, 14431, 14432, 14433, 14434, 14435, 14436, 14437, 14438, 14439, 14440, 14441, 14442, 14443, 14444, 14445, 14446, 14447, 14448, } ,
+			},
+
+		--¾ÉÈÎÎñ¿â£¬ÄÑ
+		[2] =	{
+				[20] = {8557, 8558, 8565, },
+				[25] = {8557, 8558, 8565, },
+				[30] = {8557, 8558, 8565, 8560},
+				[35] = {8557, 8558, 8565, 8560, 8562,},
+
+				[40] = {8568, 8571, },
+				[45] = {8568, 8571, 8570},
+				[50] = {8568, 8571, 8570, 8573, 8576},
+				[55] = {8568, 8571, 8570, 8573, 8576, 8574},
+
+				[60] = {9622, 9623, 9624, 9625,},
+				[65] = {9622, 9623, 9624, 9625,},
+				[70] = {9622, 9623, 9624, 9625,},
+				[75] = {9622, 9623, 9624, 9625,},
+
+				[80] = {9622, 9623, 9624, 9625,},
+			},
+	}
+	,
+
+	--×ÊÔ´Öµ½±ÀøÁĞ±í
+	TabResourceAward =
+	{
+		--Ë÷ÒıÎª×ÊÔ´ÖµÏµÍ³´æ´¢µÄid
+		--Ä§·¨
+		[1] = {
+				--Ë÷ÒıÎªÍæ¼ÒµÈ¼¶¶Î
+				[20] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 1,
+						[2] = 1,
+						[3] = 2,
+						[4] = 3,
+						},
+				[40] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 1,
+						[2] = 2,
+						[3] = 3,
+						[4] = 4,
+						},
+				[60] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 2,
+						[2] = 3,
+						[3] = 4,
+						[4] = 5,
+						},
+			},
+
+		--¾­¼Ã
+		[2] = {
+				--Ë÷ÒıÎªÍæ¼ÒµÈ¼¶¶Î
+				[20] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 1,
+						[2] = 1,
+						[3] = 2,
+						[4] = 3,
+						},
+				[40] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 3,
+						[2] = 3,
+						[3] = 4,
+						[4] = 5,
+						},
+				[60] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 3,
+						[2] = 5,
+						[3] = 7,
+						[4] = 9,
+						},
+			},
+
+		--ÎÄÃ÷
+		[3] = {
+				--Ë÷ÒıÎªÍæ¼ÒµÈ¼¶¶Î
+				[20] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 1,
+						[2] = 1,
+						[3] = 2,
+						[4] = 3,
+						},
+				[40] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 3,
+						[2] = 3,
+						[3] = 4,
+						[4] = 5,
+						},
+				[60] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 3,
+						[2] = 5,
+						[3] = 7,
+						[4] = 9,
+						},
+			},
+
+
+		--ĞÅÑö
+		[4] = {
+				--Ë÷ÒıÎªÍæ¼ÒµÈ¼¶¶Î
+				[20] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 1,
+						[2] = 1,
+						[3] = 2,
+						[4] = 3,
+						},
+				[40] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 3,
+						[2] = 3,
+						[3] = 4,
+						[4] = 5,
+						},
+				[60] = {
+						--Ë÷ÒıÎªÍæ¼ÒÍê³ÉÂÖÊı
+						[1] = 3,
+						[2] = 5,
+						[3] = 7,
+						[4] = 9,
+						},
+			},
+
+	}
+	,
+
+  	Property =
+  	{
+  		bCanRedo = true,--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,--¿É·ÅÆú
+  		bShowPrompt = true,--ÏÔÊ¾ÏµÍ³ÌáÊ¾
+		bCanSeekOut = true,
+
+		bClearAsGiveup = false, --·ÅÆúÈÎÎñ·¢·ÅÊ§°Ü½±Àø
+
+		bRecordFinishCount = true,
+  		iMaxFinishCount = 4,		--Ã¿ÂÖ×î¶àÍê³É4´Î
+
+		iSuitableLevel = 80,
+
+  		iType  = TaskType.GongHui,--ÈÎÎñÀàĞÍ£º¹«»á
+
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+		-- ¾­Ñé
+		Exp = function(TASKINTERFACE_POINTER)
+			local iTaskId = 14380 --±¾ÈÎÎñid
+			local ExpTable = {
+								--¾­Ñé
+								[1]=8,
+								[2]=16,
+								[3]=24,
+								[4]=32,
+								}
+
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+			local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+
+			local iExpAwardMutli = 1  --»ù´¡¾­ÑéÏµÊı
+			local iExpAward = ExpTable[FinishTime]*iExpAwardMutli*iExpAdjust
+			return iExpAward --·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+
+		end
+		,
+
+		-- °ó¶¨Ç®
+		BindMoney = function(TASKINTERFACE_POINTER)
+			local iTaskId = 14380 --±¾ÈÎÎñid
+			local MonTable = {
+								--°ó¶¨½ğ
+								[1]=3,
+								[2]=6,
+								[3]=9,
+								[4]=12,
+								}
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+			local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+			local iMonAwardMutli = 1  --»ù´¡½ğÇ®ÏµÊı
+			local iMonAward = MonTable[FinishTime]*iMonAwardMutli*iMonAdjust
+			return iMonAward--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+		end
+		,
+
+		-- ¹«»á½±ÀøÏà¹Ø
+		FactionAward = function(TASKINTERFACE_POINTER)
+			local iTaskId = 14380 --±¾ÈÎÎñid
+			local ExpTable = {
+			--¾­Ñé
+					[1]=8,
+					[2]=16,
+					[3]=24,
+					[4]=32,
+					}
+
+			local MonTable = {
+			--»ê±Ò
+					[1]=3,
+					[2]=6,
+					[3]=9,
+					[4]=12,
+				}
+
+			local ContributionTable = {
+						[20] = {
+								--¹±Ï×¶È20-39¼¶
+									[1]=0,
+									[2]=1,
+									[3]=1,
+									[4]=2,
+								},
+						[40] = {
+								--¹±Ï×¶È40-59¼¶
+									[1]=1,
+									[2]=2,
+									[3]=2,
+									[4]=3,
+								},
+						[60] = {
+								--¹±Ï×¶È60+
+									[1]=2,
+									[2]=3,
+									[3]=4,
+									[4]=4,
+								},
+					}
+
+			local ExploitTable = {
+						[20] = {
+							--¹¦Ñ«20-39¼¶
+									[1]=0,
+									[2]=1,
+									[3]=1,
+									[4]=2,
+								},
+						[40] = {
+							--¹¦Ñ«40-59¼¶
+									[1]=1,
+									[2]=2,
+									[3]=2,
+									[4]=3,
+								},
+						[60] = {
+							--¹¦Ñ«60+¼¶
+									[1]=2,
+									[2]=3,
+									[3]=4,
+									[4]=4,
+								},
+					}
+
+			local GuildMonTable = {
+						[20] = {
+							--¹«»á×Ê½ğ20-39
+									[1]=500,
+									[2]=1000,
+									[3]=1500,
+									[4]=2000,
+								},
+						[40] = {
+							--¹«»á×Ê½ğ40-59
+									[1]=1000,
+									[2]=2000,
+									[3]=3000,
+									[4]=4000,
+								},
+						[60] = {
+							--¹«»á×Ê½ğ60+
+									[1]=2000,
+									[2]=3000,
+									[3]=5000,
+									[4]=6000,
+								},
+					}
+
+			local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+			local iAwardPlayerLevel --20¼¶µµ£¬·¢·Å½±ÀøµÄµÈ¼¶¶Î£¬·Ö±ğÎª20£¬40£¬60
+
+			if iPlayerLevel >= 80 then
+				iAwardPlayerLevel = 60
+			else
+				iAwardPlayerLevel = iPlayerLevel - iPlayerLevel % 20
+			end
+
+			local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+			local factionaward = {}
+
+			factionaward.credit = ExploitTable[iAwardPlayerLevel][FinishTime]									--·¢·Å¹¤»á¹¦Ñ«¶È
+			factionaward.contribution = ContributionTable[iAwardPlayerLevel][FinishTime] 		--·¢·Å¹±Ï×¶È
+			factionaward.money = GuildMonTable[iAwardPlayerLevel][FinishTime]					--·¢·Å¹¤»á×Ê½ğ
+			factionaward.vitality = 1															--¹«»á»îÔ¾¶È
+
+			factionaward.magic	 = TaskList[iTaskId].TabResourceAward[1][iAwardPlayerLevel][FinishTime]		--·¢·Å2#¹¤»á×ÊÔ´
+			factionaward.economy = TaskList[iTaskId].TabResourceAward[2][iAwardPlayerLevel][FinishTime] 	--·¢·Å3#¹¤»á×ÊÔ´
+			factionaward.culture = TaskList[iTaskId].TabResourceAward[3][iAwardPlayerLevel][FinishTime]		--·¢·Å4#¹¤»á×ÊÔ´
+			factionaward.belief  = TaskList[iTaskId].TabResourceAward[4][iAwardPlayerLevel][FinishTime]		--·¢·Å5#¹¤»á×ÊÔ´
+
+			return factionaward
+		end
+		,
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+		local iItemId = 23911 --´æ´¢Ç°ÌáËùĞè¹«»áÊÂÎïº¯id
+
+		local TabOldTaskId = {8548,8549,8550,8551,10368,10369,10370,10371,10444,10445,} --¾ÉµÄ·Ç½¨ÉèÈÎÎñid±í
+		local iTaskId = 14380 --±¾ÈÎÎñid
+
+		local iFlagTaskID = 14579 --ÓÃÓÚÏÔÊ¾ÈÎÎñ×·×ÙµÄÈÎÎñ£¬±êÊ¾¸¨ÖúÈÎÎñÊÇ·ñÍê³É
+
+		--¼ì²éÍæ¼ÒµÈ¼¶>=20
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+	   	if iPlayerLev < 20 then
+	   	    return TASK_PREREQU_FAIL_LUA_TASK
+	   	end
+
+		--¼ì²éÉíÉÏÊÇ·ñÓĞÈÎÎñ¸ñ×Ó
+		local iRet = TaskCApi.CheckDeliverNewTask(TASKINTERFACE_POINTER, 9358)
+		if iRet ~= 0  then
+			return TASK_PREREQU_FAIL_FULL
+   	   	end
+
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+
+		--Ã¿ÌìµÚÒ»´Î×öÈÎÎñÊ±¼ì²éÊÇ·ñÓĞÅÆ×Óid=23911
+		local iFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+		local iOldFinishTime = 0 --¾É»ùµØ½¨ÉèÈÎÎñÍê³É´ÎÊı
+
+		for i,v in pairs(TabOldTaskId) do
+
+			--Óë¾ÉµÄÈÎÎñ»¥³â
+			if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,v) then
+				return TASK_PREREQU_FAIL_LUA_TASK
+			end
+
+			--¼Ì³ĞÍê³É´ÎÊı
+			if iOldFinishTime < TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, v) then
+				iOldFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, v)
+			end
+
+		end
+
+		if iFinishTime == 0 and iOldFinishTime == 0 then
+			local iItemNum = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, iItemId, true)
+			if iItemNum < 1 then
+				return TASK_PREREQU_FAIL_NO_ITEM
+			end
+		end
+
+   		return 0
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+
+		local iTaskId = 14380   --±¾ÈÎÎñid 14380
+		local iTaskId2 = 14379	 --ĞÂ½¨ÉèÈÎÎñid
+		local TabOldTaskId = {8548,8549,8550,8551,10368,10369,10370,10371,10444,10445,} --¾ÉµÄ·Ç½¨ÉèÈÎÎñid±í
+
+		local iFlagTaskID = 14579
+
+		local iItemId = 23911   --¹¤»áÊÂÎïº¯ 23911
+
+		local iTaskType = 1     --ÈÎÎñÄÑ¶ÈÀàĞÍ£¬1Îª¼òµ¥£¨Ä¬ÈÏ£©£¬2ÎªÄÑ
+
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)	--Íæ¼ÒµÈ¼¶
+
+		--Ã¿ÂÖ£¨4´Î£©»ùµØÈÎÎñÊ×´ÎÊ±ÊÕ×ßÒ»¸ö»ùµØÊÂÎñº¯
+		local iFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+		local iOldFinishTime = 0 --¾É»ùµØ½¨ÉèÈÎÎñÍê³É´ÎÊı
+		local iFlagFinishiTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iFlagTaskID)
+
+		for i,v in pairs(TabOldTaskId) do
+			if iOldFinishTime < TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, v) then
+				iOldFinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, v)
+			end
+		end
+
+		--Çå¿Õ±êÖ¾ÈÎÎñ´ÎÊı£¬ÓÃÓÚÍê³ÉÈÎÎñÅĞ¶Ï
+		if iFlagFinishiTime >0 then
+			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,iFlagTaskID)   --ĞŞ¸Ä±êÖ¾ÈÎÎñ´ÎÊı
+		end
+
+		if iFinishTime == 0 and iOldFinishTime == 0 then
+			TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER, iItemId, 1) --ÊÕ×ßÒ»¸ö¹¤»áÊÂÎïº¯
+		end
+
+		--Èç¹û¾ÉµÄ·Ç½¨ÉèÈÎÎñ´ÎÊı·Ç0£¬½«¾ÉµÄÈÎÎñÍê³É´ÎÊı¼Ì³Ğµ½ĞÂÈÎÎñÉÏ
+		if iOldFinishTime > 0 then
+			TaskCApi. ModifyTaskFinishCnt (TASKINTERFACE_POINTER, iTaskId, iOldFinishTime)  --ĞŞ¸ÄĞÂ½¨ÉèÈÎÎñ14380µÄÒÑÍê³É´ÎÊı£¨¼Ì³Ğ¾ÉÈÎÎñµÄ´ÎÊı£©
+		end
+
+		--Çå¿Õ¾ÉÈÎÎñµÄ´ÎÊı£¬·ÀÖ¹ÏÂ´Î½ÓÊÜÊ±ÖØ¸´¼Ì³Ğ
+
+		for i,v in pairs(TabOldTaskId) do
+			if TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, v) > 0 then
+				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,v)
+			end
+		end
+
+
+		math.randomseed(os.time())
+		local iRandomNum = math.random(1, 10)
+
+		--2012.12.28ÈÎÎñĞŞ¸Ä£¬¹«»á»ùµØÈÎÎñ²»ÔÙ·¢·Å¸´ÔÓÈÎÎñ£¬¸ÅÂÊÓÉ20%¸ÄÎª0
+		if iRandomNum <= 0 then
+		--20%·¢·Å¸´ÔÓÈÎÎñ
+			iTaskType = 2
+		end
+
+		--²âÊÔÓÃÄÚÈİ
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
+			iTaskType = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
+		end
+
+		local iPlayerLevIndex = 20
+
+		if iTaskType == 1 then
+			if iPlayerLev >= 25 then
+				iPlayerLevIndex = 25
+			end
+		else
+			--´óÓÚ80µÄ½ÇÉ«²¢Ã»ÓĞĞÂµÄÈÎÎñ¿â£¬ÑØÓÃ
+			if iPlayerLev >= 80 then
+				iPlayerLevIndex = 80
+			else
+				iPlayerLevIndex = iPlayerLev-iPlayerLev%5
+			end
+		end
+
+		local iRandomTaskNum = math.random(1, #TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex])--ÔÚÒÑ¾­È·ÈÏµÄµÈ¼¶¶ÎÄÚËæ»ú·¶Î§
+		local iDeliverTaskID = TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex][iRandomTaskNum]--½«Òª·¢·ÅµÄÈÎÎñ¿âid
+
+		--ÓÉÓÚÓë½¨ÉèÈÎÎñµÄ¿âÈÎÎñ¹²Ïí£¬ËùÒÔÒª±ÜÃâ·¢·ÅÖØ¸´ÈÎÎñ,¶ÔiDeliverTaskID×öÌØÊâ´¦Àí
+		if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iDeliverTaskID) then
+			if iRandomTaskNum < #TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex] then
+				iDeliverTaskID = TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex][iRandomTaskNum +1]
+			else
+				iDeliverTaskID = TaskList[iTaskId].TabSubTask[iTaskType][iPlayerLevIndex][1]
+			end
+		end
+
+		--Çå³ıÈÎÎñÍê³É½á¹û
+		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, iDeliverTaskID)
+
+		--·¢·Å¸¨ÖúÈÎÎñ
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iDeliverTaskID)
+
+		--²ğ½âÈÎÎñid£¬´æÈëËæ»úÊı£»key1*200+key2 =taskID
+		local key1 = math.floor(iDeliverTaskID /200)
+		local key2 = iDeliverTaskID % 200
+
+        --ÉèÖÃËæ»úÊı
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 1, key1)
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 2, key2)
+
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER,iTaskId, 3, iTaskType) --ÈÎÎñÄÑ¶ÈÏµÊı´æÈë3ºÅËæ»úÊı
+
+		return 0
+	end
+	,
+
+   	OnMethod = function(TASKINTERFACE_POINTER)
+		local iTaskId = 14380   --±¾ÈÎÎñid 14380
+		local iFlagTaskID = 14579
+
+		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 2)
+
+		local iDeliverTaskID = key1*200 + key2
+
+   		local Method = {}
+
+		Method.CompleteTask = {TaskID = iFlagTaskID, Num = 1}	--Íê³ÉÌØ¶¨ÈÎÎñ1´Î
+
+   		return Method
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+   		local iRet = TASK_NO_FINISH
+
+		local iTaskId = 14380   --±¾ÈÎÎñid 14380
+		local iFlagTaskID = 14579
+
+		local key1 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+		local key2 = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 2)
+
+		local iDeliverTaskID = key1*200 + key2
+
+		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, iDeliverTaskID,true) then
+			if TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iFlagTaskID) == 0 then
+				TaskCApi.ModifyTaskFinishCnt (TASKINTERFACE_POINTER, iFlagTaskID, 1)
+			end
+
+			iRet = TASK_SUCC_FINISH
+		end
+
+		if TaskCApi.HasTaskInFinsihTaskList(TASKINTERFACE_POINTER, iDeliverTaskID,false) then
+			--µ±Íæ¼Ò·ÅÆú¸¨ÖúÈÎÎñÊ±£¬ÈÏÎªÖ÷ÈÎÎñÊ§°Ü
+			iRet = TASK_FAIL_FINISH
+		end
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+		local iTaskId = 14380   --±¾ÈÎÎñid 14380
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId) + 1--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+		if FinishTime == 4 then
+			if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+				return TASK_PREREQU_FAIL_GIVEN_ITEM
+			end
+		end
+
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2,ucRandomNum3)
+		local ExpTable = {
+		--¾­Ñé
+				[1]=8,
+				[2]=16,
+				[3]=24,
+				[4]=32,
+				}
+
+		local MonTable = {
+		--»ê±Ò
+				[1]=3,
+				[2]=6,
+				[3]=9,
+				[4]=12,
+			}
+
+		local ContributionTable = {
+					[20] = {
+							--¹±Ï×¶È20-39¼¶
+								[1]=0,
+								[2]=1,
+								[3]=1,
+								[4]=2,
+							},
+					[40] = {
+							--¹±Ï×¶È40-59¼¶
+								[1]=1,
+								[2]=2,
+								[3]=2,
+								[4]=3,
+							},
+					[60] = {
+							--¹±Ï×¶È60+
+								[1]=2,
+								[2]=3,
+								[3]=4,
+								[4]=4,
+							},
+				}
+
+		local ExploitTable = {
+					[20] = {
+						--¹¦Ñ«20-39¼¶
+								[1]=0,
+								[2]=1,
+								[3]=1,
+								[4]=2,
+							},
+					[40] = {
+						--¹¦Ñ«40-59¼¶
+								[1]=1,
+								[2]=2,
+								[3]=2,
+								[4]=3,
+							},
+					[60] = {
+						--¹¦Ñ«60+¼¶
+								[1]=2,
+								[2]=3,
+								[3]=4,
+								[4]=4,
+							},
+				}
+
+		local GuildMonTable = {
+					[20] = {
+						--¹«»á×Ê½ğ20-39
+								[1]=500,
+								[2]=1000,
+								[3]=1500,
+								[4]=2000,
+							},
+					[40] = {
+						--¹«»á×Ê½ğ40-59
+								[1]=1000,
+								[2]=2000,
+								[3]=3000,
+								[4]=4000,
+							},
+					[60] = {
+						--¹«»á×Ê½ğ60+
+								[1]=2000,
+								[2]=3000,
+								[3]=5000,
+								[4]=6000,
+							},
+				}
+
+		local iExpMuti = 400 --ÌØÊâ´¥·¢µÄ½±Àø£¬¾­ÑéÏµÊı
+		local iMonMuti = 150 --ÌØÊâ´¥·¢µÄ½±Àø£¬»ê±ÒÏµÊı
+
+		local iPersonalActive = 1		--»îÔ¾¶È½±ÀøÊıÖµ
+
+		local iTaskId = 14380   --±¾ÈÎÎñid 14380
+		local iLucResourcetype = 9  --ĞÒÔËÖµ×ÊÔ´Öµid
+
+		local iDeliverTaskID = ucRandomNum1*200 + ucRandomNum2
+
+		local iPlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+		local iAwardPlayerLevel --20¼¶µµ£¬·¢·Å½±ÀøµÄµÈ¼¶¶Î£¬·Ö±ğÎª20£¬40£¬60
+
+		local iExpAdjust = TaskExpAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı¾­Ñé
+		local iMonAdjust = TaskMoneyAdjust[iPlayerLevel]--±¾µÈ¼¶ĞŞÕı½ğÇ®
+
+		local FinishTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)--»·ÈÎÎñÍê³É´ÎÊı£¨°üÀ¨±¾´Î£©
+
+		if bSuccess then
+
+			if iPlayerLevel >= 80 then
+				iAwardPlayerLevel = 60
+			else
+				iAwardPlayerLevel = iPlayerLevel - iPlayerLevel % 20
+			end
+
+			if FinishTime > 0 then
+				TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, ExpTable[FinishTime]*iExpAdjust) 	--·¢·Å¾­Ñé
+				TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, MonTable[FinishTime]*iMonAdjust)	--·¢·Å»ê±Ò
+
+				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, ExploitTable[iAwardPlayerLevel][FinishTime]) 	--·¢·Å¹«»á¹¦Ñ«¶È
+				TaskCApi.DeliverFactionVitality(TASKINTERFACE_POINTER, iPersonalActive) 							--·¢·Å¹«»á»îÔ¾¶È
+
+				TaskCApi.DeliverFactionContribution(TASKINTERFACE_POINTER, ContributionTable[iAwardPlayerLevel][FinishTime]) --·¢·Å¹±Ï×¶È
+
+				TaskCApi.DeliverFactionMoney(TASKINTERFACE_POINTER, GuildMonTable[iAwardPlayerLevel][FinishTime])	--·¢·Å¹¤»á×Ê½ğ
+
+				TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 1 ,TaskList[14380].TabResourceAward[1][iAwardPlayerLevel][FinishTime]) --·¢·Å2#¹¤»á×ÊÔ´
+				TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 2 ,TaskList[14380].TabResourceAward[2][iAwardPlayerLevel][FinishTime]) --·¢·Å3#¹¤»á×ÊÔ´
+				TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 3 ,TaskList[14380].TabResourceAward[2][iAwardPlayerLevel][FinishTime]) --·¢·Å4#¹¤»á×ÊÔ´
+				TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER, 4 ,TaskList[14380].TabResourceAward[2][iAwardPlayerLevel][FinishTime]) --·¢·Å5#¹¤»á×ÊÔ´
+
+				if FinishTime == 4 then --4»·½áÊøÊ±Çå¿ÕÈÎÎñÍê³É´ÎÊı
+					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 16106)--·¢·ÅÁ÷¹âÓÅ»¯ÈÎÎñ16106£¬2013.1.4
+
+					TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+					--ÆµµÀ¹ã²¥
+					TaskCApi.Broadcast(TASKINTERFACE_POINTER, iTaskId, TaskBroadcastChannel.Kingdom)
+
+					--È¡9286Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ
+					local FirstTime = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 9286)
+					if FirstTime == 0 then
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 9286)
+					end
+
+					--È¡14381Íê³É´ÎÊıÅĞ¶ÏÊÇ·ñ¸Ä·¢·Å¶îÍâ½±Àø,Èç¹ûÃ»Íê³É¹ıÔò·¢·ÅÈÎÎñ£¬ÓÃÓÚ×÷ÎªÁì½±ÈÎÎñµÄÇ°Ìá¡£
+					local FirstTimeWeek = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, 14381)
+					if FirstTimeWeek == 0 then
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, 14381)
+					end
+				end
+			end
+
+			--Ëæ»úµ½ÄÑÈÎÎñµÄ¶îÍâ½±Àø
+			if ucRandomNum3 == 1 then
+
+				local iGuildCtrlIdlev1 = 103522 --¹«»á_»ùµØÈÎÎñ1µÈ½± ¿ØÖÆÆ÷id
+				local iGuildCtrlIdlev2 = 103523 --¹«»á_»ùµØÈÎÎñ2µÈ½± ¿ØÖÆÆ÷id
+				local iGuildCtrlIdlev3 = 103524 --¹«»á_»ùµØÈÎÎñ3µÈ½± ¿ØÖÆÆ÷id
+
+				local iBroadTaskid1 = 14584 --º°»°0-1
+				local iBroadTaskid2 = 14585 --º°»°0-2
+				local iBroadTaskid3 = 14586 --º°»°1-2
+				local iBroadTaskid4 = 14587 --º°»°2-3
+
+				local iLucResourceVal = TaskCApi. GetFactionResourceVal(TASKINTERFACE_POINTER, iLucResourcetype)
+
+				math.randomseed(os.time())
+				local iAwardnum = math.random(1, 50000)   --¹«»á±¦Ïä¶îÍâ¿ªÆô½±ÀøËæ»úÊı,Ô­Ëæ»úÊıÎª10000£¬ÄÑÈÎÎñ³öÏÖ¸ÅÂÊ20%£¬ÏÖ½«¸ÅÂÊ½µµÍÎªÔ­À´µÄ1/5
+
+				if iLucResourceVal == 0 then--Ä¿Ç°Î´¿ªÆôÈÎºÎ½±Àø
+					--1-200 0-1¼¶£¬201-210 0-2¼¶£»
+					if iAwardnum <= 200 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid1)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev1, true) --¼¤»î¿ØÖÆÆ÷1¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 1) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(0+1=1)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					elseif iAwardnum <= 210 and iAwardnum > 200 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid2)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev2, true) 	 --¼¤»î¿ØÖÆÆ÷2¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 2) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(0+2=2)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					end
+
+				elseif iLucResourceVal == 1 then --Ä¿Ç°ÒÑ¾­¿ªÆô1µÈ½±
+					--0.5% 1¼¶Éı¼¶µ½2¼¶
+					if iAwardnum <= 50 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid3)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev2, true) 	 --¼¤»î¿ØÖÆÆ÷2¼¶µÄ¿ØÖÆÆ÷
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev1, false)  --¹Ø±Õ¿ØÖÆÆ÷1¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 1) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(1+1=2)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					end
+
+				elseif iLucResourceVal == 2 then --Ä¿Ç°ÒÑ¾­¿ªÆô2µÈ½±
+					--0.15% 2¼¶Éı¼¶µ½3¼¶
+					if iAwardnum <= 15 then
+						TaskCApi.DeliverExperience(TASKINTERFACE_POINTER, iExpMuti*iExpAdjust) 	--¶îÍâ·¢·Å¾­Ñé
+						TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER, iMonMuti*iMonAdjust)	--¶îÍâ·¢·Å»ê±Ò
+
+						--·¢·Å¸¨Öú¹ã²¥ÈÎÎñ½øĞĞ¹¤»á¹ã²¥
+						TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER, iBroadTaskid4)
+
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev3, true) 	 --¼¤»î¿ØÖÆÆ÷3¼¶µÄ¿ØÖÆÆ÷
+						TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,iGuildCtrlIdlev2, false)  --¹Ø±Õ¿ØÖÆÆ÷2¼¶µÄ¿ØÖÆÆ÷
+
+						TaskCApi.DeliverFactionResourceVal(TASKINTERFACE_POINTER,iLucResourcetype, 1) --ÉèÖÃĞÒÔË×ÊÔ´Öµ(2+1=3)£¬±êÊ¾¿ªÆô±¦ÏäµÄµÈ¼¶
+					end
+
+				end
+			end
+
+		else
+			--·ÅÆúÇåµô±¾ÂÖÑ­»·´ÎÊı¼ÇÂ¼
+			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER, iTaskId)
+
+			--·ÅÆúÉ¾³ıÉíÉÏÒÑ¾­·¢·ÅµÄiDeliverTaskIDÈÎÎñ
+			TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, iDeliverTaskID, false )
+   		end
+		--Çå³ıÈÎÎñÍê³É½á¹û
+		TaskCApi.ClearFinishRecords(TASKINTERFACE_POINTER, iDeliverTaskID)
+
+   		return 0
+   	end
+}
+
+TaskList[15201] = --ÇïÊÕ½Ú£º¼ÀµìÓ¢Áé
+{
+	--ÈÎÎñ×Ô¶¨Òå±í
+	TabItemID =
+	{
+			[1] = 43139, --ÇïÊÕ½Ú_Ë¿´ø_½ğ°ÙºÏ
+			[2] = 43140, --ÇïÊÕ½Ú_Ë¿´ø_×ÏÂŞÀ¼
+			[3] = 43141, --ÇïÊÕ½Ú_Ë¿´ø_ºûµûÀ¼
+			[4] = 43142, --ÇïÊÕ½Ú_Ë¿´ø_·ç¸è¾Õ
+			[5] = 43143, --ÇïÊÕ½Ú_Ë¿´ø_ÒøÁ«»¨
+			[6] = 43144, --ÇïÊÕ½Ú_Ë¿´ø_ÃÎ¾³»¨
+			[7] = 43145, --ÇïÊÕ½Ú_Ë¿´ø_Á÷¹âºÉ
+	},
+
+	TabTaskID =
+	{
+			[1] = 15203,  --ÇïÊÕ½Ú_Ë¿´ø_½ğ°ÙºÏ
+			[2] = 15204,  --ÇïÊÕ½Ú_Ë¿´ø_×ÏÂŞÀ¼
+			[3] = 15205,  --ÇïÊÕ½Ú_Ë¿´ø_ºûµûÀ¼
+			[4] = 15206,  --ÇïÊÕ½Ú_Ë¿´ø_·ç¸è¾Õ
+			[5] = 15207,  --ÇïÊÕ½Ú_Ë¿´ø_ÒøÁ«»¨
+			[6] = 15208,  --ÇïÊÕ½Ú_Ë¿´ø_ÃÎ¾³»¨
+			[7] = 15209,  --ÇïÊÕ½Ú_Ë¿´ø_Á÷¹âºÉ
+	},
+
+	TabComTaskID =
+	{
+			[1] = 15397,  --ÇïÊÕ½Ú_Ë¿´ø_½ğ°ÙºÏ
+			[2] = 15398,  --ÇïÊÕ½Ú_Ë¿´ø_×ÏÂŞÀ¼
+			[3] = 15399,  --ÇïÊÕ½Ú_Ë¿´ø_ºûµûÀ¼
+			[4] = 15400,  --ÇïÊÕ½Ú_Ë¿´ø_·ç¸è¾Õ
+			[5] = 15401,  --ÇïÊÕ½Ú_Ë¿´ø_ÒøÁ«»¨
+			[6] = 15402,  --ÇïÊÕ½Ú_Ë¿´ø_ÃÎ¾³»¨
+			[7] = 15403,  --ÇïÊÕ½Ú_Ë¿´ø_Á÷¹âºÉ
+	},
+
+  	Property =
+  	{
+		bRecordFinish = false,
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
+
+  		bCanGiveUp = true,
+
+  		bShowPrompt = true,
+  		bCanSeekOut = false,
+
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+  		bRecordFinishCount = true,
+		iMaxFinishCount = 1,--×î´óÍê³É´ÎÊıÎª1
+		iClearFinishCountType = TaskClearFinishCountType.Daily,--Ã¿ÌìÇå¿Õ
+
+		iSuitableLevel = 200,
+
+  		iType  = TaskType.HuoDong,
+  		iTopic = TaskTopic.YiBan,
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+		-- ¾­Ñé
+		Exp = function(TASKINTERFACE_POINTER)
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+
+			local AwardMulti = 200										--¾­Ñé½±ÀøÏµÊı
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
+			local AwardExp = AwardExpAdjust * AwardMulti
+
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+
+		end
+		,
+		-- °ó¶¨Ç®
+		BindMoney = function(TASKINTERFACE_POINTER)
+			return 200000--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+
+		end
+		,
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+		if iPlayerLev < 20 then
+	   	    return TASK_PREREQU_FAIL_LUA_TASK
+	   	end
+
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+
+   		return 0
+
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+		local iTaskID = 15201
+
+		--ĞŞ¸ÄµÄ²¿·Ö£¬¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ämod2
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
+
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
+		local timePackage = os.date("*t", os.time())
+		local dayInYear = timePackage.yday
+		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% 7 + 1 --Íæ¼Òµ±ÌìËæµ½µÄÈÎÎñÖÖÀà(Ò»¹²7ÖÖÎïÆ·)
+
+		--²âÊÔÓÃÄÚÈİ
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
+			iRandomMethod = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
+		end
+
+   		--·¢µÀ¾ß»ò½±Àø
+		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, TaskList[iTaskID].TabItemID[iRandomMethod], 1, true)     --·¢ ÈÎÎñÎïÆ·
+
+		--·¢Òş²ØÈÎÎñ£¬ÅĞ¶ÏÍê³ÉÈÎÎñÓÃ
+		TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,TaskList[iTaskID].TabComTaskID[iRandomMethod])
+
+		--ÉèÖÃËæ»úÊı
+
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, iRandomMethod)
+
+		return 0
+	end
+	,
+
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
+   	OnMethod = function(TASKINTERFACE_POINTER)
+
+		local iTaskId = 15201   --±¾ÈÎÎñid
+
+		local key = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+
+   		local Method = {}
+
+		Method.CompleteTask = {TaskID = TaskList[iTaskId].TabComTaskID[key], Num = 1}	--Íê³ÉÌØ¶¨ÈÎÎñ1´Î
+
+   		return Method
+
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+   		local iRet = TASK_NO_FINISH
+
+		local iTaskId = 15201   --±¾ÈÎÎñid
+		local key = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+
+		if TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,TaskList[iTaskId].TabComTaskID[key]) == 1 then
+
+			iRet = TASK_SUCC_FINISH
+		end
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1)
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+
+		local AwardMulti = 200																		--´æ·Å½ÇÉ«¾­Ñé½±ÀøÏµÊı
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
+		local iBindMoneynum = 200000
+		local iTitleID = 3128
+		local iTaskId = 15201
+		local iAwardTaskId = 15709																	--¸¡ÔÆÈÎÎñ½±Àøid
+
+   		if bSuccess then
+
+			TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER,iBindMoneynum)							--·¢·Å°ó¶¨»ê±Ò
+			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER,AwardMulti*AwardExpAdjust)				--·¢·Å¾­Ñé
+
+			if PlayerLevel >=65 then
+				--0.5%·¢·Å¸¡ÔÆ½±Àø ĞÅÑöÔ¶ÄÜ
+				math.randomseed(os.time())
+				AwardNum = math.random(1,1000)
+				if AwardNum <= 5 then
+					TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,iAwardTaskId) --¸¡ÔÆÈÎÎñ½±Àø£¬ĞÅÑöÔ¶ÄÜ
+				end
+			end
+
+			local iTaskId2 = 15389	--ĞèÒª·¢·ÅµÄ±êÖ¾ÈÎÎñ
+
+			if TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskId2) < 6 then
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,iTaskId2)--Èç¹û±¾´Î²»ÊÇµÚ7´Î£¬·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
+			elseif TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,iTaskId2) == 6 then
+				TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,iTaskId2)--Èç¹û±¾´ÎÊÇµÚ7´Î£¬·¢·ÅflagÈÎÎñÒÔ¼ÆÊı
+			end
+
+			--Çå¿ÕflagÈÎÎñ´ÎÊı
+			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,TaskList[iTaskId].TabComTaskID[ucRandomNum1])
+
+		else
+			--Ê§°ÜÇå¿ÕÈÎÎñ´ÎÊı
+			TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,TaskList[iTaskId].TabComTaskID[ucRandomNum1])
+
+			--Ê§°Ü»òÕß·ÅÆúµÄ»°ĞèÒªÇåÀíÈÎÎñÖĞÖ¹ÈÎÎñ
+			if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,TaskList[iTaskId].TabComTaskID[ucRandomNum1]) then
+				TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, TaskList[iTaskId].TabComTaskID[ucRandomNum1], false)
+			end
+
+			--°ü¹üÖĞÓĞ²ù×Ó43212ÊÕ×ß
+			local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,TaskList[iTaskId].TabItemID[ucRandomNum1], true)
+			if num1 > 0 then
+				TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,TaskList[iTaskId].TabItemID[ucRandomNum1], num1)
+			end
+
+   		end
+
+   		return 0
+   	end
+}
+
+
+TaskList[15294] = --ÇïÊÕ½ÚÖÖÖ²ÊÕ»ñÈÎÎñ
+{
+
+  	Property =
+  	{
+		bRecordFinish = false,
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
+
+  		bCanGiveUp = true,
+
+  		bShowPrompt = true,
+  		bCanSeekOut = false,
+
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+  		bRecordFinishCount = true,
+		iMaxFinishCount = 1,--×î´óÍê³É´ÎÊıÎª7
+		iClearFinishCountType = TaskClearFinishCountType.Daily,--Ã¿ÌìÇå¿Õ
+
+		iSuitableLevel = 200,
+
+  		iType  = TaskType.HuoDong,
+  		iTopic = TaskTopic.YiBan,
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+		-- ¾­Ñé
+		Exp = function(TASKINTERFACE_POINTER)
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+
+			local AwardMulti = 200										--¾­Ñé½±ÀøÏµÊı
+			local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 		--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
+			local AwardExp = AwardExpAdjust * AwardMulti
+
+			return AwardExp--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+
+		end
+		,
+		-- °ó¶¨Ç®
+		BindMoney = function(TASKINTERFACE_POINTER)
+			return 100000--·µ»Ø0Ê±Îª£¿£¿£¿£¬ÆäËûÎªÏÔÊ¾µÄÖµ
+
+		end
+		,
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+
+		local iPlayerLev = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)
+
+		if iPlayerLev < 20 then
+	   	    return TASK_PREREQU_FAIL_LUA_TASK
+	   	end
+
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+
+   		return 0
+
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+		local iTaskID = 15294
+		local TabItemID ={43211, 43212,} --¼¸ÀàÈÎÎñµÄÎïÆ·
+		local tabFlagTaskID = { 15295, 15296,}
+
+		--ĞŞ¸ÄµÄ²¿·Ö£¬¹Ì¶¨Íæ¼ÒÃ¿ÌìËæµ½µÄÄÚÈİ£¬µ±ÌìÆæÅ¼Êı*Íæ¼Ò´´½¨½ÇÉ«µÄÊ±¼ämod2
+		local RoleCreateTime = TaskCApi.GetRoleCreateTime(TASKINTERFACE_POINTER)  --È¡µÃÍæ¼Ò½ÇÉ«´´½¨Ê±¼ä
+
+		--È¡³ö½ñÌìÊÇÒ»ÄêÄÚµÄµÚ¼¸Ìì£¬·ÅÈëdayInYearÖĞ£¬1ÔÂ1ÈÕÊÇ1£¬12ÔÂ31ÈÕÊÇ365
+		local timePackage = os.date("*t", os.time())
+		local dayInYear = timePackage.yday
+		local iRandomMethod =  ( timePackage.yday + RoleCreateTime )% 2 + 1 --Íæ¼Òµ±ÌìËæµ½µÄÈÎÎñÖÖÀà
+
+		--²âÊÔÓÃÄÚÈİ
+		if TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true) > 0 then
+			iRandomMethod = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER, 4493, true)
+		end
+
+   		--·¢µÀ¾ß»ò½±Àø
+		TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER, TabItemID[iRandomMethod], 1, true)     --·¢ ÈÎÎñÎïÆ·
+
+		--Èç¹ûÊÇÊÕ»ñÈÎÎñ£¬ÔòÇå³ıÍê³É´ÎÊıºó£¬·¢·Å¸¨ÖúÈÎÎñ15296
+		if iRandomMethod == 2 then
+			TaskCApi.DeliverNewTask(TASKINTERFACE_POINTER,tabFlagTaskID[iRandomMethod])
+		end
+
+		--ÉèÖÃËæ»úÊı
+
+		TaskCApi.SetDataToActiveTaskList(TASKINTERFACE_POINTER, iTaskID, 1, iRandomMethod)
+
+		return 0
+	end
+	,
+
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
+   	OnMethod = function(TASKINTERFACE_POINTER)
+
+   		local tabFlagTaskID = { 15295, 15296,}
+		local iTaskId = 15294   --±¾ÈÎÎñid
+
+		local key = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+
+   		local Method = {}
+
+		Method.CompleteTask = {TaskID = tabFlagTaskID[key], Num = 1}	--Íê³ÉÌØ¶¨ÈÎÎñ1´Î
+
+   		return Method
+
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+   		local iRet = TASK_NO_FINISH
+
+		local iTaskId = 15294   --±¾ÈÎÎñid
+		local tabFlagTaskID = { 15295, 15296,}
+
+		local key = TaskCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER, iTaskId, 1)
+
+		if TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER, tabFlagTaskID[key]) > 0 then
+			iRet = TASK_SUCC_FINISH
+		end
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1)
+		local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER)							--»ñÈ¡Íæ¼ÒµÈ¼¶
+
+		local AwardMulti = 200																		--´æ·Å½ÇÉ«¾­Ñé½±ÀøÏµÊı
+		local AwardExpAdjust = TaskExpAdjust[PlayerLevel] 											--Íæ¼ÒµÈ¼¶µÄĞŞÕı¾­Ñé
+		local iBindMoneynum = 100000
+
+		local iTitleID1 = 3126		--ÖÖÖ²³ÆºÅ
+		local iTitleID2 = 3127		--ÊÕ»ñ³ÆºÅ
+
+		local iAwardItemID1 = 41463		--ËØÑÕ¾í
+		local iAwardItemID2 = 41464		--Àí·¢¾í
+
+   		if bSuccess then
+			TaskCApi.DeliverBindMoney(TASKINTERFACE_POINTER,iBindMoneynum)							--·¢·Å°ó¶¨»ê±Ò
+			TaskCApi.DeliverExperience(TASKINTERFACE_POINTER,AwardMulti*AwardExpAdjust)				--·¢·Å¾­Ñé
+
+			if PlayerLevel>= 65 then
+				--0.5%·¢·Å¸¡ÔÆ½±Àø ĞÅÑöÔ¶ÄÜ
+				math.randomseed(os.time())
+				AwardNum = math.random(1,100)
+				if  AwardNum <= 1 then
+					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,iAwardItemID1, 1,true)
+				elseif AwardNum >= 98 then
+					TaskCApi.DeliverCommonItem(TASKINTERFACE_POINTER,iAwardItemID2, 1,true)
+				end
+			end
+
+			if ucRandomNum1 == 1 then
+				if not TaskCApi.HasTitle(TASKINTERFACE_POINTER,iTitleID1) then
+					TaskCApi.GiveOneTitle(TASKINTERFACE_POINTER, iTitleID1)
+				end
+				--ÇåÀíÈÎÎñ15295´ÎÊı
+				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,15295)
+			elseif ucRandomNum1 == 2 then
+				--ÊÕ×ßÈÎÎñÓÃÎïÆ·43148
+				local num = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,43148, true)
+				if num > 0 then
+					TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,43148, num)
+				end
+				if not TaskCApi.HasTitle(TASKINTERFACE_POINTER,iTitleID2) then
+					TaskCApi.GiveOneTitle(TASKINTERFACE_POINTER, iTitleID2)
+				end
+
+				--ÇåÀíÈÎÎñ15296´ÎÊı
+				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,15296)
+			end
+
+		else
+			--ÊÕ»ñÈÎÎñÇåÀíÈÎÎñÏà¹ØºÛ¼£
+			if ucRandomNum1 == 1 then
+				--°ü¹üÖĞÓĞÖÖ×Ó43211ÊÕ×ß
+				local num1 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,43211, true)
+				if num1 > 0 then
+					TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,43211, num1)
+				end
+
+				--Ê§°Ü»òÕß·ÅÆúµÄ»°ĞèÒªÇåÀíÈÎÎñ15295´ÎÊı
+				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,15295)
+
+			elseif ucRandomNum1 == 2 then
+				--Ê§°Ü»òÕß·ÅÆúµÄ»°ĞèÒªÇåÀíÈÎÎñ15296´ÎÊı
+				TaskCApi.ClearTaskCompleteTimesInFinishTimeTaskList(TASKINTERFACE_POINTER,15296)
+				--Ê§°Ü»òÕß·ÅÆúµÄ»°ĞèÒªÇåÀíÈÎÎñÖĞÖ¹ÈÎÎñ15296
+				if TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,15296) then
+					TaskCApi.FinishPlayerTask(TASKINTERFACE_POINTER, 15296, false)
+				end
+
+				--°ü¹üÖĞÓĞ²ù×Ó43212ÊÕ×ß
+				local num2 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,43212, true)
+				if num2 > 0 then
+					TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,43212, num2)
+				end
+
+				--°ü¹üÖĞÓĞ¹ûÊµ43148ÊÕ×ß
+				local num3 = TaskCApi.GetItemNumInPacket(TASKINTERFACE_POINTER,43148, true)
+				if num3 > 0 then
+					TaskCApi.TakeAwayCommonItem(TASKINTERFACE_POINTER,43148, num3)
+				end
+
+			end
+   		end
+
+   		return 0
+   	end
+}
+
+TaskList[15295] = --ÇïÊÕ½ÚÖÖÖ²:ÖÖ×ÓÈÎÎñ
+{
+	--ÈÎÎñ×Ô¶¨Òå±í
+	TabImpValue =
+	{
+		--Ë÷ÒıÏîÎª¿ÉÖÖÖ²ÍÁµØÇøÓò£¬¶ş²ãË÷ÒıÎªÍÁµØ±àºÅ£¬ÄÚÈİÎª£¨±äÁ¿id£¬¿ØÖÆÆ÷id£©
+
+		[1] = {
+			--Å¯¶¬¸ßÔ­ ÆïÊ¿ÍÅÓªµØ
+				[1] = {161127, 621},
+				[2] = {161128, 622},
+				[3] = {161129, 623},
+				[4] = {161130, 624},
+				[5] = {161131, 625},
+				[6] = {161132, 626},
+				[7] = {161133, 627},
+				[8] = {161134, 628},
+			},
+
+		[2] = {
+			--ÓÄ°µÉ­ÁÖ »¨ÓïÅ©³¡
+				[1] = {161135, 629},
+				[2] = {161136, 630},
+				[3] = {161137, 631},
+				[4] = {161138, 632},
+				[5] = {161139, 633},
+				[6] = {161140, 634},
+				[7] = {161141, 635},
+				[8] = {161142, 636},
+
+			},
+		[3] = {
+			--¿­ĞıÆ½Ô­ ÇïÈÕ×¯Ô°
+				[1] = {161143, 637},
+				[2] = {161144, 638},
+				[3] = {161145, 639},
+				[4] = {161146, 640},
+				[5] = {161147, 641},
+				[6] = {161148, 642},
+				[7] = {161149, 643},
+				[8] = {161150, 644},
+			},
+	},
+
+	TabLocation =
+	{
+		--Ë÷ÒıÏîÎª¿ÉÖÖÖ²ÍÁµØÇøÓò¡¢
+		[1] = {
+			--Å¯¶¬¸ßÔ­ ÆïÊ¿ÍÅÓªµØ
+				["mapid"] = 9    ,
+				["min_x"] = -196 ,
+				["min_y"] = 90   ,
+				["min_z"] = 88   ,
+				["max_x"] = -179 ,
+				["max_y"] = 110  ,
+				["max_z"] = 109  ,
+			},
+
+		[2] = {
+			--ÓÄ°µÉ­ÁÖ »¨ÓïÅ©³¡
+				["mapid"] = 2 ,
+				["min_x"] = -282 ,
+				["min_y"] = 270  ,
+				["min_z"] = 607  ,
+				["max_x"] = -267 ,
+				["max_y"] = 295  ,
+				["max_z"] = 617  ,
+			},
+
+		[3] = {
+			--¿­ĞıÆ½Ô­ ÇïÈÕ×¯Ô°
+				["mapid"] = 26 ,
+				["min_x"] = 126  ,
+				["min_y"] = 225  ,
+				["min_z"] = -145 ,
+				["max_x"] = 155  ,
+				["max_y"] = 245  ,
+				["max_z"] = -92  ,
+			},
+
+
+	},
+
+  	Property =
+  	{
+		bRecordFinish = false,
+  		bCanRedo = true,				--³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,	--Ê§°Üºó¿ÉÖØ¸´Íê³É
+
+  		bCanGiveUp = true,
+
+  		bShowPrompt = false,		--²»ÏÔÊ¾ÈÎÎñÌáÊ¾
+  		bCanSeekOut = false,		--²»¿É²éÕÒ
+		bHiddenTask = true, 		--Òş²ØÈÎÎñ
+
+		bClearAsGiveup = false, 		--·ÅÆúÈÎÎñ·¢Ê§°Ü½±Àø
+
+		bFinishWhenDelvier = true,--½ÓÊÜ¼´Íê³É
+
+  		bRecordFinishCount = true,
+		iMaxFinishCount = 1,--×î´óÍê³É´ÎÊıÎª1
+
+		iSuitableLevel = 200,
+
+  		iType  = TaskType.HuoDong,
+  		iTopic = TaskTopic.YiBan,
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+		local iMainTaskID = 15294	--ÖÖÖ²ÊÕ»ñÖ÷ÈÎÎñ
+		local iTaskID = 15295		--±¾ÈÎÎñid
+
+		if not TaskCApi.HasTaskInActiveTaskList(TASKINTERFACE_POINTER,iMainTaskID) then --¹ØÁªÈÎÎñ15294ÖÖÖ²ÊÕ»ñÖ÷ÒªÈÎÎñ
+   			return TASK_PREREQU_FAIL_RELATION_TASK
+   		end
+
+		local iMapId, x, y, z = TaskCApi.GetPlayerCurSite(TASKINTERFACE_POINTER) --È¡Íæ¼Ò×ø±ê
+		local index
+
+		for i = 1 , #TaskList[iTaskID].TabLocation do
+			--ÅĞ¶ÏÍæ¼ÒÊÇ·ñ·ûºÏ×ø±ê·¶Î§
+			if	iMapId == TaskList[iTaskID].TabLocation[i].mapid then
+				if x >= TaskList[iTaskID].TabLocation[i].min_x and x <= TaskList[iTaskID].TabLocation[i].max_x then
+					if y >= TaskList[iTaskID].TabLocation[i].min_y and y <= TaskList[iTaskID].TabLocation[i].max_y then
+						if z >= TaskList[iTaskID].TabLocation[i].min_z and z <= TaskList[iTaskID].TabLocation[i].max_z then
+						index = i 	--´æ´¢Ë÷ÒıÏîºÅ
+						break		--Èç¹û×ø±ê·ûºÏÔòÌø³öÅĞ¶ÏÑ­»·
+						end
+					end
+				end
+			end
+
+			--Èç¹ûÑ­»·¼ì²âµ½×îºóÒ»Ïî£¬Íæ¼ÒËùÔÚµØÍ¼ºÅÈÔÈ»²»·ûºÏ×ø±êĞèÇó·¶Î§£¬ÔòÎŞ·¨½ÓÊÜÈÎÎñ
+			if i == #TaskList[iTaskID].TabLocation then
+				return TASK_PREREQU_FAIL_LUA_TASK
+			end
+		end
+
+		--µ±Íæ¼Ò×ø±ê·ûºÏÒªÇó£¬¼ì²âµ±Ç°³¡µØÊÇ·ñÓĞ¿ÕµØ
+		for i = 1, #TaskList[iTaskID].TabImpValue[index] do
+			if TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER ,TaskList[iTaskID].TabImpValue[index][i][1]) == 0 then
+				break
+			end
+
+			--Èç¹ûÑ­»·¼ì²âµ½×îºóÒ»Ïî£¬Íæ¼ÒËùÔÚµØÍ¼ÎŞ¿ÕµØ
+			if i == #TaskList[iTaskID].TabImpValue[index] then
+				return TASK_PREREQU_FAIL_NO_MONEY
+			end
+
+		end
+
+   		return 0
+
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+		local iTaskID = 15295
+		local index
+
+		local iMapId, x, y, z = TaskCApi.GetPlayerCurSite(TASKINTERFACE_POINTER) --È¡Íæ¼Ò×ø±ê
+
+		for i = 1 , #TaskList[iTaskID].TabLocation do
+			if	iMapId == TaskList[iTaskID].TabLocation[i].mapid then
+				index = i
+				break	--È¡µ½indexÖµÔòÌø³öÑ­»·
+			end
+		end
+
+		--´Óµ±Ç°³¡µØµÄ¿ÕµØÖĞÑ¡ÔñÒ»¿é
+		for i = 1, #TaskList[iTaskID].TabImpValue[index] do
+			if TaskCApi.GetGlobalDataEx(TASKINTERFACE_POINTER ,TaskList[iTaskID].TabImpValue[index][i][1]) == 0 then
+				TaskCApi.ModifyGlobalDataEx(TASKINTERFACE_POINTER ,TaskList[iTaskID].TabImpValue[index][i][1],1)--ĞŞ¸ÄÈ«¾Ö±äÁ¿
+				TaskCApi. MonsterCtrl (TASKINTERFACE_POINTER ,TaskList[iTaskID].TabImpValue[index][i][2], true)--¿ªÆô¿ØÖÆÆ÷
+				break
+			end
+
+		end
+
+		return 0
+	end
+	,
+
+   	--·şÎñÆ÷É±¹Ö¡¢È¡µÃÎïÆ·µÈÌõ¼şÏÂµ÷ÓÃ£¬¿Í»§¶ËÈÎÎñ½çÃæÏÔÊ¾Ê±µ÷ÓÃ
+   	OnMethod = function(TASKINTERFACE_POINTER)
+
+   		local Method = {}
+
+		Method.iWaitTime = 0
+
+   		return Method
+
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+   		local iRet = TASK_SUCC_FINISH
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+   		return 0
+   	end
+}
+
+
+TaskList[15963] = --¶¬´Í½ÚÀñºĞÁìÈ¡¼ÇÂ¼Çå¿ÕÓÃÒş²ØÈÎÎñ
+{
+  	Property =
+  	{
+  		bCanRedo = true,		--³É¹¦¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true,--Ê§°Ü¿ÉÖØ¸´Íê³É
+  		bCanGiveUp = true,		--¿É·ÅÆú
+
+  		bShowPrompt = false,	--²»ÏÔÊ¾ÏµÍ³ÌáÊ¾
+
+  		bFinishWhenDelvier = true,--½ÓÊÜ¼´Íê³É
+
+		bHiddenTask = true, 		--Òş²ØÈÎÎñ
+  		iType  = TaskType.SheJiaoJia,--ÈÎÎñÀàĞÍ£ºÉç½»¼Ò
+
+  		iTopic = TaskTopic.YiBan,--Ò»°ãÖ÷ÌâÈÎÎñ
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+
+		--[[
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+		]]--
+
+   		return 0
+   	end
+   	,
+
+   	--Íæ¼Ò½ÓÊÕ¸ÃÈÎÎñÊ±µ÷ÓÃ
+   	OnDeliver = function(TASKINTERFACE_POINTER)
+		return 0
+	end
+	,
+
+   	OnMethod = function(TASKINTERFACE_POINTER)
+   		local Method = {}
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
+   		return Method
+   	end
+   	,
+
+   	--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+
+   		local iRet = TASK_NO_FINISH
+
+   		iRet = TASK_SUCC_FINISH
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+
+   		return 0
+   	end
+   	,
+
+   	--Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess)
+   		if bSuccess then
+
+			local TabTaskID = {
+							[1] = 11142,
+							[2] = 11143,
+							[3] = 11144,
+							[4] = 11145,
+							[5] = 11146,
+							[6] = 11147,
+							[7] = 11148,
+							[8] = 11149,
+							[9] = 11150,
+							[10] = 11151,
+							[11] = 11152,
+							[12] = 11153,
+							[13] = 11154,
+							[14] = 11155,
+							[15] = 11156,
+							[16] = 11157,
+							[17] = 11158,
+							[18] = 11159,
+							[19] = 11160,
+							[20] = 11161,
+							[21] = 11162,
+							[22] = 11163,
+							[23] = 11164,
+							[24] = 11165,
+							[25] = 14109,
+							[26] = 14110,
+							[27] = 14111,
+							[28] = 14112,
+							[29] = 14113,
+							[30] = 14114,
+							[31] = 14115,
+							[32] = 14116,
+							} 			--ÀñºĞÈÎÎñÁĞ±í
+
+			for i, v in pairs(TabTaskID) do
+				TaskCApi.ClearFinishRecordsOnly(TASKINTERFACE_POINTER, v)--Çå¿ÕÈÎÎñ½á¹û
+			end
+
+   		end
+
+   		return 0
+   	end
+}
+
+TaskList[16353] = --¹«»á¹¦Ñ«³é½±£¬yl
+{
+  	Property =
+  	{
+  		bCanRedo = true, --ÊÇ·ñ³É¹¦ºó¿ÉÖØ¸´Íê³É
+  		bCanRedoAfterFailure = true, --ÊÇ·ñÊ§°Üºó¿ÉÖØ¸´Íê³É
+  		bShowPrompt = false,	--²»ÏÔÊ¾ÏµÍ³ÌáÊ¾
+  		bCanGiveUp = true, --ÊÇ·ñÄÜ·ÅÆú
+  		bFinishWhenDelvier = true,--½ÓÊÜ¼´Íê³É
+  		bShowPrompt = true, --ÊÇ·ñÏÔÊ¾Ê§°ÜÌáÊ¾
+		bHiddenTask = true, 		--Òş²ØÈÎÎñ
+        bRecordFinishCount = true,				--ÊÇ·ñ¼ÇÂ¼Íê³É´ÎÊı
+        iMaxFinishCount = 3,					--×î´óÍê³É´ÎÊı
+        iClearFinishCountType = TaskClearFinishCountType.Daily,  --Ã¿ÌìÇå¿Õ
+		bUIButtonTask = true
+
+  	}
+   	,
+
+	-- ³É¹¦Ê±ÓĞĞ§
+	AwardPreview =
+	{
+		-- ÎïÆ·
+		Items = function(TASKINTERFACE_POINTER)
+			local items = {}
+
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+
+			local ItemId1 = 46576	--1µ½59¼¶½±ÀøÀñ°üid
+			local ItemId2 = 46617 --60µ½74½±ÀøÀñ°üid
+			local ItemId3 = 46618 --75¼¶ÒÔÉÏ½±ÀøÀñ°ü id
+
+			if PlayerLevel < 60 then
+				items =
+				{
+					Item1 = {ID = ItemId1, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
+				}
+			elseif PlayerLevel >= 60 and PlayerLevel < 75 then
+				items = {
+							Item1 = {ID = ItemId2, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
+			      }
+			else
+				items = {
+							Item1 = {ID = ItemId3, NUM = 1},--0Ê±Îª£¿£¿£¿£¬ÆäËûÏÔÊ¾ÎïÆ·ºÍÊıÁ¿
+						}
+			end
+			return items
+		end
+		,
+	}
+	,
+
+   	--ÈÎÎñ·¢·Å¼ì²é£¬¿Í»§¶ËÔÚNPCÏÔÊ¾¡¢Íæ¼ÒÈ·ÈÏ½ÓÊÜÊ±µ÷ÓÃ£¬·şÎñÆ÷ÔÚÏìÓ¦·¢·ÅÊ±µ÷ÓÃ
+   	OnCheckDeliver = function(TASKINTERFACE_POINTER)
+	  local IsCrossServer = TaskCApi.IsCrossServer (TASKINTERFACE_POINTER)
+	    if IsCrossServer == true or nil then
+		    return 131
+		end
+
+   	  local iGuildlevel = TaskCApi.GetFactionLev(TASKINTERFACE_POINTER)   ---Èç¹ûÍæ¼ÒÔÚ¹«»á£¬·µ»Ø¹«»áµÈ¼¶£¬·ñÔò·µ»Ø-1
+	    if iGuildlevel < 3 then
+		    return 11
+        end
+
+	  local iPlayerGong = TaskCApi.GetFactionContribution(TASKINTERFACE_POINTER)         ----- È¡Íæ¼Ò¹«»á¹±Ï×¶È
+   	    if iPlayerGong < 100 then
+		    return 34
+		end
+
+	  local iPlayerGX = TaskCApi.GetFactionCredit(TASKINTERFACE_POINTER)  --È¡Íæ¼Ò¹¦Ñ«Öµ
+	    if iPlayerGX < 15 then
+	        return 119
+        end
+
+		if TaskCApi.GetCommonPacketEmptySolts(TASKINTERFACE_POINTER)  < 1 then --ÆÕÍ¨°ü¹üÀ¸ĞèÒª1¸ñ
+   			return TASK_PREREQU_FAIL_GIVEN_ITEM
+   		end
+
+      local iPlayerHYD = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,13122) --»ñÈ¡»îÔ¾¶ÈÈÎÎñÍê³É´ÎÊı
+	    if TaskCApi.HasBuff(TASKINTERFACE_POINTER,2164) or iPlayerHYD >= 80 then --Íæ¼ÒÊÇvip(bufid 2164)»òÕß»îÔ¾¶È´óÓÚµÈÓÚ80
+			return 0
+	    else
+			return 130
+	    end
+
+	  return 0
+   	end
+   	,
+
+	OnDeliver = function(TASKINTERFACE_POINTER)
+		return 0
+	end
+	,
+
+   	OnMethod = function(TASKINTERFACE_POINTER)
+   		local Method = {}
+   		    Method.iWaitTime = 0 --µÈ´ı0s×Ô¶¯Íê³É
+   		return Method
+   	end
+   	,
+
+
+--¼ì²éÍê³ÉÈÎÎñ,ÔÚÉ±¹Ö¡¢Ê°È¡ÎïÆ·¡¢Ã¿¸ôÒ»¶¨Ê±¼ä¡¢·¢½±Ç°µ÷ÓÃ
+   	OnCheckFinish = function(TASKINTERFACE_POINTER)
+
+   		local iRet = TASK_NO_FINISH
+
+   		iRet = TASK_SUCC_FINISH
+
+   		return iRet
+   	end
+   	,
+
+   	OnCheckAward = function(TASKINTERFACE_POINTER, bSuccess)
+   		return 0
+   	end
+   	,
+
+ --Íê³É¸ÃÈÎÎñÊ±·şÎñÆ÷µ÷ÓÃ
+   	OnAward = function(TASKINTERFACE_POINTER, bSuccess,iParam,bRetrieve,ucRandomNum1,ucRandomNum2)
+		if bSuccess then
+			local PlayerLevel = TaskCApi.GetPlayerLevel(TASKINTERFACE_POINTER) 			--È¡µÃÍæ¼ÒµÈ¼¶£¬·¢½±ÀøÓÃ
+			local iPlayerGX = TaskCApi.GetFactionCredit(TASKINTERFACE_POINTER)      --È¡Íæ¼Ò¹¦Ñ«Öµ
+
+			if PlayerLevel < 60 then
+				TaskCApi.DeliverRandomGift(TASKINTERFACE_POINTER,46576)    ----·¢Ëæ»úÀñ°ü
+				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, -15)
+			elseif PlayerLevel >= 60 and PlayerLevel < 75 then
+				TaskCApi.DeliverRandomGift(TASKINTERFACE_POINTER,46617)
+				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, -15)
+			else
+				TaskCApi.DeliverRandomGift(TASKINTERFACE_POINTER,46618)
+				TaskCApi.DeliverFactionCredit(TASKINTERFACE_POINTER, -15)
+			end
+		end
+	end
 }

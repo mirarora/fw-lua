@@ -1,4 +1,3 @@
-
 TaskListText[6835] = {
 	--任务描述
 	TaskDescriptionText = TaskListTextString[6835][1],
@@ -1270,6 +1269,8 @@ TaskListText[9928] = {	--xiao 足迹-重复-40级
 }
 
 TaskListText[9927] = {
+	--感谢辞
+	TaskTributeText = TaskListTextString[9927][3],
 
 	--发放任务对话
 	DeliverTaskTalk =
@@ -1778,7 +1779,8 @@ TaskListText[10631] = { --个人幸运
 	--任务描述
 	TaskDescriptionText = function()
 		local iTask = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10631, 1)
-		local iColor = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10631, 2)
+		local iColor = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10631, 2)				--绿色或蓝色
+
 		local commonCount = TaskCApi.GetCommonTaskCount(TASKINTERFACE_POINTER,2)	--取得幸运de活动计数
 		local selfCount = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,10631)	--取得自身的完成次数
 		local todayCount = math.max(1,math.min(3-selfCount,commonCount%10))	--取得个人幸运今日剩余次数
@@ -1799,7 +1801,12 @@ TaskListText[10631] = { --个人幸运
 	--完成任务n次
 	CompleteTask   = function()
 		local iTask = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10631, 1)
-		return	TaskListTextString[10631][iTask+300]
+		local luckGrade = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,15372)	--幸运等级
+		local text = TaskListTextString[10631][iTask+300]
+		if luckGrade > 0 then
+			text = "[+"..luckGrade.."]"..text
+		end
+		return	text
 	end
 	,
 
@@ -1867,7 +1874,12 @@ TaskListText[10763] = { --日常-服务器幸运活动1
 		local x = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10763, 1)
 		local y = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10763, 2)
 		local iTask = 200 * x + y
-		return	TaskListTextString[10763][iTask+500]
+		local luckGrade = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,15372)	--幸运等级
+		local text = TaskListTextString[10763][iTask+500]
+		if luckGrade > 0 then
+			text = "[+"..luckGrade.."]"..text
+		end
+		return	text
 	end
 	,
 
@@ -1937,7 +1949,12 @@ TaskListText[10764] = { --日常-服务器幸运活动2
 		local x = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10764, 1)
 		local y = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,10764, 2)
 		local iTask = 200 * x + y
-		return	TaskListTextString[10764][iTask+500]
+		local luckGrade = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,15372)	--幸运等级
+		local text = TaskListTextString[10764][iTask+500]
+		if luckGrade > 0 then
+			text = "[+"..luckGrade.."]"..text
+		end
+		return	text
 	end
 	,
 
@@ -2190,6 +2207,8 @@ TaskListText[11420] = { --噩梦游乐场续 第三关发奖
 
 
 TaskListText[11421] = { --噩梦游乐场续 第四关发奖
+	--感谢辞
+	TaskTributeText = TaskListTextString[11421][3],
 
 	--发放任务对话
 	DeliverTaskTalk =
@@ -3154,9 +3173,18 @@ TaskListText[13388] = {
 
 TaskListText[13579] = { ----纪元每周领经验
 	--任务描述
-	TaskDescriptionText = TaskListTextString[13579].DescriptionText	,
+	TaskDescriptionText = TaskListTextString[13579].DescriptionText,
 	--喊话
-	TaskTributeText = TaskListTextString[13579].Broadcast,
+	TaskTributeText = function()
+		local VIPLevel = TaskCApi.GetVipLevel(TASKINTERFACE_POINTER)
+		local VIPRequire = 5
+		if VIPLevel < VIPRequire then
+			return TaskListTextString[13579].BroadcastNotVIP
+		else
+			return TaskListTextString[13579].Broadcast
+		end
+	end
+	,
 	--发放任务对话
 	DeliverTaskTalk =
 	{
@@ -3167,18 +3195,26 @@ TaskListText[13579] = { ----纪元每周领经验
 			{
 				parent_window = -1,
 				npc_talk_text = TaskListTextString[13579].DeliverTalkNpc,
-				num_option = 1,
+				num_option = 2,
 				option =
 				{
 					{
 						player_talk_text = TaskListTextString[13579].DeliverTalkPlayer,
 						next_window = TaskService.NPC_GIVE_TASK,
+						param = 1,
+					},
+					{
+						player_talk_text = TaskListTextString[13579].DeliverTalkPlayer_gold,
+						next_window = TaskService.NPC_GIVE_TASK,
+						param = 10,
 					},
 				},
 			},
 		},
 	},
 }
+
+
 TaskListText[13588] = { ----凤凰令1级
 	--任务描述
 	TaskDescriptionText = function()
@@ -3785,8 +3821,8 @@ TaskListText[14262] = { --种植符文
 					--取出随机数
 					local itaskmethodid = 0
 
-					if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) then
-						itaskmethodid = TaskTextCApi.GetDataFromActiveTaskList(14262, 1)		--当前是否交纳符文
+					if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) > 0 then
+						itaskmethodid = 1		--当前是否交纳符文
 					end
 
 					return TaskListTextString[14262].DescriptionText[itaskmethodid]
@@ -3820,8 +3856,8 @@ TaskListText[14262] = { --种植符文
 	CompleteTask      =  function()
 						local itaskmethodid = 0
 
-						if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) then
-							itaskmethodid = TaskTextCApi.GetDataFromActiveTaskList(14262, 1)		--当前是否交纳符文
+						if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) > 0 then
+							itaskmethodid = 1		--当前是否交纳符文
 						end
 
 						return TaskListTextString[14262].CompleteTaskCommon[itaskmethodid]
@@ -3831,8 +3867,8 @@ TaskListText[14262] = { --种植符文
 	SubmitItemText	=  function()
 						local itaskmethodid = 0
 
-						if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) then
-							itaskmethodid = TaskTextCApi.GetDataFromActiveTaskList(14262, 1)		--当前是否交纳符文
+						if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) > 0 then
+							itaskmethodid = 1		--当前是否交纳符文
 						end
 
 						return TaskListTextString[14262].SubmitItemText[itaskmethodid]
@@ -3842,8 +3878,8 @@ TaskListText[14262] = { --种植符文
 	SubmitItemPrologue = function()
 						local itaskmethodid = 0
 
-						if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) then
-							itaskmethodid = TaskTextCApi.GetDataFromActiveTaskList(14262, 1)		--当前是否交纳符文
+						if TaskTextCApi.GetDataFromActiveTaskList(14262, 1) > 0 then
+							itaskmethodid = 1		--当前是否交纳符文
 						end
 
 						return TaskListTextString[14262].SubmitItemPrologue[itaskmethodid]
@@ -3878,4 +3914,1265 @@ TaskListText[14276] = {
 	local tmp_say_num = TaskTextCApi.GetDataFromActiveTaskList(14276, 1)
 	return TaskListTextString[14276][tmp_say_num]
 	end
+}
+
+
+--new_公会_通用建设任务
+TaskListText[14379] = {
+	--任务描述
+	TaskDescriptionText = function()
+							local iTaskType = TaskTextCApi.GetDataFromActiveTaskList(14379, 3)
+
+							if not iTaskType then
+								iTaskType = 1
+							end
+
+							return TaskListTextString[14379].DescriptionText[iTaskType]
+
+							end,
+
+	--感谢辞
+	TaskTributeText = TaskListTextString[14379].TaskTributeText,
+
+	--发放任务对话
+	DeliverTaskTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14379].DeliverTaskTalk_npc,
+
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14379].DeliverTaskTalk_player,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+
+		},
+	},
+
+	--完成方式：完成特定任务n次
+	CompleteTask 	 =  function()
+						local key1 = TaskTextCApi.GetDataFromActiveTaskList(14379, 1)
+						local key2 = TaskTextCApi.GetDataFromActiveTaskList(14379, 2)
+						local itaskid = key1*200 + key2
+
+						return TaskListTextString[14379].CompleteTaskCommon[itaskid]
+						end,
+
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14379].AwardTalk_npc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14379].AwardTalk_player,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	},
+
+}
+
+--新：通用基地非建设任务
+TaskListText[14380] = {
+	--任务描述
+	TaskDescriptionText = function()
+							local iTaskType = TaskTextCApi.GetDataFromActiveTaskList(14379, 3)
+
+							if not iTaskType then
+								iTaskType = 1
+							end
+
+							return TaskListTextString[14379].DescriptionText[iTaskType]
+
+							end,
+
+	--感谢辞
+	TaskTributeText = TaskListTextString[14380].TaskTributeText,
+
+	--发放任务对话
+	DeliverTaskTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14380].DeliverTaskTalk_npc,
+
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14380].DeliverTaskTalk_player,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+
+		},
+	},
+
+	--完成方式：完成特定任务n次
+	CompleteTask      =  function()
+						local key1 = TaskTextCApi.GetDataFromActiveTaskList(14380, 1)
+						local key2 = TaskTextCApi.GetDataFromActiveTaskList(14380, 2)
+						local itaskid = key1*200 + key2
+
+						return TaskListTextString[14380].CompleteTaskCommon[itaskid]
+						end,
+
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14380].AwardTalk_npc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14380].AwardTalk_player,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	},
+
+}
+
+--雷辛格随机事件·时间祭坛
+	TaskListText[14560] = {
+	--任务描述
+		TaskDescriptionText =  TaskListTextString[14560].DescriptionText,
+	--提交特定物品
+		SubmitItemText	= function()
+		return TaskListTextString[14560].SubmitItemText
+	end
+	,
+	--提交特定物品界面开场白
+	SubmitItemPrologue = function()
+		return TaskListTextString[14560].SubmitItemPrologue
+	end
+	,
+	--感谢词
+	TaskTributeText = function()
+		local ItemTijiaoNum = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,14560,2)
+		if ItemTijiaoNum == 1 then
+			return TaskListTextString[14560].TaskTributeText[1]
+		end
+		if ItemTijiaoNum == 2 then
+			return TaskListTextString[14560].TaskTributeText[2]
+		end
+		if ItemTijiaoNum == 3 then
+			return TaskListTextString[14560].TaskTributeText[3]
+		end
+		if ItemTijiaoNum > 3 then
+			return TaskListTextString[14560].TaskTributeText[4]
+		end
+	end
+	,
+
+	--任务发放对话
+		DeliverTaskTalk ={
+				num_window = 1,
+				window =
+				{
+					[1] =
+					{
+						parent_window = -1,
+						npc_talk_text = TaskListTextString[14560].DeliverTalkNpc,
+						num_option = 1,
+						option =
+						{
+							{
+								player_talk_text = TaskListTextString[14560].DeliverTalkPlayer,
+								next_window = TaskService.NPC_GIVE_TASK,
+							},
+						},
+					},
+				},
+			},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14560].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14560].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+
+--恩德值宝石重铸
+	TaskListText[14572] = {
+	--任务描述
+		TaskDescriptionText =  TaskListTextString[14572].DescriptionText,
+	--提交特定物品
+		SubmitItemText	= function()
+		return TaskListTextString[14572].SubmitItemText
+	end
+	,
+	--提交特定物品界面开场白
+	SubmitItemPrologue = function()
+		local icount = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,14572)	--本任务的完成次数
+		local kindnessValue = TaskList[14572].Prices.kindnessValue	--消耗恩德值（每周第1次）
+		local kindnessValueStep = TaskList[14572].Prices.kindnessValueStep	--每次消耗恩德值的递增量
+		local kindnessID = 11	--恩德值的声望id
+		local costKindnessValue = kindnessValue + kindnessValueStep * icount		--本次重铸需要消耗的恩德值
+		local text = string.format(TaskListTextString[14572].SubmitItemPrologue,icount+1,costKindnessValue)
+		return text
+	end
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[14572].TaskTributeText
+	end
+	,
+
+	--任务发放对话
+		DeliverTaskTalk ={
+				num_window = 1,
+				window =
+				{
+					[1] =
+					{
+						parent_window = -1,
+						npc_talk_text = TaskListTextString[14572].DeliverTalkNpc,
+						num_option = 1,
+						option =
+						{
+							{
+								player_talk_text = TaskListTextString[14572].DeliverTalkPlayer,
+								next_window = TaskService.NPC_GIVE_TASK,
+							},
+						},
+					},
+				},
+			},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14572].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14572].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+--用恩德值重置流光之地副本进入次数
+	TaskListText[14573] = {
+	--任务描述
+	TaskDescriptionText =  function()
+		local cost =	{ 200,300,400,500,600 }	--每次消耗恩德值
+		local icount = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,14573)	--本任务的完成次数
+		local str = string.format(TaskListTextString[14573].DescriptionText,icount+1,cost[icount+1])
+		return str
+	end
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[14573].TaskTributeText
+	end
+	,
+
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14573].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14573].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+--悬赏信声望换高级符文方式1，计次任务
+	TaskListText[14723] = {
+	--任务描述
+	TaskDescriptionText =  TaskListTextString[14723].DescriptionText
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[14723].TaskTributeText
+	end
+	,
+
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14723].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14723].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+--悬赏信声望换高级符文方式1，计次任务
+	TaskListText[14724] = {
+	--任务描述
+	TaskDescriptionText =  TaskListTextString[14724].DescriptionText
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[14724].TaskTributeText
+	end
+	,
+
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14724].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14724].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+--测试·百层塔测数发装备任务
+	TaskListText[14762] = {
+		--任务发放对话
+		DeliverTaskTalk ={
+				num_window = 1,
+				window =
+				{
+					[1] =
+					{
+						parent_window = -1,
+						npc_talk_text = TaskListTextString[14762].DeliverTalkNpc,
+						num_option = 5,
+						option =
+						{
+							{
+								player_talk_text = TaskListTextString[14762].DeliverTalkPlayer1,
+								next_window = TaskService.NPC_GIVE_TASK,
+								param =1
+							},
+							{
+								player_talk_text = TaskListTextString[14762].DeliverTalkPlayer2,
+								next_window = TaskService.NPC_GIVE_TASK,
+								param =2
+							},
+							{
+								player_talk_text = TaskListTextString[14762].DeliverTalkPlayer3,
+								next_window = TaskService.NPC_GIVE_TASK,
+								param =3
+							},
+							{
+								player_talk_text = TaskListTextString[14762].DeliverTalkPlayer4,
+								next_window = TaskService.NPC_GIVE_TASK,
+								param =4
+							},
+							{
+								player_talk_text = TaskListTextString[14762].DeliverTalkPlayer5,
+								next_window = TaskService.NPC_GIVE_TASK,
+								param =5
+							},
+						},
+					},
+				},
+			},
+}
+--欧洲杯竞猜活动
+	TaskListText[14881] = {
+	--任务描述
+	TaskDescriptionText =  TaskListTextString[14881].DescriptionText
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[14881].TaskTributeText
+	end
+	,
+
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[14881].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[14881].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+
+
+TaskListText[15201] = { --F 秋收节：祭奠英灵
+	--任务描述
+	TaskDescriptionText = function()
+					--取出3个随机数
+					local itaskmethodid = 0
+
+					if TaskTextCApi.GetDataFromActiveTaskList(15201, 1) then
+						itaskmethodid = TaskTextCApi.GetDataFromActiveTaskList(15201, 1)		--任务类型（ABCD大类）
+					end
+
+					return TaskListTextString[15201].DescriptionText[itaskmethodid]
+					end,
+
+
+	--发放任务对话
+	DeliverTaskTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15201].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15201].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+
+	--完成方式：完成特定任务n次
+	CompleteTask      =  function()
+						local key = TaskTextCApi.GetDataFromActiveTaskList(15201, 1)
+						return TaskListTextString[15201].CompleteTaskCommon[key]
+						end,
+
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15201].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15201].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	},
+
+}
+
+TaskListText[15294] = { --F 秋收节种植收获任务
+	--任务描述
+	TaskDescriptionText = function()
+					--取出随机数
+					local itaskmethodid = 0
+
+					if TaskTextCApi.GetDataFromActiveTaskList(15294, 1) then
+						itaskmethodid = TaskTextCApi.GetDataFromActiveTaskList(15294, 1)
+					end
+
+					return TaskListTextString[15294].DescriptionText[itaskmethodid]
+					end,
+
+
+	--发放任务对话
+	DeliverTaskTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15294].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15294].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+
+	--完成方式：完成特定任务n次
+	CompleteTask      =  function()
+						local key = TaskTextCApi.GetDataFromActiveTaskList(15294, 1)
+						return TaskListTextString[15294].CompleteTaskCommon[key]
+						end,
+
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15294].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15294].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	},
+
+}
+--装备副本日常首次大额经验&前4次活跃
+TaskListText[15369]={
+    TaskTributeText =	TaskListTextString[15369].TaskTributeText
+}
+--活跃度140点以上向导任务
+TaskListText[15388] = {
+	--任务描述
+	TaskDescriptionText =  TaskListTextString[15388].DescriptionText
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[15388].TaskTributeText
+	end
+	,
+	--完成方式：完成特定任务n次
+	CompleteTask  =  TaskListTextString[15388].CompleteTask
+	,	--完成方式：完成特定任务n次
+	CompleteTask  =  TaskListTextString[15388].CompleteTask
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15388].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15388].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15388].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15388].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+
+
+TaskListText[14754]={
+    TaskTributeText =	TaskListTextString[14754].TaskTributeText
+}
+
+
+TaskListText[14755]={
+    TaskTributeText =	TaskListTextString[14755].TaskTributeText
+}
+
+TaskListText[14750]={
+    TaskTributeText =	TaskListTextString[14750].TaskTributeText
+}
+
+--使用幸运值刷新 - 有几率发放任务：提升幸运等级的脚本任务
+TaskListText[15371] = {
+	--感谢词
+	TaskTributeText = function()
+		local text = TaskListTextString[15371].TaskTributeText
+		return text
+	end
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15371].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15371].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+--喊话报告幸运等级的脚本任务
+TaskListText[15420]={
+    TaskTributeText = function()
+--		local luckGrade = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,15372)	--幸运等级
+		local text = TaskListTextString[15420].TaskTributeText
+		return text
+	end
+}
+--北美专属任务：签到
+TaskListText[15706] = {
+	--感谢词
+	TaskTributeText = function()
+		local selfCount = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,15706)		-- 本任务次数
+		local text = string.format(TaskListTextString[15706].TaskTributeText,selfCount+1)
+		return text
+	end
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15706].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15706].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+
+TaskListText[15774]={
+    TaskTributeText =	TaskListTextString[15774].TaskTributeText
+}
+--地狱之路获得活跃度
+TaskListText[15852]={
+    TaskTributeText =	TaskListTextString[15852].TaskTributeText
+}
+--【竞技场第一赛季奖励】根据积分发称号和时装包、坐骑包等
+TaskListText[15956] = {
+	--感谢词
+	TaskTributeText = TaskListTextString[15956].TaskTributeText
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15956].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15956].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+}
+
+------神之试炼二章代工额外奖励
+TaskListText[15974] = {
+	TaskDescriptionText =  TaskListTextString[15974].DescriptionText
+	,
+	--感谢词
+	TaskTributeText = TaskListTextString[15974].TaskTributeText
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15974].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15974].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15974].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15974].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+
+------神之试炼二章代工额外奖励++
+TaskListText[15975] = {
+	TaskDescriptionText =  TaskListTextString[15975].DescriptionText
+	,
+	--感谢词
+	TaskTributeText = TaskListTextString[15975].TaskTributeText
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15975].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15975].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[15975].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[15975].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+
+
+
+------芳香岛采花任务
+TaskListText[16253] = {
+	TaskDescriptionText =  TaskListTextString[16253].DescriptionText
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16253].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16253].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16253].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16253].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+-----装备本幸运任务
+TaskListText[16376] = {
+	TaskDescriptionText =  function()
+		local idx = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,16376, 1)
+		if idx == 0 then idx = 1 end
+		return TaskListTextString[16376].DescriptionText[idx]
+	end
+	,
+	--完成方式：完成特定任务n次
+	CompleteTask  =  function()
+		local idx = TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,16376, 1)
+		if idx == 0 then idx = 1 end
+		return TaskListTextString[16376].CompleteTask[idx]
+	end
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16376].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16376].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16376].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16376].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+--封印技能书重铸
+	TaskListText[16635] = {
+	--任务描述
+		TaskDescriptionText =  TaskListTextString[16635].DescriptionText,
+	--提交特定物品
+		SubmitItemText	= function()
+		return TaskListTextString[16635].SubmitItemText
+	end
+	,
+	--提交特定物品界面开场白
+	SubmitItemPrologue = function()
+		local text = TaskListTextString[16635].SubmitItemPrologue
+		return text
+	end
+	,
+	--感谢词
+	TaskTributeText = function()
+		return TaskListTextString[16635].TaskTributeText
+	end
+	,
+
+	--任务发放对话
+		DeliverTaskTalk ={
+				num_window = 1,
+				window =
+				{
+					[1] =
+					{
+						parent_window = -1,
+						npc_talk_text = TaskListTextString[16635].DeliverTalkNpc,
+						num_option = 1,
+						option =
+						{
+							{
+								player_talk_text = TaskListTextString[16635].DeliverTalkPlayer,
+								next_window = TaskService.NPC_GIVE_TASK,
+							},
+						},
+					},
+				},
+			},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16635].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16635].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
+}
+
+TaskListText[16723] = {
+	--任务描述
+	TaskDescriptionText = TaskListTextString[16723][1],
+	--[[TaskDescriptionText =  function()
+		local times = TaskCApi.GetTaskCompleteTimesFromFinishTimeTaskList(TASKINTERFACE_POINTER,16723) + 1
+		local string = string.format(TaskListTextString[16723][1],times)
+		return string
+	end]]--
+
+	--任务感谢辞
+
+
+
+	TaskTributeText    = TaskListTextString[16723][2],
+
+	--完成方式：与NPC对话
+	TalkToNpcText      = TaskListTextString[16723][3],
+
+	--完成方式：到达指定地点
+
+
+
+	ReachSiteText      = TaskListTextString[16723][4],
+
+	--发放任务对话
+	DeliverTaskTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16723][5],
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16723][6],
+						next_window = TaskService.NPC_GIVE_TASK
+					},
+
+				},
+			},
+
+		},
+	},
+
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16723][8],
+				num_option = 2,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16723][9],
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+
+					{
+						player_talk_text = TaskListTextString[16723][10],
+						next_window = TaskService.TALK_RETURN,
+					},
+				},
+			},
+		},
+	},
+}
+
+
+TaskListText[16724] = {
+	--任务描述
+	TaskDescriptionText = TaskListTextString[16724][1],
+
+	--任务感谢辞
+
+
+
+	TaskTributeText    = TaskListTextString[16724][2],
+
+	--完成方式：与NPC对话
+	TalkToNpcText      = TaskListTextString[16724][3],
+
+	--完成方式：到达指定地点
+
+
+
+	ReachSiteText      = TaskListTextString[16724][4],
+
+	--发放任务对话
+	DeliverTaskTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16724][5],
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16724][6],
+						next_window = TaskService.NPC_GIVE_TASK
+					},
+
+				},
+			},
+
+		},
+	},
+
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[16724][8],
+				num_option = 2,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[16724][9],
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+
+					{
+						player_talk_text = TaskListTextString[16724][10],
+						next_window = TaskService.TALK_RETURN,
+					},
+				},
+			},
+		},
+	},
+}
+
+--地狱之路过关奖励技能封印之卷
+TaskListText[17062] = {
+	TaskDescriptionText =  function()
+		local requiredLevelIdx	= TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,17062, 1)
+		if requiredLevelIdx == 0 then
+			return TaskListTextString[17062].DescriptionText_default
+		else
+			return string.format(TaskListTextString[17062].DescriptionText,requiredLevelIdx)
+		end
+	end
+	,
+	--完成方式：完成特定任务n次
+	CompleteTask  =  function()
+		local requiredLevelIdx	= TaskTextCApi.GetDataFromActiveTaskList(TASKINTERFACE_POINTER,17062, 1)
+		if requiredLevelIdx == 0 then
+			return TaskListTextString[17062].CompleteTask_default
+		else
+			return string.format(TaskListTextString[17062].CompleteTask,requiredLevelIdx)
+		end
+	end
+	,
+	--任务发放对话
+	DeliverTaskTalk ={
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[17062].DeliverTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[17062].DeliverTalkPlayer,
+						next_window = TaskService.NPC_GIVE_TASK,
+					},
+				},
+			},
+		},
+	},
+	--任务奖励对话
+	AwardTalk =
+	{
+		num_window = 1,
+		window =
+		{
+			[1] =
+			{
+				parent_window = -1,
+				npc_talk_text = TaskListTextString[17062].AwardTalkNpc,
+				num_option = 1,
+				option =
+				{
+					{
+						player_talk_text = TaskListTextString[17062].AwardTalkPlayer,
+						next_window = TaskService.NPC_COMPLETE_TASK,
+					},
+				},
+			},
+		},
+	}
 }
