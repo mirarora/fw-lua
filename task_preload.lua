@@ -1,0 +1,6 @@
+xdofile "config/taskscript/task_list_type.lua"
+xdofile "config/taskscript/task_list.lua"
+xdofile "config/taskscript/task_list1.lua"
+xdofile "config/taskscript/task_list2.lua"
+xdofile "config/taskscript/task_list3.lua"
+xdofile "config/taskscript/task_list4.lua"
